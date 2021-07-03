@@ -1,0 +1,19 @@
+{
+  "name": "dream",
+  "version": "1.0.0",
+  "description": "个人网页展示",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhijieXiong/ZhijieXiong.github.io.git"
+  },
+  "author": "dream",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZhijieXiong/ZhijieXiong.github.io/issues"
+  },
+  "homepage": "https://github.com/ZhijieXiong/ZhijieXiong.github.io#readme"
+}
