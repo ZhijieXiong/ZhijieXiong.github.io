@@ -1,0 +1,376 @@
+/* 全局设置 */
+
+body {
+	margin: 0; /* 有的浏览器默认有margin，要手动消除掉 */
+	font-size: 12px;
+	font-family: "PingFang SC",Arial,"Microsoft YaHei",sans-serif;
+}
+
+a:hover {
+	color: #315efb;
+	cursor: pointer;
+}
+
+/* 弹出式菜单的公用状态 */
+.popup {
+	display: none; 
+	background: white;
+	position: absolute;
+	box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.15);
+	text-align: center;
+}
+
+/* 顶栏 */
+
+nav {
+	padding: 0 24px;
+}
+
+/* 列举顶栏的按钮「a」元素 */
+.content > a,
+.personal > a,
+.extra-entry-button > a,
+.setting > a {
+	display: inline-block;
+	padding-top: 19px;
+	padding-right: 19px;
+	font-size: 13px;
+}
+
+.personal {
+	float: right;
+}
+
+.gaokao {
+	color: #f63051;
+}
+
+.personal .sign-in {
+	background: #4e71f2;
+	padding: 4px 10px;
+	border-radius: 6px;
+	color: white;
+}
+
+/* 更多 */
+
+.extra-entry-button {
+	position: relative;
+	padding-bottom: 50px; /* 加点空白，否则鼠标移动到菜单本体时，菜单会消失 */
+}
+
+.extra-entry-button:hover .extra-popup {
+	display: block;  /* 让弹框显示 */
+}
+
+.extra-popup {
+	top: 25px;
+	right: 0;
+	width: 300px;
+	padding: 10px;
+}
+
+.extra-button {
+	display: inline-block;  /* 将a标签（本来是inline）改为inline-block */
+	width: 60px;
+	text-align: center;
+	margin-right: 10px;
+	margin-bottom: 10px;				
+}
+
+.extra-button img {
+	width: 45px;
+	border: 1px solid rgba(0, 0, 0, 0.03);
+	border-radius: 10px;
+}
+
+.view-all-products {
+	display: inline-block;
+	padding: 10px 10px;
+	font-size: 14px;
+	color: #9195a3;
+}
+
+/* 设置菜单 */
+
+
+.setting {
+	position: relative;
+	padding-bottom: 10px;
+}
+
+.setting-popup {
+	width: 80px;		
+	flex-direction: column;
+	box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.setting:hover .setting-popup {
+	position: absolute;
+	top: 25px;
+	right: 0;
+	display: flex;
+}
+
+.setting-popup a {
+	padding: 5px 2px;
+}
+
+/* 中间主要内容 */
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center; /* 左右居中 */
+	margin-top: 10vh; /* 上部留空屏幕高度的10% （10vh就是留10%，50vh就是留空50%）*/
+	width: 100%;
+}
+
+/* 百度Logo */
+
+.logo {
+	width: 270px;
+	margin-bottom: 20px;
+}
+
+/* 输入框 */
+
+.input-box {
+	display: flex;
+	font-size: 16px;
+	height: 40px;
+	margin-bottom: 20px;
+}
+
+.input-box input {
+	border: 0;
+	width: 50%;
+	font-size: 16px;
+	outline: 0; /* 消去输入文字时的外框 */
+	width: 400px;
+}
+
+.input-left {
+	display: inline-flex;
+	align-items: center;
+
+	border-radius: 10px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+
+	box-sizing: border-box;
+	border: 2px solid #C4C6CE;
+	border-right: 0;
+	padding: 4px;
+	height: 100%;
+}
+
+.input-left.focus {
+	border-color: #4e6ef2;
+}
+
+.search-button {
+	display: inline-block;
+
+	margin: 0;
+	outline: 0;
+	border: 0; /* 清除默认边框 */
+	height: 100%;
+
+	border-radius: 10px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+
+	font-size: 17px;
+	padding: 0 20px;
+
+	background: #4e6ef2;
+	color: white;
+	cursor: pointer;
+}
+
+.search-button:hover {
+	background: #4662d9;
+}
+
+.icon-button {
+	display: inline-block;
+	background-size: 24px 96px;
+	background-image: url(https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/searchbox/nicon-2x-6258e1cf13.png);
+	width: 24px;
+	margin-right: 10px;
+}
+
+.microphone {
+	background-position: 0 -2px;
+	height: 24px;
+	margin-top: 2px; /* 微调位置 */
+}
+
+.microphone:hover {
+	background-position: 0 -26px;				
+}
+
+.camera {
+	background-position: 0 -51px;
+	height: 20px;
+}
+
+.camera:hover {
+	background-position: 0 -75px;
+}
+
+
+/* 热榜 */
+
+.news-box {
+	font-size: 14px;
+	width: 590px;
+}
+
+.switch-news-button {
+	color: #9195a3;
+}
+
+.switch-news-button:hover {
+	color: #315efb;
+}
+
+.news-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.news-content a {
+	display: block;
+	margin: 10px 0;
+}
+
+.news-title {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.news-column {
+	margin-right: 10px;
+}
+
+.item-marker {
+	display: inline-block;
+	margin-right: 10px;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	color: white;
+	font-size: 13px;
+	background-size: 100% 100%;
+}
+
+.item-marker.top-1 {
+	background-image: url(https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/hot_search/top_1-f61809eabc.png);
+}
+
+.item-marker.top-2 {
+	background-image: url(https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/hot_search/top_2-a4e59d0e31.png);
+}
+
+.item-marker.top-3 {
+	background-image: url(https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/hot_search/top_3-914652b402.png);
+}
+
+.item-marker.top-remainder {
+	color: #9195a3;
+	background-image: url(https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/hot_search/top_4-26c97c6113.png);
+}
+
+/* 二维码 */
+
+.qrcode {
+	position: absolute;
+	right: 40px;
+	bottom: 60px;
+	width: 24px;
+	height: 24px;
+}
+
+.qrcode-image {
+	position: absolute;
+	background: #fbfbfb;
+	padding: 10px;
+	width: 24px;
+	border-radius: 22px;
+	cursor: pointer;
+}
+
+.qrcode-image:hover {
+	box-shadow: 0 3px 5px 0 rgba(0,0,0,.1);
+}
+
+.qrcode:hover .qrcode-popup {
+	display: flex;
+	justify-content: center;				
+	width: 300px;
+	right: 50px;
+	bottom: 0;
+}
+
+.qrcode-hints {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: left;
+}
+
+.scan-code-hint {
+	font-size: 18px;
+}
+
+.purpose-hint {
+	color: #9195a3;
+	font-size: 16px;
+}
+
+.full-qrcode {
+	width: 120px;
+	float: right;
+}
+
+
+/* 以下四组，使得右下角二维码在鼠标悬浮时变成蓝色，移开后恢复灰色 */
+.qrcode .grey {
+	display: block;
+}
+.qrcode .blue {
+	display: none;
+}
+.qrcode:hover .grey {
+	display: none;
+}
+.qrcode:hover .blue {
+	display: block;
+}
+
+
+/* footer */
+
+footer {
+	position: absolute;
+	bottom: 0;
+	background: #fbfbfb;
+	width: 100%;
+}
+
+footer a,
+footer .info span {
+	display: inline-block;
+	padding: 10px 12px;
+	color: #9195a3;
+}
+
+footer .info {
+	float: right;
+}

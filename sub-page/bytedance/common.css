@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+.fr {
+  float: right;
+}
+
+.fl {
+  float: left;
+}
+
+.width-center {
+  width: 930px;
+  margin: 0 auto;
+}
+
+.link:hover {
+  cursor: pointer;
+}
+

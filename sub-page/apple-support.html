@@ -1,0 +1,1224 @@
+<!doctype html>
+<html lang="zh-hans">
+	<head>
+		<meta charset="utf-8" />
+		<title>官方Apple支持</title>
+		<!-- 该元标签是让浏览器缩放网页（即使像素大小（移动端:电脑端）的比例1:1），因为我们做的是响应式的网页 -->
+		<!-- 宽度为设备的宽度，初始的缩放比例为1:1，viewport-fit不知道什么意思-->
+		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+		<style>
+			/* 通用设置 */
+			* {
+				margin: 0;
+				padding: 0;
+				border: 0;
+			}
+			a {
+				text-decoration: none;
+			}
+			a:hover {
+				cursor: pointer;
+			}	
+			body {
+				font-family: "SF Pro SC","HanHei SC","SF Pro Text","Myriad Set Pro","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+			}	
+			li {
+				list-style: none;
+			}
+
+			/* 导航栏设置 */
+			/* 宽的导航栏设置 */
+			nav.wide {
+				height: 44px;
+				line-height: 44px;
+				font-size: 14px;
+				font-weight: 400;
+				color: rgba(245, 245, 245, 0.8);
+				background: rgba(0, 0, 0, 0.92);
+			}
+			.wide-nav-container {
+				margin: 0 auto;
+				width: 1000px;
+				display: flex;
+				justify-content: space-between;
+			}
+			.wide-nav-container a {
+				padding: 0 10px;
+			}
+			.wide-nav-container a:hover {
+				color: #f5f5f7;
+			}
+			.wide-nav-container #img1 {
+				background-size: 16px 44px;
+				background-repeat: no-repeat;
+				background-image: url("https://www.apple.com/ac/globalnav/5/zh_CN/images/globalnav/apple/image_large.svg");
+				background-position: center center;
+				width: 16px;
+			}
+			.wide-nav-container #img2 {				
+				background-size: 18px 88px;
+				background-repeat: no-repeat;
+				background-image: url("https://www.apple.com/ac/globalnav/5/zh_CN/images/globalnav/search/image_large.svg");
+				background-position: center center;
+				width: 18px;
+				background-position: 10px 0;
+			}
+			.wide-nav-container #img3 {
+				background-size: 17px 44px;
+				background-repeat: no-repeat;
+				background-image: url("https://www.apple.com/ac/globalnav/5/zh_CN/images/globalnav/bag/image_large.svg");
+				background-position: center center;
+				width: 17px;
+			}
+			/* 窄的导航栏设置 */
+			nav.narrow {
+				height: 44px;
+				line-height: 44px;
+				font-size: 14px;
+				font-weight: 400;
+				color: rgba(245, 245, 245, 0.8);
+				background: rgba(0, 0, 0, 0.92);
+			}
+			nav.narrow label {
+				height: 48px;
+				width: 48px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			.nav-narrow-second {
+				width: 18px;
+				height: 48px;
+				padding: 0 10px;
+				background-image: url("https://www.apple.com/ac/globalnav/5/zh_CN/images/globalnav/apple/image_small.svg");
+				background-size: 17px 48px;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			.nav-narrow-third {
+				width: 18px;
+				height: 48px;
+				padding: 0 10px;
+				background-image: url("https://www.apple.com/ac/globalnav/5/zh_CN/images/globalnav/bag/image_small.svg");
+				background-size: 17px 48px;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			/* 动画效果 */
+			nav.narrow .menu-icon {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				width: 48px;
+				height: 26px;
+				position: relative;
+				margin-top: 18px;
+			}
+			nav.narrow .bar {
+				display: block;
+				width: 15px;
+				border-bottom: 1px solid grey;
+				transform-origin: 18% 50%;
+				transition: transform 1s;
+			}
+			nav.narrow .upper-bar {
+				position: relative;
+			}
+			.active.menu-icon .upper-bar {
+				transform: rotate(45deg);
+			}
+			nav.narrow .lower-bar {
+				position: relative;
+				top: 6px;
+			}
+			.active.menu-icon .lower-bar {
+				transform: rotate(-45deg);
+			}
+			/* 弹出效果设置 */
+			.menu-body {
+				position: absolute;
+				width: 100vw;  /* viewpoint width */
+				height: 0;
+				overflow: hidden;
+				background-color: black;
+
+				top: 26px;
+				left: 0;
+
+				transition: height 1s;
+			}
+			.active.menu-icon .menu-body {
+				height: 100vh;  /* viewpoint height */
+			}
+			.active.menu-icon ~ label .nav-narrow-third {
+				z-index: -1;
+			}
+			.active.narrow {
+				background-color: black;
+			}
+			/* 弹出菜单设置 */
+			.menu-search-container {
+				border-bottom: 1px solid gray;
+				height: 53px;
+			}
+			.menu-search-content {
+				height: 36px;
+				width: 573px;
+				margin: 5px auto;
+				background-color: gray;
+				opacity: 0.4;
+				border-radius: 8px;
+				display: flex;
+			}
+			.menu-search-content span.first {
+				display: inline-block;
+				width: 5.5%;
+				height: 36px;
+				background-image: url("https://www.apple.com/ac/globalnav/5/zh_CN/images/globalnav/search/image_small.svg");
+				background-size: 20px 20px;
+				background-repeat: no-repeat;
+				background-color: white;
+				background-position: 5px 7px;
+				border-top-left-radius: 8px;
+				border-bottom-left-radius: 8px;
+			}
+			.menu-search-content input {
+				width: 86%;
+				background-color: gray;
+				font-size: 17px;
+				color: white;
+			}
+			.menu-search-content span.second {
+				width: 8.5%;
+			}
+			.menu-body ul {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-around;
+				align-items: center;
+			}
+			.menu-body li {
+				width: 574px;
+				height: 44px;
+				border-bottom: 1px solid gray;
+				font-size: 17px;
+			}
+			/* 下面是响应式网页的做法（重点） */
+			/* 1、当不满足下面那个条件时，采用这个样式 */
+			nav.narrow {
+				display: none;
+			}
+			nav.wide {
+				display: flex;
+			}
+			/* 2、假设媒介为屏幕，且宽度不超过500px时，采用这个样式 */
+			@media only screen and (max-width: 700px) {
+				nav.narrow {
+					display: flex;
+					justify-content: space-between;
+				}
+				nav.wide {
+					display: none;
+				}
+			}
+
+
+			
+			/* 主体设置 */
+			/* 搜索框 */
+			/* 搜索框的背景图 */
+			.welcome {
+				background-image: url("https://support.apple.com/content/dam/edam/applecare/images/en_US/homepage/hero-banner-homepage.image.large_2x.jpg");
+				background-size: cover;
+				background-position: 50% 50%;
+				background-repeat: no-repeat;
+				height: 524px;
+			}
+			/* 搜索框位置 */
+			.welcome-container {
+				width: 100%;
+				height: 163px;
+				margin: 0 auto;
+				position: relative;
+				top: 44px;
+			}
+			/* 搜索框布局 */
+			.welcome-content {
+				height: inherit;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: space-around;
+			}
+			/* 搜索框内容 */
+			.welcome-content h1 {
+				margin-top: 8px;
+				font-size: 40px;
+				font-weight: 500;
+				color: #333;
+			}
+			.welcome-content .welcome-content-search {
+				height: 50px;
+				width: 654px;
+				border: 1px solid #dedede;
+				background-color: white;
+				display: flex;
+				align-items: flex-start;
+				border-radius: 3px;
+			}
+			.welcome-content-search button {
+				background-image: url("https://km.support.apple.com/etc/designs/support/publish/commons/ac-assets/ac-toolkit/images/svg/search_icon_black.svg");
+				background-color: transparent;
+				background-repeat: no-repeat;
+				background-size: 24px;
+				background-position: 12px 66%;
+				height: 44px;
+				width: 40px;
+			}
+			.welcome-content-search input {
+				font-size: 1.375rem;
+				width: 555px;
+				height: 50px;
+				margin-left: 12px;
+				outline: none;
+			}
+			@media only screen and (max-width: 700px) {
+				.welcome {
+					height: 326px;
+					margin-bottom: 200px;
+				}
+				.welcome .welcome-container {
+					width: 100%;
+				}
+				.welcome .welcome-content {
+					position: relative;
+					top: 300px;
+					width: 100%;
+				}
+				.welcome .welcome-content h1 {
+					font-size: 31px;
+				}
+				.welcome .welcome-content .welcome-content-search {
+					width: 80%;
+					height: 40px;
+					line-height: 40px;
+					margin: 0 auto;
+				}
+				.welcome .welcome-content .welcome-content-search button {
+					width: 10%;
+					height: 100%;
+				}
+				.welcome .welcome-content .welcome-content-search input {
+					width: 90%;
+					height: 100%;
+				}
+			}
+			
+
+
+			
+			/* 产品内容设置 */
+			/* >1053px */
+			.products {
+				height: 342px;
+				width: 1024px;
+				padding-top: 58px;
+				margin: 0 auto;
+			}
+			.products-container {
+				display: flex;
+				height: 342px;
+				flex-wrap: wrap;
+			}
+			.product-item {
+				display: flex;
+				flex-direction: column;
+				width: 16%;
+				align-items: center;
+			}
+			.product-item img {
+				width: 68px;
+				height: 68px;
+				padding-bottom: 16px;
+			}
+			.product-item span {
+				color: #333;
+				font-size: 17px;
+			}
+			/* 700px~1000px */
+			@media only screen and (min-width: 700px) and (max-width: 1000px) {
+				main .products {
+					width: 100%;
+					height: 742px;
+					padding-top: 50px;
+					margin: 0;
+				}
+				.products .product-item {
+					width: 33%;
+					margin-bottom: 48px;
+				}
+				.products .product-item img {
+					width: 68px;
+					height: 84px;
+					padding-bottom: 16px;
+				}
+			}
+			/* <700px */
+			@media only screen and (max-width: 700px) {
+				main .products {
+					width: 100%;
+					height: 948px;
+					padding-top: 52px;
+				}
+				main .products .product-item {
+					width: 50%;
+					margin-bottom: 48px;
+				}
+				main .products .product-item img {
+					width: 68px;
+					height: 68px;
+					padding-bottom: 16px;
+				}
+			}
+
+
+
+			/* 分割线设置 */
+			.divider {
+				margin-top: 48px;
+				margin-bottom: 24px;
+			}
+			.divider hr {
+				border: 0;
+				border-bottom: 1px solid #dedede;
+			}
+
+
+			/* siri内容设置 */
+			/* 宽屏设置 */
+			.siri {
+				display: flex;
+				justify-content: center;
+				height: 248px;
+				align-items: center;
+				padding-bottom: 48px;
+			}
+			.siri-img {
+				width: 409px;
+				display: flex;
+				justify-content: center;
+			}
+			.siri-img img {
+				width: 400px;
+				height: 200px;
+			}
+			.siri-words {
+				width: 409px;
+				display: flex;
+				flex-direction: column;
+			}
+			.siri-words h2 {
+				font-size: 35px;
+				letter-spacing: .008em;
+				font-weight: 500;
+				height: 47px;
+				margin-bottom: 11px;
+			}
+			.siri-words p {
+				font-size: 22px;
+				height: 64px;
+				margin-top: 16.5px;
+				margin-bottom: 5.5px;
+				color: gray;
+			}
+			.siri-words > div {
+				font-size: 22px;
+				height: 32px;
+				margin-top: 24px;
+				color: #0070c9;
+			}
+			.siri-words > div:hover {
+				cursor: pointer;
+				text-decoration: underline;
+			}
+			/* 中屏设置 */
+			@media only screen and (min-width: 700px) and (max-width: 1000px) {
+				.siri {
+					display: flex;
+					flex-direction: column-reverse;
+					height: 420px;
+					padding: 0;
+					margin: 0;
+				}
+				.siri-words {
+					width: 692px;
+					display: flex;
+					flex-direction: column;
+					justify-content: space-around;
+					align-items: center;
+					margin-top: 20px;
+				}
+				.siri-words h2 {
+					font-size: 30px;
+					height: 42px;
+					margin-bottom: 10px;
+				}
+				.siri-words p {
+					font-size: 20px;
+					height: 30px;
+					margin-top: 15px;
+					margin-bottom: 5px;
+				}
+				.siri-words > div {
+					font-size: 20px;
+					height: 30px;
+					margin-top: 24px;
+				}
+			}
+			/* 窄屏设置 */
+			@media only screen and (max-width: 700px) {
+				section.siri {
+					display: flex;
+					flex-direction: column-reverse;
+					width: 90%;
+					margin: 0 auto;
+					margin-top: 10px;
+					height: 347px;
+					padding-bottom: 0;
+				}
+				section.siri .siri-words {
+					width: 100%;
+					height: 118px;
+					display: flex;
+					flex-direction: column;
+					justify-content: space-around;
+					align-items: center;
+					margin-top: 20px;
+				}
+				section.siri .siri-words h2 {
+					font-size: 24px;
+					height: 42px;
+					margin-bottom: 8px;
+				}
+				section.siri .siri-words p {
+					font-size: 17px;
+					height: 30px;
+					margin-top: 12px;
+					margin-bottom: 5px;
+				}
+				section.siri .siri-words > div {
+					font-size: 17px;
+					height: 30px;
+					margin-top: 13px;
+				}
+			}
+
+
+
+			/* 脚注设置 */
+			footer.footer-narrow {
+				display: none;
+			}
+			footer {
+				background-color: #f2f2f2;
+			}
+			footer a:hover {
+				text-decoration: underline;
+			}
+			.support-menu, .service-menu, .source-menu, .connect-menu {
+				display: none;
+			}
+			/* 宽屏设置 */
+			.footer-container {
+				width: 980px;
+				padding: 0 22px;
+				margin: 0 auto;
+				display: flex;
+				flex-direction: column;
+			}
+			/* 第一部分（上面） */
+			.breadcumb {
+				width: 980px;
+				height: 25px;
+				padding: 17px 0;
+				color: #555;
+				font-size: 11px;
+			}
+			.breadcumb-img {
+				background-image: url("https://km.support.apple.com/etc/designs/support/publish/commons/ac-assets/ac-toolkit/images/svg/icon_large.svg");
+				background-size: 14px 36px;
+				background-repeat: no-repeat;
+				height: 25px;
+				width: 36px;
+				display: inline-block;
+				background-position: 4px 6px;
+			}
+			.breadcumb-words {
+				display: inline-block;
+				height: 25px;
+				line-height: 25px;
+				position: relative;
+				bottom: 5px;
+			}
+			/* 第二部分（中间） */
+			.footer-content {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				width: 980px;
+				padding-top: 2px;
+				font-size: 11px;
+			}
+			.footer-content h4 {
+				font-size: 12px;
+				margin-bottom: 6px;
+			}
+			.footer-content-sec li {
+				height: 19px;
+				margin-bottom: 2px;
+				color: #666;
+			}
+			/* 第三部分（下面） */
+			.legal {
+				padding-top: 20px;
+				padding-bottom: 24px;
+				font-size: 11px;
+				color: #888;
+			}
+			.legal-divider {
+				padding-bottom: 5px;
+				margin-bottom: 6px;
+			}
+			.legal-divider hr {
+				border-bottom: 1px solid gray;
+			}
+			.legal-content {
+				display: flex;
+				flex-direction: row;
+				font-size: 10px;
+			}
+			.copyright-notice {
+				margin-right: 26px;
+			}
+			.additional-info {
+
+			}
+			.additional-info a {
+				padding-right: 12px;
+				border-right: 1px solid #999;
+				margin-right: 10px;
+			}
+			/* 中屏设置 */
+			@media only screen and (min-width: 700px) and (max-width: 1050px) {
+				footer.footer-wide {
+					width: 100%;
+				}
+				footer.footer-wide .footer-container {
+					width: 90%;
+				}
+				footer.footer-wide .breadcumb {
+					width: 100%;
+				}
+				footer.footer-wide .footer-content{
+					width: 100%;
+				}
+			}
+			/* 窄屏设置 */
+			@media only screen and (max-width: 700px) {
+				footer.footer-wide {
+					display: none;
+				}
+				footer.footer-narrow {
+					display: flex;
+					color: #666;
+				}
+				footer.footer-narrow > ul {
+					width: 100%;
+					padding: 0 16px;
+				}
+				footer.footer-narrow .footer-title {
+					width: 100%;
+					padding: 17px 0;
+					border-bottom: 1px solid #ddd;
+				}
+				footer.footer-narrow .footer-title > div {
+					height: 24px;
+					line-height: 24px;
+					display: flex;
+					align-items: center;
+				}
+				footer.footer-narrow .footer-title-img {
+					width: 14px;
+					height: 22px;
+					background-image: url("https://km.support.apple.com/etc/designs/support/publish/commons/ac-assets/ac-toolkit/images/svg/icon_large.svg");
+					background-size: 14px 36px;
+					background-repeat: no-repeat;
+					display: block;
+					background-position: 0 2px;
+				} 
+				footer.footer-narrow .footer-title-words {
+					margin-left: 20px;
+					font-size: 11px;
+
+				}
+				.footer-li {
+					height: 18px;
+					margin: 0 auto;
+					padding: 10px 0;
+					font-size: 11px;
+					display: flex;
+					justify-content: space-between;
+					border-bottom: 1px solid #ddd;
+				}
+				.footer-li:hover {
+					color: #000;
+					cursor: pointer;
+				}
+				.menu li {
+					padding: 0 14px;
+					height: 27.5px;
+					font-size: 10px;
+				}
+				.menu li:hover {
+					text-decoration: underline;
+					cursor: pointer;
+				}
+				.active h4 {
+					color: #000;
+				}
+				.active.footer-li {
+					border-bottom: 0;
+				}
+				.active.support ~ .support-menu {
+					display: block;
+				}
+				.active.service ~ .service-menu {
+					display: block;
+				}
+				.active.source ~ .source-menu {
+					display: block;
+				}
+				.active.connect ~ .connect-menu {
+					display: block;
+				}
+				.footer-last hr {
+					padding-bottom: 6px;
+					margin-bottom: 6px;
+				}
+				.footer-last-content {
+					padding-top: 33px;
+					padding-bottom: 20px;
+					font-size: 10px;
+					color: #999;
+				}
+				.footer-last-content div {
+					height: 18px;
+					line-height: 18px;
+				}
+				.footer-last-content span {
+					display: inline-block;
+					padding-right: 12px;
+					margin-right: 10px;
+					border-right: 1px solid #ddd;
+				}
+				.footer-last-content span:hover {
+					cursor: pointer;
+					text-decoration: underline;
+				}
+
+			}
+		</style>
+	</head>
+
+
+
+	<body>
+		<!-- 导航栏 -->
+		<!-- 宽的导航栏 -->
+		<nav class="wide">
+			<div class="wide-nav-container">
+				<a id="img1"></a>
+				<a>Mac</a>
+				<a>iPad</a>
+				<a>iPhone</a>
+				<a>Watch</a>
+				<a>Music</a>
+				<a>技术支持</a>	
+				<a id="img2"></a>
+				<a id="img3"></a>
+			</div>
+		</nav>
+		<!-- 窄 -->
+		<nav class="narrow">
+			<a class="menu-icon">
+				<span class="bar upper-bar"></span>
+				<span class="bar lower-bar"></span>
+				<div class="menu-body">
+					<div class="menu-search-container">
+						<div class="menu-search-content">
+							<span class="first"></span>
+							<input type="text" value="   搜索支持">
+							<span class="second"></span>
+						</div>
+					</div>
+					<ul>
+						<li>Mac</li>
+						<li>iPad</li>
+						<li>iPhone</li>
+						<li>Watch</li>
+						<li>Music</li>
+						<li style="border: 0;">技术支持</li>
+					</ul>
+				</div>
+			</a>
+			<!-- 使用js设置点击效果（即加上active状态） -->
+			<script>  
+				const menuIcon = document.querySelector(".menu-icon");
+				const narrowNav = document.querySelector("nav.narrow");
+		        menuIcon.onclick = () => {
+		            menuIcon.classList.toggle("active");
+		            narrowNav.classList.toggle("active");
+		        };
+			</script>
+			<label>
+				<span class="nav-narrow-second"></span>
+			</label>
+			<label>
+				<span class="nav-narrow-third"></span>
+			</label>
+		</nav>
+
+
+
+		<!-- 主体 -->
+		<main>
+			<!-- 搜索框 -->
+			<section class="welcome">
+				<div class="welcome-container">
+					<div class="welcome-content" style="z-index: -1;">
+						<h1>欢迎使用 Apple 支持</h1>
+						<div class="welcome-content-search">
+							<button></button>
+							<input type="text" value="">
+						</div>						
+					</div>	
+				</div>
+			</section>
+
+			<!-- 产品图 -->
+			<section class="products">
+				<div class="products-container">
+					<a class="product-item">
+						<img
+							src="https://support.apple.com/content/dam/edam/applecare/images/en_US/homepage/homepage_productnav_iphone_2x.png"
+						/>
+						<span>iPhone</span>
+					</a>
+
+					<a class="product-item">
+						<img
+							src="https://support.apple.com/content/dam/edam/applecare/images/en_US/homepage/homepage_productnav_imac_2x.png"
+						/>
+						<span>Mac</span>					
+					</a>
+
+
+					<a class="product-item">
+						<img
+							src="https://support.apple.com/content/dam/edam/applecare/images/en_US/homepage/homepage_productnav_ipad_2x.png"
+						/>
+						<span>iPad</span>					
+					</a>
+
+					<a class="product-item">
+						<img
+							src="https://support.apple.com/content/dam/edam/applecare/images/en_US/homepage/homepage_productnav_apple_watch_2x.png"
+						/>
+						<span>Watch</span>					
+					</a>
+
+					<a class="product-item">
+						<img
+							src="https://support.apple.com/content/dam/edam/applecare/images/en_US/homepage/homepage_productdrawer_applemusic_2x.png"
+						/>
+						<span>音乐</span>					
+					</a>
+
+					<a class="product-item">
+						<img
+							src="https://support.apple.com/content/dam/edam/applecare/images/en_US/homepage/homepage_productnav_apple-id_2x.png"
+						/>
+						<span>Apple ID</span>					
+					</a>
+
+					<a class="product-item">
+						<img
+							src="https://support.apple.com/content/dam/edam/applecare/images/en_US/airpods/homepage_productdrawer_airpods_2x.png"
+						/>
+						<span>AirPods</span>					
+					</a>
+
+					<a class="product-item">
+						<img
+							src="https://support.apple.com/content/dam/edam/applecare/images/en_US/mac_apps/homepage_productdrawer_appstore_2x.png"
+						/>
+						<span>App Store</span>				
+					</a>
+
+					<a class="product-item">
+						<img
+							src="https://support.apple.com/content/dam/edam/applecare/images/en_US/homepage/homepage_productdrawer_icloud_2x.png"
+						/>
+						<span>iCloud（由云上贵州运营）</span>					
+					</a>
+
+					<a class="product-item">
+						<img
+							src="https://support.apple.com/content/dam/edam/applecare/images/en_US/homepage/homepage_productdrawer_apple_pay_icon_2x.png"
+						/>
+						<span>Apple Pay</span>					
+					</a>
+
+					<a class="product-item">
+						<img
+							src="https://support.apple.com/content/dam/edam/applecare/images/en_US/homepage/homepage_productdrawer_pro_apps_2x.png"
+						/>
+						<span>专业应用</span>					
+					</a>
+
+					<a class="product-item">
+						<img
+							src="https://support.apple.com/content/dam/edam/applecare/images/en_US/homepage/homepage-productnav-macos_2x.png"
+						/>
+						<span>macOS</span>					
+					</a>	
+				</div>								
+			</section>
+
+			<div class="divider">
+				<hr>
+			</div>
+
+			<section class="siri">
+				<div class="siri-words">
+					<h2>我可以让 Siri 做什么？</h2>
+					<p>
+						Siri 可以在您的任何一台 Apple 设备上协助您完成日常工作。
+					</p>
+					<div>
+						<span>了解您可以让 Siri 完成哪些操作</span>
+						<span> > </span>
+					</div>
+				</div>
+				<div class="siri-img">
+					<img
+						src="https://support.apple.com/content/dam/edam/applecare/images/en_US/psp/featured-section-promo-siri-icon_2x.png"
+					/>
+				</div>
+			</section>
+
+			<!-- <section class="trade-in">
+				<h1>通过 Apple 换购计划进行折抵换购</h1>
+				<img
+					src="https://support.apple.com/content/dam/edam/applecare/images/en_US/homepage/banner-hero-giveback-support.image.large_2x.jpg"
+				/>
+				<p>用符合条件的设备以旧换新，获得换购优惠，或者我们免费为您进行回收处理。Apple 折抵换购对您和地球均有裨益。</p>
+				<a class="direct-page">进一步了解</a>
+			</section>
+
+			<section class="getting-help">
+				<div>
+					<h1>有问题？</h1>
+					<img
+						src="https://support.apple.com/content/dam/edam/applecare/images/en_US/repair/contentlink-communities_2x.png"
+					/>
+					<p>问问大家。我们的 Apple 支持社区可以协助您找到答案。</p>
+					<a class="direct-page">在社区提问</a>
+				</div>
+				<div>
+					<h1>如何获取使用妙招？</h1>
+					<img
+						src="https://support.apple.com/content/dam/edam/applecare/images/en_US/homepage/artcol-contentlink-weibo_2x.jpg"
+					/>
+					<p>我们会分享各种实用信息和使用技巧，并提供在线协助，让一切更加得心应手。</p>
+					<a class="direct-page">关注 @Apple支持</a>
+				</div>
+				<div>
+					<h1>告诉我们您需要哪方面的协助</h1>
+					<img
+						src="https://support.apple.com/content/dam/edam/applecare/images/zh_CN/repair/artcol-contentlink-expert_2x.png"
+					/>
+					<p>请回答几个问题，我们会协助您找到解决方案。</p>
+					<a class="direct-page">获得支持</a>
+				</div>			
+				<div>
+			</section>
+
+			<section class="expert-support">
+				<h1>来自 Apple 专家的服务与支持</h1>
+				<img
+					src="https://support.apple.com/content/dam/edam/applecare/images/en_US/repair/applecare-products_2x.png"
+				/>
+				<p>AppleCare 产品提供来自 Apple 的额外硬件服务选项和专家技术支持。</p>
+				<a class="direct-page">了解 AppleCare 计划</a>
+			</section>
+
+			<section class="fixing">
+				<div>
+					<h1>让我们修好您的设备</h1>
+					<img
+						src="https://support.apple.com/content/dam/edam/applecare/images/en_US/repair/psp-repair_2x.png"
+					/>
+					<a class="direct-page">选择维修选项</a>				
+				</div>
+				<div>
+					<h2>留心假冒部件</h2>
+					<p>
+						某些假冒和第三方的电源适配器及电池可能设计不当，有可能会导致安全问题。为了确保您在电池更换时能够获得正品 Apple 电池，我们建议您前往 <a>Apple Store 商店</a>或 <a>Apple 授权服务提供商</a>处。如果您需要更换一个新的适配器来为您的 Apple 设备充电，我们建议您选择 Apple 的电源适配器。
+					</p>
+					<p>
+						此外，非正品显示屏更换件可能会使画质受损，并且可能无法正常工作。Apple 认证屏幕维修由可信赖的专家进行，他们会使用 Apple 正品部件。
+					</p>
+				</div>
+			</section>
+
+			<section class="information">
+				<div class="protecting-apple-id">
+					<h2>保护 Apple ID 帐户的技巧</h2>
+					<p>这里有一些实用技巧，可帮助您确保 Apple ID 和帐户信息的安全。</p>
+					<a class="direct-page">获取有关保护 Apple ID 帐户的支持</a>
+					<img src="https://support.apple.com/content/dam/edam/applecare/images/en_US/homepage/featured-content-security_2x.png" />
+				</div>
+				<div class="maintainence-policy">
+					<h2>了解 Apple 在中国大陆的服务和保修政策</h2>
+					<a class="direct-page">了解保修和服务选项</a>
+				</div>
+				<div class="unexpected-shutdown">
+					<h2>有关 iPhone 及意外关机的信息</h2>
+					<a class="direct-page">进一步了解</a>
+				</div>
+				<div class="maintainence-extension-plans">
+					<h3>更换和维修扩展计划</h3>
+					<ul>
+						<li><a>适用于黑屏问题的 iPad Air（第 3 代）服务计划</a></li>
+						<li><a>适用于 iPhone XS、iPhone XS Max 和 iPhone XR 的智能电池壳更换计划</a></li>
+						<li><a>针对“无法开机”问题的 iPhone 6s 和 iPhone 6s Plus 服务计划</a></li>
+						<li><a>Apple Watch Series 2 和 Series 3 铝金属表款屏幕更换计划</a></li>
+						<li><a>15 英寸 MacBook Pro 电池召回计划</a></li>
+						<li><a>适用于 MacBook、MacBook Air 和 MacBook Pro 的键盘服务计划</a></li>
+						<li><a>13 英寸 MacBook Pro 显示屏背光服务计划</a></li>
+						<li><a>Apple 三插交流电源插头转换器召回计划</a></li>
+						<li><a>13 英寸 MacBook Pro（无触控栏）固态硬盘服务计划</a></li>
+						<li><a>适用于触控问题的 iPhone X 显示屏模块更换计划</a></li>
+						<li><a>iPhone 8 主板更换计划</a></li>
+						<li><a>13 英寸 MacBook Pro（无触控栏）电池更换计划</a></li>
+						<li><a>适用于“无服务”问题的 iPhone 7 维修计划</a></li>
+						<li><a>iPhone 6s 意外关机问题计划</a></li>
+						<li><a>适用于 iPhone 6 Plus 的 Multi-Touch 维修计划</a></li>
+						<li><a>Apple 交流电源插头转换器更换计划</a></li>
+						<li><a>Beats Pill XL 扬声器召回计划</a></li>
+						<li><a>所有计划</a></li>
+					</ul>
+				</div>
+			</section>
+		</main>
+		 -->
+
+
+		<div class="divider" style="margin-bottom: 0;">
+			<hr>
+		</div>
+
+		<footer class="footer-wide">
+			<div class="footer-container">
+				<div class="breadcumb">
+					<span class="breadcumb-img"></span>
+					<span class="breadcumb-words">支持</span>
+				</div>
+				<div class="footer-content">
+					<section class="footer-content-first footer-content-sec">
+						<h4>获得支持</h4>
+						<ul>
+							<li><a>iPhone</a></li>
+							<li><a>iPad</a></li>
+							<li><a>Apple Watch</a></li>
+							<li><a>Mac</a></li>
+							<li><a>Music</a></li>
+							<li><a>Apple ID</a></li>
+							<li><a>应用</a></li>
+							<li><a>支持站点地图</a></li>
+						</ul>
+					</section>
+					<section class="footer-content-second footer-content-sec">
+						<h4>服务与维修</h4>
+						<ul>
+							<li><a>Apple 维修选项</a></li>
+							<li><a>服务和维修信息</a></li>
+							<li><a>AppleCare 产品</a></li>
+							<li><a>硬件保修</a></li>
+							<li><a>软件许可协议</a></li>
+							<li><a>免费提供的支持</a></li>
+						</ul>
+					</section>
+					<section class="footer-content-third footer-content-sec">
+						<h4>服务与维修</h4>
+						<ul>
+							<li><a>下载与更新</a></li>
+							<li><a>手册</a></li>
+							<li><a>技术规格</a></li>
+							<li><a>辅助功能</a></li>
+							<li><a>教育</a></li>
+							<li><a>商务</a></li>
+						</ul>
+					</section>	
+					<section class="footer-content-fourth footer-content-sec">
+						<h4>Connect</h4>
+						<ul>
+							<li><a>联系我们</a></li>
+							<li><a>电话号码</a></li>
+							<li><a>我的支持</a></li>
+							<li><a>“Apple 支持”应用</a></li>
+							<li><a>Apple 支持社区</a></li>
+						</ul>
+					</section>				
+				</div>
+				<div class="legal">
+					<div class="legal-divider">
+						<hr>
+					</div>
+					<div class="legal-content">
+						<div class="copyright-notice">Copyright © 2020 Apple Inc. 保留所有权利。</div>
+						<div class="additional-info">
+							<a>隐私政策</a>
+							<a>使用条款</a>
+							<a>销售和退款</a>
+							<a style="border-right: 0;">站点地图</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+		<footer class="footer-narrow">
+			<ul>
+				<li class="footer-title">
+					<div>
+						<span class="footer-title-img"></span>
+						<span class="footer-title-words"> > 支持</span>
+					</div>
+				</li>
+				<li class="footer-li support">
+					<h4>获得支持</h4>
+					<span style="margin-right: 8px;">+</span>		
+				</li>
+				<div class="menu support-menu">
+						<ul>
+							<li>iPhone</li>
+							<li>iPad</li>
+							<li>Apple Watch</li>
+							<li>Mac</li>
+							<li>Music</li>
+							<li>Apple ID</li>
+							<li>应用</li>
+							<li>支持站点地图</li>
+						</ul>
+					</div>
+				<script>
+					const supportLi = document.querySelector("li.support");
+			        supportLi.onclick = () => {
+			            supportLi.classList.toggle("active");
+			        };
+				</script>
+
+				<li class="footer-li service">
+					<h4>服务与维修</h4>
+					<span style="margin-right: 8px;">+</span>
+				</li>
+				<div class="menu service-menu">
+						<ul>
+							<li>iPhone</li>
+							<li>iPad</li>
+							<li>Apple Watch</li>
+							<li>Mac</li>
+							<li>Music</li>
+							<li>Apple ID</li>
+							<li>应用</li>
+							<li>支持站点地图</li>
+						</ul>
+					</div>
+				<script>
+					const serviceLi = document.querySelector("li.service");
+			        serviceLi.onclick = () => {
+			            serviceLi.classList.toggle("active");
+			        };
+				</script>
+
+				<li class="footer-li source">
+					<h4>资源</h4>
+					<span style="margin-right: 8px;">+</span>
+				</li>
+				<div class="menu source-menu">
+						<ul>
+							<li>iPhone</li>
+							<li>iPad</li>
+							<li>Apple Watch</li>
+							<li>Mac</li>
+							<li>Music</li>
+							<li>Apple ID</li>
+							<li>应用</li>
+							<li>支持站点地图</li>
+						</ul>
+					</div>
+				<script>
+					const sourceLi = document.querySelector("li.source");
+			        sourceLi.onclick = () => {
+			            sourceLi.classList.toggle("active");
+			        };
+				</script>
+
+				<li class="footer-li connect">
+					<h4>Connect</h4>
+					<span style="margin-right: 8px;">+</span>
+				</li>
+				<div class="menu connect-menu">
+						<ul>
+							<li>iPhone</li>
+							<li>iPad</li>
+							<li>Apple Watch</li>
+							<li>Mac</li>
+							<li>Music</li>
+							<li>Apple ID</li>
+							<li>应用</li>
+							<li>支持站点地图</li>
+						</ul>
+					</div>
+				<script>
+					const connectLi = document.querySelector("li.connect");
+			        connectLi.onclick = () => {
+			            connectLi.classList.toggle("active");
+			        };
+				</script>
+
+				<li class="footer-last">
+					<div>
+						<hr>
+					</div>
+					<div class="footer-last-content">
+						<div>Copyright © 2020 Apple Inc. 保留所有权利。 </div>
+						<div>
+							<span>隐私政策</span>
+							<span>使用条款</span>
+							<span>销售和退款</span>
+							<span>站点地图</span>
+						</div>
+					</div>
+				</li>
+				<script>
+					
+				</script>
+			</ul>
+		</footer>
+
+	</body>
+</html>

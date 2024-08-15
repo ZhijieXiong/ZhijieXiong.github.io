@@ -1,0 +1,202 @@
+/* 顶部导航栏 */
+/* 顶部上半部分 */
+.top-top {
+  height: 57px;
+}
+#logo-img {
+  width: 130px;
+  height: 59px;
+}
+#search-img {
+  height: 29px;
+  position: absolute;
+  top: 0;
+  right: 2px;
+  bottom: 0;
+  margin: auto;
+}
+.module-nav, .login, .search {
+  height: 57px;
+  line-height: 57px;
+}
+.module-nav {
+  width: 378px;
+  display: flex;
+  justify-content: space-around;
+}
+.module-nav>a {
+  color: rgb(149, 154, 157);
+}
+.module-nav>a:hover {
+  color: rgb(75, 138, 255);
+}
+.module-nav a:first-child {
+  color: rgb(75, 138, 255);
+}
+.search {
+  position: relative;
+}
+.search>input {
+  width: 130px;
+  height: 29px;
+  border: 2px solid rgb(241, 241, 241);
+  background-color: rgb(250, 250, 250);
+  border-radius: 4px;
+  padding-left: 10px;
+}
+/* 去除输入框聚焦时边框变色效果 */
+.search>input:focus {
+  outline: 0px;
+}
+.search>input::placeholder {
+  color: rgb(188, 188, 188);
+}
+.login {
+  width: 164px;
+  margin-left: 28px;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(118, 158, 255);  
+}
+.login span:first-child {
+  margin-right: 6px;
+}
+.login span:nth-of-type(2n+1):hover {
+  color: rgb(26, 123, 250);
+  cursor: pointer;
+}
+.login span:nth-child(2) {
+  font-size: 15px;
+  color: rgb(220, 220, 220);
+}
+
+
+/* 顶部中间横线 */
+.hr {
+  border-bottom: 2px solid rgb(248, 248, 248);
+}
+
+
+/* 顶部下半部分 */
+.top-bottom {
+  height: 44px;
+  line-height: 44px;
+}
+.top-bottom>span {
+  font-size: 14px;
+  color: rgb(181, 183, 185);
+  margin-right: 23px;
+}
+.top-bottom>span:hover {
+  color: rgb(75, 138, 255);
+  cursor: pointer;
+}
+.top-bottom span:first-child {
+  color: rgb(75, 138, 255);
+}
+
+
+
+/* 主体 */
+.bottom-container {
+  background-color: rgb(243, 245, 245);
+  height: 535px;
+  padding-top: 14px;
+}
+.main>div {
+  background-color: white;
+}
+.main>.fl {
+  width: 666px;
+}
+.main>.fr {
+  width: 228px;
+}
+
+/* 主体左半部分导航栏 */
+.bottom-nav {
+  font-size: 14px;
+  height: 42px;
+  line-height: 42px;
+  padding-left: 18px;
+}
+.bottom-nav>span {
+  color: rgb(181, 183, 185);
+  margin: 6px;
+}
+.bottom-nav span:nth-of-type(2n+1):hover {
+  color: rgb(75, 138, 255);
+  cursor: pointer;
+}
+.bottom-nav span:nth-of-type(2n) {
+  font-size: 12px;
+  color: rgb(243, 243, 243);
+}
+.bottom-nav span:first-child {
+  color: rgb(75, 138, 255);
+}
+
+
+/* 主体右半部分 */
+.main>.fr {
+  background-color: rgb(243, 245, 245);
+}
+.main>.fr>div:nth-of-type(2) {
+  width: 228px;
+  height: 191px;
+}
+.main>.fr div:nth-of-type(2)>img {
+  width: 228px;
+  height: 191px;
+}
+.fr>.register {
+  background-color: white;
+  margin-bottom: 18px;
+  padding: 16px;
+  font-size: 13px;
+}
+.fr>.register div:nth-of-type(1) {
+  margin-bottom: 5px;
+  color: black;
+}
+.fr>.register div:nth-of-type(2) {
+  margin: 5px 0;
+  color: rgb(88, 89, 92);
+}
+.fr>.register div:nth-of-type(3) {
+  height: 168px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.fr>.register div:nth-of-type(3)>* {
+  height: 34px;
+  background-color: rgb(251, 251, 251);
+  border: 1px solid rgb(247, 247, 247);
+}
+.fr>.register div:nth-of-type(3)>input {
+  padding-left: 8px;
+}
+.fr>.register div:nth-of-type(3)>input:focus {
+  outline: 0px;
+}
+.fr>.register div:nth-of-type(3)>button {
+  background-color: rgb(0, 113, 255);
+  border-radius: 3px;
+  color: white;
+}
+.fr>.register div:nth-of-type(3)>button:hover {
+  color: rgb(0, 47, 255);
+}
+.fr>.register div:nth-of-type(4) {
+  margin-top: 24px;
+}
+.fr>.register div:nth-of-type(4)>* {
+  color: rgb(163, 163, 163);
+}
+.fr>.register div:nth-of-type(4) a {
+  color: rgb(55, 131, 254);
+}
+.fr>.register div:nth-of-type(4) a:hover {
+  color: blue;
+}
