@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: #6C6C6C;
+}
+
+button{
+	outline: none;
+}
+
+body{
+	font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+	/* 淘宝设置的字体 */
+}
+
+/* 清除浮动 */
+.clearFloat::after{
+	content: '';
+	display: inline-block;
+	clear: both;
+}
+
+/* 浮动常用 */
+.floatLeft{
+	float: left;
+}
+.floatRight{
+	float: right;
+}
+
+/* 居中使用 */
+.layCenter{
+	width: 1190px;
+	margin: 0 auto;
+}
+
+/* 其它淘宝用到的预定义样式 */
+
+/* 淘宝红 */
+.c4{
+	color: #f40;
+}
+.c5{
+	color: #f50;
+}
+
+/* 常用margin */
+.mt10{
+	margin-top: 10px;
+}
+.mr5{
+	margin: 5px;
+}
+.mr7{
+	margin: 7px;
+}
+.mr10{
+	margin-right: 10px;
+}

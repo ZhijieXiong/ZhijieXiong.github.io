@@ -8,9 +8,70 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>主页</h1>
-  <a href="./sub-page/apple-support.html">苹果页面模仿（响应式布局）</a>
-  <a href="./sub-page/baidu/index.html">百度页面模仿</a>
-  <a href="./sub-page/bytedance/index.html">字节今日头条页面模仿</a>
+  <h1>熊治杰的主页（本界面全部代码由ChatGPT生成）</h1>
+  <div class="projects">
+    <div class="project-category">
+        <h2>前端项目</h2>
+        <a href="./sub-page/apple-support.html">苹果页面模仿</a>
+        <a href="./sub-page/baidu/index.html">百度页面模仿</a>
+        <a href="./sub-page/bytedance/index.html">字节今日头条页面模仿</a>
+        <a href="./sub-page/taobao/index.html">淘宝页面模仿</a>
+        <a href="./sub-page/css_intro/index.html">CSS小课堂页面</a>
+        <a href="https://github.com/AI-for-Education-free/ITS-front">编程和数学习题练习系统前端</a>
+        <div class="highlights">
+          技术亮点
+          <div>苹果页面使用了响应式布局</div>
+          <div>多个页面使用了flex布局</div>
+          <div>习题练习系统前端技术栈：React + Axios + Reducer</div>
+        </div>
+    </div>
+    <div class="project-category">
+        <h2>后端项目</h2>
+        <a href="https://github.com/AI-for-Education-free/ITS-back">编程和数学习题练习系统后端</a>
+        <a href="https://github.com/ZhijieXiong/crawler_projects">爬虫项目</a>
+        <a href="./sub-page/crawler_projects/index.html">爬虫项目效果展示图</a>
+        <a href="#" id="play-video">习题练习系统展示视频</a>
+        <div class="highlights">
+          技术亮点
+          <div>习题练习系统后端：（1）技术栈：Springboot + Redis + Mysql + MongoDB；
+            （2）编程题自动判断对错使用反射技术实现</div>
+          <div>破解反爬虫技术：（1）在爬取关键数据时遇到“动态字体混淆”这一问题，最后通过抓取页面时同时获取对应的字体文件，并动态分析字体编码与实际文本的对应关系，破解出数据
+            （2）IP池+生产者消费者模式爬取数据</div>
+        </div>
+    </div>
+    <div class="project-category">
+        <h2>算法库</h2>
+        <a href="https://github.com/ZhijieXiong/dlkt">深度知识追踪算法库</a>
+        <div class="highlights">
+          技术亮点
+          <div>一个深度知识追踪（Deep Learning based Knowledge Tracing）的算法库，主要内容有（1）实现了对26个知识追踪数据集（基本上涵盖了所有知识追踪数据集）的统一处理，均处理为相同格式，方便后续使用；（2）在统一的架构下实现了20个主流深度知识追踪模型，多数为SIGIR、SIGKDD、WWW等CCF A类会议上的论文所提出的模型，并且在原论文的实验设置下成功复现；（3）模块化的设计，可以在原模型上叠加其它领域方法，例如数据增强、对比学习；（4）除了常用的overall指标（AUC、ACC、RMSE、MAE），还提供更细粒度的评测指标（冷启动、长尾、偏差等）；（5）此外还包含了认知诊断任务（该任务和知识追踪所用数据集有重叠），目前已复现了NCD（AAAI 2020）</div>
+        </div>
+    </div>
+    <div class="project-category">
+        <h2>其它</h2>
+        <div>
+          <h3>参与FCC开源项目，翻译文章</h3>
+          <a href="https://www.freecodecamp.org/chinese/news/the-python-handbook">Python 编程手册</a>
+          <a href="https://www.freecodecamp.org/chinese/news/python-read-json-file-how-to-load-json-from-a-file-and-parse-dumps/">Python 读取 JSON 文件</a>
+        </div>
+        <hr>
+        <div>
+          <h3>以前在CSDN上写了几十篇文章，主要是Python、Linux和数据库Mysql的基础知识</h3>
+          <a href="https://blog.csdn.net/qq_40650558">CSDN博客</a>
+        </div>
+        
+    </div>
+
+    <div id="video-modal" class="video-modal">
+      <div class="video-container">
+          <video id="video" controls>
+              <source src="./sub-page/exercise-system-demo.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+          </video>
+      </div>
+  </div>
+  <script src="./index.js"></script>
+</body>
+</div>
 </body>
 </html>

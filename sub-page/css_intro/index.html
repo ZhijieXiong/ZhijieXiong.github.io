@@ -1,0 +1,1146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>css小技巧</title>
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="./icon/iconfont.css">
+	<script src="./jquery.min.js"></script>
+	<!-- demo1.1的css -->
+	<style class="css-style">  
+		#div-1 {
+			background-color: #999;
+			margin-bottom: 20px;
+		}
+		#div-2 {
+			background-color: #999;
+			width: 50%;
+			height: 50px;
+			margin-bottom: 20px;
+		}
+		#span-1 {
+			background-color: #999;
+			margin-bottom: 20px;
+		}
+		#span-2 {
+			background-color: #999;
+			width: 50%;
+			height: 30px;
+			margin-bottom: 20px;
+		}
+		#span-3 {
+			display: inline-block;
+			background-color: #999;
+			margin-bottom: 20px;
+		}
+		#span-4 {
+			display: inline-block;
+			background-color: #999;
+			width: 80%;
+			height: 50px;
+			margin-bottom: 20px;
+		}
+	</style>
+	<!-- demo2.1的css -->
+	<style>
+		#example-2-1 .example-effect-container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border: 1px solid #999;
+		}
+		.demo-2-1-div {
+			width: 50px;
+			height: 50px;
+			background-color: blue;
+		}
+	</style>
+	<!-- demo2.2的css -->
+	<style>
+		#example-2-2 .example-effect-container {
+			position: relative;
+			border: 1px solid #999;
+		}
+		.demo-2-2-div {
+			width: 50px;
+			height: 50px;
+			background-color: blue;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);  
+			/*transform: translate(-25px, -25px); */
+		}
+	</style>
+	<!-- demo2.3的css -->
+	<style>
+		#example-2-3 .example-effect-container {
+			border: 1px solid #999;
+		}
+		.demo-2-3-div {
+			width: 50px;
+			/* width: 20%; */
+			height: 50px;
+			background-color: blue;
+			margin: auto auto;
+		}
+	</style>
+	<!-- demo2.4的css -->
+	<style>
+		#example-2-4 .example-effect-container {
+			border: 1px solid #999;
+		}
+		.demo-2-4-div {
+			width: 90%;
+			margin: 10px auto;
+			border: 1px solid #999;
+			font-size: 15px;  /* 实际上设置的是高度 */
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+		}
+	</style>
+	<!-- demo3.1的css -->
+	<style>
+		.demo-3-1-div {
+			width: 90%;
+			margin: 10px auto;
+			border: 1px solid #999;
+			font-size: 15px;  
+			height: 45px;
+			text-align: center;
+		}
+		.demo-3-1-div.div-1 {
+			line-height: normal;
+		}
+		.demo-3-1-div.div-2 {
+			line-height: 3;
+		}
+		.demo-3-1-div.div-3 {
+			line-height: 45px;
+		}
+		.demo-3-1-div.div-4 {
+			line-height: 300%;
+		}
+		.demo-3-1-div.div-5 {
+			line-height: 3em;
+		}
+	</style>
+	<!-- demo4.1的css -->
+	<style>
+		#example-4-1 .example-effect-container {
+			border: 1px solid #999;
+			padding: 5px;
+		}
+		.demo-4-1-div {
+			width: 100px;
+			height: 60px;
+		}
+		.demo-4-1-div.div-1 {
+			background-color: blue;
+		}
+		.demo-4-1-div.div-2 {
+			background-color: red;
+		}
+		.demo-4-1-div.div-3 {
+			background-color: yellow;
+			height: 30px;
+			width: 300px;
+		}
+		.demo-4-1-div.div-4 {
+			background-color: green;
+		}
+	</style>
+	<!-- demo4.2的css -->
+	<style>
+		#example-4-2 .example-effect-container {
+			border: 1px solid #999;
+			padding: 5px;
+		}
+		.demo-4-2-div {
+			width: 100px;
+			height: 60px;
+		}
+		.demo-4-2-div.div-1 {
+			background-color: blue;
+		}
+		.demo-4-2-div.div-2 {
+			background-color: red;
+		}
+		.demo-4-2-div.div-3 {
+			background-color: yellow;
+			float: right;
+			height: 30px;
+			width: 300px;
+		}
+		.demo-4-2-div.div-4 {
+			background-color: green;
+		}
+	</style>
+	<!-- demo4.3的css -->
+	<style>
+		#example-4-3 .example-effect-container {
+			border: 1px solid #999;
+			padding: 5px;
+		}
+		.demo-4-3-div {
+			width: 100px;
+			height: 60px;
+		}
+		.demo-4-3-div.div-1 {
+			background-color: blue;
+		}
+		.demo-4-3-div.div-2 {
+			background-color: red;
+		}
+		.demo-4-3-div.div-3 {
+			background-color: yellow;
+		}
+		.demo-4-3-div.div-4 {
+			background-color: green;
+		}
+	</style>
+	<!-- demo4.4的css -->
+	<style>
+		#example-4-4 .example-effect-container {
+			border: 1px solid #999;
+			padding: 5px;
+		}
+		.demo-4-4-div {
+			width: 100px;
+			height: 60px;
+		}
+		.demo-4-4-div.div-1 {
+			background-color: blue;
+		}
+		.demo-4-4-div.div-2 {
+			background-color: red;
+		}
+		.demo-4-4-div.div-3 {
+			background-color: yellow;
+			float: right;
+		}
+		.demo-4-4-div.div-4 {
+			background-color: green;
+			float: right;
+		}
+	</style>
+	<!-- demo4.5的css -->
+	<style>
+		#example-4-5 .example-effect-container {
+			border: 1px solid #999;
+			padding: 5px;
+		}
+		.demo-4-5-div {
+			width: 100px;
+			height: 60px;
+		}
+		.demo-4-5-div.div-1 {
+			background-color: blue;
+		}
+		.demo-4-5-div.div-2 {
+			background-color: red;
+			display: inline-block;
+		}
+		.demo-4-5-div.div-3 {
+			background-color: yellow;
+			float: right;
+		}
+		.demo-4-5-div.div-4 {
+			background-color: green;
+			float: right;
+		}
+	</style>
+</head>
+
+<body>
+	<nav>
+		<div></div>
+	</nav>
+
+	<main>
+		<div class="demo-nav">
+			<div class="demo-nav-container">
+				<span class="demo-introduce">block、inline和inline-block</span>
+				<span class="demo-link">demo01</span>
+			</div>
+			<div class="demo-nav-container">
+				<span class="demo-introduce">各种居中</span>
+				<span class="demo-link">demo01</span>
+				<span class="demo-link">demo02</span>
+				<span class="demo-link">demo03</span>
+				<span class="demo-link">demo04</span>
+			</div>
+			<div class="demo-nav-container">
+				<span class="demo-introduce">字体相关</span>
+				<span class="demo-link">demo01</span>
+			</div>
+			<div class="demo-nav-container">
+				<span class="demo-introduce">浮动相关</span>
+				<span class="demo-link">demo01</span>
+				<span class="demo-link">demo02</span>
+				<span class="demo-link">demo03</span>
+				<span class="demo-link">demo04</span>
+				<span class="demo-link">demo05</span>
+			</div>
+			<div class="demo-nav-container">
+				<span class="demo-introduce">图标icon</span>
+				<span class="demo-link">demo01</span>
+			</div>
+			<div class="demo-nav-container">
+				<span class="demo-introduce">选择器权重</span>
+				<span class="demo-link">讲解</span>
+			</div>
+		</div>
+
+
+
+
+
+
+		<div class="abstract">
+			<div>
+				<p>
+					block：独占一行，宽度默认占满父元素，高度由内容决定，可以改变宽高<br>
+					inline：不会自动换行，宽高由内容决定，不可改变宽高<br>
+					inline-block：不会自动换行，宽高由内容决定，但是可以改变宽高<br>
+					其它：block、inline、inline-block都有盒模型，但是inline元素不能用margin顶开其它元素
+				</p>
+			</div>
+		</div>
+		<div class="abstract hidden">
+			<div>
+				<p>
+					使用flex弹性盒子实现居中：将justify-content和align-items均设为center即可
+				</p>
+			</div>
+		</div>
+		<div class="abstract hidden">
+			<div>
+				<p>
+					使用position: absolute实现居中：top、left和transform: translate配合使用 <br>
+					translate语法：该函数有两个参数 <br>
+					&nbsp; &nbsp; &nbsp; &nbsp; 第一个参数：控制左右方向，为正往右边走，为负往左边走<br>	
+					&nbsp; &nbsp; &nbsp; &nbsp; 第二个参数：控制上下方向，为正往下边走，为负往上边走<br>	
+					&nbsp; &nbsp; &nbsp; &nbsp; 单位：绝对值px；相对值，以该元素的宽高为100%<br>	
+				</p>
+			</div>
+		</div>
+		<div class="abstract hidden">
+			<div>
+				<p>
+					使用margin实现居中 <br>
+					注意，margin: auto auto中的第一个auto（即上下方向）不起作用
+				</p>
+			</div>
+		</div>
+		<div class="abstract hidden">
+			<div>
+				<p>
+					文本居中：设置text-align、height和line-height <br>
+				</p>
+			</div>
+		</div>
+		<div class="abstract hidden">
+			<div>
+				<p>
+					字体大小实际上指的是字体的高度，而字体行高（line-height）的设置如下<br>
+						&nbsp; &nbsp; &nbsp; &nbsp; normal：这种行高设置方式由浏览器和字体的大小共同决定 <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; 1.5：相对值，行高为字体大小的1.5倍 <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; 50px：绝对值，行高为50px <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; 200%：相对值，行高为字体大小的两倍 <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; 5em：相对值，行高为字体大小的5倍 <br>
+					当选用行高时，通常使用数字，原因如下 <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; 1、使用数字时，子元素的也会继承父元素的选择 <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; 2、当使用其它相对值时，子元素继承的是父元素计算出来的行高 <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; 3、也就是说对父元素是相对值，对子元素是绝对值 <br>
+				</p>
+			</div>
+		</div>
+		<div class="abstract hidden">
+			<div>
+				<p>
+					仅给出例子，具体原理请看<a href="https://blog.csdn.net/qq_36595013/article/details/81810219">链接</a> <br>
+					demo01、demo02
+				</p>
+			</div>
+		</div>
+		<div class="abstract hidden">
+			<div>
+				<p>
+					仅给出例子，具体原理请看<a href="https://blog.csdn.net/qq_36595013/article/details/81810219">链接</a>
+				</p>
+			</div>
+		</div>
+		<div class="abstract hidden">
+			<div>
+				<p>
+					仅给出例子，具体原理请看<a href="https://blog.csdn.net/qq_36595013/article/details/81810219">链接</a> <br>
+					demo03、demo04、demo05
+				</p>
+			</div>
+		</div>
+		<div class="abstract hidden">
+			<div>
+				<p>
+					仅给出例子，具体原理请看<a href="https://blog.csdn.net/qq_36595013/article/details/81810219">链接</a>
+				</p>
+			</div>
+		</div>
+		<div class="abstract hidden">
+			<div>
+				<p>
+					仅给出例子，具体原理请看<a href="https://blog.csdn.net/qq_36595013/article/details/81810219">链接</a>
+				</p>
+			</div>
+		</div>
+		<div class="abstract hidden">
+			<div>
+				<p>
+					步骤如下： <br>
+					1、到网站上找到想要的图标：<a href="https://www.iconfont.cn">链接</a>  <br> 
+					2、下载代码  <br>
+					3、查看下载的文件夹里的demo，按照步骤执行 <br>
+				</p>
+			</div>
+		</div>
+		<div class="abstract hidden">
+			<div>
+				<p>
+					选择器：权重<br> 
+					行间样式：1000<br>
+					id选择器：100<br>
+					class选择器、属性选择器、伪类选择器：10<br>
+					标签选择器、伪元素选择器：1<br>
+					通配符选择器：0<br>
+					!important：Infinity<br>
+				</p>
+			</div>
+		</div>
+
+
+
+
+
+
+
+		<div class="example-container" id="example-1-1">
+			<div class="example-html frame">
+				<p>
+					&lt;div class="example-effect-container"> <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;div id="div-1">div（block）&lt;/div> <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;div id="div-2">div（block）&lt;/div> <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;span id="span-1">span（inline）&lt;/span> <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;span id="span-2">span（inline）&lt;/span>&lt;br> <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;span id="span-3">span（inline-block）&lt;/span> <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;span id="span-4">span（inline-block）&lt;/span> <br>
+					&lt;/div>
+				</p>
+			</div>
+			<div class="example-css frame">
+				<p>
+					<span class="css-selector">#div-1</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">background-color:</span> #999; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">margin-bottom:</span> 20px; <br>
+					} <br>
+					<span class="css-selector">#div-2</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">background-color:</span> #999; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">width:</span> 50%; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">height:</span> 50px; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">margin-bottom:</span> 20px; <br>
+					} <br>
+					<span class="css-selector">#span-1</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">background-color:</span> #999; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">margin-bottom:</span> 20px; <br>
+					} <br>
+					<span class="css-selector">#span-2</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">background-color:</span> #999; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">width:</span> 50%; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">height:</span> 30px; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">margin-bottom:</span> 20px; <br>
+					} <br>
+					<span class="css-selector">#span-3</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">display:</span> inline-block; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">background-color:</span> #999; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">margin-bottom:</span> 20px; <br>
+					} <br>
+					<span class="css-selector">#span-4</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">display:</span> inline-block; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">background-color:</span> #999; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">width:</span> 80%; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">height:</span> 50px; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">margin-bottom:</span> 20px; <br>
+					}
+				</p>
+			</div>
+			<div class="example-effect frame">
+				<div class="example-effect-container">
+					<div id="div-1">div（block）</div>
+					<div id="div-2">div（block）</div>
+					<span id="span-1">span（inline）</span>
+					<span id="span-2">span（inline）</span><br>
+					<span id="span-3">span（inline-block）</span>
+					<span id="span-4">span（inline-block）</span>
+				</div>
+			</div>
+		</div>
+<!-- 		<div class="try-container" id="try-1-1">
+			<div class="try-html frame">
+				<pre>
+					11
+				</pre>
+			</div>
+			<div class="try-css frame">
+				<pre>
+					11
+				</pre>
+			</div>
+			<div class="try-effect frame">
+				
+			</div>
+		</div> -->
+
+
+		<div class="example-container hidden" id="example-2-1">
+			<div class="example-html frame">
+				<p>
+					&lt;div class="example-effect-container"> <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="demo-2-1-div">&lt;/div> <br>
+					&lt;/div>
+				</p>
+			</div>
+			<div class="example-css frame">
+				<p>
+					<span class="css-selector">.example-effect-container</span> { <br> 
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">display:</span> flex; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">justify-content:</span> center; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">align-items:</span> center; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">border:</span> 1px solid #999; <br>
+					} <br>
+					<span class="css-selector">.demo-2-1-div</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">width:</span> 50px; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">height:</span> 50px; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">background-color:</span> blue; <br>
+					}
+				</p>
+			</div>
+			<div class="example-effect frame">
+				<div class="example-effect-container">
+					<div class="demo-2-1-div"></div>
+				</div>
+			</div>
+		</div>
+<!-- 		<div class="try-container hidden" id="try-2-1">
+			<div class="try-html frame">
+				<pre>
+					22
+				</pre>
+			</div>
+			<div class="try-css frame">
+				<pre>
+					22
+				</pre>
+			</div>
+			<div class="try-effect frame">
+				
+			</div>
+		</div> -->
+
+
+		<div class="example-container hidden" id="example-2-2">
+			<div class="example-html frame">
+				<p>
+					&lt;div class="example-effect-container"> <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="demo-2-2-div">&lt;/div> <br>
+					&lt;/div> <br>
+				</p>
+			</div>
+			<div class="example-css frame">
+				<p>
+					<span class="css-selector">.example-effect-container</span> { <br>	
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">position:</span> relative; <br>	
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">border:</span> 1px solid #999; <br>	
+					} <br>	
+					<span class="css-selector">.demo-2-2-div</span> { <br>	
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">width:</span> 50px; <br>	
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">height:</span> 50px; <br>	
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">background-color:</span> blue; <br>	
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">position:</span> absolute; <br>	
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">top:</span> 50%; <br>	
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">left:</span> 50%; <br>	
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">transform:</span> translate(-50%, -50%);  <br>	 
+						&nbsp; &nbsp; &nbsp; &nbsp; /* transform:translate(-25px, -25px); */ <br>	
+					} <br>	
+				</p> 	
+			</div>
+			<div class="example-effect frame">
+				<div class="example-effect-container">
+					<div class="demo-2-2-div">
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+<!-- 	<div class="try-container hidden" id="try-2-2">
+			<div class="try-html frame">
+				<pre>
+					33
+				</pre>
+			</div>
+			<div class="try-css frame">
+				<pre>
+					33
+				</pre>
+			</div>
+			<div class="try-effect frame">
+				
+			</div>
+		</div> -->
+		<div class="example-container hidden" id="example-2-3">
+			<div class="example-html frame">
+				<p>
+					&lt;div class="example-effect-container"> <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="demo-2-3-div">&lt;/div> <br>
+					&lt;/div>
+				</p>
+			</div>
+			<div class="example-css frame">
+				<p>
+					<span class="css-selector">.example-effect-container</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">border:</span> 1px solid #999; <br>
+					} <br>
+					<span class="css-selector">.demo-2-3-div</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">width:</span> 50px; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; /* width: 20%; */ <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">height:</span> 50px; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">background-color:</span> blue; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">margin:</span> auto auto; <br>
+					}
+				</p> 	
+			</div>
+			<div class="example-effect frame">
+				<div class="example-effect-container">
+					<div class="demo-2-3-div"></div>
+				</div>
+			</div>
+		</div>
+<!-- 	<div class="try-container hidden" id="try-2-2">
+			<div class="try-html frame">
+				<pre>
+					33
+				</pre>
+			</div>
+			<div class="try-css frame">
+				<pre>
+					33
+				</pre>
+			</div>
+			<div class="try-effect frame">
+				
+			</div>
+		</div> -->
+
+
+		<div class="example-container hidden" id="example-2-4">
+			<div class="example-html frame">
+				<p>
+					&lt;div class="example-effect-container"> <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="demo-2-4-div"> <br>
+							&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 这是一段居中的文字 <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div> <br>
+					&lt;/div>
+				</p>
+			</div>
+			<div class="example-css frame">
+				<p>
+					<span class="css-selector">.example-effect-container</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">border:</span> 1px solid #999; <br>
+					} <br>
+					<span class="css-selector">.demo-2-4-div</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">width:</span> 90%; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">margin:</span> 10px auto; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">border:</span> 1px solid #999; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">font-size:</span> 15px;  /* 实际上设置的是高度 */ <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">height:</span> 50px; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">line-height:</span> 50px; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">text-align:</span> center; <br>
+					}
+				</p> 	
+			</div>
+			<div class="example-effect frame">
+				<div class="example-effect-container">
+					<div class="demo-2-4-div">
+						这是一段居中的文字
+					</div>
+				</div>
+			</div>
+		</div>
+<!-- 	<div class="try-container hidden" id="try-2-2">
+			<div class="try-html frame">
+				<pre>
+					33
+				</pre>
+			</div>
+			<div class="try-css frame">
+				<pre>
+					33
+				</pre>
+			</div>
+			<div class="try-effect frame">
+				
+			</div>
+		</div> -->
+
+
+		<div class="example-container hidden" id="example-3-1">
+			<div class="example-html frame">
+				<p>
+					&lt;div class="example-effect-container"> <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="demo-3-1-div div-1"> <br>
+							&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 字体行高为normal <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div> <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="demo-3-1-div div-2"> <br>
+							&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 字体行高为3 <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div> <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="demo-3-1-div div-3"> <br>
+							&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 字体行高为45px <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div> <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="demo-3-1-div div-4"> <br>
+							&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 字体行高为300% <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div> <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="demo-3-1-div div-5"> <br>
+							&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 字体行高为3em <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div> <br>
+					&lt;/div>
+				</p>
+			</div>
+			<div class="example-css frame">
+				<p>
+					<span class="css-selector">.demo-3-1-div</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">width:</span> 90%; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">margin:</span> 10px auto; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">border:</span> 1px solid #999; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">font-size:</span> 15px;   <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">height:</span> 45px; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">text-align:</span> center; <br>
+					} <br>
+					<span class="css-selector">.demo-3-1-div.div-1</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">line-height:</span> normal; <br>
+					} <br>
+					<span class="css-selector">.demo-3-1-div.div-2</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">line-height:</span> 3; <br>
+					} <br>
+					<span class="css-selector">.demo-3-1-div.div-3</span>  { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">line-height:</span> 45px; <br>
+					} <br>
+					<span class="css-selector">.demo-3-1-div.div-4</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">line-height:</span> 300%; <br>
+					} <br>
+					<span class="css-selector">.demo-3-1-div.div-5</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">line-height:</span> 3em; <br>
+					}
+				</p> 	
+			</div>
+			<div class="example-effect frame">
+				<div class="example-effect-container">
+					<div class="demo-3-1-div div-1">
+						字体行高为normal
+					</div>
+					<div class="demo-3-1-div div-2">
+						字体行高为3
+					</div>
+					<div class="demo-3-1-div div-3">
+						字体行高为45px
+					</div>
+					<div class="demo-3-1-div div-4">
+						字体行高为300%
+					</div>
+					<div class="demo-3-1-div div-5">
+						字体行高为3em
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 	<div class="try-container hidden" id="try-2-2">
+			<div class="try-html frame">
+				<pre>
+					33
+				</pre>
+			</div>
+			<div class="try-css frame">
+				<pre>
+					33
+				</pre>
+			</div>
+			<div class="try-effect frame">
+				
+			</div>
+		</div> -->
+
+
+		<div class="example-container hidden" id="example-4-1">
+			<div class="example-html frame">
+				<p>
+					&lt;div class="example-effect-container"> <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="demo-4-1-div div-1">&lt;/div> <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="demo-4-1-div div-2">&lt;/div> <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="demo-4-1-div div-3">&lt;/div> <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="demo-4-1-div div-4">&lt;/div> <br>
+					&lt;/div>
+				</p>
+			</div>
+			<div class="example-css frame">
+				<p>
+					<span class="css-selector">#example-4-1 .example-effect-container</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">border:</span> 1px solid #999; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">padding:</span> 5px; <br>
+					} <br>
+					<span class="css-selector">.demo-4-1-div</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">width:</span> 100px; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">height:</span> 60px; <br>
+					} <br>
+					<span class="css-selector">.demo-4-1-div.div-1</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">background-color:</span> blue; <br>
+					} <br>
+					<span class="css-selector">.demo-4-1-div.div-2</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">background-color: </span>red; <br>
+					} <br>
+					<span class="css-selector">.demo-4-1-div.div-3</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">background-color:</span> yellow; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">height:</span> 30px; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">width:</span> 300px; <br>
+					} <br>
+					<span class="css-selector">.demo-4-1-div.div-4</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">background-color:</span> green; <br>
+					}
+				</p> 	
+			</div>
+			<div class="example-effect frame">
+				<div class="example-effect-container">
+					<div class="demo-4-1-div div-1"></div>
+					<div class="demo-4-1-div div-2"></div>
+					<div class="demo-4-1-div div-3"></div>
+					<div class="demo-4-1-div div-4"></div>
+				</div>
+			</div>
+		</div>
+<!-- 	<div class="try-container hidden" id="try-2-2">
+			<div class="try-html frame">
+				<pre>
+					33
+				</pre>
+			</div>
+			<div class="try-css frame">
+				<pre>
+					33
+				</pre>
+			</div>
+			<div class="try-effect frame">
+				
+			</div>
+		</div> -->
+
+
+		<div class="example-container hidden" id="example-4-2">
+			<div class="example-html frame">
+				<p>
+					&lt;div class="example-effect-container"> <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="demo-4-2-div div-1">&lt;/div> <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="demo-4-2-div div-2">&lt;/div> <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="demo-4-2-div div-3">&lt;/div> <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="demo-4-2-div div-4">&lt;/div> <br>
+					&lt;/div>
+				</p>
+			</div>
+			<div class="example-css frame">
+				<p>
+					<span class="css-selector">#example-4-2 .example-effect-container</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">border:</span> 1px solid #999; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">padding:</span> 5px; <br>
+					} <br>
+					<span class="css-selector">.demo-4-2-div</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">width:</span> 100px; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">height:</span> 60px; <br>
+					} <br>
+					<span class="css-selector">.demo-4-2-div.div-1</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">background-color:</span> blue; <br>
+					} <br>
+					<span class="css-selector">.demo-4-2-div.div-2</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">background-color:</span> red; <br>
+					} <br>
+					<span class="css-selector">.demo-4-2-div.div-3</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">background-color:</span> yellow; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">float:</span> right; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">height:</span> 30px; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">width:</span> 300px; <br>
+					} <br>
+					<span class="css-selector">.demo-4-2-div.div-4</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">background-color:</span> green; <br>
+					}
+				</p> 	
+			</div>
+			<div class="example-effect frame">
+				<div class="example-effect-container">
+					<div class="demo-4-2-div div-1"></div>
+					<div class="demo-4-2-div div-2"></div>
+					<div class="demo-4-2-div div-3"></div>
+					<div class="demo-4-2-div div-4"></div>
+				</div>
+			</div>
+		</div>
+<!-- 	<div class="try-container hidden" id="try-2-2">
+			<div class="try-html frame">
+				<pre>
+					33
+				</pre>
+			</div>
+			<div class="try-css frame">
+				<pre>
+					33
+				</pre>
+			</div>
+			<div class="try-effect frame">
+				
+			</div>
+		</div> -->
+
+
+		<div class="example-container hidden" id="example-4-3">
+			<div class="example-html frame">
+				<p>
+					&lt;div class="example-effect-container"> <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="demo-4-3-div div-1">&lt;/div> <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="demo-4-3-div div-2">&lt;/div> <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="demo-4-3-div div-3">&lt;/div> <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="demo-4-3-div div-4">&lt;/div> <br>
+					&lt;/div>
+				</p>
+			</div>
+			<div class="example-css frame">
+				<p>
+					<span class="css-selector">#example-4-3 .example-effect-container </span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">border: </span> 1px solid #999; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">padding: </span> 5px; <br>
+					} <br>
+					<span class="css-selector">.demo-4-3-div </span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">width: </span> 100px; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">height: </span> 60px; <br>
+					} <br>
+					<span class="css-selector">.demo-4-3-div.div-1 </span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">background-color: </span> blue; <br>
+					} <br>
+					<span class="css-selector">.demo-4-3-div.div-2 </span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">background-color: </span> red4 <br>
+					} <br>
+					<span class="css-selector">.demo-4-3-div.div-3 </span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">background-color: </span> yellow; <br>
+					} <br>
+					<span class="css-selector">.demo-4-3-div.div-4 </span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">background-color: </span> green; <br>
+					}
+				</p> 	
+			</div>
+			<div class="example-effect frame">
+				<div class="example-effect-container">
+					<div class="demo-4-3-div div-1"></div>
+					<div class="demo-4-3-div div-2"></div>
+					<div class="demo-4-3-div div-3"></div>
+					<div class="demo-4-3-div div-4"></div>
+				</div>
+			</div>
+		</div>
+<!-- 	<div class="try-container hidden" id="try-2-2">
+			<div class="try-html frame">
+				<pre>
+					33
+				</pre>
+			</div>
+			<div class="try-css frame">
+				<pre>
+					33
+				</pre>
+			</div>
+			<div class="try-effect frame">
+				
+			</div>
+		</div> -->
+
+
+		<div class="example-container hidden" id="example-4-4">
+			<div class="example-html frame">
+				<p>
+					&lt;div class="example-effect-container"> <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="demo-4-4-div div-1">&lt;/div> <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="demo-4-4-div div-2">&lt;/div> <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="demo-4-4-div div-3">&lt;/div> <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="demo-4-4-div div-4">&lt;/div> <br>
+					&lt;/div>
+				</p>
+			</div>
+			<div class="example-css frame">
+				<p>
+					<span class="css-selector">#example-4-4 .example-effect-container</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">border:</span> 1px solid #999; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">padding:</span> 5px; <br>
+					} <br>
+					<span class="css-selector">.demo-4-4-div</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">width:</span> 100px; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">height:</span> 60px; <br>
+					} <br>
+					<span class="css-selector">.demo-4-4-div.div-1</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">background-color:</span> blue; <br>
+					} <br>
+					<span class="css-selector">.demo-4-4-div.div-2</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">background-color:</span> red; <br>
+					} <br>
+					<span class="css-selector">.demo-4-4-div.div-3</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">background-color:</span> yellow; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">float:</span> right; <br>
+					} <br>
+					<span class="css-selector">.demo-4-4-div.div-4</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">background-color:</span> green; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">float:</span> right; <br>
+					}
+				</p> 	
+			</div>
+			<div class="example-effect frame">
+				<div class="example-effect-container">
+					<div class="demo-4-4-div div-1"></div>
+					<div class="demo-4-4-div div-2"></div>
+					<div class="demo-4-4-div div-3"></div>
+					<div class="demo-4-4-div div-4"></div>
+				</div>
+			</div>
+		</div>
+<!-- 	<div class="try-container hidden" id="try-2-2">
+			<div class="try-html frame">
+				<pre>
+					33
+				</pre>
+			</div>
+			<div class="try-css frame">
+				<pre>
+					33
+				</pre>
+			</div>
+			<div class="try-effect frame">
+				
+			</div>
+		</div> -->
+
+
+		<div class="example-container hidden" id="example-4-5">
+			<div class="example-html frame">
+				<p>
+					&lt;div class="example-effect-container"> <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="demo-4-5-div div-1">&lt;/div> <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="demo-4-5-div div-2">&lt;/div> <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="demo-4-5-div div-3">&lt;/div> <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="demo-4-5-div div-4">&lt;/div> <br>
+					&lt;/div>
+				</p>
+			</div>
+			<div class="example-css frame">
+				<p>
+					<span class="css-selector">#example-4-5 .example-effect-container</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">border:</span> 1px solid #999; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">padding:</span> 5px; <br>
+					} <br>
+					<span class="css-selector">.demo-4-5-div</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">width:</span> 100px; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">height:</span> 60px; <br>
+					} <br>
+					<span class="css-selector">.demo-4-5-div.div-1</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">background-color:</span> blue; <br>
+					} <br>
+					<span class="css-selector">.demo-4-5-div.div-2</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">background-color:</span> red; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">display:</span> inline-block; <br>
+					} <br>
+					<span class="css-selector">.demo-4-5-div.div-3</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">background-color:</span> yellow; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">float:</span> right; <br>
+					} <br>
+					<span class="css-selector">.demo-4-5-div.div-4</span> { <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">background-color:</span> green; <br>
+						&nbsp; &nbsp; &nbsp; &nbsp; <span class="css-name">float:</span> right; <br>
+					}
+				</p> 	
+			</div>
+			<div class="example-effect frame">
+				<div class="example-effect-container">
+					<div class="demo-4-5-div div-1"></div>
+					<div class="demo-4-5-div div-2"></div>
+					<div class="demo-4-5-div div-3"></div>
+					<div class="demo-4-5-div div-4"></div>
+				</div>
+			</div>
+		</div>
+<!-- 	<div class="try-container hidden" id="try-2-2">
+			<div class="try-html frame">
+				<pre>
+					33
+				</pre>
+			</div>
+			<div class="try-css frame">
+				<pre>
+					33
+				</pre>
+			</div>
+			<div class="try-effect frame">
+				
+			</div>
+		</div> -->
+
+
+		<div class="example-container hidden" id="example-5-1">
+			<div class="example-html frame">
+				<p>
+					&lt;link rel="stylesheet" href="./icon/iconfont.css"> <br>
+					&lt;!-- 链接到所下载的文件夹里的css文件，使用已经定义好的样式 --> <br>
+					&lt;div class="example-effect-container"><br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="input-container"><br>
+							&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="text"><br>
+							&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;span class="iconfont icon-xiangji">&lt;/span><br>
+						&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div><br>
+					&lt;/div>
+				</p>
+			</div>
+			<div class="example-css frame">
+				<p>
+					无
+				</p> 	
+			</div>
+			<div class="example-effect frame">
+				<div class="example-effect-container">
+					<div class="input-container">
+						<input type="text">
+						<span class="iconfont icon-xiangji"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+<!-- 	<div class="try-container hidden" id="try-2-2">
+			<div class="try-html frame">
+				<pre>
+					33
+				</pre>
+			</div>
+			<div class="try-css frame">
+				<pre>
+					33
+				</pre>
+			</div>
+			<div class="try-effect frame">
+				
+			</div>
+		</div> -->
+
+
+	</main>
+
+	<footer></footer>
+</body>
+	<script type="text/javascript" src="./script.js"></script>
+</html>

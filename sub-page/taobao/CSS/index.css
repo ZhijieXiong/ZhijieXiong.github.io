@@ -1,0 +1,283 @@
+@import 'reset.css';
+
+
+/* 自定义字体（使用图标需要用到） */
+@font-face {
+  	font-family: 'iconfont';
+  	src: url('../font/iconfont.eot');
+  	src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+       	url('../font/iconfont.woff2') format('woff2'),
+        url('../font/iconfont.woff') format('woff'),
+        url('../font/iconfont.ttf') format('truetype'),
+        url('../font/iconfont.svg#iconfont') format('svg');
+}
+
+
+/*  定义使用 iconfont 的样式 
+    然后再挑选相应图标并获取字体编码，应用于页面*/
+.iconfont{
+  	font-family: "iconfont" !important;
+  	font-size: 12px;
+  	font-style: normal;
+ 
+  	-webkit-font-smoothing: antialiased;  
+  	-moz-osx-font-smoothing: grayscale;
+}
+ 
+
+
+/* 头部导航样式 */
+#head-nav-bg{
+	background-color: rgb(245, 245, 245);
+}
+#head-nav{
+	height: 35px;
+	line-height: 18px;
+	font-size: 12px;
+	background-color: rgb(245, 245, 245);
+}
+#head-nav li{
+	float: left;
+	line-height: 35px;
+}
+#head-nav li a.login{
+	color: #F22E00;
+}
+#head-nav li span.down-arrow{
+	font-size: 12px;
+	margin: -4px 20px 0 0;
+	color: #3C3C3C;
+}
+#head-nav li a.store{
+	margin: 0 5px 0 0;
+}
+#head-nav li a:hover{
+	color: #F40;
+}
+
+
+
+/* 头部广告样式 */
+#head-ad{
+	background-color: #F40D4D;
+}
+
+
+
+/* 头部搜索样式 */
+/* 第一部分 */
+#head-search{
+	padding: 22px 0 0;
+}
+#head-search .signal-wrapper{
+	width: 142px;
+	height: 58px;
+	margin: 6px 0 0 22px;
+	background: url(../imgs/taobaowang.png) 0 0 no-repeat;
+}
+#head-search .signal-wrapper a{
+	width: 142px;
+	height: 58px;
+}
+#head-search .signal-wrapper h1{
+	text-indent: -9999px;
+}
+
+/* 第二部分 */
+#head-search .floatRight{
+	position: relative;
+	right: 60px;
+
+	width: 80px;
+	height: 90px;
+	margin-right: 45px;
+	background-color: #FFF;
+}
+#head-search .close-icon{
+	position: absolute;
+	left: -15px;
+	border: 1px solid #DDD;
+	width: 14px;
+	height: 14px;
+	color: #DDD;
+}
+#head-search .code-icon{
+	font-size: 62px;
+	margin: 0 0 0 6px;
+	box-sizing: border-box;
+}
+
+/* 第三部分 */
+#head-search .search-wrapper{
+	width: 630px;
+	margin: 0 auto;
+}
+#head-search .search-wrapper .search-top{
+	height: 22px;
+}
+#head-search .search-wrapper li{
+	float: left;
+	width: 36px;
+	line-height: 22px;
+	margin-right: 4px;
+	text-align: center;
+	cursor: pointer;
+}
+#head-search .search-wrapper li:hover{
+	background-color: #FFEEE5;
+}
+#head-search .search-wrapper li.active{
+	color: #FFF;
+	font-weight: bold;
+	margin-left: 17px;
+	background-image: linear-gradient(to right, #FF9000, #FF5000);
+
+	border-radius: 6px 6px 0 0;
+}
+#head-search .search-content{
+	height: 40px;
+}
+#head-search .search-box{
+	height: 40px;
+	width: 554px;
+	box-sizing: border-box;
+	border: 2px solid #F40;
+	overflow: hidden;
+	position: absolute;
+	border-right: none;
+	border-radius: 20px 0 0 20px;
+}
+#head-search .search-box input{
+	outline: none;
+	border: none;
+	width: 490px;
+	height: 36px;
+	line-height: 36px; 
+	text-indent: 10px;
+	position: absolute;
+	z-index: 1;
+	background-color: transparent; 
+}
+#head-search .search-box .placeholder{
+	position: absolute;
+	top: 7px;
+	left: 14px;
+}
+#head-search .placeholder .search-icon{
+	font-size: 18px;
+}
+#head-search .placeholder span.text{
+	color: #DDDDDD;
+	vertical-align: 2px;
+}
+#head-search .camera-icon{
+	position: absolute;
+	right: 20px;
+	color: #9C9C9C;
+	font-size: 28px;
+	top: -2px;
+	cursor: pointer;
+}
+#head-search .search-bt{
+	float: right;
+	width: 76px;
+	font-size: 18px;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	border: none;
+	color: #FFF;
+	border-radius: 0 20px 20px 0;
+	background-image: linear-gradient(to right, #FF9000, #FF5000);
+}
+#head-search .hotKey a{
+	height: 14px;
+}
+#head-search .hotKey a:hover{
+	color: #F40;
+}
+
+
+
+/* 导航栏样式 */
+#nav h2{
+	height: 30px;
+	width: 190px;
+	font-size: 16px;
+	line-height: 30px;
+	background-color: #F50;
+	text-align: center;
+	color: #FFF;
+}
+#nav ul{
+	width: calc(100% -190px);  
+	/* calc计算用的函数， 100%表示父级宽度 */
+	width: 1000px;
+	background-image: linear-gradient(to right, #FF9000, #FF5000);
+}
+#nav ul li{
+	float: left;
+	line-height: 30px;
+	font-size: 14px;
+	color: #FFF;
+	font-weight: bold;
+	position: relative;
+	padding: 0 4px;
+	margin: 0 3px;
+}
+#nav ul li a{
+	color: #FFF;
+	cursor: pointer;
+	padding: 0 5px;
+}
+/* 用伪元素选择器实现鼠标聚焦出现图片效果 */
+#nav ul li:hover::before{
+	content: '';
+	position: absolute;
+	width: 23px;
+	height: 13px;
+	background-image: 
+}
+
+
+
+/* 第一屏内容 */
+#first-screen{
+	overflow: hidden;
+}
+
+/* 左边 */
+#first-screen .firstLeft{
+	width: 900px;
+	height: 522px;
+}
+/* 左边导航栏 */
+#first-screen .sideNav{
+	width: 190px;
+	border: 1px solid rgb(255, 80, 0);
+}
+#first-screen .sideNav li{
+	height: 32px;
+	line-height: 32px;
+	padding: 0 19px 0 25px;
+}
+#first-screen .sideNav a{
+	color: #666;
+}
+#first-screen .sideNav .iconfont{
+	font-size: 12px;
+	color: #666;
+}
+
+
+/* 右边 */
+#first-screen .firstRight{
+	width: 290px;
+	height: 512px;
+	margin: 10px 0 0 0;
+}
+
+
+
+
+
