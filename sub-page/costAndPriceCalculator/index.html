@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- 引入 jQuery 3.6.x -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>成本与价格计算器</h1>
+    </header>
+
+    <main>
+      <div class="calculator">
+        <h2>历史存储</h2>
+        <div class="input-output" id="history-output">
+          <div class="history-output-section" id="cost-calculator-history-output">
+            <div class="letf-2-right-center">
+              <h3>成本计算历史结果</h3>
+              <button class="persistence-btn" id="cost-calculator-output-read-btn">读取</button>
+              <button class="persistence-btn">导出</button>
+            </div>
+            <hr />
+            <div class="calculator-output-item-list" id="history-cost-calculator-output-item-list"></div>
+          </div>
+
+          <div class="history-output-section" id="price-calculator-history-output">
+            <div class="letf-2-right-center">
+              <h3>价格制定历史结果</h3>
+              <button class="persistence-btn" id="price-calculator-output-read-btn">读取</button>
+              <button class="persistence-btn">导出</button>
+            </div>
+            <hr />
+            <div class="calculator-output-item-list" id="history-price-calculator-output-item-list"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="calculator" id="cost-calculator">
+        <h2>成本计算</h2>
+        <div class="input-output" id="cost-calculator-input-output">
+          <div class="input-section" id="cost-calculator-input-section">
+            <label for="cost-calculator-total-cost"
+              >总价格，例如一袋面粉的价格</label
+            >
+            <input
+              id="cost-calculator-total-cost"
+              placeholder="23"
+              type="number"
+              min="0.001"
+            />
+
+            <label for="cost-calculator-total-count-unit"
+              >总单位，例如一袋面粉的总重量</label
+            >
+            <input
+              id="cost-calculator-total-count-unit"
+              placeholder="1000"
+              type="number"
+              min="0.001"
+            />
+
+            <label for="cost-calculator-target-count-unit"
+              >目标单位，例如计算100g面粉的成本</label
+            >
+            <input
+              id="cost-calculator-target-count-unit"
+              placeholder="250"
+              type="number"
+              min="0.001"
+            />
+
+            <label for="cost-calculator-notes">备注说明</label>
+            <input
+              id="cost-calculator-notes"
+              placeholder="司康面粉的成本"
+              type="string"
+            />
+
+            <button id="cost-calculator-btn">计算</button>
+          </div>
+
+          <div class="output-section" id="cost-calculator-output-section">
+            <div class="letf-2-right-center">
+              <h3>计算结果</h3>
+              <button class="persistence-btn">导出</button>
+              <button class="persistence-btn" id="cost-calculator-output-save-btn">存储</button>
+            </div>
+            <hr />
+            <div class="calculator-output-item-list" id="cost-calculator-output-item-list"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="calculator" id="price-calculator">
+        <h2>价格制定</h2>
+        <div class="input-output" id="price-calculator-input-output">
+          <div class="input-section" id="price-calculator-input-section">
+            <p><strong>请选择成本设置方式</strong></p>
+            <div class="single-choice" id="price-calculator-input-selection">
+              <div class="choice-option">
+                <input
+                  type="radio"
+                  id="price-calculator-input-selection-option1"
+                  name="price-calculator-input-selection"
+                  value="custom"
+                  checked
+                />
+                <label for="price-calculator-input-selection-option1"
+                  >自定义</label
+                >
+              </div>
+
+              <div class="choice-option">
+                <input
+                  type="radio"
+                  id="price-calculator-input-selection-option2"
+                  name="price-calculator-input-selection"
+                  value="resultFromCostCalculator"
+                />
+                <label for="price-calculator-input-selection-option2"
+                  >基于成本计算的结果</label
+                >
+                
+              </div>
+            </div>
+
+            <p><strong>请选择利润设置方式</strong></p>
+            <div class="single-choice" id="price-calculator-profit-selection">
+              <div class="choice-option">
+                <input
+                  type="radio"
+                  id="price-calculator-profit-selection-option1"
+                  name="price-calculator-profit-selection"
+                  value="profitMargin"
+                  checked
+                />
+                <label for="price-calculator-profit-selection-option1"
+                  >基于利润率</label
+                >
+              </div>
+              <div class="choice-option">
+                <input
+                  type="radio"
+                  id="price-calculator-profit-selection-option2"
+                  name="price-calculator-profit-selection"
+                  value="absoluteProfit"
+                />
+                <label for="price-calculator-profit-selection-option2"
+                  >基于绝对利润</label
+                >
+                
+              </div>
+            </div>
+
+            <label for="price-calculator-custom-input" style="margin-top: 16px;">自定义成本输入</label>
+            <input
+              id="price-calculator-custom-input"
+              placeholder="若有多个成本，则用空格隔开"
+              type="string"
+            />
+
+            <label for="price-calculator-profit-input" style="margin-top: 16px;">利润设置</label>
+            <input
+              id="price-calculator-profit-input"
+              placeholder="若基于利润率，则单位为%"
+              type="number"
+            />
+
+            <label for="price-calculator-notes" style="margin-top: 16px;">备注说明</label>
+            <input
+              id="price-calculator-notes"
+              placeholder="司康的价格"
+              type="string"
+            />
+
+            <button id="price-calculator-btn">计算</button>
+          </div>
+
+          <div class="output-section" id="price-calculator-output-section">
+            <div class="letf-2-right-center">
+              <h3>计算结果</h3>
+              <button class="persistence-btn">导出</button>
+              <button class="persistence-btn" id="price-calculator-output-save-btn">存储</button>
+            </div>
+            <hr />
+            <div class="calculator-output-item-list" id="price-calculator-output-item-list"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
