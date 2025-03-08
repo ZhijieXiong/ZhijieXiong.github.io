@@ -1,6 +1,4 @@
 .DS_store
 
-/pyedmine/excel_data
-pyedmine/excel_data
-/pyedmine/excel2json.py
-pyedmine/excel2json.py
+sub-page/pyedmine/excel_data
+sub-page/pyedmine/excel2json.py
