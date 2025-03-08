@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Leaderboard</title>
+    <link rel="stylesheet" href="rankingList.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- 层级选择器 -->
+        <div class="selectors">
+            <div class="selector" id="task-selector"></div>
+            <div class="selector" id="scene-selector"></div>
+            <div class="selector" id="setting-selector"></div>
+            <div class="selector" id="metric-selector"></div>
+        </div>
+
+        <!-- 动态表格 -->
+        <div id="table-container"></div>
+    </div>
+    <script src="rankingList.js"></script>
+</body>
+</html>

@@ -1,0 +1,449 @@
+{
+  "task": "ER",
+  "scenes": {
+    "overall-top5": {
+      "datasets": {
+        "assist2009": {
+          "metrics": {
+            "KG4EX_ACC": {
+              "user-cossim-rec0": 0.82278,
+              "que-cossim-rec0": 0.83073
+            },
+            "KG4EX_NOV": {
+              "user-cossim-rec0": 0.80407,
+              "que-cossim-rec0": 0.73791
+            },
+            "OFFLINE_ACC": {
+              "user-cossim-rec0": 0.0,
+              "que-cossim-rec0": 0.01424
+            },
+            "OFFLINE_NDCG": {
+              "user-cossim-rec0": 0.0,
+              "que-cossim-rec0": 0.01514
+            },
+            "PERSONALIZATION_INDEX": {
+              "user-cossim-rec0": 0.9986,
+              "que-cossim-rec0": 0.99913
+            }
+          }
+        },
+        "assist2017": {
+          "metrics": {
+            "KG4EX_ACC": {
+              "user-cossim-rec0": 0.68007,
+              "que-cossim-rec0": 0.67135
+            },
+            "KG4EX_NOV": {
+              "user-cossim-rec0": 0.96517,
+              "que-cossim-rec0": 0.93675
+            },
+            "OFFLINE_ACC": {
+              "user-cossim-rec0": 0.0,
+              "que-cossim-rec0": 0.06493
+            },
+            "OFFLINE_NDCG": {
+              "user-cossim-rec0": 0.0,
+              "que-cossim-rec0": 0.08297
+            },
+            "PERSONALIZATION_INDEX": {
+              "user-cossim-rec0": 0.99399,
+              "que-cossim-rec0": 0.99692
+            }
+          }
+        },
+        "statics2011": {
+          "metrics": {
+            "KG4EX_ACC": {
+              "user-cossim-rec0": 0.8705,
+              "que-cossim-rec0": 0.87455
+            },
+            "KG4EX_NOV": {
+              "user-cossim-rec0": 0.80826,
+              "que-cossim-rec0": 0.7599
+            },
+            "OFFLINE_ACC": {
+              "user-cossim-rec0": 0.0,
+              "que-cossim-rec0": 0.21465
+            },
+            "OFFLINE_NDCG": {
+              "user-cossim-rec0": 0.0,
+              "que-cossim-rec0": 0.22916
+            },
+            "PERSONALIZATION_INDEX": {
+              "user-cossim-rec0": 0.99445,
+              "que-cossim-rec0": 0.99331
+            }
+          }
+        },
+        "slepemapy-anatomy": {
+          "metrics": {
+            "KG4EX_ACC": {
+              "user-cossim-rec0": 0.89041,
+              "que-cossim-rec0": 0.90071
+            },
+            "KG4EX_NOV": {
+              "user-cossim-rec0": 0.94157,
+              "que-cossim-rec0": 0.92804
+            },
+            "OFFLINE_ACC": {
+              "user-cossim-rec0": 0.0,
+              "que-cossim-rec0": 0.0177
+            },
+            "OFFLINE_NDCG": {
+              "user-cossim-rec0": 0.0,
+              "que-cossim-rec0": 0.02392
+            },
+            "PERSONALIZATION_INDEX": {
+              "user-cossim-rec0": 0.9976,
+              "que-cossim-rec0": 0.99854
+            }
+          }
+        },
+        "edi2020-task34": {
+          "metrics": {
+            "KG4EX_ACC": {
+              "user-cossim-rec0": 0.73951,
+              "que-cossim-rec0": 0.74313
+            },
+            "KG4EX_NOV": {
+              "user-cossim-rec0": 0.94843,
+              "que-cossim-rec0": 0.92449
+            },
+            "OFFLINE_ACC": {
+              "user-cossim-rec0": 0.0,
+              "que-cossim-rec0": 0.26463
+            },
+            "OFFLINE_NDCG": {
+              "user-cossim-rec0": 0.0,
+              "que-cossim-rec0": 0.28788
+            },
+            "PERSONALIZATION_INDEX": {
+              "user-cossim-rec0": 0.99317,
+              "que-cossim-rec0": 0.99367
+            }
+          }
+        },
+        "ednet-kt1": {
+          "metrics": {
+            "KG4EX_ACC": {
+              "user-cossim-rec0": 0.65923,
+              "que-cossim-rec0": 0.65292
+            },
+            "KG4EX_NOV": {
+              "user-cossim-rec0": 0.94258,
+              "que-cossim-rec0": 0.9329
+            },
+            "OFFLINE_ACC": {
+              "user-cossim-rec0": 0.0,
+              "que-cossim-rec0": 0.00634
+            },
+            "OFFLINE_NDCG": {
+              "user-cossim-rec0": 0.0,
+              "que-cossim-rec0": 0.00755
+            },
+            "PERSONALIZATION_INDEX": {
+              "user-cossim-rec0": 0.99781,
+              "que-cossim-rec0": 0.99823
+            }
+          }
+        }
+      }
+    },
+    "overall-top10": {
+      "datasets": {
+        "assist2009": {
+          "metrics": {
+            "KG4EX_ACC": {
+              "user-cossim-rec0": 0.82379,
+              "que-cossim-rec0": 0.83085
+            },
+            "KG4EX_NOV": {
+              "user-cossim-rec0": 0.81877,
+              "que-cossim-rec0": 0.73815
+            },
+            "OFFLINE_ACC": {
+              "user-cossim-rec0": 0.0,
+              "que-cossim-rec0": 0.01474
+            },
+            "OFFLINE_NDCG": {
+              "user-cossim-rec0": 0.0,
+              "que-cossim-rec0": 0.01915
+            },
+            "PERSONALIZATION_INDEX": {
+              "user-cossim-rec0": 0.99795,
+              "que-cossim-rec0": 0.99862
+            }
+          }
+        },
+        "assist2017": {
+          "metrics": {
+            "KG4EX_ACC": {
+              "user-cossim-rec0": 0.68027,
+              "que-cossim-rec0": 0.67131
+            },
+            "KG4EX_NOV": {
+              "user-cossim-rec0": 0.96645,
+              "que-cossim-rec0": 0.9376
+            },
+            "OFFLINE_ACC": {
+              "user-cossim-rec0": 0.0,
+              "que-cossim-rec0": 0.04695
+            },
+            "OFFLINE_NDCG": {
+              "user-cossim-rec0": 0.0,
+              "que-cossim-rec0": 0.0691
+            },
+            "PERSONALIZATION_INDEX": {
+              "user-cossim-rec0": 0.99262,
+              "que-cossim-rec0": 0.99483
+            }
+          }
+        },
+        "statics2011": {
+          "metrics": {
+            "KG4EX_ACC": {
+              "user-cossim-rec0": 0.86876,
+              "que-cossim-rec0": 0.87534
+            },
+            "KG4EX_NOV": {
+              "user-cossim-rec0": 0.81519,
+              "que-cossim-rec0": 0.76418
+            },
+            "OFFLINE_ACC": {
+              "user-cossim-rec0": 0.0,
+              "que-cossim-rec0": 0.18009
+            },
+            "OFFLINE_NDCG": {
+              "user-cossim-rec0": 0.0,
+              "que-cossim-rec0": 0.21463
+            },
+            "PERSONALIZATION_INDEX": {
+              "user-cossim-rec0": 0.99172,
+              "que-cossim-rec0": 0.98899
+            }
+          }
+        },
+        "slepemapy-anatomy": {
+          "metrics": {
+            "KG4EX_ACC": {
+              "user-cossim-rec0": 0.88998,
+              "que-cossim-rec0": 0.90062
+            },
+            "KG4EX_NOV": {
+              "user-cossim-rec0": 0.94465,
+              "que-cossim-rec0": 0.92999
+            },
+            "OFFLINE_ACC": {
+              "user-cossim-rec0": 0.0,
+              "que-cossim-rec0": 0.01608
+            },
+            "OFFLINE_NDCG": {
+              "user-cossim-rec0": 0.0,
+              "que-cossim-rec0": 0.02867
+            },
+            "PERSONALIZATION_INDEX": {
+              "user-cossim-rec0": 0.99645,
+              "que-cossim-rec0": 0.9974
+            }
+          }
+        },
+        "edi2020-task34": {
+          "metrics": {
+            "KG4EX_ACC": {
+              "user-cossim-rec0": 0.73939,
+              "que-cossim-rec0": 0.74374
+            },
+            "KG4EX_NOV": {
+              "user-cossim-rec0": 0.94949,
+              "que-cossim-rec0": 0.92658
+            },
+            "OFFLINE_ACC": {
+              "user-cossim-rec0": 0.0,
+              "que-cossim-rec0": 0.21732
+            },
+            "OFFLINE_NDCG": {
+              "user-cossim-rec0": 0.0,
+              "que-cossim-rec0": 0.25559
+            },
+            "PERSONALIZATION_INDEX": {
+              "user-cossim-rec0": 0.99076,
+              "que-cossim-rec0": 0.98916
+            }
+          }
+        },
+        "ednet-kt1": {
+          "metrics": {
+            "KG4EX_ACC": {
+              "user-cossim-rec0": 0.65935,
+              "que-cossim-rec0": 0.65282
+            },
+            "KG4EX_NOV": {
+              "user-cossim-rec0": 0.94354,
+              "que-cossim-rec0": 0.9335
+            },
+            "OFFLINE_ACC": {
+              "user-cossim-rec0": 0.0,
+              "que-cossim-rec0": 0.00525
+            },
+            "OFFLINE_NDCG": {
+              "user-cossim-rec0": 0.0,
+              "que-cossim-rec0": 0.00789
+            },
+            "PERSONALIZATION_INDEX": {
+              "user-cossim-rec0": 0.99716,
+              "que-cossim-rec0": 0.99765
+            }
+          }
+        }
+      }
+    },
+    "overall-top20": {
+      "datasets": {
+        "assist2009": {
+          "metrics": {
+            "KG4EX_ACC": {
+              "user-cossim-rec0": 0.82394,
+              "que-cossim-rec0": 0.83087
+            },
+            "KG4EX_NOV": {
+              "user-cossim-rec0": 0.83839,
+              "que-cossim-rec0": 0.73856
+            },
+            "OFFLINE_ACC": {
+              "user-cossim-rec0": 0.0,
+              "que-cossim-rec0": 0.01315
+            },
+            "OFFLINE_NDCG": {
+              "user-cossim-rec0": 0.0,
+              "que-cossim-rec0": 0.02528
+            },
+            "PERSONALIZATION_INDEX": {
+              "user-cossim-rec0": 0.99666,
+              "que-cossim-rec0": 0.99759
+            }
+          }
+        },
+        "assist2017": {
+          "metrics": {
+            "KG4EX_ACC": {
+              "user-cossim-rec0": 0.68039,
+              "que-cossim-rec0": 0.67324
+            },
+            "KG4EX_NOV": {
+              "user-cossim-rec0": 0.96708,
+              "que-cossim-rec0": 0.94006
+            },
+            "OFFLINE_ACC": {
+              "user-cossim-rec0": 0.0,
+              "que-cossim-rec0": 0.03553
+            },
+            "OFFLINE_NDCG": {
+              "user-cossim-rec0": 0.0,
+              "que-cossim-rec0": 0.06907
+            },
+            "PERSONALIZATION_INDEX": {
+              "user-cossim-rec0": 0.98929,
+              "que-cossim-rec0": 0.99111
+            }
+          }
+        },
+        "statics2011": {
+          "metrics": {
+            "KG4EX_ACC": {
+              "user-cossim-rec0": 0.8679,
+              "que-cossim-rec0": 0.87606
+            },
+            "KG4EX_NOV": {
+              "user-cossim-rec0": 0.82252,
+              "que-cossim-rec0": 0.77211
+            },
+            "OFFLINE_ACC": {
+              "user-cossim-rec0": 0.0,
+              "que-cossim-rec0": 0.14307
+            },
+            "OFFLINE_NDCG": {
+              "user-cossim-rec0": 0.0,
+              "que-cossim-rec0": 0.22763
+            },
+            "PERSONALIZATION_INDEX": {
+              "user-cossim-rec0": 0.98658,
+              "que-cossim-rec0": 0.98157
+            }
+          }
+        },
+        "slepemapy-anatomy": {
+          "metrics": {
+            "KG4EX_ACC": {
+              "user-cossim-rec0": 0.88999,
+              "que-cossim-rec0": 0.90001
+            },
+            "KG4EX_NOV": {
+              "user-cossim-rec0": 0.94824,
+              "que-cossim-rec0": 0.93728
+            },
+            "OFFLINE_ACC": {
+              "user-cossim-rec0": 0.0,
+              "que-cossim-rec0": 0.01244
+            },
+            "OFFLINE_NDCG": {
+              "user-cossim-rec0": 0.0,
+              "que-cossim-rec0": 0.03488
+            },
+            "PERSONALIZATION_INDEX": {
+              "user-cossim-rec0": 0.99426,
+              "que-cossim-rec0": 0.99539
+            }
+          }
+        },
+        "edi2020-task34": {
+          "metrics": {
+            "KG4EX_ACC": {
+              "user-cossim-rec0": 0.73948,
+              "que-cossim-rec0": 0.74381
+            },
+            "KG4EX_NOV": {
+              "user-cossim-rec0": 0.9503,
+              "que-cossim-rec0": 0.93329
+            },
+            "OFFLINE_ACC": {
+              "user-cossim-rec0": 0.0,
+              "que-cossim-rec0": 0.17003
+            },
+            "OFFLINE_NDCG": {
+              "user-cossim-rec0": 0.0,
+              "que-cossim-rec0": 0.23369
+            },
+            "PERSONALIZATION_INDEX": {
+              "user-cossim-rec0": 0.98639,
+              "que-cossim-rec0": 0.98142
+            }
+          }
+        },
+        "ednet-kt1": {
+          "metrics": {
+            "KG4EX_ACC": {
+              "user-cossim-rec0": 0.65962,
+              "que-cossim-rec0": 0.65243
+            },
+            "KG4EX_NOV": {
+              "user-cossim-rec0": 0.9451,
+              "que-cossim-rec0": 0.93399
+            },
+            "OFFLINE_ACC": {
+              "user-cossim-rec0": 0.0,
+              "que-cossim-rec0": 0.00402
+            },
+            "OFFLINE_NDCG": {
+              "user-cossim-rec0": 0.0,
+              "que-cossim-rec0": 0.00914
+            },
+            "PERSONALIZATION_INDEX": {
+              "user-cossim-rec0": 0.99589,
+              "que-cossim-rec0": 0.99666
+            }
+          }
+        }
+      }
+    }
+  }
+}
