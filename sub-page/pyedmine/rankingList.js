@@ -333,7 +333,6 @@ function calculateSOTA(model, datasets, metric, task) {
     datasetName = dataset_kv[0];
     let dataset = dataset_kv[1];
     if (targetDataset.indexOf(datasetName) < 0) {
-        console.log(datasetName)
         return;
     }
 
