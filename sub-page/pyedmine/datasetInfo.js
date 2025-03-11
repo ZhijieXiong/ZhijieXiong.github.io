@@ -69,6 +69,7 @@ const DATA = {
     "question_sparsity": 0.9913,
     "concept_sparsity": 0.8138,
     "side_info": "timestamp, use_time, num_hint, num_attempt",
+    "link": "https://github.com/riiid/ednet"
   },
   "Edi2020-task1": {
     "num_interaction": 19834813,
@@ -152,7 +153,7 @@ const DATA = {
     "question_sparsity": 0.9616,
     "concept_sparsity": 0.8362,
     "side_info": "concept_text, question_text, timestamp",
-    "link": ""
+    "link": "https://github.com/ai4ed/XES3G5M"
   }
 };
 
