@@ -1,0 +1,65 @@
+{
+    "task": "OTHER",
+    "papers": [
+        {
+            "model_name": "",
+            "paper_title": "Question Difficulty Prediction for READING Problems in Standard Tests",
+            "source": "AAAI[C]",
+            "year": "2017",
+            "tags": [],
+            "perper_link": "https://ojs.aaai.org/index.php/AAAI/article/view/10740/10599",
+            "official_code_link": "",
+            "ref_code_link": ""
+        },
+        {
+            "model_name": "",
+            "paper_title": "Finding Similar Exercises in Online Education Systems",
+            "source": "SIGKDD[C]",
+            "year": "2018",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3219819.3219960",
+            "official_code_link": "",
+            "ref_code_link": ""
+        },
+        {
+            "model_name": "",
+            "paper_title": "Fine-Grained Similarity Measurement between Educational Videos and Exercises",
+            "source": "MM[C]",
+            "year": "2020",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3394171.3413783",
+            "official_code_link": "",
+            "ref_code_link": ""
+        },
+        {
+            "model_name": "",
+            "paper_title": "Educational Question Mining At Scale: Prediction, Analysis and Personalization",
+            "source": "AAAI[C]",
+            "year": "2021",
+            "tags": [],
+            "perper_link": "https://ojs.aaai.org/index.php/AAAI/article/view/17846",
+            "official_code_link": "",
+            "ref_code_link": ""
+        },
+        {
+            "model_name": "",
+            "paper_title": "Question Difficulty Prediction for Multiple Choice Problems in Medical Exams",
+            "source": "CIKM[C]",
+            "year": "2021",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3357384.3358013",
+            "official_code_link": "",
+            "ref_code_link": ""
+        },
+        {
+            "model_name": "",
+            "paper_title": "A Learning-path based Supervised Method for Concept Prerequisite Relations Extraction in Educational Data",
+            "source": "CIKM[C]",
+            "year": "2024",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3627673.3679597",
+            "official_code_link": "",
+            "ref_code_link": ""
+        }
+    ]
+}

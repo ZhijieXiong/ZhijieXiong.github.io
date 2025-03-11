@@ -1,0 +1,75 @@
+{
+    "task": "LearninPath",
+    "papers": [
+        {
+            "model_name": "",
+            "paper_title": "PeerLens: Peer-inspired Interactive Learning Path Planning in Online Qestion Pool",
+            "source": "CHI[C]",
+            "year": "2019",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/fullHtml/10.1145/3290605.3300864",
+            "official_code_link": "",
+            "ref_code_link": ""
+        },
+        {
+            "model_name": "",
+            "paper_title": "Supporting Online Video Learning with Concept Map-based Recommendation of Learning Path",
+            "source": "CHI[C]",
+            "year": "2020",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3442381.3449808",
+            "official_code_link": "",
+            "ref_code_link": ""
+        },
+        {
+            "model_name": "",
+            "paper_title": "ConceptGuide: Supporting Online Video Learning with Concept Map-based Recommendation of Learning Path",
+            "source": "WWW[C]",
+            "year": "2021",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3442381.3449808",
+            "official_code_link": "",
+            "ref_code_link": ""
+        },
+        {
+            "model_name": "",
+            "paper_title": "Unsupervised Learning Style Classification for Learning Path Generation in Online Education Platforms",
+            "source": "SIGKDD[C]",
+            "year": "2022",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3534678.3539107",
+            "official_code_link": "",
+            "ref_code_link": ""
+        },
+        {
+            "model_name": "",
+            "paper_title": "Graph Enhanced Hierarchical Reinforcement Learning for Goal-oriented Learning Path Recommendation",
+            "source": "CIKM[C]",
+            "year": "2023",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3583780.3614897",
+            "official_code_link": "",
+            "ref_code_link": ""
+        },
+        {
+            "model_name": "",
+            "paper_title": "Privileged Knowledge State Distillation for Reinforcement Learning-based Educational Path Recommendation",
+            "source": "SIGKDD[C]",
+            "year": "2024",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3637528.3671872",
+            "official_code_link": "",
+            "ref_code_link": ""
+        },
+        {
+            "model_name": "",
+            "paper_title": "Item-Difficulty-Aware Learning Path Recommendation: From a Real Walking Perspective",
+            "source": "SIGKDD[C]",
+            "year": "2024",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3637528.3671947",
+            "official_code_link": "",
+            "ref_code_link": ""
+        }
+    ]
+}

@@ -1,0 +1,317 @@
+{
+    "task": "CD",
+    "papers": [
+        {
+            "model_name": "IRT",
+            "paper_title": "Multidimensional Item Response Theory",
+            "source": "Book",
+            "year": "2009",
+            "tags": [
+                "Probabilistic Model"
+            ],
+            "perper_link": "https://link.springer.com/book/10.1007/978-0-387-89976-3",
+            "official_code_link": "",
+            "ref_code_link": "https://github.com/bigdata-ustc/EduCDM/blob/main/EduCDM/IRT/GD/IRT.py",
+            "implemented_in_pyedmine": true
+        },
+        {
+            "model_name": "MIRT",
+            "paper_title": "Multidimensional Item Response Theory",
+            "source": "Book",
+            "year": "2009",
+            "tags": [
+                "Probabilistic Model"
+            ],
+            "perper_link": "https://link.springer.com/book/10.1007/978-0-387-89976-3",
+            "official_code_link": "",
+            "ref_code_link": "https://github.com/bigdata-ustc/EduCDM/blob/main/EduCDM/MIRT/MIRT.py",
+            "implemented_in_pyedmine": true
+        },
+        {
+            "model_name": "DINA",
+            "paper_title": "DINA Model and Parameter Estimation: A Didactic",
+            "source": "JEBS[J]",
+            "year": "2009",
+            "tags": [
+                "Probabilistic Model"
+            ],
+            "perper_link": "https://journals.sagepub.com/doi/10.3102/1076998607309474",
+            "official_code_link": "",
+            "ref_code_link": "https://github.com/bigdata-ustc/EduCDM/blob/main/EduCDM/DINA/GD/DINA.py",
+            "implemented_in_pyedmine": true
+        },
+        {
+            "model_name": "",
+            "paper_title": "DIRT: Deep Learning Enhanced Item Response Theory for Cognitive Diagnosis",
+            "source": "CIKM[C]",
+            "year": "2019",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3357384.3358070",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Exploiting Cognitive Structure for Adaptive Learning",
+            "source": "SIGKDD[C]",
+            "year": "2019",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3292500.3330922",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "NCD",
+            "paper_title": "Neural Cognitive Diagnosis for Intelligent Education Systems",
+            "source": "AAAI[C]",
+            "year": "2020",
+            "tags": [
+                "Neraul Network",
+                "MLP-based CDM"
+            ],
+            "perper_link": "https://ojs.aaai.org/index.php/AAAI/article/view/6080",
+            "official_code_link": "https://github.com/bigdata-ustc/EduCDM/blob/main/EduCDM/NCDM/NCDM.py",
+            "ref_code_link": "offcial_code",
+            "implemented_in_pyedmine": true
+        },
+        {
+            "model_name": "",
+            "paper_title": "Using Knowledge Concept Aggregation towards Accurate Cognitive Diagnosis",
+            "source": "CIKM[C]",
+            "year": "2021",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3459637.3482311",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Modeling Context-aware Features for Cognitive Diagnosis in Student Learning",
+            "source": "SIGKDD[C]",
+            "year": "2021",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3447548.3467264",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "RCD",
+            "paper_title": "RCD: Relation Map Driven Cognitive Diagnosis for Intelligent Education Systems",
+            "source": "SIGIR[C]",
+            "year": "2021",
+            "tags": [
+                "Neraul Network",
+                "Graph-based CDM"
+            ],
+            "perper_link": "https://dl.acm.org/doi/abs/10.1145/3404835.3462932",
+            "official_code_link": "https://github.com/bigdata-ustc/RCD/tree/main",
+            "ref_code_link": "offcial_code",
+            "implemented_in_pyedmine": true
+        },
+        {
+            "model_name": "",
+            "paper_title": "Self-supervised Graph Learning for Long-tailed Cognitive Diagnosis",
+            "source": "AAAI[C]",
+            "year": "2022",
+            "tags": [],
+            "perper_link": "https://ojs.aaai.org/index.php/AAAI/article/view/25082/24854",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Cognitive Diagnosis Focusing on Knowledge Concepts",
+            "source": "CIKM[C]",
+            "year": "2022",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3511808.3557096",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Knowledge-Sensed Cognitive Diagnosis for Intelligent Education Platforms",
+            "source": "CIKM[C]",
+            "year": "2022",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3511808.3557372",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "HierCDF: A Bayesian Network-based Hierarchical Cognitive Diagnosis Framework",
+            "source": "SIGKDD[C]",
+            "year": "2022",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3534678.3539486",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Incremental Cognitive Diagnosis for Intelligent Education",
+            "source": "SIGKDD[C]",
+            "year": "2022",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3534678.3539399",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Homogeneous Cohort-Aware Group Cognitive Diagnosis: A Multi-grained Modeling Perspective",
+            "source": "CIKM[C]",
+            "year": "2023",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3583780.3615287",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Disentangling Cognitive Diagnosis with Limited Exercise Labels",
+            "source": "NeurIPS[C]",
+            "year": "2023",
+            "tags": [],
+            "perper_link": "https://openreview.net/forum?id=ogPBujRhiN&noteId=WFTLOt7XbD",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "MoocRadar: A Fine-grained and Multi-aspect Knowledge Repository for Improving Cognitive Student Modeling in MOOCs",
+            "source": "SIGIR[C]",
+            "year": "2023",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3539618.3591898",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Leveraging Transferable Knowledge Concept Graph Embedding for Cold-Start Cognitive Diagnosis",
+            "source": "SIGIR[C]",
+            "year": "2023",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3539618.3591774",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "NeuralCD: A General Framework for Cognitive Diagnosis",
+            "source": "TKDE[T]",
+            "year": "2023",
+            "tags": [],
+            "perper_link": "https://ieeexplore.ieee.org/document/9865139/",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Boosting Neural Cognitive Diagnosis with Student\u2019s Affective State Modeling",
+            "source": "AAAI[C]",
+            "year": "2024",
+            "tags": [],
+            "perper_link": "https://ojs.aaai.org/index.php/AAAI/article/view/27818",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "HeckmanCD: Exploiting Selection Bias in Cognitive Diagnosis",
+            "source": "CIKM[C]",
+            "year": "2024",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3627673.3679648",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "ORCDF: An Oversmoothing-Resistant Cognitive Diagnosis Framework for Student Learning in Online Education Systems",
+            "source": "SIGKDD[C]",
+            "year": "2024",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3637528.3671988",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Path-Specific Causal Reasoning for Fairness-aware Cognitive",
+            "source": "SIGKDD[C]",
+            "year": "2024",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3637528.3672049",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "RDGT: Enhancing Group Cognitive Diagnosis With Relation-Guided Dual-Side Graph Transformer",
+            "source": "TKDE[T]",
+            "year": "2024",
+            "tags": [],
+            "perper_link": "https://ieeexplore.ieee.org/document/10388466/",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Inductive Cognitive Diagnosis for Fast Student Learning in Web-Based Online Intelligent Education Systems",
+            "source": "WWW[C]",
+            "year": "2024",
+            "tags": [],
+            "perper_link": "https://openreview.net/forum?id=ZR05TYT9Aq&referrer=%5Bthe%20profile%20of%20Hong%20Qian%5D(%2Fprofile%3Fid%3D~Hong_Qian1)",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Unified Uncertainty Estimation for Cognitive Diagnosis Models",
+            "source": "WWW[C]",
+            "year": "2024",
+            "tags": [],
+            "perper_link": "https://arxiv.org/abs/2403.14676",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "HyperCD",
+            "paper_title": "Capturing Homogeneous Influence among Students: Hypergraph Cognitive Diagnosis for Intelligent Education Systems",
+            "source": "SIGKDD[C]",
+            "year": "2024",
+            "tags": [
+                "Neraul Network",
+                "Graph-based CDM"
+            ],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3637528.3672002",
+            "official_code_link": "https://github.com/ECNU-ILOG/HyperCDM",
+            "ref_code_link": "offcial_code",
+            "implemented_in_pyedmine": true
+        }
+    ]
+}

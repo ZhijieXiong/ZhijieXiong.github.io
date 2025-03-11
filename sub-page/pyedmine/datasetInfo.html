@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Dataset</title>
+    <link rel="stylesheet" href="datasetInfo.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Educational Dataset</h1>download from <a href="https://github.com/bigdata-ustc/EduData">EduData</a>
+        <table>
+            <thead>
+                <tr>
+                    <th><span class="info-dot" data-field="name"></span>name</th>
+                    <th><span class="info-dot" data-field="num_interaction"></span>n_interaction</th>
+                    <th><span class="info-dot" data-field="num_user"></span>n_user</th>
+                    <th><span class="info-dot" data-field="num_concept"></span>n_concept</th>
+                    <th><span class="info-dot" data-field="num_question"></span>n_question</th>
+                    <th><span class="info-dot" data-field="average_seq_len"></span>ave. seq_len</th>
+                    <th><span class="info-dot" data-field="average_question_acc"></span>ave. answer_acc</th>
+                    <th><span class="info-dot" data-field="question_sparsity"></span>question_sparsity</th>
+                    <th><span class="info-dot" data-field="concept_sparsity"></span>concept_sparsity</th>
+                    <th><span class="info-dot" data-field="side_info"></span>side_info</th>
+                    <th><span class="info-dot" data-field="download"></span>download</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+                <!-- 数据将通过JS填充 -->
+            </tbody>
+        </table>
+    </div>
+    <div id="tooltip" class="tooltip"></div>
+    <script src="datasetInfo.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+}
+
+.sortable:hover {
+  background-color: #e9ecef;
+}
+
+.btn-group .btn {
+  margin: 2px;
+}
+
+.source-group {
+  background-color: #e9ecef;
+  font-weight: bold;
+}
+
+.year-header {
+  background-color: #dee2e6;
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+#numPaper {
+  pointer-events: none; /* 禁用交互 */
+  opacity: 0.6; /* 可选：降低透明度表示禁用状态 */
+  cursor: not-allowed; /* 可选：更改鼠标指针为禁用状态 */
+}

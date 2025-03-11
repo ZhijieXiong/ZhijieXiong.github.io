@@ -1,0 +1,948 @@
+{
+    "task": "KT",
+    "papers": [
+        {
+            "model_name": "DKT",
+            "paper_title": "Deep Knowledge Tracing",
+            "source": "NeurIPS[C]",
+            "year": "2015",
+            "tags": [
+                "Neural Network",
+                "Sequential KTM",
+                "Vectorized User Representation",
+                "RNN-based KTM",
+                "Common Setting"
+            ],
+            "perper_link": "https://proceedings.neurips.cc/paper_files/paper/2015/hash/bac9162b47c56fc8a4d2a519803d51b3-Abstract.html",
+            "official_code_link": "https://github.com/chrispiech/DeepKnowledgeTracing",
+            "ref_code_link": "https://github.com/pykt-team/pykt-toolkit/blob/main/pykt/models/dkt.py",
+            "implemented_in_pyedmine": true
+        },
+        {
+            "model_name": "",
+            "paper_title": "Tracking Knowledge Proficiency of Students with Educational Priors",
+            "source": "CIKM[C]",
+            "year": "2017",
+            "tags": [
+                "Factor Model",
+                "Personalized Modeling",
+                "Forget Modeling",
+                "Interpretable KTM",
+                "Special Setting"
+            ],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3132847.3132929",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "DKVMN",
+            "paper_title": "Dynamic Key-Value Memory Networks for Knowledge Tracing",
+            "source": "WWW[C]",
+            "year": "2017",
+            "tags": [
+                "Neural Network",
+                "Sequential KTM",
+                "Matrixized User Representation",
+                "Common Setting"
+            ],
+            "perper_link": "https://dl.acm.org/doi/abs/10.1145/3038912.3052580",
+            "official_code_link": "https://github.com/lucky7-code/DKVMN",
+            "ref_code_link": "https://github.com/pykt-team/pykt-toolkit/blob/main/pykt/models/dkvmn.py",
+            "implemented_in_pyedmine": true
+        },
+        {
+            "model_name": "",
+            "paper_title": "Exercise-Enhanced Sequential Modeling for Student Performance Prediction",
+            "source": "AAAI[C]",
+            "year": "2018",
+            "tags": [
+                "Neural Network",
+                "Sequential KTM",
+                "Vectorized User Representation",
+                "RNN-based KTM",
+                "Attention-based KTM",
+                "Text-enhanced Modeling",
+                "Cold Start",
+                "Common Setting"
+            ],
+            "perper_link": "https://ojs.aaai.org/index.php/AAAI/article/view/11864",
+            "official_code_link": "https://github.com/bigdata-ustc/ekt",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Deep Knowledge Tracing and Dynamic Student Classification for Knowledge Tracing",
+            "source": "ICDM[C]",
+            "year": "2018",
+            "tags": [
+            ],
+            "perper_link": "https://ieeexplore.ieee.org/document/8594965",
+            "official_code_link": "https://github.com/simon-tan/DKT-DSC",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Prerequisite-Driven Deep Knowledge Tracing",
+            "source": "ICDM[C]",
+            "year": "2018",
+            "tags": [
+            ],
+            "perper_link": "https://ieeexplore.ieee.org/document/8594828",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Knowledge Tracing Machines: Factorization Machines for Knowledge Tracing",
+            "source": "AAAI[C]",
+            "year": "2019",
+            "tags": [
+            ],
+            "perper_link": "https://dl.acm.org/doi/10.1609/aaai.v33i01.3301750",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "SKVMN",
+            "paper_title": "Knowledge Tracing with Sequential Key-Value Memory Networks",
+            "source": "SIGIR[C]",
+            "year": "2019",
+            "tags": [
+            ],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3331184.3331195",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Augmenting Knowledge Tracing by Considering Forgetting Behavior",
+            "source": "WWW[C]",
+            "year": "2019",
+            "tags": [
+            ],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3308558.3313565",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "GKT",
+            "paper_title": "Graph-based Knowledge Tracing: Modeling Student Proficiency Using Graph Neural Network",
+            "source": "WI[C]",
+            "year": "2019",
+            "tags": [
+                "Neural Network",
+                "Sequential KTM",
+                "Vectorized User Representation",
+                "Graph-based KTM",
+                "Common Setting"
+            ],
+            "perper_link": "https://dl.acm.org/doi/abs/10.1145/3350546.3352513",
+            "official_code_link": "https://github.com/jhljx/GKT",
+            "ref_code_link": "https://github.com/pykt-team/pykt-toolkit/blob/main/pykt/models/gkt.py",
+            "implemented_in_pyedmine": true
+        },
+        {
+            "model_name": "",
+            "paper_title": "Predictive Student Modeling in Educational Games with Multi-Task Learning",
+            "source": "AAAI[C]",
+            "year": "2020",
+            "tags": [
+            ],
+            "perper_link": "https://ojs.aaai.org/index.php/AAAI/article/view/5406",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "RKT : Relation-Aware Self-Attention for Knowledge Tracing",
+            "source": "CIKM[C]",
+            "year": "2020",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3340531.3411994",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Structure-based Knowledge Tracing: An Influence Propagation View",
+            "source": "ICDM[C]",
+            "year": "2020",
+            "tags": [],
+            "perper_link": "https://ieeexplore.ieee.org/document/9338285/",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Improving Knowledge Tracing via Pre-training Question Embeddings",
+            "source": "IJCAI[C]",
+            "year": "2020",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/pdf/10.5555/3491440.3491659",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "CKT",
+            "paper_title": "Convolutional Knowledge Tracing: Modeling Individualization in Student Learning Process",
+            "source": "SIGIR[C]",
+            "year": "2020",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3397271.3401288",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "qDKT",
+            "paper_title": "qdkt: Question-centric deep knowledge tracing",
+            "source": "arxiv",
+            "year": "2020",
+            "tags": [
+                "Neural Network",
+                "Sequential KTM",
+                "Vectorized User Representation",
+                "RNN-based KTM",
+                "Common Setting"
+            ],
+            "perper_link": "https://arxiv.org/pdf/2005.12442.pdf",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": true
+        },
+        {
+            "model_name": "GIKT",
+            "paper_title": "GIKT: A Graph-Based Interaction Model for Knowledge Tracing",
+            "source": "PKDD[C]",
+            "year": "2020",
+            "tags": [
+                "Neural Network",
+                "Sequential KTM",
+                "Vectorized User Representation",
+                "RNN-based KTM",
+                "Graph-based KTM",
+                "Common Setting"
+            ],
+            "perper_link": "https://link.springer.com/chapter/10.1007/978-3-030-67658-2_18",
+            "official_code_link": "https://github.com/Rimoku/GIKT",
+            "ref_code_link": "official_code",
+            "implemented_in_pyedmine": true
+        },
+        {
+            "model_name": "AKT",
+            "paper_title": "Context-Aware Attentive Knowledge Tracing",
+            "source": "SIGKDD[C]",
+            "year": "2020",
+            "tags": [
+                "Neural Network",
+                "Sequential KTM",
+                "Vectorized User Representation",
+                "Attention-based KTM",
+                "Forget Modeling",
+                "Common Setting"
+            ],
+            "perper_link": "https://doi.org/10.1145/3394486.3403282",
+            "official_code_link": "https://github.com/arghosh/AKT",
+            "ref_code_link": "https://github.com/pykt-team/pykt-toolkit/blob/main/pykt/models/akt.py",
+            "implemented_in_pyedmine": true
+        },
+        {
+            "model_name": "MF-DAKT",
+            "paper_title": "Multi-Factors Aware Dual-Attentional Knowledge Tracing",
+            "source": "CIKM[C]",
+            "year": "2021",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3459637.3482372",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Federated Deep Knowledge Tracing",
+            "source": "WSDM[C]",
+            "year": "2021",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3437963.3441747",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Temporal Cross-Effects in Knowledge Tracing",
+            "source": "WSDM[C]",
+            "year": "2021",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3437963.3441802",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "LPKT",
+            "paper_title": "Learning Process-consistent Knowledge Tracing",
+            "source": "SIGKDD[C]",
+            "year": "2021",
+            "tags": [
+                "Neural Network",
+                "Sequential KTM",
+                "Matrixized User Representation",
+                "Learning Behavior Modeling",
+                "Integrated Side Information",
+                "Common Setting"
+            ],
+            "perper_link": "https://dl.acm.org/doi/abs/10.1145/3447548.3467237",
+            "official_code_link": "https://github.com/shshen-closer/LPKT-S",
+            "ref_code_link": "https://github.com/pykt-team/pykt-toolkit/blob/main/pykt/models/lpkt.py",
+            "implemented_in_pyedmine": true
+        },
+        {
+            "model_name": "IEKT",
+            "paper_title": "Tracing Knowledge State with Individual Cognition and Acquisition Estimation",
+            "source": "SIGIR[C]",
+            "year": "2021",
+            "tags": [
+                "Neural Network",
+                "Sequential KTM",
+                "Vectorized User Representation",
+                "Personalized Modeling",
+                "Reinforcement Learning",
+                "Common Setting"
+            ],
+            "perper_link": "https://dl.acm.org/doi/abs/10.1145/3404835.3462827",
+            "official_code_link": "https://github.com/ApexEDM/iekt",
+            "ref_code_link": "https://github.com/pykt-team/pykt-toolkit/blob/main/pykt/models/iekt.py",
+            "implemented_in_pyedmine": true
+        },
+        {
+            "model_name": "ATKT",
+            "paper_title": "Enhancing Knowledge Tracing via Adversarial Training",
+            "source": "MM[C]",
+            "year": "2021",
+            "tags": [
+                "Neural Network",
+                "Sequential KTM",
+                "Vectorized User Representation",
+                "Attention-based KTM",
+                "RNN-based KTM",
+                "Adversarial Learning",
+                "Common Setting"
+            ],
+            "perper_link": "https://dl.acm.org/doi/abs/10.1145/3474085.3475554",
+            "official_code_link": "https://github.com/xiaopengguo/atkt",
+            "ref_code_link": "https://github.com/pykt-team/pykt-toolkit/blob/main/pykt/models/atkt.py",
+            "implemented_in_pyedmine": true
+        },
+        {
+            "model_name": "",
+            "paper_title": "No Task Left Behind: Multi-Task Learning of Knowledge Tracing and Option Tracing for Better Student Assessment",
+            "source": "AAAI[C]",
+            "year": "2022",
+            "tags": [],
+            "perper_link": "https://cdn.aaai.org/ojs/20364/20364-13-24377-1-2-20220628.pdf",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Predictive Student Modelling in an Online Reading Platform",
+            "source": "AAAI[C]",
+            "year": "2022",
+            "tags": [],
+            "perper_link": "https://ojs.aaai.org/index.php/AAAI/article/view/21551",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "LFBKT",
+            "paper_title": "Knowledge Tracing Model with Learning and Forgetting Behavior",
+            "source": "CIKM[C]",
+            "year": "2022",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3511808.3557622",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Mitigating Biases in Student Performance Prediction via Attention-Based Personalized Federated Learning",
+            "source": "CIKM[C]",
+            "year": "2022",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3511808.3557108",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Open-Ended Knowledge Tracing for Computer Science Education",
+            "source": "EMNLP[C]",
+            "year": "2022",
+            "tags": [],
+            "perper_link": "https://aclanthology.org/2022.emnlp-main.254/",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Adversarial Bootstrapped Question Representation Learning for Knowledge Tracing",
+            "source": "MM[C]",
+            "year": "2022",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3581783.3612044",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "PST: Measuring Skill Proficiency in Programming Exercise Process via Programming Skill Tracing",
+            "source": "SIGIR[C]",
+            "year": "2022",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3477495.3531903",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "AdaptKT: A Domain Adaptable Method for Knowledge Tracing",
+            "source": "WSDM[C]",
+            "year": "2022",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3488560.3498379",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Improving Knowledge Tracing with Collaborative Information",
+            "source": "WSDM[C]",
+            "year": "2022",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3488560.3498374",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "PYKT: A Python Library to Benchmark Deep Learning based Knowledge Tracing Models",
+            "source": "NeurIPS[C]",
+            "year": "2022",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/abs/10.5555/3600270.3601617",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "HGKT",
+            "paper_title": "Introducing Problem Schema with Hierarchical Exercise Graph for Knowledge Tracing",
+            "source": "SIGIR[C]",
+            "year": "2022",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3477495.3532004",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "DIMKT",
+            "paper_title": "Assessing Student's Dynamic Knowledge State by Exploring the Question Difficulty Effect",
+            "source": "SIGIR[C]",
+            "year": "2022",
+            "tags": [
+                "Neural Network",
+                "Sequential KTM",
+                "Matrixized User Representation",
+                "Personalized Modeling",
+                "Question Difficulty Modeling",
+                "Common Setting"
+            ],
+            "perper_link": "https://dl.acm.org/doi/abs/10.1145/3477495.3531939",
+            "official_code_link": "https://github.com/shshen-closer/DIMKT",
+            "ref_code_link": "official_code",
+            "implemented_in_pyedmine": true
+        },
+        {
+            "model_name": "CL4KT",
+            "paper_title": "Contrastive Learning for Knowledge Tracing",
+            "source": "WWW[C]",
+            "year": "2022",
+            "tags": [
+                "Neural Network",
+                "Sequential KTM",
+                "Vectorized User Representation",
+                "Attention-based KTM",
+                "Contrastive Learning",
+                "Common Setting"
+            ],
+            "perper_link": "https://dl.acm.org/doi/abs/10.1145/3485447.3512105",
+            "official_code_link": "https://github.com/UpstageAI/cl4kt",
+            "ref_code_link": "official_code",
+            "implemented_in_pyedmine": true
+        },
+        {
+            "model_name": "IKT",
+            "paper_title": "Interpretable Knowledge Tracing: Simple and Efficient Student Modeling with Causal Relations",
+            "source": "AAAI[C]",
+            "year": "2022",
+            "tags": [
+                "Factor Model",
+                "Interpretable KTM",
+                "Causal KTM",
+                "Common Setting"
+            ],
+            "perper_link": "https://ojs.aaai.org/index.php/AAAI/article/view/21560",
+            "official_code_link": "https://github.com/simon-tan/ikt",
+            "ref_code_link": "official_code",
+            "implemented_in_pyedmine": true
+        },
+        {
+            "model_name": "",
+            "paper_title": "Deep Attentive Model for Knowledge Tracing",
+            "source": "AAAI[C]",
+            "year": "2023",
+            "tags": [],
+            "perper_link": "https://ojs.aaai.org/index.php/AAAI/article/view/26214",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Imputing Knowledge Tracing Data with Subject-Based Training via LSTM Variational Autoencoders Frameworks",
+            "source": "AAAI[C]",
+            "year": "2023",
+            "tags": [],
+            "perper_link": "https://pike.psu.edu/publications/aaai23-edu.pdf",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Learning Logical Reasoning Using an Intelligent Tutoring System: A Hybrid Approach to Student Modeling",
+            "source": "AAAI[C]",
+            "year": "2023",
+            "tags": [],
+            "perper_link": "https://ojs.aaai.org/index.php/AAAI/article/view/26891",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Continuous Personalized Knowledge Tracing: Modeling Long-Term Learning in Online Environments",
+            "source": "CIKM[C]",
+            "year": "2023",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3583780.3614822",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Counterfactual Monotonic Knowledge Tracing for Assessing Students\u2019 Dynamic Mastery of Knowledge Concepts",
+            "source": "CIKM[C]",
+            "year": "2023",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3583780.3614827",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Forgetting-aware Linear Bias for Attentive Knowledge Tracing",
+            "source": "CIKM[C]",
+            "year": "2023",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3583780.3615191",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths",
+            "source": "CIKM[C]",
+            "year": "2023",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3583780.3614988",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Cognition-Mode Aware Variational Representation Learning Framework for Knowledge Tracing",
+            "source": "ICDM[C]",
+            "year": "2023",
+            "tags": [],
+            "perper_link": "https://arxiv.org/abs/2309.01179",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Evolutionary Neural Architecture Search for Transformer in Knowledge Tracing",
+            "source": "NeurIPS[C]",
+            "year": "2023",
+            "tags": [],
+            "perper_link": "https://openreview.net/forum?id=G14N38AjpU",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "XES3G5M: A Knowledge Tracing Benchmark Dataset with Auxiliary Information",
+            "source": "NeurIPS[C]",
+            "year": "2023",
+            "tags": [],
+            "perper_link": "https://openreview.net/pdf?id=Mn9oHNdYCE",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "SparseKT",
+            "paper_title": "Towards Robust Knowledge Tracing Models via k-Sparse Attention",
+            "source": "SIGIR[C]",
+            "year": "2023",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3539618.3592073",
+            "official_code_link": "https://github.com/pykt-team/pykt-toolkit/blob/main/pykt/models/sparsekt.py",
+            "ref_code_link": "official_code",
+            "implemented_in_pyedmine": true
+        },
+        {
+            "model_name": "DGMN",
+            "paper_title": "Deep Graph Memory Networks for Forgetting-Robust Knowledge Tracing",
+            "source": "TKDE[T]",
+            "year": "2023",
+            "tags": [],
+            "perper_link": "https://ieeexplore.ieee.org/iel7/69/4358933/09891841.pdf",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Monitoring Student Progress for Learning Process-Consistent Knowledge Tracing",
+            "source": "TKDE[T]",
+            "year": "2023",
+            "tags": [],
+            "perper_link": "https://ieeexplore.ieee.org/document/9950313/",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Fine-Grained Interaction Modeling with Multi-Relational Transformer for Knowledge Tracing",
+            "source": "TOIS[T]",
+            "year": "2023",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3580595",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "MAN: Memory-augmented Attentive Networks for Deep Learning-based Knowledge Tracing",
+            "source": "TOIS[T]",
+            "year": "2023",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3589340",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "DTranformer",
+            "paper_title": "Tracing Knowledge Instead of Paterns: Stable Knowledge Tracing with Diagnostic Transformer",
+            "source": "WWW[C]",
+            "year": "2023",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/abs/10.1145/3543507.3583255",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": true
+        },
+        {
+            "model_name": "SimpleKT",
+            "paper_title": "simpleKT: A Simple But Tough-to-Beat Baseline for Knowledge Tracing",
+            "source": "ICLR[C]",
+            "year": "2023",
+            "tags": [
+                "Neural Network",
+                "Sequential KTM",
+                "Vectorized User Representation",
+                "Attention-based KTM",
+                "Forget Modeling",
+                "Common Setting"
+            ],
+            "perper_link": "https://dl.acm.org/doi/abs/10.1145/3543507.3583255",
+            "official_code_link": "https://github.com/pykt-team/pykt-toolkit/blob/main/pykt/models/simplekt.py",
+            "ref_code_link": "official_code",
+            "implemented_in_pyedmine": true
+        },
+        {
+            "model_name": "AT-DKT",
+            "paper_title": "Enhancing Deep Knowledge Tracing with Auxiliary Tasks",
+            "source": "WWW[C]",
+            "year": "2023",
+            "tags": [
+                "Neural Network",
+                "Sequential KTM",
+                "Vectorized User Representation",
+                "RNN-based KTM",
+                "Multi-task Learning",
+                "Common Setting"
+            ],
+            "perper_link": "https://dl.acm.org/doi/abs/10.1145/3543507.3583866",
+            "official_code_link": "https://github.com/pykt-team/pykt-toolkit/blob/main/pykt/models/atdkt.py",
+            "ref_code_link": "official_code",
+            "implemented_in_pyedmine": true
+        },
+        {
+            "model_name": "QIKT",
+            "paper_title": "Improving Interpretability of Deep Sequential Knowledge Tracing Models with Question-centric Cognitive Representations",
+            "source": "AAAI[C]",
+            "year": "2023",
+            "tags": [
+                "Neural Network",
+                "Sequential KTM",
+                "Vectorized User Representation",
+                "RNN-based KTM",
+                "Interpretable KTM",
+                "Common Setting"
+            ],
+            "perper_link": "https://ojs.aaai.org/index.php/AAAI/article/view/26661",
+            "official_code_link": "https://github.com/pykt-team/pykt-toolkit/blob/main/pykt/models/qikt.py",
+            "ref_code_link": "official_code",
+            "implemented_in_pyedmine": true
+        },
+        {
+            "model_name": "LBKT",
+            "paper_title": "Learning Behavior-oriented Knowledge Tracing",
+            "source": "SIGKDD[C]",
+            "year": "2023",
+            "tags": [
+                "Neural Network",
+                "Sequential KTM",
+                "Matrixized User Representation",
+                "Learning Behavior Modeling",
+                "Integrated Side Information",
+                "Common Setting"
+            ],
+            "perper_link": "https://dl.acm.org/doi/abs/10.1145/3580305.3599407",
+            "official_code_link": "https://github.com/xbh0720/LBKT",
+            "ref_code_link": "official_code",
+            "implemented_in_pyedmine": true
+        },
+        {
+            "model_name": "",
+            "paper_title": "Mitigating Cold-Start Problems in Knowledge Tracing with Large Language Models: An Attribute-aware Approach",
+            "source": "CIKM[C]",
+            "year": "2024",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3627673.3679664",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "SINKT: A Structure-Aware Inductive Knowledge Tracing Model with Large Language Model",
+            "source": "CIKM[C]",
+            "year": "2024",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3627673.3679760",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "PSI-KT",
+            "paper_title": "PREDICTIVE, SCALABLE AND INTERPRETABLE KNOWL- EDGE TRACING ON STRUCTURED DOMAINS",
+            "source": "ICLR[C]",
+            "year": "2024",
+            "tags": [],
+            "perper_link": "https://openreview.net/forum?id=NgaLU2fP5D",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Enhancing Length Generalization for Attention Based Knowledge Tracing Models with Linear Biases",
+            "source": "IJCAI[C]",
+            "year": "2024",
+            "tags": [],
+            "perper_link": "https://www.ijcai.org/proceedings/2024/654",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "RIGL: A Unified Reciprocal Approach for Tracing the Independent and Group Learning Processes",
+            "source": "SIGKDD[C]",
+            "year": "2024",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3637528.3671711",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "DyGKT: Dynamic Graph Learning for Knowledge Tracing",
+            "source": "SIGKDD[C]",
+            "year": "2024",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3637528.3671773",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Leveraging Pedagogical Theories to Understand Student Learning Process with Graph-based Reasonable Knowledge Tracing",
+            "source": "SIGKDD[C]",
+            "year": "2024",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3637528.3671853",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "XKT: Toward Explainable Knowledge Tracing Model With Cognitive Learning Theories for Questions of Multiple Knowledge Concepts",
+            "source": "TKDE[T]",
+            "year": "2024",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/abs/10.1109/TKDE.2024.3418098",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "DGEKT: A Dual Graph Ensemble Learning Method for Knowledge Tracing",
+            "source": "TOIS[T]",
+            "year": "2024",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3638350",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "ELAKT: Enhancing Locality for Attentive Knowledge Tracing",
+            "source": "TOIS[T]",
+            "year": "2024",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3652601",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "FDKT: Towards an Interpretable Deep Knowledge Tracing via Fuzzy Reasoning",
+            "source": "TOIS[T]",
+            "year": "2024",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3656167",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "HD-KT",
+            "paper_title": "HD-KT: Advancing Robust Knowledge Tracing via Anomalous Learning Interaction Detection",
+            "source": "WWW[C]",
+            "year": "2024",
+            "tags": [
+                "Neural Network",
+                "Sequential KTM",
+                "RNN-based KTM",
+                "Attention-based KTM",
+                "Anomaly Detection Model",
+                "Common Setting"
+            ],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3589334.3645718",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Question Difficulty Consistent Knowledge Tracing",
+            "source": "WWW[C]",
+            "year": "2024",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3589334.3645582",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "MIKT",
+            "paper_title": "Interpretable Knowledge Tracing with Multiscale State Representation",
+            "source": "WWW[C]",
+            "year": "2024",
+            "tags": [
+                "Neural Network",
+                "Sequential KTM",
+                "Matrixized User Representation",
+                "Interpretable KTM",
+                "Common Setting"
+            ],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3589334.3645373",
+            "official_code_link": "https://github.com/lilstrawberry/MIKT",
+            "ref_code_link": "official_code",
+            "implemented_in_pyedmine": true
+        },
+        {
+            "model_name": "",
+            "paper_title": "Rebalancing Discriminative Responses for Knowledge Tracing",
+            "source": "TOIS[T]",
+            "year": "2025",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3716821",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        }
+    ]
+}

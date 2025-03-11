@@ -1,0 +1,625 @@
+{
+  "task": "CD",
+  "scenes": {
+    "overall-default": {
+      "datasets": {
+        "assist2009": {
+          "metrics": {
+            "AUC": {
+              "NCD": 0.706,
+              "MIRT": 0.6887,
+              "IRT": ""
+            },
+            "ACC": {
+              "NCD": 0.6851,
+              "MIRT": 0.682,
+              "IRT": ""
+            },
+            "RMSE": {
+              "NCD": 0.4608,
+              "MIRT": 0.4531,
+              "IRT": ""
+            },
+            "MAE": {
+              "NCD": 0.3602,
+              "MIRT": 0.392,
+              "IRT": ""
+            }
+          }
+        },
+        "slepemapy-anatomy": {
+          "metrics": {
+            "AUC": {
+              "NCD": 0.6668,
+              "MIRT": 0.5264,
+              "IRT": ""
+            },
+            "ACC": {
+              "NCD": 0.7561,
+              "MIRT": 0.5948,
+              "IRT": ""
+            },
+            "RMSE": {
+              "NCD": 0.4166,
+              "MIRT": 0.5821,
+              "IRT": ""
+            },
+            "MAE": {
+              "NCD": 0.3402,
+              "MIRT": 0.4133,
+              "IRT": ""
+            }
+          }
+        },
+        "edi2020-task34": {
+          "metrics": {
+            "AUC": {
+              "NCD": 0.6815,
+              "MIRT": 0.7289,
+              "IRT": 0.7254
+            },
+            "ACC": {
+              "NCD": 0.6318,
+              "MIRT": 0.6669,
+              "IRT": 0.6666
+            },
+            "RMSE": {
+              "NCD": 0.4737,
+              "MIRT": 0.4596,
+              "IRT": 0.4613
+            },
+            "MAE": {
+              "NCD": 0.4418,
+              "MIRT": 0.4039,
+              "IRT": 0.4365
+            }
+          }
+        },
+        "assist2017": {
+          "metrics": {
+            "AUC": {
+              "NCD": 0.7022,
+              "MIRT": 0.6984,
+              "IRT": ""
+            },
+            "ACC": {
+              "NCD": 0.6869,
+              "MIRT": 0.6891,
+              "IRT": ""
+            },
+            "RMSE": {
+              "NCD": 0.4515,
+              "MIRT": 0.4522,
+              "IRT": ""
+            },
+            "MAE": {
+              "NCD": 0.4097,
+              "MIRT": 0.4061,
+              "IRT": ""
+            }
+          }
+        },
+        "statics2011": {
+          "metrics": {
+            "AUC": {
+              "NCD": 0.8134,
+              "MIRT": 0.7376,
+              "IRT": ""
+            },
+            "ACC": {
+              "NCD": 0.8005,
+              "MIRT": 0.7661,
+              "IRT": ""
+            },
+            "RMSE": {
+              "NCD": 0.3714,
+              "MIRT": 0.4006,
+              "IRT": ""
+            },
+            "MAE": {
+              "NCD": 0.268,
+              "MIRT": 0.3361,
+              "IRT": ""
+            }
+          }
+        }
+      }
+    },
+    "user cold start-userNum5": {
+      "datasets": {
+        "assist2009": {
+          "metrics": {
+            "AUC": {
+              "NCD": 0.7778,
+              "MIRT": 0.6667,
+              "IRT": ""
+            },
+            "ACC": {
+              "NCD": 0.6667,
+              "MIRT": 0.6667,
+              "IRT": ""
+            },
+            "RMSE": {
+              "NCD": 0.4141,
+              "MIRT": 0.4899,
+              "IRT": ""
+            },
+            "MAE": {
+              "NCD": 0.3346,
+              "MIRT": 0.4672,
+              "IRT": ""
+            }
+          }
+        },
+        "slepemapy-anatomy": {
+          "metrics": {
+            "AUC": {
+              "NCD": 0.9167,
+              "MIRT": 0.5417,
+              "IRT": ""
+            },
+            "ACC": {
+              "NCD": 0.75,
+              "MIRT": 0.6875,
+              "IRT": ""
+            },
+            "RMSE": {
+              "NCD": 0.4052,
+              "MIRT": 0.5241,
+              "IRT": ""
+            },
+            "MAE": {
+              "NCD": 0.297,
+              "MIRT": 0.355,
+              "IRT": ""
+            }
+          }
+        },
+        "edi2020-task34": {
+          "metrics": {
+            "AUC": {
+              "NCD": "",
+              "MIRT": "",
+              "IRT": ""
+            },
+            "ACC": {
+              "NCD": "",
+              "MIRT": "",
+              "IRT": ""
+            },
+            "RMSE": {
+              "NCD": "",
+              "MIRT": "",
+              "IRT": ""
+            },
+            "MAE": {
+              "NCD": "",
+              "MIRT": "",
+              "IRT": ""
+            }
+          }
+        },
+        "assist2017": {
+          "metrics": {
+            "AUC": {
+              "NCD": "",
+              "MIRT": "",
+              "IRT": ""
+            },
+            "ACC": {
+              "NCD": "",
+              "MIRT": "",
+              "IRT": ""
+            },
+            "RMSE": {
+              "NCD": "",
+              "MIRT": "",
+              "IRT": ""
+            },
+            "MAE": {
+              "NCD": "",
+              "MIRT": "",
+              "IRT": ""
+            }
+          }
+        },
+        "statics2011": {
+          "metrics": {
+            "AUC": {
+              "NCD": "",
+              "MIRT": "",
+              "IRT": ""
+            },
+            "ACC": {
+              "NCD": "",
+              "MIRT": "",
+              "IRT": ""
+            },
+            "RMSE": {
+              "NCD": "",
+              "MIRT": "",
+              "IRT": ""
+            },
+            "MAE": {
+              "NCD": "",
+              "MIRT": "",
+              "IRT": ""
+            }
+          }
+        }
+      }
+    },
+    "user cold start-userNum10": {
+      "datasets": {
+        "assist2009": {
+          "metrics": {
+            "AUC": {
+              "NCD": 0.7327,
+              "MIRT": 0.7688,
+              "IRT": ""
+            },
+            "ACC": {
+              "NCD": 0.7137,
+              "MIRT": 0.7464,
+              "IRT": ""
+            },
+            "RMSE": {
+              "NCD": 0.4407,
+              "MIRT": 0.4197,
+              "IRT": ""
+            },
+            "MAE": {
+              "NCD": 0.3344,
+              "MIRT": 0.3177,
+              "IRT": ""
+            }
+          }
+        },
+        "slepemapy-anatomy": {
+          "metrics": {
+            "AUC": {
+              "NCD": 0.6069,
+              "MIRT": 0.5254,
+              "IRT": ""
+            },
+            "ACC": {
+              "NCD": 0.6764,
+              "MIRT": 0.5347,
+              "IRT": ""
+            },
+            "RMSE": {
+              "NCD": 0.4709,
+              "MIRT": 0.6343,
+              "IRT": ""
+            },
+            "MAE": {
+              "NCD": 0.39,
+              "MIRT": 0.4693,
+              "IRT": ""
+            }
+          }
+        },
+        "edi2020-task34": {
+          "metrics": {
+            "AUC": {
+              "NCD": "",
+              "MIRT": "",
+              "IRT": ""
+            },
+            "ACC": {
+              "NCD": "",
+              "MIRT": "",
+              "IRT": ""
+            },
+            "RMSE": {
+              "NCD": "",
+              "MIRT": "",
+              "IRT": ""
+            },
+            "MAE": {
+              "NCD": "",
+              "MIRT": "",
+              "IRT": ""
+            }
+          }
+        },
+        "assist2017": {
+          "metrics": {
+            "AUC": {
+              "NCD": 0.6125,
+              "MIRT": 0.7639,
+              "IRT": ""
+            },
+            "ACC": {
+              "NCD": 0.5076,
+              "MIRT": 0.6205,
+              "IRT": ""
+            },
+            "RMSE": {
+              "NCD": 0.5053,
+              "MIRT": 0.4698,
+              "IRT": ""
+            },
+            "MAE": {
+              "NCD": 0.482,
+              "MIRT": 0.4189,
+              "IRT": ""
+            }
+          }
+        },
+        "statics2011": {
+          "metrics": {
+            "AUC": {
+              "NCD": 0.8767,
+              "MIRT": 0.8767,
+              "IRT": ""
+            },
+            "ACC": {
+              "NCD": 0.9017,
+              "MIRT": 0.9017,
+              "IRT": ""
+            },
+            "RMSE": {
+              "NCD": 0.34,
+              "MIRT": 0.3649,
+              "IRT": ""
+            },
+            "MAE": {
+              "NCD": 0.2374,
+              "MIRT": 0.3252,
+              "IRT": ""
+            }
+          }
+        }
+      }
+    },
+    "question cold start-queNum5": {
+      "datasets": {
+        "assist2009": {
+          "metrics": {
+            "AUC": {
+              "NCD": 0.67,
+              "MIRT": 0.6706,
+              "IRT": ""
+            },
+            "ACC": {
+              "NCD": 0.6791,
+              "MIRT": 0.6935,
+              "IRT": ""
+            },
+            "RMSE": {
+              "NCD": 0.4721,
+              "MIRT": 0.4469,
+              "IRT": ""
+            },
+            "MAE": {
+              "NCD": 0.3549,
+              "MIRT": 0.3951,
+              "IRT": ""
+            }
+          }
+        },
+        "slepemapy-anatomy": {
+          "metrics": {
+            "AUC": {
+              "NCD": 0.6387,
+              "MIRT": 0.5355,
+              "IRT": ""
+            },
+            "ACC": {
+              "NCD": 0.6515,
+              "MIRT": 0.5889,
+              "IRT": ""
+            },
+            "RMSE": {
+              "NCD": 0.4714,
+              "MIRT": 0.5826,
+              "IRT": ""
+            },
+            "MAE": {
+              "NCD": 0.4272,
+              "MIRT": 0.4239,
+              "IRT": ""
+            }
+          }
+        },
+        "edi2020-task34": {
+          "metrics": {
+            "AUC": {
+              "NCD": 0.533,
+              "MIRT": 0.7582,
+              "IRT": 0.5039
+            },
+            "ACC": {
+              "NCD": 0.585,
+              "MIRT": 0.7045,
+              "IRT": 0.5627
+            },
+            "RMSE": {
+              "NCD": 0.5077,
+              "MIRT": 0.4414,
+              "IRT": 0.5474
+            },
+            "MAE": {
+              "NCD": 0.5018,
+              "MIRT": 0.4132,
+              "IRT": 0.469
+            }
+          }
+        },
+        "assist2017": {
+          "metrics": {
+            "AUC": {
+              "NCD": 0.6271,
+              "MIRT": 0.6466,
+              "IRT": ""
+            },
+            "ACC": {
+              "NCD": 0.5341,
+              "MIRT": 0.609,
+              "IRT": ""
+            },
+            "RMSE": {
+              "NCD": 0.4938,
+              "MIRT": 0.4843,
+              "IRT": ""
+            },
+            "MAE": {
+              "NCD": 0.485,
+              "MIRT": 0.4581,
+              "IRT": ""
+            }
+          }
+        },
+        "statics2011": {
+          "metrics": {
+            "AUC": {
+              "NCD": 0.6502,
+              "MIRT": 0.6122,
+              "IRT": ""
+            },
+            "ACC": {
+              "NCD": 0.5133,
+              "MIRT": 0.5154,
+              "IRT": ""
+            },
+            "RMSE": {
+              "NCD": 0.5378,
+              "MIRT": 0.526,
+              "IRT": ""
+            },
+            "MAE": {
+              "NCD": 0.4823,
+              "MIRT": 0.4849,
+              "IRT": ""
+            }
+          }
+        }
+      }
+    },
+    "question cold start-queNum10": {
+      "datasets": {
+        "assist2009": {
+          "metrics": {
+            "AUC": {
+              "NCD": 0.6968,
+              "MIRT": 0.6835,
+              "IRT": ""
+            },
+            "ACC": {
+              "NCD": 0.6937,
+              "MIRT": 0.6957,
+              "IRT": ""
+            },
+            "RMSE": {
+              "NCD": 0.4607,
+              "MIRT": 0.4453,
+              "IRT": ""
+            },
+            "MAE": {
+              "NCD": 0.3453,
+              "MIRT": 0.3909,
+              "IRT": ""
+            }
+          }
+        },
+        "slepemapy-anatomy": {
+          "metrics": {
+            "AUC": {
+              "NCD": 0.6224,
+              "MIRT": 0.5152,
+              "IRT": ""
+            },
+            "ACC": {
+              "NCD": 0.661,
+              "MIRT": 0.5837,
+              "IRT": ""
+            },
+            "RMSE": {
+              "NCD": 0.468,
+              "MIRT": 0.5856,
+              "IRT": ""
+            },
+            "MAE": {
+              "NCD": 0.4245,
+              "MIRT": 0.4226,
+              "IRT": ""
+            }
+          }
+        },
+        "edi2020-task34": {
+          "metrics": {
+            "AUC": {
+              "NCD": 0.5512,
+              "MIRT": 0.7415,
+              "IRT": 0.5521
+            },
+            "ACC": {
+              "NCD": 0.6014,
+              "MIRT": 0.7023,
+              "IRT": 0.4597
+            },
+            "RMSE": {
+              "NCD": 0.5025,
+              "MIRT": 0.4567,
+              "IRT": 0.568
+            },
+            "MAE": {
+              "NCD": 0.491,
+              "MIRT": 0.4205,
+              "IRT": 0.511
+            }
+          }
+        },
+        "assist2017": {
+          "metrics": {
+            "AUC": {
+              "NCD": 0.6251,
+              "MIRT": 0.6306,
+              "IRT": ""
+            },
+            "ACC": {
+              "NCD": 0.5649,
+              "MIRT": 0.5995,
+              "IRT": ""
+            },
+            "RMSE": {
+              "NCD": 0.4907,
+              "MIRT": 0.4892,
+              "IRT": ""
+            },
+            "MAE": {
+              "NCD": 0.4796,
+              "MIRT": 0.4629,
+              "IRT": ""
+            }
+          }
+        },
+        "statics2011": {
+          "metrics": {
+            "AUC": {
+              "NCD": 0.6733,
+              "MIRT": 0.6068,
+              "IRT": ""
+            },
+            "ACC": {
+              "NCD": 0.4355,
+              "MIRT": 0.4261,
+              "IRT": ""
+            },
+            "RMSE": {
+              "NCD": 0.5585,
+              "MIRT": 0.5554,
+              "IRT": ""
+            },
+            "MAE": {
+              "NCD": 0.5165,
+              "MIRT": 0.5201,
+              "IRT": ""
+            }
+          }
+        }
+      }
+    }
+  }
+}
