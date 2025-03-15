@@ -17,6 +17,10 @@ const KT_TARGET_DATASETS = [
   "edi2020-task34",
   "slepemapy-anatomy",
   "xes3g5m",
+  "xes3g5m-subtest-100",
+  // "ednet-kt1",
+  "junyi2015",
+  "edi2020-task1"
 ];
 const CD_TARGET_DATASETS = [
   "assist2009",
@@ -55,14 +59,10 @@ $(document).ready(function () {
     $(`.scene-btn[data-scene="${defaultScene}"]`).click();
 
     // 模拟点击默认设置按钮
-    setTimeout(() => {
-      $(`.setting-btn[data-setting="${defaultSetting}"]`).click();
-    }, 10);
+    $(`.setting-btn[data-setting="${defaultSetting}"]`).click();
 
     // 模拟点击默认指标按钮
-    setTimeout(() => {
-      $(`.metric-btn[data-metric="${defaultMetric}"]`).click();
-    }, 10);
+    $(`.metric-btn[data-metric="${defaultMetric}"]`).click();
   });
 });
 
@@ -259,7 +259,9 @@ function renderTable() {
           displayValue = '<span class="todo">todo</span>';
         } else if (value === "-") {
           displayValue = '<span class="na">-</span>';
-        } else {
+        } else if (value === "" || value === undefined) {
+          displayValue = '<span class="na">-</span>';
+        }else {
           displayValue = value;
         }
 

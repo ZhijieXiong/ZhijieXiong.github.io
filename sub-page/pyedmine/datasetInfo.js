@@ -154,6 +154,42 @@ const DATA = {
     "concept_sparsity": 0.8362,
     "side_info": "concept_text, question_text, timestamp",
     "link": "https://github.com/ai4ed/XES3G5M"
+  },
+  "moocradar-C746997": {
+    "num_interaction": 100066,
+    "num_user": 1577,
+    "num_concept": 265,
+    "num_question": 550,
+    "average_seq_len": 63.45,
+    "average_question_acc": 0.6858,
+    "question_sparsity": 0.8846,
+    "concept_sparsity": 0.842,
+    "side_info": "concept_text, question_text, timestamp, cognitive_dimension",
+    "link": "https://github.com/THU-KEG/MOOC-Radar"
+  },
+  "SLP-phy": {
+    "num_interaction": 107288,
+    "num_user": 664,
+    "num_concept": 54,
+    "num_question": 1915,
+    "average_seq_len": 161.58,
+    "average_question_acc": 0.6122,
+    "question_sparsity": 0.9159,
+    "concept_sparsity": 0.341,
+    "side_info": "timestamp, school_id, gender",
+    "link": "https://aic-fe.bnu.edu.cn/en/data/index.html"
+  },
+  "SLP-mat": {
+    "num_interaction": 242722,
+    "num_user": 1499,
+    "num_question": 1127,
+    "num_concept": 44,
+    "average_seq_len": 161.92,
+    "average_question_acc": 0.6761,
+    "question_sparsity": 0.8565,
+    "concept_sparsity": 0.1896,
+    "side_info": "timestamp, school_id, gender",
+    "link": "https://aic-fe.bnu.edu.cn/en/data/index.html"
   }
 };
 

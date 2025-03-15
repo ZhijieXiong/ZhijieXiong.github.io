@@ -75,7 +75,7 @@ $(document).ready(function() {
     const $taskFilter = $('#taskFilter');
     $("#taskFilter #numPaper").remove();
     $taskFilter.append(`
-        <button class="btn btn-outline-primary" id="numPaper">Nuber of papers: ${filtered.length}</button>
+        <button class="btn btn-outline-primary" id="numPaper">Number of papers: ${filtered.length}</button>
     `);
     renderTable(groupByYearSource(filtered));
   }

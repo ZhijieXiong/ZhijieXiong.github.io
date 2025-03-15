@@ -150,7 +150,7 @@
             "paper_title": "HierCDF: A Bayesian Network-based Hierarchical Cognitive Diagnosis Framework",
             "source": "SIGKDD[C]",
             "year": "2022",
-            "tags": [],
+            "tags": ["Neraul Network", "Graph-based CDM"],
             "perper_link": "https://dl.acm.org/doi/10.1145/3534678.3539486",
             "official_code_link": "",
             "ref_code_link": "",
@@ -300,6 +300,17 @@
             "implemented_in_pyedmine": false
         },
         {
+            "model_name": "",
+            "paper_title": "Towards the Identifiability and Explainability for Personalized Learner Modeling: An Inductive Paradigm",
+            "source": "WWW[C]",
+            "year": "2024",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3589334.3645437",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
             "model_name": "HyperCD",
             "paper_title": "Capturing Homogeneous Influence among Students: Hypergraph Cognitive Diagnosis for Intelligent Education Systems",
             "source": "SIGKDD[C]",
@@ -312,6 +323,19 @@
             "official_code_link": "https://github.com/ECNU-ILOG/HyperCDM",
             "ref_code_link": "offcial_code",
             "implemented_in_pyedmine": true
+        },
+        {
+            "model_name": "",
+            "paper_title": "AdaRD: An Adaptive Response Denoising Framework for Robust Learner Modeling",
+            "source": "SIGKDD[C]",
+            "year": "2024",
+            "tags": [
+                
+            ],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3637528.3671684",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
         }
     ]
 }
