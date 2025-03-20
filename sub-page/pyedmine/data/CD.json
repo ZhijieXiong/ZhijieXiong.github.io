@@ -3,183 +3,255 @@
   "scenes": {
     "overall-default": {
       "datasets": {
+        "statics2011": {
+          "metrics": {
+            "AUC": {
+              "RCD": 0.7918,
+              "MIRT": 0.7376,
+              "HyperCD": 0.8035,
+              "DINA": 0.7054,
+              "NCD": 0.8134,
+              "IRT": 0.7911
+            },
+            "ACC": {
+              "RCD": 0.7881,
+              "MIRT": 0.7661,
+              "HyperCD": 0.7956,
+              "DINA": 0.7251,
+              "NCD": 0.8005,
+              "IRT": 0.7859
+            },
+            "RMSE": {
+              "RCD": 0.3821,
+              "MIRT": 0.4006,
+              "HyperCD": 0.3761,
+              "DINA": 0.4189,
+              "NCD": 0.3714,
+              "IRT": 0.3817
+            },
+            "MAE": {
+              "RCD": 0.2911,
+              "MIRT": 0.3361,
+              "HyperCD": 0.2807,
+              "DINA": 0.3425,
+              "NCD": 0.268,
+              "IRT": 0.2951
+            }
+          }
+        },
+        "SLP-mat": {
+          "metrics": {
+            "AUC": {
+              "RCD": 0.8495,
+              "MIRT": 0.8578,
+              "HyperCD": 0.8606,
+              "DINA": 0.69,
+              "NCD": 0.8136,
+              "IRT": 0.7951
+            },
+            "ACC": {
+              "RCD": 0.805,
+              "MIRT": 0.814,
+              "HyperCD": 0.8151,
+              "DINA": 0.7325,
+              "NCD": 0.7882,
+              "IRT": 0.7815
+            },
+            "RMSE": {
+              "RCD": 0.3679,
+              "MIRT": 0.3634,
+              "HyperCD": 0.3606,
+              "DINA": 0.4306,
+              "NCD": 0.3829,
+              "IRT": 0.3952
+            },
+            "MAE": {
+              "RCD": 0.2867,
+              "MIRT": 0.2794,
+              "HyperCD": 0.2526,
+              "DINA": 0.3599,
+              "NCD": 0.283,
+              "IRT": 0.3234
+            }
+          }
+        },
         "assist2009": {
           "metrics": {
             "AUC": {
-              "NCD": 0.706,
-              "MIRT": 0.6887,
-              "IRT": 0.6961,
               "RCD": 0.7402,
+              "MIRT": 0.6887,
               "HyperCD": 0.7457,
-              "DINA": 0.6665
+              "DINA": 0.6665,
+              "NCD": 0.706,
+              "IRT": 0.6961
             },
             "ACC": {
-              "NCD": 0.6851,
-              "MIRT": 0.682,
-              "IRT": 0.6652,
               "RCD": 0.7038,
+              "MIRT": 0.682,
               "HyperCD": 0.7157,
-              "DINA": 0.5997
+              "DINA": 0.5997,
+              "NCD": 0.6851,
+              "IRT": 0.6652
             },
             "RMSE": {
-              "NCD": 0.4608,
-              "MIRT": 0.4531,
-              "IRT": 0.4579,
               "RCD": 0.4397,
+              "MIRT": 0.4531,
               "HyperCD": 0.4325,
-              "DINA": 0.4827
+              "DINA": 0.4827,
+              "NCD": 0.4608,
+              "IRT": 0.4579
             },
             "MAE": {
-              "NCD": 0.3602,
-              "MIRT": 0.392,
-              "IRT": 0.4051,
               "RCD": 0.3648,
+              "MIRT": 0.392,
               "HyperCD": 0.3686,
-              "DINA": 0.4206
-            }
-          }
-        },
-        "slepemapy-anatomy": {
-          "metrics": {
-            "AUC": {
-              "NCD": 0.6668,
-              "MIRT": 0.5264,
-              "IRT": 0.6642,
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": 0.615
-            },
-            "ACC": {
-              "NCD": 0.7561,
-              "MIRT": 0.5948,
-              "IRT": 0.7573,
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": 0.6384
-            },
-            "RMSE": {
-              "NCD": 0.4166,
-              "MIRT": 0.5821,
-              "IRT": 0.4164,
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": 0.4962
-            },
-            "MAE": {
-              "NCD": 0.3402,
-              "MIRT": 0.4133,
-              "IRT": 0.3468,
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": 0.3982
-            }
-          }
-        },
-        "edi2020-task34": {
-          "metrics": {
-            "AUC": {
-              "NCD": 0.6815,
-              "MIRT": 0.7289,
-              "IRT": 0.7272,
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": 0.6717
-            },
-            "ACC": {
-              "NCD": 0.6318,
-              "MIRT": 0.6669,
-              "IRT": 0.6686,
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": 0.591
-            },
-            "RMSE": {
-              "NCD": 0.4737,
-              "MIRT": 0.4596,
-              "IRT": 0.4605,
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": 0.4843
-            },
-            "MAE": {
-              "NCD": 0.4418,
-              "MIRT": 0.4039,
-              "IRT": 0.4349,
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": 0.4428
+              "DINA": 0.4206,
+              "NCD": 0.3602,
+              "IRT": 0.4051
             }
           }
         },
         "assist2017": {
           "metrics": {
             "AUC": {
-              "NCD": 0.7022,
-              "MIRT": 0.6984,
-              "IRT": 0.6901,
               "RCD": "",
+              "MIRT": 0.6984,
               "HyperCD": 0.7173,
-              "DINA": 0.6454
+              "DINA": 0.6454,
+              "NCD": 0.7022,
+              "IRT": 0.6901
             },
             "ACC": {
-              "NCD": 0.6869,
-              "MIRT": 0.6891,
-              "IRT": 0.6469,
               "RCD": "",
+              "MIRT": 0.6891,
               "HyperCD": 0.6999,
-              "DINA": 0.6186
+              "DINA": 0.6186,
+              "NCD": 0.6869,
+              "IRT": 0.6469
             },
             "RMSE": {
-              "NCD": 0.4515,
-              "MIRT": 0.4522,
-              "IRT": 0.4703,
               "RCD": "",
+              "MIRT": 0.4522,
               "HyperCD": 0.4453,
-              "DINA": 0.5218
+              "DINA": 0.5218,
+              "NCD": 0.4515,
+              "IRT": 0.4703
             },
             "MAE": {
-              "NCD": 0.4097,
-              "MIRT": 0.4061,
-              "IRT": 0.4536,
               "RCD": "",
+              "MIRT": 0.4061,
               "HyperCD": 0.3981,
-              "DINA": 0.4562
+              "DINA": 0.4562,
+              "NCD": 0.4097,
+              "IRT": 0.4536
             }
           }
         },
-        "statics2011": {
+        "SLP-phy": {
           "metrics": {
             "AUC": {
-              "NCD": 0.8134,
-              "MIRT": 0.7376,
-              "IRT": 0.7911,
-              "RCD": 0.7918,
-              "HyperCD": 0.8035,
-              "DINA": 0.7054
+              "RCD": 0.8341,
+              "MIRT": 0.8334,
+              "HyperCD": 0.816,
+              "DINA": 0.665,
+              "NCD": 0.7964,
+              "IRT": 0.801
             },
             "ACC": {
-              "NCD": 0.8005,
-              "MIRT": 0.7661,
-              "IRT": 0.7859,
-              "RCD": 0.7881,
-              "HyperCD": 0.7956,
-              "DINA": 0.7251
+              "RCD": 0.7597,
+              "MIRT": 0.7622,
+              "HyperCD": 0.7473,
+              "DINA": 0.6283,
+              "NCD": 0.7333,
+              "IRT": 0.7132
             },
             "RMSE": {
-              "NCD": 0.3714,
-              "MIRT": 0.4006,
-              "IRT": 0.3817,
-              "RCD": 0.3821,
-              "HyperCD": 0.3761,
-              "DINA": 0.4189
+              "RCD": 0.4017,
+              "MIRT": 0.4019,
+              "HyperCD": 0.4115,
+              "DINA": 0.476,
+              "NCD": 0.4262,
+              "IRT": 0.432
             },
             "MAE": {
-              "NCD": 0.268,
-              "MIRT": 0.3361,
-              "IRT": 0.2951,
-              "RCD": 0.2911,
-              "HyperCD": 0.2807,
-              "DINA": 0.3425
+              "RCD": 0.3372,
+              "MIRT": 0.3329,
+              "HyperCD": 0.3406,
+              "DINA": 0.4193,
+              "NCD": 0.3245,
+              "IRT": 0.3843
+            }
+          }
+        },
+        "slepemapy-anatomy": {
+          "metrics": {
+            "AUC": {
+              "RCD": "",
+              "MIRT": 0.5264,
+              "HyperCD": 0.689,
+              "DINA": 0.615,
+              "NCD": 0.6668,
+              "IRT": 0.6642
+            },
+            "ACC": {
+              "RCD": "",
+              "MIRT": 0.5948,
+              "HyperCD": 0.7537,
+              "DINA": 0.6384,
+              "NCD": 0.7561,
+              "IRT": 0.7573
+            },
+            "RMSE": {
+              "RCD": "",
+              "MIRT": 0.5821,
+              "HyperCD": 0.4146,
+              "DINA": 0.4962,
+              "NCD": 0.4166,
+              "IRT": 0.4164
+            },
+            "MAE": {
+              "RCD": "",
+              "MIRT": 0.4133,
+              "HyperCD": 0.3455,
+              "DINA": 0.3982,
+              "NCD": 0.3402,
+              "IRT": 0.3468
+            }
+          }
+        },
+        "edi2020-task34": {
+          "metrics": {
+            "AUC": {
+              "RCD": "",
+              "MIRT": 0.7289,
+              "HyperCD": "",
+              "DINA": 0.6717,
+              "NCD": 0.6815,
+              "IRT": 0.7272
+            },
+            "ACC": {
+              "RCD": "",
+              "MIRT": 0.6669,
+              "HyperCD": "",
+              "DINA": 0.591,
+              "NCD": 0.6318,
+              "IRT": 0.6686
+            },
+            "RMSE": {
+              "RCD": "",
+              "MIRT": 0.4596,
+              "HyperCD": "",
+              "DINA": 0.4843,
+              "NCD": 0.4737,
+              "IRT": 0.4605
+            },
+            "MAE": {
+              "RCD": "",
+              "MIRT": 0.4039,
+              "HyperCD": "",
+              "DINA": 0.4428,
+              "NCD": 0.4418,
+              "IRT": 0.4349
             }
           }
         }
@@ -187,183 +259,255 @@
     },
     "user cold start-userNum5": {
       "datasets": {
+        "statics2011": {
+          "metrics": {
+            "AUC": {
+              "RCD": "",
+              "MIRT": "",
+              "HyperCD": "",
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
+            },
+            "ACC": {
+              "RCD": "",
+              "MIRT": "",
+              "HyperCD": "",
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
+            },
+            "RMSE": {
+              "RCD": "",
+              "MIRT": "",
+              "HyperCD": "",
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
+            },
+            "MAE": {
+              "RCD": "",
+              "MIRT": "",
+              "HyperCD": "",
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
+            }
+          }
+        },
+        "SLP-mat": {
+          "metrics": {
+            "AUC": {
+              "RCD": "",
+              "MIRT": "",
+              "HyperCD": "",
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
+            },
+            "ACC": {
+              "RCD": "",
+              "MIRT": "",
+              "HyperCD": "",
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
+            },
+            "RMSE": {
+              "RCD": "",
+              "MIRT": "",
+              "HyperCD": "",
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
+            },
+            "MAE": {
+              "RCD": "",
+              "MIRT": "",
+              "HyperCD": "",
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
+            }
+          }
+        },
         "assist2009": {
           "metrics": {
             "AUC": {
-              "NCD": 0.7778,
-              "MIRT": 0.6667,
-              "IRT": 0.8889,
               "RCD": 0.7778,
-              "HyperCD": 0.8889,
-              "DINA": 0.5556
-            },
-            "ACC": {
-              "NCD": 0.6667,
               "MIRT": 0.6667,
-              "IRT": 0.6667,
+              "HyperCD": 0.8889,
+              "DINA": 0.5556,
+              "NCD": 0.7778,
+              "IRT": 0.8889
+            },
+            "ACC": {
               "RCD": 0.6667,
+              "MIRT": 0.6667,
               "HyperCD": 0.6667,
-              "DINA": 0.6667
+              "DINA": 0.6667,
+              "NCD": 0.6667,
+              "IRT": 0.6667
             },
             "RMSE": {
-              "NCD": 0.4141,
-              "MIRT": 0.4899,
-              "IRT": 0.4718,
               "RCD": 0.4347,
+              "MIRT": 0.4899,
               "HyperCD": 0.4377,
-              "DINA": 0.4559
+              "DINA": 0.4559,
+              "NCD": 0.4141,
+              "IRT": 0.4718
             },
             "MAE": {
-              "NCD": 0.3346,
-              "MIRT": 0.4672,
-              "IRT": 0.4341,
               "RCD": 0.3697,
+              "MIRT": 0.4672,
               "HyperCD": 0.3992,
-              "DINA": 0.4219
-            }
-          }
-        },
-        "slepemapy-anatomy": {
-          "metrics": {
-            "AUC": {
-              "NCD": 0.9167,
-              "MIRT": 0.5417,
-              "IRT": 0.8906,
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": 0.6615
-            },
-            "ACC": {
-              "NCD": 0.75,
-              "MIRT": 0.6875,
-              "IRT": 0.75,
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": 0.5938
-            },
-            "RMSE": {
-              "NCD": 0.4052,
-              "MIRT": 0.5241,
-              "IRT": 0.4123,
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": 0.5115
-            },
-            "MAE": {
-              "NCD": 0.297,
-              "MIRT": 0.355,
-              "IRT": 0.3006,
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": 0.406
-            }
-          }
-        },
-        "edi2020-task34": {
-          "metrics": {
-            "AUC": {
-              "NCD": "",
-              "MIRT": "",
-              "IRT": "",
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": ""
-            },
-            "ACC": {
-              "NCD": "",
-              "MIRT": "",
-              "IRT": "",
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": ""
-            },
-            "RMSE": {
-              "NCD": "",
-              "MIRT": "",
-              "IRT": "",
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": ""
-            },
-            "MAE": {
-              "NCD": "",
-              "MIRT": "",
-              "IRT": "",
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": ""
+              "DINA": 0.4219,
+              "NCD": 0.3346,
+              "IRT": 0.4341
             }
           }
         },
         "assist2017": {
           "metrics": {
             "AUC": {
-              "NCD": "",
-              "MIRT": "",
-              "IRT": "",
               "RCD": "",
+              "MIRT": "",
               "HyperCD": "",
-              "DINA": ""
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
             },
             "ACC": {
-              "NCD": "",
-              "MIRT": "",
-              "IRT": "",
               "RCD": "",
+              "MIRT": "",
               "HyperCD": "",
-              "DINA": ""
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
             },
             "RMSE": {
-              "NCD": "",
-              "MIRT": "",
-              "IRT": "",
               "RCD": "",
+              "MIRT": "",
               "HyperCD": "",
-              "DINA": ""
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
             },
             "MAE": {
-              "NCD": "",
-              "MIRT": "",
-              "IRT": "",
               "RCD": "",
+              "MIRT": "",
               "HyperCD": "",
-              "DINA": ""
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
             }
           }
         },
-        "statics2011": {
+        "SLP-phy": {
           "metrics": {
             "AUC": {
-              "NCD": "",
-              "MIRT": "",
-              "IRT": "",
               "RCD": "",
+              "MIRT": "",
               "HyperCD": "",
-              "DINA": ""
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
             },
             "ACC": {
-              "NCD": "",
-              "MIRT": "",
-              "IRT": "",
               "RCD": "",
+              "MIRT": "",
               "HyperCD": "",
-              "DINA": ""
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
             },
             "RMSE": {
-              "NCD": "",
-              "MIRT": "",
-              "IRT": "",
               "RCD": "",
+              "MIRT": "",
               "HyperCD": "",
-              "DINA": ""
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
             },
             "MAE": {
-              "NCD": "",
-              "MIRT": "",
-              "IRT": "",
               "RCD": "",
+              "MIRT": "",
               "HyperCD": "",
-              "DINA": ""
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
+            }
+          }
+        },
+        "slepemapy-anatomy": {
+          "metrics": {
+            "AUC": {
+              "RCD": "",
+              "MIRT": 0.5417,
+              "HyperCD": 0.8438,
+              "DINA": 0.6615,
+              "NCD": 0.9167,
+              "IRT": 0.8906
+            },
+            "ACC": {
+              "RCD": "",
+              "MIRT": 0.6875,
+              "HyperCD": 0.75,
+              "DINA": 0.5938,
+              "NCD": 0.75,
+              "IRT": 0.75
+            },
+            "RMSE": {
+              "RCD": "",
+              "MIRT": 0.5241,
+              "HyperCD": 0.3882,
+              "DINA": 0.5115,
+              "NCD": 0.4052,
+              "IRT": 0.4123
+            },
+            "MAE": {
+              "RCD": "",
+              "MIRT": 0.355,
+              "HyperCD": 0.3168,
+              "DINA": 0.406,
+              "NCD": 0.297,
+              "IRT": 0.3006
+            }
+          }
+        },
+        "edi2020-task34": {
+          "metrics": {
+            "AUC": {
+              "RCD": "",
+              "MIRT": "",
+              "HyperCD": "",
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
+            },
+            "ACC": {
+              "RCD": "",
+              "MIRT": "",
+              "HyperCD": "",
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
+            },
+            "RMSE": {
+              "RCD": "",
+              "MIRT": "",
+              "HyperCD": "",
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
+            },
+            "MAE": {
+              "RCD": "",
+              "MIRT": "",
+              "HyperCD": "",
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
             }
           }
         }
@@ -371,183 +515,255 @@
     },
     "user cold start-userNum10": {
       "datasets": {
+        "statics2011": {
+          "metrics": {
+            "AUC": {
+              "RCD": 0.575,
+              "MIRT": 0.8767,
+              "HyperCD": 0.8767,
+              "DINA": 0.8767,
+              "NCD": 0.8767,
+              "IRT": 0.5542
+            },
+            "ACC": {
+              "RCD": 0.8283,
+              "MIRT": 0.9017,
+              "HyperCD": 0.7983,
+              "DINA": 0.705,
+              "NCD": 0.9017,
+              "IRT": 0.9017
+            },
+            "RMSE": {
+              "RCD": 0.3706,
+              "MIRT": 0.3649,
+              "HyperCD": 0.3582,
+              "DINA": 0.344,
+              "NCD": 0.34,
+              "IRT": 0.3721
+            },
+            "MAE": {
+              "RCD": 0.2803,
+              "MIRT": 0.3252,
+              "HyperCD": 0.2759,
+              "DINA": 0.2749,
+              "NCD": 0.2374,
+              "IRT": 0.293
+            }
+          }
+        },
+        "SLP-mat": {
+          "metrics": {
+            "AUC": {
+              "RCD": "",
+              "MIRT": "",
+              "HyperCD": "",
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
+            },
+            "ACC": {
+              "RCD": "",
+              "MIRT": "",
+              "HyperCD": "",
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
+            },
+            "RMSE": {
+              "RCD": "",
+              "MIRT": "",
+              "HyperCD": "",
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
+            },
+            "MAE": {
+              "RCD": "",
+              "MIRT": "",
+              "HyperCD": "",
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
+            }
+          }
+        },
         "assist2009": {
           "metrics": {
             "AUC": {
-              "NCD": 0.7327,
-              "MIRT": 0.7688,
-              "IRT": 0.6354,
               "RCD": 0.7871,
+              "MIRT": 0.7688,
               "HyperCD": 0.7874,
-              "DINA": 0.7319
+              "DINA": 0.7319,
+              "NCD": 0.7327,
+              "IRT": 0.6354
             },
             "ACC": {
-              "NCD": 0.7137,
-              "MIRT": 0.7464,
-              "IRT": 0.6716,
               "RCD": 0.7652,
+              "MIRT": 0.7464,
               "HyperCD": 0.7665,
-              "DINA": 0.6869
+              "DINA": 0.6869,
+              "NCD": 0.7137,
+              "IRT": 0.6716
             },
             "RMSE": {
-              "NCD": 0.4407,
-              "MIRT": 0.4197,
-              "IRT": 0.4612,
               "RCD": 0.4082,
+              "MIRT": 0.4197,
               "HyperCD": 0.4068,
-              "DINA": 0.4425
+              "DINA": 0.4425,
+              "NCD": 0.4407,
+              "IRT": 0.4612
             },
             "MAE": {
-              "NCD": 0.3344,
-              "MIRT": 0.3177,
-              "IRT": 0.4076,
               "RCD": 0.3199,
+              "MIRT": 0.3177,
               "HyperCD": 0.335,
-              "DINA": 0.3799
-            }
-          }
-        },
-        "slepemapy-anatomy": {
-          "metrics": {
-            "AUC": {
-              "NCD": 0.6069,
-              "MIRT": 0.5254,
-              "IRT": 0.5963,
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": 0.5785
-            },
-            "ACC": {
-              "NCD": 0.6764,
-              "MIRT": 0.5347,
-              "IRT": 0.6757,
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": 0.575
-            },
-            "RMSE": {
-              "NCD": 0.4709,
-              "MIRT": 0.6343,
-              "IRT": 0.4732,
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": 0.5362
-            },
-            "MAE": {
-              "NCD": 0.39,
-              "MIRT": 0.4693,
-              "IRT": 0.391,
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": 0.4385
-            }
-          }
-        },
-        "edi2020-task34": {
-          "metrics": {
-            "AUC": {
-              "NCD": "",
-              "MIRT": "",
-              "IRT": "",
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": ""
-            },
-            "ACC": {
-              "NCD": "",
-              "MIRT": "",
-              "IRT": "",
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": ""
-            },
-            "RMSE": {
-              "NCD": "",
-              "MIRT": "",
-              "IRT": "",
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": ""
-            },
-            "MAE": {
-              "NCD": "",
-              "MIRT": "",
-              "IRT": "",
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": ""
+              "DINA": 0.3799,
+              "NCD": 0.3344,
+              "IRT": 0.4076
             }
           }
         },
         "assist2017": {
           "metrics": {
             "AUC": {
-              "NCD": 0.6125,
-              "MIRT": 0.7639,
-              "IRT": 0.4347,
               "RCD": "",
+              "MIRT": 0.7639,
               "HyperCD": 0.7083,
-              "DINA": 0.4847
+              "DINA": 0.4847,
+              "NCD": 0.6125,
+              "IRT": 0.4347
             },
             "ACC": {
-              "NCD": 0.5076,
-              "MIRT": 0.6205,
-              "IRT": 0.451,
               "RCD": "",
+              "MIRT": 0.6205,
               "HyperCD": 0.5133,
-              "DINA": 0.55
+              "DINA": 0.55,
+              "NCD": 0.5076,
+              "IRT": 0.451
             },
             "RMSE": {
-              "NCD": 0.5053,
-              "MIRT": 0.4698,
-              "IRT": 0.5168,
               "RCD": "",
+              "MIRT": 0.4698,
               "HyperCD": 0.5024,
-              "DINA": 0.528
+              "DINA": 0.528,
+              "NCD": 0.5053,
+              "IRT": 0.5168
             },
             "MAE": {
-              "NCD": 0.482,
-              "MIRT": 0.4189,
-              "IRT": 0.5077,
               "RCD": "",
+              "MIRT": 0.4189,
               "HyperCD": 0.465,
-              "DINA": 0.4606
+              "DINA": 0.4606,
+              "NCD": 0.482,
+              "IRT": 0.5077
             }
           }
         },
-        "statics2011": {
+        "SLP-phy": {
           "metrics": {
             "AUC": {
-              "NCD": 0.8767,
-              "MIRT": 0.8767,
-              "IRT": 0.5542,
-              "RCD": 0.575,
-              "HyperCD": 0.8767,
-              "DINA": 0.8767
+              "RCD": 0.7708,
+              "MIRT": 0.75,
+              "HyperCD": 0.7812,
+              "DINA": 0.7708,
+              "NCD": 0.8021,
+              "IRT": 0.7708
             },
             "ACC": {
-              "NCD": 0.9017,
-              "MIRT": 0.9017,
-              "IRT": 0.9017,
-              "RCD": 0.8283,
-              "HyperCD": 0.7983,
-              "DINA": 0.705
+              "RCD": 0.7273,
+              "MIRT": 0.7273,
+              "HyperCD": 0.7273,
+              "DINA": 0.7727,
+              "NCD": 0.7727,
+              "IRT": 0.6818
             },
             "RMSE": {
-              "NCD": 0.34,
-              "MIRT": 0.3649,
-              "IRT": 0.3721,
-              "RCD": 0.3706,
-              "HyperCD": 0.3582,
-              "DINA": 0.344
+              "RCD": 0.4108,
+              "MIRT": 0.412,
+              "HyperCD": 0.4067,
+              "DINA": 0.4193,
+              "NCD": 0.3958,
+              "IRT": 0.4044
             },
             "MAE": {
-              "NCD": 0.2374,
-              "MIRT": 0.3252,
-              "IRT": 0.293,
-              "RCD": 0.2803,
-              "HyperCD": 0.2759,
-              "DINA": 0.2749
+              "RCD": 0.3256,
+              "MIRT": 0.3234,
+              "HyperCD": 0.3269,
+              "DINA": 0.3579,
+              "NCD": 0.3046,
+              "IRT": 0.3529
+            }
+          }
+        },
+        "slepemapy-anatomy": {
+          "metrics": {
+            "AUC": {
+              "RCD": "",
+              "MIRT": 0.5254,
+              "HyperCD": 0.6747,
+              "DINA": 0.5785,
+              "NCD": 0.6069,
+              "IRT": 0.5963
+            },
+            "ACC": {
+              "RCD": "",
+              "MIRT": 0.5347,
+              "HyperCD": 0.703,
+              "DINA": 0.575,
+              "NCD": 0.6764,
+              "IRT": 0.6757
+            },
+            "RMSE": {
+              "RCD": "",
+              "MIRT": 0.6343,
+              "HyperCD": 0.4486,
+              "DINA": 0.5362,
+              "NCD": 0.4709,
+              "IRT": 0.4732
+            },
+            "MAE": {
+              "RCD": "",
+              "MIRT": 0.4693,
+              "HyperCD": 0.3873,
+              "DINA": 0.4385,
+              "NCD": 0.39,
+              "IRT": 0.391
+            }
+          }
+        },
+        "edi2020-task34": {
+          "metrics": {
+            "AUC": {
+              "RCD": "",
+              "MIRT": "",
+              "HyperCD": "",
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
+            },
+            "ACC": {
+              "RCD": "",
+              "MIRT": "",
+              "HyperCD": "",
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
+            },
+            "RMSE": {
+              "RCD": "",
+              "MIRT": "",
+              "HyperCD": "",
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
+            },
+            "MAE": {
+              "RCD": "",
+              "MIRT": "",
+              "HyperCD": "",
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
             }
           }
         }
@@ -555,183 +771,255 @@
     },
     "question cold start-queNum5": {
       "datasets": {
+        "statics2011": {
+          "metrics": {
+            "AUC": {
+              "RCD": 0.4647,
+              "MIRT": 0.6122,
+              "HyperCD": 0.4768,
+              "DINA": 0.6342,
+              "NCD": 0.6502,
+              "IRT": 0.4423
+            },
+            "ACC": {
+              "RCD": 0.5028,
+              "MIRT": 0.5154,
+              "HyperCD": 0.4744,
+              "DINA": 0.6826,
+              "NCD": 0.5133,
+              "IRT": 0.4483
+            },
+            "RMSE": {
+              "RCD": 0.5381,
+              "MIRT": 0.526,
+              "HyperCD": 0.5483,
+              "DINA": 0.4821,
+              "NCD": 0.5378,
+              "IRT": 0.5447
+            },
+            "MAE": {
+              "RCD": 0.4974,
+              "MIRT": 0.4849,
+              "HyperCD": 0.5028,
+              "DINA": 0.4361,
+              "NCD": 0.4823,
+              "IRT": 0.5117
+            }
+          }
+        },
+        "SLP-mat": {
+          "metrics": {
+            "AUC": {
+              "RCD": "",
+              "MIRT": "",
+              "HyperCD": "",
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
+            },
+            "ACC": {
+              "RCD": "",
+              "MIRT": "",
+              "HyperCD": "",
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
+            },
+            "RMSE": {
+              "RCD": "",
+              "MIRT": "",
+              "HyperCD": "",
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
+            },
+            "MAE": {
+              "RCD": "",
+              "MIRT": "",
+              "HyperCD": "",
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
+            }
+          }
+        },
         "assist2009": {
           "metrics": {
             "AUC": {
-              "NCD": 0.67,
-              "MIRT": 0.6706,
-              "IRT": 0.6959,
               "RCD": 0.7309,
+              "MIRT": 0.6706,
               "HyperCD": 0.7344,
-              "DINA": 0.6517
+              "DINA": 0.6517,
+              "NCD": 0.67,
+              "IRT": 0.6959
             },
             "ACC": {
-              "NCD": 0.6791,
-              "MIRT": 0.6935,
-              "IRT": 0.6931,
               "RCD": 0.7145,
+              "MIRT": 0.6935,
               "HyperCD": 0.7288,
-              "DINA": 0.5847
+              "DINA": 0.5847,
+              "NCD": 0.6791,
+              "IRT": 0.6931
             },
             "RMSE": {
-              "NCD": 0.4721,
-              "MIRT": 0.4469,
-              "IRT": 0.4524,
               "RCD": 0.4358,
+              "MIRT": 0.4469,
               "HyperCD": 0.4272,
-              "DINA": 0.4906
+              "DINA": 0.4906,
+              "NCD": 0.4721,
+              "IRT": 0.4524
             },
             "MAE": {
-              "NCD": 0.3549,
-              "MIRT": 0.3951,
-              "IRT": 0.393,
               "RCD": 0.3546,
+              "MIRT": 0.3951,
               "HyperCD": 0.365,
-              "DINA": 0.4287
-            }
-          }
-        },
-        "slepemapy-anatomy": {
-          "metrics": {
-            "AUC": {
-              "NCD": 0.6387,
-              "MIRT": 0.5355,
-              "IRT": 0.5786,
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": 0.5585
-            },
-            "ACC": {
-              "NCD": 0.6515,
-              "MIRT": 0.5889,
-              "IRT": 0.6524,
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": 0.5555
-            },
-            "RMSE": {
-              "NCD": 0.4714,
-              "MIRT": 0.5826,
-              "IRT": 0.4851,
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": 0.553
-            },
-            "MAE": {
-              "NCD": 0.4272,
-              "MIRT": 0.4239,
-              "IRT": 0.4084,
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": 0.4663
-            }
-          }
-        },
-        "edi2020-task34": {
-          "metrics": {
-            "AUC": {
-              "NCD": 0.533,
-              "MIRT": 0.7582,
-              "IRT": 0.5336,
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": 0.6514
-            },
-            "ACC": {
-              "NCD": 0.585,
-              "MIRT": 0.7045,
-              "IRT": 0.55,
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": 0.661
-            },
-            "RMSE": {
-              "NCD": 0.5077,
-              "MIRT": 0.4414,
-              "IRT": 0.5428,
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": 0.4788
-            },
-            "MAE": {
-              "NCD": 0.5018,
-              "MIRT": 0.4132,
-              "IRT": 0.4704,
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": 0.4202
+              "DINA": 0.4287,
+              "NCD": 0.3549,
+              "IRT": 0.393
             }
           }
         },
         "assist2017": {
           "metrics": {
             "AUC": {
-              "NCD": 0.6271,
-              "MIRT": 0.6466,
-              "IRT": 0.6731,
               "RCD": "",
+              "MIRT": 0.6466,
               "HyperCD": 0.6899,
-              "DINA": 0.6016
+              "DINA": 0.6016,
+              "NCD": 0.6271,
+              "IRT": 0.6731
             },
             "ACC": {
-              "NCD": 0.5341,
-              "MIRT": 0.609,
-              "IRT": 0.5349,
               "RCD": "",
+              "MIRT": 0.609,
               "HyperCD": 0.6397,
-              "DINA": 0.515
+              "DINA": 0.515,
+              "NCD": 0.5341,
+              "IRT": 0.5349
             },
             "RMSE": {
-              "NCD": 0.4938,
-              "MIRT": 0.4843,
-              "IRT": 0.5279,
               "RCD": "",
+              "MIRT": 0.4843,
               "HyperCD": 0.4732,
-              "DINA": 0.5545
+              "DINA": 0.5545,
+              "NCD": 0.4938,
+              "IRT": 0.5279
             },
             "MAE": {
-              "NCD": 0.485,
-              "MIRT": 0.4581,
-              "IRT": 0.4758,
               "RCD": "",
+              "MIRT": 0.4581,
               "HyperCD": 0.445,
-              "DINA": 0.4777
+              "DINA": 0.4777,
+              "NCD": 0.485,
+              "IRT": 0.4758
             }
           }
         },
-        "statics2011": {
+        "SLP-phy": {
           "metrics": {
             "AUC": {
-              "NCD": 0.6502,
-              "MIRT": 0.6122,
-              "IRT": 0.4423,
-              "RCD": 0.4647,
-              "HyperCD": 0.4768,
-              "DINA": 0.6342
+              "RCD": "",
+              "MIRT": "",
+              "HyperCD": "",
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
             },
             "ACC": {
-              "NCD": 0.5133,
-              "MIRT": 0.5154,
-              "IRT": 0.4483,
-              "RCD": 0.5028,
-              "HyperCD": 0.4744,
-              "DINA": 0.6826
+              "RCD": "",
+              "MIRT": "",
+              "HyperCD": "",
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
             },
             "RMSE": {
-              "NCD": 0.5378,
-              "MIRT": 0.526,
-              "IRT": 0.5447,
-              "RCD": 0.5381,
-              "HyperCD": 0.5483,
-              "DINA": 0.4821
+              "RCD": "",
+              "MIRT": "",
+              "HyperCD": "",
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
             },
             "MAE": {
-              "NCD": 0.4823,
-              "MIRT": 0.4849,
-              "IRT": 0.5117,
-              "RCD": 0.4974,
-              "HyperCD": 0.5028,
-              "DINA": 0.4361
+              "RCD": "",
+              "MIRT": "",
+              "HyperCD": "",
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
+            }
+          }
+        },
+        "slepemapy-anatomy": {
+          "metrics": {
+            "AUC": {
+              "RCD": "",
+              "MIRT": 0.5355,
+              "HyperCD": 0.704,
+              "DINA": 0.5585,
+              "NCD": 0.6387,
+              "IRT": 0.5786
+            },
+            "ACC": {
+              "RCD": "",
+              "MIRT": 0.5889,
+              "HyperCD": 0.6666,
+              "DINA": 0.5555,
+              "NCD": 0.6515,
+              "IRT": 0.6524
+            },
+            "RMSE": {
+              "RCD": "",
+              "MIRT": 0.5826,
+              "HyperCD": 0.4541,
+              "DINA": 0.553,
+              "NCD": 0.4714,
+              "IRT": 0.4851
+            },
+            "MAE": {
+              "RCD": "",
+              "MIRT": 0.4239,
+              "HyperCD": 0.4105,
+              "DINA": 0.4663,
+              "NCD": 0.4272,
+              "IRT": 0.4084
+            }
+          }
+        },
+        "edi2020-task34": {
+          "metrics": {
+            "AUC": {
+              "RCD": "",
+              "MIRT": 0.7582,
+              "HyperCD": "",
+              "DINA": 0.6514,
+              "NCD": 0.533,
+              "IRT": 0.5336
+            },
+            "ACC": {
+              "RCD": "",
+              "MIRT": 0.7045,
+              "HyperCD": "",
+              "DINA": 0.661,
+              "NCD": 0.585,
+              "IRT": 0.55
+            },
+            "RMSE": {
+              "RCD": "",
+              "MIRT": 0.4414,
+              "HyperCD": "",
+              "DINA": 0.4788,
+              "NCD": 0.5077,
+              "IRT": 0.5428
+            },
+            "MAE": {
+              "RCD": "",
+              "MIRT": 0.4132,
+              "HyperCD": "",
+              "DINA": 0.4202,
+              "NCD": 0.5018,
+              "IRT": 0.4704
             }
           }
         }
@@ -739,183 +1027,255 @@
     },
     "question cold start-queNum10": {
       "datasets": {
+        "statics2011": {
+          "metrics": {
+            "AUC": {
+              "RCD": 0.5697,
+              "MIRT": 0.6068,
+              "HyperCD": 0.5792,
+              "DINA": 0.5574,
+              "NCD": 0.6733,
+              "IRT": 0.4823
+            },
+            "ACC": {
+              "RCD": 0.6184,
+              "MIRT": 0.4261,
+              "HyperCD": 0.5733,
+              "DINA": 0.5634,
+              "NCD": 0.4355,
+              "IRT": 0.3535
+            },
+            "RMSE": {
+              "RCD": 0.4896,
+              "MIRT": 0.5554,
+              "HyperCD": 0.5074,
+              "DINA": 0.5392,
+              "NCD": 0.5585,
+              "IRT": 0.573
+            },
+            "MAE": {
+              "RCD": 0.4511,
+              "MIRT": 0.5201,
+              "HyperCD": 0.4616,
+              "DINA": 0.4969,
+              "NCD": 0.5165,
+              "IRT": 0.5423
+            }
+          }
+        },
+        "SLP-mat": {
+          "metrics": {
+            "AUC": {
+              "RCD": "",
+              "MIRT": "",
+              "HyperCD": "",
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
+            },
+            "ACC": {
+              "RCD": "",
+              "MIRT": "",
+              "HyperCD": "",
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
+            },
+            "RMSE": {
+              "RCD": "",
+              "MIRT": "",
+              "HyperCD": "",
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
+            },
+            "MAE": {
+              "RCD": "",
+              "MIRT": "",
+              "HyperCD": "",
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
+            }
+          }
+        },
         "assist2009": {
           "metrics": {
             "AUC": {
-              "NCD": 0.6968,
-              "MIRT": 0.6835,
-              "IRT": 0.7046,
               "RCD": 0.7436,
+              "MIRT": 0.6835,
               "HyperCD": 0.7471,
-              "DINA": 0.6649
+              "DINA": 0.6649,
+              "NCD": 0.6968,
+              "IRT": 0.7046
             },
             "ACC": {
-              "NCD": 0.6937,
-              "MIRT": 0.6957,
-              "IRT": 0.6881,
               "RCD": 0.7186,
+              "MIRT": 0.6957,
               "HyperCD": 0.7301,
-              "DINA": 0.595
+              "DINA": 0.595,
+              "NCD": 0.6937,
+              "IRT": 0.6881
             },
             "RMSE": {
-              "NCD": 0.4607,
-              "MIRT": 0.4453,
-              "IRT": 0.4512,
               "RCD": 0.4322,
+              "MIRT": 0.4453,
               "HyperCD": 0.4246,
-              "DINA": 0.485
+              "DINA": 0.485,
+              "NCD": 0.4607,
+              "IRT": 0.4512
             },
             "MAE": {
-              "NCD": 0.3453,
-              "MIRT": 0.3909,
-              "IRT": 0.392,
               "RCD": 0.3498,
+              "MIRT": 0.3909,
               "HyperCD": 0.3586,
-              "DINA": 0.4221
-            }
-          }
-        },
-        "slepemapy-anatomy": {
-          "metrics": {
-            "AUC": {
-              "NCD": 0.6224,
-              "MIRT": 0.5152,
-              "IRT": 0.5799,
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": 0.5829
-            },
-            "ACC": {
-              "NCD": 0.661,
-              "MIRT": 0.5837,
-              "IRT": 0.6646,
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": 0.5887
-            },
-            "RMSE": {
-              "NCD": 0.468,
-              "MIRT": 0.5856,
-              "IRT": 0.4788,
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": 0.5345
-            },
-            "MAE": {
-              "NCD": 0.4245,
-              "MIRT": 0.4226,
-              "IRT": 0.4068,
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": 0.4462
-            }
-          }
-        },
-        "edi2020-task34": {
-          "metrics": {
-            "AUC": {
-              "NCD": 0.5512,
-              "MIRT": 0.7415,
-              "IRT": 0.5606,
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": 0.5967
-            },
-            "ACC": {
-              "NCD": 0.6014,
-              "MIRT": 0.7023,
-              "IRT": 0.4588,
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": 0.6105
-            },
-            "RMSE": {
-              "NCD": 0.5025,
-              "MIRT": 0.4567,
-              "IRT": 0.5644,
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": 0.5121
-            },
-            "MAE": {
-              "NCD": 0.491,
-              "MIRT": 0.4205,
-              "IRT": 0.5081,
-              "RCD": "",
-              "HyperCD": "",
-              "DINA": 0.4558
+              "DINA": 0.4221,
+              "NCD": 0.3453,
+              "IRT": 0.392
             }
           }
         },
         "assist2017": {
           "metrics": {
             "AUC": {
-              "NCD": 0.6251,
-              "MIRT": 0.6306,
-              "IRT": 0.6565,
               "RCD": "",
+              "MIRT": 0.6306,
               "HyperCD": 0.6763,
-              "DINA": 0.5957
+              "DINA": 0.5957,
+              "NCD": 0.6251,
+              "IRT": 0.6565
             },
             "ACC": {
-              "NCD": 0.5649,
-              "MIRT": 0.5995,
-              "IRT": 0.496,
               "RCD": "",
+              "MIRT": 0.5995,
               "HyperCD": 0.6392,
-              "DINA": 0.5212
+              "DINA": 0.5212,
+              "NCD": 0.5649,
+              "IRT": 0.496
             },
             "RMSE": {
-              "NCD": 0.4907,
-              "MIRT": 0.4892,
-              "IRT": 0.5399,
               "RCD": "",
+              "MIRT": 0.4892,
               "HyperCD": 0.4755,
-              "DINA": 0.5528
+              "DINA": 0.5528,
+              "NCD": 0.4907,
+              "IRT": 0.5399
             },
             "MAE": {
-              "NCD": 0.4796,
-              "MIRT": 0.4629,
-              "IRT": 0.4925,
               "RCD": "",
+              "MIRT": 0.4629,
               "HyperCD": 0.4445,
-              "DINA": 0.4888
+              "DINA": 0.4888,
+              "NCD": 0.4796,
+              "IRT": 0.4925
             }
           }
         },
-        "statics2011": {
+        "SLP-phy": {
           "metrics": {
             "AUC": {
-              "NCD": 0.6733,
-              "MIRT": 0.6068,
-              "IRT": 0.4823,
-              "RCD": 0.5697,
-              "HyperCD": 0.5792,
-              "DINA": 0.5574
+              "RCD": "",
+              "MIRT": "",
+              "HyperCD": "",
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
             },
             "ACC": {
-              "NCD": 0.4355,
-              "MIRT": 0.4261,
-              "IRT": 0.3535,
-              "RCD": 0.6184,
-              "HyperCD": 0.5733,
-              "DINA": 0.5634
+              "RCD": "",
+              "MIRT": "",
+              "HyperCD": "",
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
             },
             "RMSE": {
-              "NCD": 0.5585,
-              "MIRT": 0.5554,
-              "IRT": 0.573,
-              "RCD": 0.4896,
-              "HyperCD": 0.5074,
-              "DINA": 0.5392
+              "RCD": "",
+              "MIRT": "",
+              "HyperCD": "",
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
             },
             "MAE": {
-              "NCD": 0.5165,
-              "MIRT": 0.5201,
-              "IRT": 0.5423,
-              "RCD": 0.4511,
-              "HyperCD": 0.4616,
-              "DINA": 0.4969
+              "RCD": "",
+              "MIRT": "",
+              "HyperCD": "",
+              "DINA": "",
+              "NCD": "",
+              "IRT": ""
+            }
+          }
+        },
+        "slepemapy-anatomy": {
+          "metrics": {
+            "AUC": {
+              "RCD": "",
+              "MIRT": 0.5152,
+              "HyperCD": 0.672,
+              "DINA": 0.5829,
+              "NCD": 0.6224,
+              "IRT": 0.5799
+            },
+            "ACC": {
+              "RCD": "",
+              "MIRT": 0.5837,
+              "HyperCD": 0.6792,
+              "DINA": 0.5887,
+              "NCD": 0.661,
+              "IRT": 0.6646
+            },
+            "RMSE": {
+              "RCD": "",
+              "MIRT": 0.5856,
+              "HyperCD": 0.4565,
+              "DINA": 0.5345,
+              "NCD": 0.468,
+              "IRT": 0.4788
+            },
+            "MAE": {
+              "RCD": "",
+              "MIRT": 0.4226,
+              "HyperCD": 0.4071,
+              "DINA": 0.4462,
+              "NCD": 0.4245,
+              "IRT": 0.4068
+            }
+          }
+        },
+        "edi2020-task34": {
+          "metrics": {
+            "AUC": {
+              "RCD": "",
+              "MIRT": 0.7415,
+              "HyperCD": "",
+              "DINA": 0.5967,
+              "NCD": 0.5512,
+              "IRT": 0.5606
+            },
+            "ACC": {
+              "RCD": "",
+              "MIRT": 0.7023,
+              "HyperCD": "",
+              "DINA": 0.6105,
+              "NCD": 0.6014,
+              "IRT": 0.4588
+            },
+            "RMSE": {
+              "RCD": "",
+              "MIRT": 0.4567,
+              "HyperCD": "",
+              "DINA": 0.5121,
+              "NCD": 0.5025,
+              "IRT": 0.5644
+            },
+            "MAE": {
+              "RCD": "",
+              "MIRT": 0.4205,
+              "HyperCD": "",
+              "DINA": 0.4558,
+              "NCD": 0.491,
+              "IRT": 0.5081
             }
           }
         }
