@@ -17,9 +17,9 @@ const KT_TARGET_DATASETS = [
   "edi2020-task34",
   "slepemapy-anatomy",
   "moocradar-C746997",
-  "moocradar-C746997-subtest-27",
+  // "moocradar-C746997-subtest-27",
   "xes3g5m",
-  "xes3g5m-subtest-100",
+  // "xes3g5m-subtest-100",
   // "ednet-kt1",
   // "junyi2015",
   // "edi2020-task1"
