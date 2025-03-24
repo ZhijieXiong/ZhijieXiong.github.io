@@ -17,8 +17,7 @@
             "source": "CIKM[C]",
             "year": "2023",
             "tags": [
-                "Neraul Network",
-                "MLP-based ERM"
+                "Graph-based ERM"
             ],
             "perper_link": "https://dl.acm.org/doi/10.1145/3583780.3614943",
             "official_code_link": "https://github.com/chanllon/KG4EX.Exercise-Recommendation",

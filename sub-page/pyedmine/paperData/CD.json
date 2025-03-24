@@ -7,7 +7,8 @@
             "source": "Book",
             "year": "2009",
             "tags": [
-                "Probabilistic Model"
+                "Probabilistic CDM",
+                "Common Setting"
             ],
             "perper_link": "https://link.springer.com/book/10.1007/978-0-387-89976-3",
             "official_code_link": "",
@@ -20,7 +21,8 @@
             "source": "Book",
             "year": "2009",
             "tags": [
-                "Probabilistic Model"
+                "Probabilistic CDM",
+                "Common Setting"
             ],
             "perper_link": "https://link.springer.com/book/10.1007/978-0-387-89976-3",
             "official_code_link": "",
@@ -33,7 +35,8 @@
             "source": "JEBS[J]",
             "year": "2009",
             "tags": [
-                "Probabilistic Model"
+                "Probabilistic CDM",
+                "Common Setting"
             ],
             "perper_link": "https://journals.sagepub.com/doi/10.3102/1076998607309474",
             "official_code_link": "",
@@ -68,8 +71,8 @@
             "source": "AAAI[C]",
             "year": "2020",
             "tags": [
-                "Neraul Network",
-                "MLP-based CDM"
+                "MLP-based CDM",
+                "Common Setting"
             ],
             "perper_link": "https://ojs.aaai.org/index.php/AAAI/article/view/6080",
             "official_code_link": "https://github.com/bigdata-ustc/EduCDM/blob/main/EduCDM/NCDM/NCDM.py",
@@ -104,8 +107,8 @@
             "source": "SIGIR[C]",
             "year": "2021",
             "tags": [
-                "Neraul Network",
-                "Graph-based CDM"
+                "Graph-based CDM",
+                "Common Setting"
             ],
             "perper_link": "https://dl.acm.org/doi/abs/10.1145/3404835.3462932",
             "official_code_link": "https://github.com/bigdata-ustc/RCD/tree/main",
@@ -146,15 +149,18 @@
             "implemented_in_pyedmine": false
         },
         {
-            "model_name": "",
+            "model_name": "HierCDF",
             "paper_title": "HierCDF: A Bayesian Network-based Hierarchical Cognitive Diagnosis Framework",
             "source": "SIGKDD[C]",
             "year": "2022",
-            "tags": ["Neraul Network", "Graph-based CDM"],
+            "tags": [
+                "Graph-based CDM",
+                "Common Setting"
+            ],
             "perper_link": "https://dl.acm.org/doi/10.1145/3534678.3539486",
-            "official_code_link": "",
-            "ref_code_link": "",
-            "implemented_in_pyedmine": false
+            "official_code_link": "https://github.com/CSLiJT/HCD-code",
+            "ref_code_link": "offcial_code",
+            "implemented_in_pyedmine": true
         },
         {
             "model_name": "",
@@ -234,7 +240,7 @@
             "implemented_in_pyedmine": false
         },
         {
-            "model_name": "",
+            "model_name": "HeckmanCD",
             "paper_title": "HeckmanCD: Exploiting Selection Bias in Cognitive Diagnosis",
             "source": "CIKM[C]",
             "year": "2024",
@@ -245,7 +251,7 @@
             "implemented_in_pyedmine": false
         },
         {
-            "model_name": "",
+            "model_name": "ORCDF",
             "paper_title": "ORCDF: An Oversmoothing-Resistant Cognitive Diagnosis Framework for Student Learning in Online Education Systems",
             "source": "SIGKDD[C]",
             "year": "2024",
@@ -267,7 +273,7 @@
             "implemented_in_pyedmine": false
         },
         {
-            "model_name": "",
+            "model_name": "RDGT",
             "paper_title": "RDGT: Enhancing Group Cognitive Diagnosis With Relation-Guided Dual-Side Graph Transformer",
             "source": "TKDE[T]",
             "year": "2024",
@@ -316,7 +322,6 @@
             "source": "SIGKDD[C]",
             "year": "2024",
             "tags": [
-                "Neraul Network",
                 "Graph-based CDM"
             ],
             "perper_link": "https://dl.acm.org/doi/10.1145/3637528.3672002",
@@ -325,13 +330,11 @@
             "implemented_in_pyedmine": true
         },
         {
-            "model_name": "",
+            "model_name": "AdaRD",
             "paper_title": "AdaRD: An Adaptive Response Denoising Framework for Robust Learner Modeling",
             "source": "SIGKDD[C]",
             "year": "2024",
-            "tags": [
-                
-            ],
+            "tags": [],
             "perper_link": "https://dl.acm.org/doi/10.1145/3637528.3671684",
             "official_code_link": "",
             "ref_code_link": "",

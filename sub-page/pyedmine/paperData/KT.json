@@ -7,9 +7,7 @@
             "source": "NeurIPS[C]",
             "year": "2015",
             "tags": [
-                "Neural Network",
                 "Sequential KTM",
-                "Vectorized User Representation",
                 "RNN-based KTM",
                 "Common Setting"
             ],
@@ -24,7 +22,7 @@
             "source": "CIKM[C]",
             "year": "2017",
             "tags": [
-                "Factor Model",
+                "Factor KTM",
                 "Personalized Modeling",
                 "Forget Modeling",
                 "Interpretable KTM",
@@ -41,9 +39,7 @@
             "source": "WWW[C]",
             "year": "2017",
             "tags": [
-                "Neural Network",
                 "Sequential KTM",
-                "Matrixized User Representation",
                 "Common Setting"
             ],
             "perper_link": "https://dl.acm.org/doi/abs/10.1145/3038912.3052580",
@@ -57,9 +53,7 @@
             "source": "AAAI[C]",
             "year": "2018",
             "tags": [
-                "Neural Network",
                 "Sequential KTM",
-                "Vectorized User Representation",
                 "RNN-based KTM",
                 "Attention-based KTM",
                 "Integrated Side Information",
@@ -75,8 +69,7 @@
             "paper_title": "Deep Knowledge Tracing and Dynamic Student Classification for Knowledge Tracing",
             "source": "ICDM[C]",
             "year": "2018",
-            "tags": [
-            ],
+            "tags": [],
             "perper_link": "https://ieeexplore.ieee.org/document/8594965",
             "official_code_link": "https://github.com/simon-tan/DKT-DSC",
             "ref_code_link": "",
@@ -87,8 +80,7 @@
             "paper_title": "Prerequisite-Driven Deep Knowledge Tracing",
             "source": "ICDM[C]",
             "year": "2018",
-            "tags": [
-            ],
+            "tags": [],
             "perper_link": "https://ieeexplore.ieee.org/document/8594828",
             "official_code_link": "",
             "ref_code_link": "",
@@ -99,8 +91,7 @@
             "paper_title": "Knowledge Tracing Machines: Factorization Machines for Knowledge Tracing",
             "source": "AAAI[C]",
             "year": "2019",
-            "tags": [
-            ],
+            "tags": [],
             "perper_link": "https://dl.acm.org/doi/10.1609/aaai.v33i01.3301750",
             "official_code_link": "",
             "ref_code_link": "",
@@ -112,10 +103,8 @@
             "source": "SIGIR[C]",
             "year": "2019",
             "tags": [
-                "Neural Network",
                 "Sequential KTM",
                 "RNN-based KTM",
-                "Matrixized User Representation",
                 "Common Setting"
             ],
             "perper_link": "https://dl.acm.org/doi/10.1145/3331184.3331195",
@@ -128,8 +117,7 @@
             "paper_title": "Augmenting Knowledge Tracing by Considering Forgetting Behavior",
             "source": "WWW[C]",
             "year": "2019",
-            "tags": [
-            ],
+            "tags": [],
             "perper_link": "https://dl.acm.org/doi/10.1145/3308558.3313565",
             "official_code_link": "",
             "ref_code_link": "https://github.com/pykt-team/pykt-toolkit/blob/main/pykt/models/dkt_forget.py",
@@ -141,9 +129,7 @@
             "source": "WI[C]",
             "year": "2019",
             "tags": [
-                "Neural Network",
                 "Sequential KTM",
-                "Vectorized User Representation",
                 "Graph-based KTM",
                 "Common Setting"
             ],
@@ -157,8 +143,7 @@
             "paper_title": "Predictive Student Modeling in Educational Games with Multi-Task Learning",
             "source": "AAAI[C]",
             "year": "2020",
-            "tags": [
-            ],
+            "tags": [],
             "perper_link": "https://ojs.aaai.org/index.php/AAAI/article/view/5406",
             "official_code_link": "",
             "ref_code_link": "",
@@ -214,9 +199,7 @@
             "source": "arxiv",
             "year": "2020",
             "tags": [
-                "Neural Network",
                 "Sequential KTM",
-                "Vectorized User Representation",
                 "RNN-based KTM",
                 "Common Setting"
             ],
@@ -231,9 +214,7 @@
             "source": "PKDD[C]",
             "year": "2020",
             "tags": [
-                "Neural Network",
                 "Sequential KTM",
-                "Vectorized User Representation",
                 "RNN-based KTM",
                 "Graph-based KTM",
                 "Common Setting"
@@ -249,9 +230,7 @@
             "source": "SIGKDD[C]",
             "year": "2020",
             "tags": [
-                "Neural Network",
                 "Sequential KTM",
-                "Vectorized User Representation",
                 "Attention-based KTM",
                 "Forget Modeling",
                 "Common Setting"
@@ -300,9 +279,7 @@
             "source": "SIGKDD[C]",
             "year": "2021",
             "tags": [
-                "Neural Network",
                 "Sequential KTM",
-                "Matrixized User Representation",
                 "Learning Behavior Modeling",
                 "Integrated Side Information",
                 "Common Setting"
@@ -318,9 +295,7 @@
             "source": "SIGIR[C]",
             "year": "2021",
             "tags": [
-                "Neural Network",
                 "Sequential KTM",
-                "Vectorized User Representation",
                 "Personalized Modeling",
                 "Reinforcement Learning",
                 "Common Setting"
@@ -336,10 +311,9 @@
             "source": "MM[C]",
             "year": "2021",
             "tags": [
-                "Neural Network",
                 "Sequential KTM",
-                "Vectorized User Representation",
                 "Attention-based KTM",
+                "Robust KTM",
                 "RNN-based KTM",
                 "Adversarial Learning",
                 "Common Setting"
@@ -405,11 +379,14 @@
             "implemented_in_pyedmine": false
         },
         {
-            "model_name": "",
+            "model_name": "ABQR",
             "paper_title": "Adversarial Bootstrapped Question Representation Learning for Knowledge Tracing",
             "source": "MM[C]",
             "year": "2022",
-            "tags": [],
+            "tags": [
+                "Robust KTM",
+                "Adversarial Learning"
+            ],
             "perper_link": "https://dl.acm.org/doi/10.1145/3581783.3612044",
             "official_code_link": "",
             "ref_code_link": "",
@@ -476,9 +453,7 @@
             "source": "SIGIR[C]",
             "year": "2022",
             "tags": [
-                "Neural Network",
                 "Sequential KTM",
-                "Matrixized User Representation",
                 "Personalized Modeling",
                 "Question Difficulty Modeling",
                 "Common Setting"
@@ -494,9 +469,7 @@
             "source": "WWW[C]",
             "year": "2022",
             "tags": [
-                "Neural Network",
                 "Sequential KTM",
-                "Vectorized User Representation",
                 "Attention-based KTM",
                 "Contrastive Learning",
                 "Common Setting"
@@ -512,9 +485,8 @@
             "source": "AAAI[C]",
             "year": "2022",
             "tags": [
-                "Factor Model",
+                "Factor KTM",
                 "Interpretable KTM",
-                "Causal KTM",
                 "Common Setting"
             ],
             "perper_link": "https://ojs.aaai.org/index.php/AAAI/article/view/21560",
@@ -637,7 +609,12 @@
             "paper_title": "Towards Robust Knowledge Tracing Models via k-Sparse Attention",
             "source": "SIGIR[C]",
             "year": "2023",
-            "tags": [],
+            "tags": [
+                "Sequential KTM",
+                "Attention-based KTM",
+                "Robust KTM",
+                "Common Setting"
+            ],
             "perper_link": "https://dl.acm.org/doi/10.1145/3539618.3592073",
             "official_code_link": "https://github.com/pykt-team/pykt-toolkit/blob/main/pykt/models/sparsekt.py",
             "ref_code_link": "official_code",
@@ -692,7 +669,12 @@
             "paper_title": "Tracing Knowledge Instead of Paterns: Stable Knowledge Tracing with Diagnostic Transformer",
             "source": "WWW[C]",
             "year": "2023",
-            "tags": [],
+            "tags": [
+                "Sequential KTM",
+                "Attention-based KTM",
+                "Robust KTM",
+                "Contrastive Learning"
+            ],
             "perper_link": "https://dl.acm.org/doi/abs/10.1145/3543507.3583255",
             "official_code_link": "https://github.com/yxonic/DTransformer",
             "ref_code_link": "official_code",
@@ -704,9 +686,7 @@
             "source": "ICLR[C]",
             "year": "2023",
             "tags": [
-                "Neural Network",
                 "Sequential KTM",
-                "Vectorized User Representation",
                 "Attention-based KTM",
                 "Forget Modeling",
                 "Common Setting"
@@ -722,9 +702,7 @@
             "source": "WWW[C]",
             "year": "2023",
             "tags": [
-                "Neural Network",
                 "Sequential KTM",
-                "Vectorized User Representation",
                 "RNN-based KTM",
                 "Multi-task Learning",
                 "Common Setting"
@@ -740,9 +718,7 @@
             "source": "AAAI[C]",
             "year": "2023",
             "tags": [
-                "Neural Network",
                 "Sequential KTM",
-                "Vectorized User Representation",
                 "RNN-based KTM",
                 "Interpretable KTM",
                 "Common Setting"
@@ -758,9 +734,7 @@
             "source": "SIGKDD[C]",
             "year": "2023",
             "tags": [
-                "Neural Network",
                 "Sequential KTM",
-                "Matrixized User Representation",
                 "Learning Behavior Modeling",
                 "Integrated Side Information",
                 "Common Setting"
@@ -775,7 +749,9 @@
             "paper_title": "Mitigating Cold-Start Problems in Knowledge Tracing with Large Language Models: An Attribute-aware Approach",
             "source": "CIKM[C]",
             "year": "2024",
-            "tags": [],
+            "tags": [
+                "Cold Start Setting"
+            ],
             "perper_link": "https://dl.acm.org/doi/10.1145/3627673.3679664",
             "official_code_link": "",
             "ref_code_link": "",
@@ -798,7 +774,6 @@
             "source": "ICLR[C]",
             "year": "2024",
             "tags": [
-                "Neural Network",
                 "Interpretable KTM"
             ],
             "perper_link": "https://openreview.net/forum?id=NgaLU2fP5D",
@@ -900,11 +875,10 @@
             "source": "WWW[C]",
             "year": "2024",
             "tags": [
-                "Neural Network",
                 "Sequential KTM",
                 "RNN-based KTM",
                 "Attention-based KTM",
-                "Anomaly Detection Model",
+                "Anomaly Detection",
                 "Common Setting"
             ],
             "perper_link": "https://dl.acm.org/doi/10.1145/3589334.3645718",
@@ -918,10 +892,8 @@
             "source": "WWW[C]",
             "year": "2024",
             "tags": [
-                "Neural Network",
                 "Sequential KTM",
                 "RNN-based KTM",
-                "Vectorized User Representation",
                 "Question Difficulty Modeling",
                 "Common Setting"
             ],
@@ -936,9 +908,7 @@
             "source": "WWW[C]",
             "year": "2024",
             "tags": [
-                "Neural Network",
                 "Sequential KTM",
-                "Matrixized User Representation",
                 "Interpretable KTM",
                 "Common Setting"
             ],
