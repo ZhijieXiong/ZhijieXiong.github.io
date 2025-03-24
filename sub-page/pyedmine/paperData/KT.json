@@ -194,21 +194,6 @@
             "implemented_in_pyedmine": false
         },
         {
-            "model_name": "qDKT",
-            "paper_title": "qdkt: Question-centric deep knowledge tracing",
-            "source": "arxiv",
-            "year": "2020",
-            "tags": [
-                "Sequential KTM",
-                "RNN-based KTM",
-                "Common Setting"
-            ],
-            "perper_link": "https://arxiv.org/pdf/2005.12442.pdf",
-            "official_code_link": "",
-            "ref_code_link": "",
-            "implemented_in_pyedmine": true
-        },
-        {
             "model_name": "GIKT",
             "paper_title": "GIKT: A Graph-Based Interaction Model for Knowledge Tracing",
             "source": "PKDD[C]",

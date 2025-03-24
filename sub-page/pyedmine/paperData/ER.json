@@ -9,7 +9,8 @@
             "tags": [],
             "perper_link": "https://dl.acm.org/doi/10.1145/3357384.3357995",
             "official_code_link": "",
-            "ref_code_link": ""
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
         },
         {
             "model_name": "KG4EX",
@@ -21,7 +22,8 @@
             ],
             "perper_link": "https://dl.acm.org/doi/10.1145/3583780.3614943",
             "official_code_link": "https://github.com/chanllon/KG4EX.Exercise-Recommendation",
-            "ref_code_link": "official_code"
+            "ref_code_link": "official_code",
+            "implemented_in_pyedmine": true
         },
         {
             "model_name": "",
@@ -31,7 +33,8 @@
             "tags": [],
             "perper_link": "https://dl.acm.org/doi/10.1145/3640457.3688022",
             "official_code_link": "",
-            "ref_code_link": ""
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
         }
     ]
 }

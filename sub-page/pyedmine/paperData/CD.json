@@ -339,6 +339,50 @@
             "official_code_link": "",
             "ref_code_link": "",
             "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Towards Accurate and Fair Cognitive Diagnosis via Monotonic Data Augmentation",
+            "source": "NeurIPS[C]",
+            "year": "2024",
+            "tags": [],
+            "perper_link": "https://proceedings.neurips.cc/paper_files/paper/2024/file/5564f3974ad0e49778dfdcee8e5dc385-Paper-Conference.pdf",
+            "official_code_link": "https://github.com/Mercidaiha/CMCD",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "DisenGCD: A Meta Multigraph-assisted Disentangled Graph Learning Framework for Cognitive Diagnosis",
+            "source": "NeurIPS[C]",
+            "year": "2024",
+            "tags": [],
+            "perper_link": "https://proceedings.neurips.cc/paper_files/paper/2024/file/a69d7f3a1340d55c720e572742439eaf-Paper-Conference.pdf",
+            "official_code_link": "https://github.com/BIMK/Intelligent-Education/tree/main/DisenGCD",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Collaborative Cognitive Diagnosis with Disentangled Representation Learning for Learner Modeling",
+            "source": "NeurIPS[C]",
+            "year": "2024",
+            "tags": [],
+            "perper_link": "https://proceedings.neurips.cc/paper_files/paper/2024/file/013f9cd52b38e3e53475605d2b8e7c23-Paper-Conference.pdf",
+            "official_code_link": "https://github.com/bigdata-ustc/Coral",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "An Autoencoder-Like Nonnegative Matrix Co-Factorization for Improved Student Cognitive Modeling",
+            "source": "NeurIPS[C]",
+            "year": "2024",
+            "tags": [],
+            "perper_link": "https://proceedings.neurips.cc/paper_files/paper/2024/file/db2808c312de68420ef20f055b726549-Paper-Conference.pdf",
+            "official_code_link": "https://github.com/ShenbaoYu/AE-NMCF",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
         }
     ]
 }
