@@ -40,6 +40,7 @@
             "year": "2017",
             "tags": [
                 "Sequential KTM",
+                "Memory-augmented KTM",
                 "Common Setting"
             ],
             "perper_link": "https://dl.acm.org/doi/abs/10.1145/3038912.3052580",
@@ -57,6 +58,7 @@
                 "RNN-based KTM",
                 "Attention-based KTM",
                 "Integrated Side Information",
+                "Cold Start Setting",
                 "Common Setting"
             ],
             "perper_link": "https://ojs.aaai.org/index.php/AAAI/article/view/11864",
@@ -69,7 +71,12 @@
             "paper_title": "Deep Knowledge Tracing and Dynamic Student Classification for Knowledge Tracing",
             "source": "ICDM[C]",
             "year": "2018",
-            "tags": [],
+            "tags": [
+                "Sequential KTM",
+                "RNN-based KTM",
+                "Clustering-based Approach",
+                "Common Setting"
+            ],
             "perper_link": "https://ieeexplore.ieee.org/document/8594965",
             "official_code_link": "https://github.com/simon-tan/DKT-DSC",
             "ref_code_link": "",
@@ -80,7 +87,13 @@
             "paper_title": "Prerequisite-Driven Deep Knowledge Tracing",
             "source": "ICDM[C]",
             "year": "2018",
-            "tags": [],
+            "tags": [
+                "Sequential KTM",
+                "RNN-based KTM",
+                "Graph-based KTM",
+                "Knowledge Structure Modeling",
+                "Common Setting"
+            ],
             "perper_link": "https://ieeexplore.ieee.org/document/8594828",
             "official_code_link": "",
             "ref_code_link": "",
@@ -91,7 +104,14 @@
             "paper_title": "Knowledge Tracing Machines: Factorization Machines for Knowledge Tracing",
             "source": "AAAI[C]",
             "year": "2019",
-            "tags": [],
+            "tags": [
+                "Factor KTM",
+                "Interpretable KTM",
+                "Question Difficulty Modeling",
+                "Learning Behavior Modeling",
+                "Integrated Side Information",
+                "Common Setting"
+            ],
             "perper_link": "https://dl.acm.org/doi/10.1609/aaai.v33i01.3301750",
             "official_code_link": "",
             "ref_code_link": "",
@@ -105,6 +125,7 @@
             "tags": [
                 "Sequential KTM",
                 "RNN-based KTM",
+                "Memory-augmented KTM",
                 "Common Setting"
             ],
             "perper_link": "https://dl.acm.org/doi/10.1145/3331184.3331195",
@@ -117,11 +138,18 @@
             "paper_title": "Augmenting Knowledge Tracing by Considering Forgetting Behavior",
             "source": "WWW[C]",
             "year": "2019",
-            "tags": [],
+            "tags": [
+                "Sequential KTM",
+                "RNN-based KTM",
+                "Forget Modeling",
+                "Learning Behavior Modeling",
+                "Integrated Side Information",
+                "Common Setting"
+            ],
             "perper_link": "https://dl.acm.org/doi/10.1145/3308558.3313565",
             "official_code_link": "",
-            "ref_code_link": "https://github.com/pykt-team/pykt-toolkit/blob/main/pykt/models/dkt_forget.py",
-            "implemented_in_pyedmine": false
+            "ref_code_link": "",
+            "implemented_in_pyedmine": true
         },
         {
             "model_name": "GKT",
@@ -131,6 +159,7 @@
             "tags": [
                 "Sequential KTM",
                 "Graph-based KTM",
+                "Knowledge Structure Modeling",
                 "Common Setting"
             ],
             "perper_link": "https://dl.acm.org/doi/abs/10.1145/3350546.3352513",
@@ -867,7 +896,7 @@
                 "Common Setting"
             ],
             "perper_link": "https://dl.acm.org/doi/10.1145/3589334.3645718",
-            "official_code_link": "",
+            "official_code_link": "https://github.com/BIMK/Intelligent-Education/",
             "ref_code_link": "",
             "implemented_in_pyedmine": false
         },

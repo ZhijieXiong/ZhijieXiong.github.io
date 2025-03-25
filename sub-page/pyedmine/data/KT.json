@@ -3951,7 +3951,1135 @@
         }
       }
     },
+    "multi step (acc)-step5": {
+      "datasets": {
+        "slepemapy-anatomy": {
+          "metrics": {
+            "AUC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.6707,
+              "DKVMN": 0.6263,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "ACC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.7578,
+              "DKVMN": 0.7574,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "RMSE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.4147,
+              "DKVMN": 0.421,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "MAE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.3476,
+              "DKVMN": 0.3508,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            }
+          }
+        },
+        "edi2020-task34": {
+          "metrics": {
+            "AUC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.7557,
+              "DKVMN": "",
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "ACC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.6916,
+              "DKVMN": "",
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "RMSE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.4462,
+              "DKVMN": "",
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "MAE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.3935,
+              "DKVMN": "",
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            }
+          }
+        },
+        "xes3g5m": {
+          "metrics": {
+            "AUC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.7772,
+              "DKVMN": 0.7733,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "ACC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.815,
+              "DKVMN": 0.8139,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "RMSE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.366,
+              "DKVMN": 0.367,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "MAE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.2624,
+              "DKVMN": 0.2637,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            }
+          }
+        },
+        "assist2012": {
+          "metrics": {
+            "AUC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.7053,
+              "DKVMN": 0.7178,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "ACC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.7245,
+              "DKVMN": 0.729,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "RMSE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.4319,
+              "DKVMN": 0.4286,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "MAE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.3665,
+              "DKVMN": 0.3596,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            }
+          }
+        },
+        "moocradar-C746997": {
+          "metrics": {
+            "AUC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.7956,
+              "DKVMN": "",
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "ACC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.7623,
+              "DKVMN": "",
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "RMSE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.4048,
+              "DKVMN": "",
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "MAE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.3103,
+              "DKVMN": "",
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            }
+          }
+        },
+        "xes3g5m-subtest-100": {
+          "metrics": {
+            "AUC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": "",
+              "DKVMN": "",
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "ACC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": "",
+              "DKVMN": "",
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "RMSE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": "",
+              "DKVMN": "",
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "MAE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": "",
+              "DKVMN": "",
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            }
+          }
+        },
+        "moocradar-C746997-subtest-27": {
+          "metrics": {
+            "AUC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": "",
+              "DKVMN": "",
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "ACC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": "",
+              "DKVMN": "",
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "RMSE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": "",
+              "DKVMN": "",
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "MAE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": "",
+              "DKVMN": "",
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            }
+          }
+        },
+        "statics2011": {
+          "metrics": {
+            "AUC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.6954,
+              "DKVMN": 0.6939,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "ACC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.7652,
+              "DKVMN": 0.7651,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "RMSE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.408,
+              "DKVMN": 0.4083,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "MAE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.3236,
+              "DKVMN": 0.3266,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            }
+          }
+        },
+        "assist2017": {
+          "metrics": {
+            "AUC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": 0.761,
+              "DKT": 0.6979,
+              "DKVMN": 0.6899,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "ACC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": 0.715,
+              "DKT": 0.6789,
+              "DKVMN": 0.6784,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "RMSE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": 0.4322,
+              "DKT": 0.454,
+              "DKVMN": 0.4555,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "MAE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": 0.3708,
+              "DKT": 0.4051,
+              "DKVMN": 0.4111,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            }
+          }
+        },
+        "assist2009": {
+          "metrics": {
+            "AUC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.7367,
+              "DKVMN": 0.7382,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "ACC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.7181,
+              "DKVMN": 0.7208,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "RMSE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.4353,
+              "DKVMN": 0.4336,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "MAE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.3726,
+              "DKVMN": 0.3647,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            }
+          }
+        }
+      }
+    },
     "multi step (acc)-step10": {
+      "datasets": {
+        "slepemapy-anatomy": {
+          "metrics": {
+            "AUC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.6729,
+              "DKVMN": "",
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "ACC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.7593,
+              "DKVMN": "",
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "RMSE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.4136,
+              "DKVMN": "",
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "MAE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.3466,
+              "DKVMN": "",
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            }
+          }
+        },
+        "edi2020-task34": {
+          "metrics": {
+            "AUC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.7569,
+              "DKVMN": "",
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "ACC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.6925,
+              "DKVMN": "",
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "RMSE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.4456,
+              "DKVMN": "",
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "MAE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.3933,
+              "DKVMN": "",
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            }
+          }
+        },
+        "xes3g5m": {
+          "metrics": {
+            "AUC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.7795,
+              "DKVMN": 0.7757,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "ACC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.8161,
+              "DKVMN": 0.8151,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "RMSE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.3648,
+              "DKVMN": 0.3659,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "MAE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.2622,
+              "DKVMN": 0.2633,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            }
+          }
+        },
+        "assist2012": {
+          "metrics": {
+            "AUC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.7092,
+              "DKVMN": 0.7205,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "ACC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.7263,
+              "DKVMN": 0.7306,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "RMSE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.4306,
+              "DKVMN": 0.4275,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "MAE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.3661,
+              "DKVMN": 0.3595,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            }
+          }
+        },
+        "moocradar-C746997": {
+          "metrics": {
+            "AUC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.7951,
+              "DKVMN": "",
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "ACC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.7617,
+              "DKVMN": "",
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "RMSE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.4049,
+              "DKVMN": "",
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "MAE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.3106,
+              "DKVMN": "",
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            }
+          }
+        },
+        "xes3g5m-subtest-100": {
+          "metrics": {
+            "AUC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": "",
+              "DKVMN": "",
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "ACC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": "",
+              "DKVMN": "",
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "RMSE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": "",
+              "DKVMN": "",
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "MAE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": "",
+              "DKVMN": "",
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            }
+          }
+        },
+        "moocradar-C746997-subtest-27": {
+          "metrics": {
+            "AUC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": "",
+              "DKVMN": "",
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "ACC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": "",
+              "DKVMN": "",
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "RMSE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": "",
+              "DKVMN": "",
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "MAE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": "",
+              "DKVMN": "",
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            }
+          }
+        },
+        "statics2011": {
+          "metrics": {
+            "AUC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.6959,
+              "DKVMN": 0.6944,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "ACC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.765,
+              "DKVMN": 0.7647,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "RMSE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.4081,
+              "DKVMN": 0.4085,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "MAE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.3249,
+              "DKVMN": 0.3278,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            }
+          }
+        },
+        "assist2017": {
+          "metrics": {
+            "AUC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.7081,
+              "DKVMN": 0.6974,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "ACC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.6831,
+              "DKVMN": 0.681,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "RMSE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.4511,
+              "DKVMN": 0.4534,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "MAE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.4015,
+              "DKVMN": 0.4085,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            }
+          }
+        },
+        "assist2009": {
+          "metrics": {
+            "AUC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.7406,
+              "DKVMN": 0.7412,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "ACC": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.7199,
+              "DKVMN": 0.7227,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "RMSE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.4339,
+              "DKVMN": 0.4323,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            },
+            "MAE": {
+              "AKT": "",
+              "ATKT": "",
+              "DIMKT": "",
+              "DKT": 0.3719,
+              "DKVMN": 0.3642,
+              "LBKT": "",
+              "LPKT": "",
+              "qDKT": "",
+              "QIKT": "",
+              "SimpleKT": "",
+              "SparseKT": ""
+            }
+          }
+        }
+      }
+    },
+    "multi step (non acc)-step15": {
       "datasets": {
         "slepemapy-anatomy": {
           "metrics": {
