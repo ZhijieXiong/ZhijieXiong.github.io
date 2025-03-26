@@ -1,0 +1,5 @@
+site_name: PyEdmine
+nav:
+  - Home: index.md
+  - Document: doc.md
+theme: readthedocs
