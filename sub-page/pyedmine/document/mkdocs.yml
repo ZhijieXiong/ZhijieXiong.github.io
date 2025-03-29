@@ -1,5 +1,19 @@
 site_name: PyEdmine
 nav:
   - Home: index.md
+    # - "Introduction": index.md#introduction
+    # - "Implemented":
+    #   - "Built-in data processing": doc.md#built-in-data-processing
+    #   - "Built-in models": doc.md#built-in-models
   - Document: doc.md
-theme: readthedocs
+    
+theme:
+  name: material  # 使用 material 主题
+  features:
+    # - navigation.tabs       # 顶部标签式导航
+    - navigation.expand     # 自动展开当前页面的子标题
+    - navigation.sections   # 显示标题层级结构
+
+repo_url: https://github.com/ZhijieXiong/pyedmine
+repo_name: GitHub  # 这将是显示在右上角的文本
+edit_uri: ''  # 清空编辑路径
