@@ -83,7 +83,7 @@ $(document).ready(function () {
     $(`.metric-btn[data-metric="${defaultMetric}"]`).click();
 
     // 模拟点击默认全部按钮
-    $(`.model-type-btn[data-type="${defaultModelType}"]`).click();
+    // $(`.model-type-btn[data-type="${defaultModelType}"]`).click();
   });
 });
 
@@ -260,6 +260,7 @@ function initMetricSelector(sceneName) {
 function onMetricSelect(e) {
   currentState.metric = $(e.target).data("metric");
   currentState.modelType = "All";
+  $(`.model-type-btn[data-type="All"]`).click();
   renderTable();
 }
 // ----------------------------------------------------------------
