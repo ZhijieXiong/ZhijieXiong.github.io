@@ -216,11 +216,15 @@
             "paper_title": "Convolutional Knowledge Tracing: Modeling Individualization in Student Learning Process",
             "source": "SIGIR[C]",
             "year": "2020",
-            "tags": [],
+            "tags": [
+                "Sequential KTM",
+                "CNN-based KTM",
+                "Common Setting"
+            ],
             "perper_link": "https://dl.acm.org/doi/10.1145/3397271.3401288",
             "official_code_link": "https://github.com/shshen-closer/Convolutional-Knowledge-Tracing",
-            "ref_code_link": "https://github.com/shshen-closer/Convolutional-Knowledge-Tracing",
-            "implemented_in_pyedmine": false
+            "ref_code_link": "",
+            "implemented_in_pyedmine": true
         },
         {
             "model_name": "GIKT",
@@ -811,7 +815,9 @@
             "paper_title": "RIGL: A Unified Reciprocal Approach for Tracing the Independent and Group Learning Processes",
             "source": "SIGKDD[C]",
             "year": "2024",
-            "tags": [],
+            "tags": [
+                "Special Setting"
+            ],
             "perper_link": "https://dl.acm.org/doi/10.1145/3637528.3671711",
             "official_code_link": "https://github.com/LabyrinthineLeo/RIGL",
             "ref_code_link": "",
@@ -822,7 +828,9 @@
             "paper_title": "DyGKT: Dynamic Graph Learning for Knowledge Tracing",
             "source": "SIGKDD[C]",
             "year": "2024",
-            "tags": [],
+            "tags": [
+                "Dynamic Graph-based KTM"
+            ],
             "perper_link": "https://dl.acm.org/doi/10.1145/3637528.3671773",
             "official_code_link": "https://github.com/PengLinzhi/DyGKT",
             "ref_code_link": "official_code",
@@ -833,7 +841,12 @@
             "paper_title": "Leveraging Pedagogical Theories to Understand Student Learning Process with Graph-based Reasonable Knowledge Tracing",
             "source": "SIGKDD[C]",
             "year": "2024",
-            "tags": [],
+            "tags": [
+                "Sequential KTM",
+                "Graph-based KTM",
+                "Interpretable KTM",
+                "Common Setting"
+            ],
             "perper_link": "https://dl.acm.org/doi/10.1145/3637528.3671853",
             "official_code_link": "https://github.com/jjcui96/grkt",
             "ref_code_link": "official_code",
@@ -892,13 +905,14 @@
                 "Sequential KTM",
                 "RNN-based KTM",
                 "Attention-based KTM",
+                "Robust KTM",
                 "Anomaly Detection",
                 "Common Setting"
             ],
             "perper_link": "https://dl.acm.org/doi/10.1145/3589334.3645718",
             "official_code_link": "https://github.com/BIMK/Intelligent-Education/",
-            "ref_code_link": "",
-            "implemented_in_pyedmine": false
+            "ref_code_link": "official_code",
+            "implemented_in_pyedmine": true
         },
         {
             "model_name": "QDCKT",
@@ -923,6 +937,8 @@
             "year": "2024",
             "tags": [
                 "Sequential KTM",
+                "Learning Behavior Modeling",
+                "Forget Modeling",
                 "Interpretable KTM",
                 "Common Setting"
             ],

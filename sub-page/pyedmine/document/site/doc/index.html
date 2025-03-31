@@ -516,7 +516,7 @@
 <ol>
 <li>Create a folder <code>dataset_preprocessed/assist2009-no-concept</code> and save a unit diagonal matrix of size <code>Q*Q</code> in the folder and name it <code>Q_table.npy</code></li>
 <li>When training DKT, set the parameter <code>dataset_name</code> to <code>assist2009-no-concept</code></li>
-<li>Our code will automatically read information related to questions and concepts from the Q table</li>
+<li>Our code will <strong>automatically read information related to questions and concepts</strong> from the Q table</li>
 </ol>
 </li>
 <li>
@@ -525,6 +525,13 @@
 <li>Create a folder <code>dataset_preprocessed/assist2009-no-question</code> and save a unit diagonal matrix of size <code>C*C</code> in the folder and name it <code>Q_table.npy</code></li>
 <li>When training AKT, set the parameter <code>dataset_name</code> to <code>assist2009-no-question</code></li>
 <li>Our code will <strong>automatically read information related to questions and concepts</strong> from the Q table</li>
+</ol>
+</li>
+<li>
+<p>Example 3: Run some models that can only process single-concept datasets (such as ATDKT, CLKT, DTransformer and HDLPKT).</p>
+<ol>
+<li>Running script <code>examples/knowledge_tracing/mc2sc.py</code> will treat the combination of multiple concepts as a new concept and regenerate the <code>Q_table.npy</code>. For example, for the <code>assist2009</code> dataset, the <code>assist2009-single-concept</code> dataset will be generated.</li>
+<li>When training AKT, set the parameter <code>dataset_name</code> to <code>assist2009-single-concept</code></li>
 </ol>
 </li>
 </ul>
