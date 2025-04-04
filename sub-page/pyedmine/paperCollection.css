@@ -2,12 +2,13 @@ body {
   background-color: #f8f9fa;
 }
 
-.sortable {
+.callable {
   cursor: pointer;
   user-select: none;
+  color: #0066CC;
 }
 
-.sortable:hover {
+.callable:hover {
   background-color: #e9ecef;
 }
 

@@ -4,6 +4,7 @@ $(document).ready(function () {
   let currentSort = { field: "year", order: "asc" };
   let selectedTags = new Set();
   let selectedSources = new Set();
+  let filterBy = "Implemented";
 
   // 初始化任务过滤器
   function initTaskFilters() {
@@ -91,10 +92,15 @@ $(document).ready(function () {
     if (!currentData) return;
 
     let filtered = currentData.papers.filter(
-      (p) =>
-        (selectedSources.size === 0 || selectedSources.has(p.source)) &&
-        (selectedTags.size === 0 || p.tags.some((t) => selectedTags.has(t)))
+      (p) => {
+        if (filterBy == "PyEdmine" && !p.implemented_in_pyedmine) {
+          return false;
+        }
+        return (selectedSources.size === 0 || selectedSources.has(p.source)) &&
+        (selectedTags.size === 0 || p.tags.some((t) => selectedTags.has(t)));
+      }
     );
+
 
     filtered.sort((a, b) =>
       currentSort.order === "asc" ? a.year - b.year : b.year - a.year
@@ -212,11 +218,19 @@ $(document).ready(function () {
     updateTable();
   });
 
-  $(".sortable").click(function () {
+  $("#btn-year").click(function () {
     currentSort.order = currentSort.order === "asc" ? "desc" : "asc";
     $(this)
       .find("span")
       .html(currentSort.order === "asc" ? "▲" : "▼");
+    updateTable();
+  });
+
+  $("#btn-in-pyedmine").click(function () {
+    filterBy = filterBy === "Implemented" ? "PyEdmine" : "Implemented"
+    $(this)
+      .find("span")
+      .html(filterBy === "Implemented" ? "Implemented" : "PyEdmine")
     updateTable();
   });
 

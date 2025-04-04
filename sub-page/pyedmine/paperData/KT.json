@@ -320,8 +320,8 @@
             ],
             "perper_link": "https://dl.acm.org/doi/abs/10.1145/3404835.3462827",
             "official_code_link": "https://github.com/ApexEDM/iekt",
-            "ref_code_link": "https://github.com/pykt-team/pykt-toolkit/blob/main/pykt/models/iekt.py",
-            "implemented_in_pyedmine": true
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
         },
         {
             "model_name": "ATKT",
@@ -400,15 +400,15 @@
             "model_name": "ABQR",
             "paper_title": "Adversarial Bootstrapped Question Representation Learning for Knowledge Tracing",
             "source": "MM[C]",
-            "year": "2022",
+            "year": "2023",
             "tags": [
                 "Robust KTM",
                 "Adversarial Learning"
             ],
             "perper_link": "https://dl.acm.org/doi/10.1145/3581783.3612044",
-            "official_code_link": "",
-            "ref_code_link": "",
-            "implemented_in_pyedmine": false
+            "official_code_link": "https://github.com/lilstrawberry/ABQR",
+            "ref_code_link": "official_code",
+            "implemented_in_pyedmine": true
         },
         {
             "model_name": "PST",
@@ -672,7 +672,7 @@
             "implemented_in_pyedmine": false
         },
         {
-            "model_name": "",
+            "model_name": "MAN",
             "paper_title": "MAN: Memory-augmented Attentive Networks for Deep Learning-based Knowledge Tracing",
             "source": "TOIS[T]",
             "year": "2023",
@@ -776,7 +776,7 @@
             "implemented_in_pyedmine": false
         },
         {
-            "model_name": "",
+            "model_name": "SINKT",
             "paper_title": "SINKT: A Structure-Aware Inductive Knowledge Tracing Model with Large Language Model",
             "source": "CIKM[C]",
             "year": "2024",
@@ -875,7 +875,7 @@
             "implemented_in_pyedmine": false
         },
         {
-            "model_name": "",
+            "model_name": "ELAKT",
             "paper_title": "ELAKT: Enhancing Locality for Attentive Knowledge Tracing",
             "source": "TOIS[T]",
             "year": "2024",
@@ -886,7 +886,7 @@
             "implemented_in_pyedmine": false
         },
         {
-            "model_name": "",
+            "model_name": "FDKT",
             "paper_title": "FDKT: Towards an Interpretable Deep Knowledge Tracing via Fuzzy Reasoning",
             "source": "TOIS[T]",
             "year": "2024",
