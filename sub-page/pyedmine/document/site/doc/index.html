@@ -352,6 +352,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#code-optimization" class="md-nav__link">
+    <span class="md-ellipsis">
+      Code Optimization
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -459,6 +468,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#code-optimization" class="md-nav__link">
+    <span class="md-ellipsis">
+      Code Optimization
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -528,13 +546,15 @@
 </ol>
 </li>
 <li>
-<p>Example 3: Run some models that can only process single-concept datasets (such as ATDKT, CLKT, DTransformer and HDLPKT).</p>
+<p>Example 3: Run some models that can only process single-concept datasets (such as CLKT, DTransformer, ABQR and HDLPKT).</p>
 <ol>
 <li>Running script <code>examples/knowledge_tracing/mc2sc.py</code> will treat the combination of multiple concepts as a new concept and regenerate the <code>Q_table.npy</code>. For example, for the <code>assist2009</code> dataset, the <code>assist2009-single-concept</code> dataset will be generated.</li>
-<li>When training AKT, set the parameter <code>dataset_name</code> to <code>assist2009-single-concept</code></li>
+<li>When training model, set the parameter <code>dataset_name</code> to <code>assist2009-single-concept</code></li>
 </ol>
 </li>
 </ul>
+<h2 id="code-optimization">Code Optimization</h2>
+<p>For GIKT and KG4EX, the inference process in the official code is implemented using loops. To accelerate the inference, this algorithm library rewrites the loop-based code into matrix operations, achieving a 10–100x speedup. Additionally, the official code of GIKT consumes a significant amount of GPU memory, which has also been optimized accordingly.</p>
 
 
 

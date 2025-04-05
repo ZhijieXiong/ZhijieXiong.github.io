@@ -42,8 +42,8 @@ const ER_TARGET_DATASETS = [
 ];
 const MODEL_TYPE = {
   KT: {
-    "Concept Level": ["DKT", "DKVMN", "DKTForget", "ATKT", "CLKT"],
-    "Question Level": ["qDKT", "AKT", "SimpleKT", "SparseKT", "DIMKT", "LPKT", "LBKT", "MIKT", "QIKT", "QDCKT", "DyGKT", "GRKT", "CKT", "HDLPKT", "DTransformer"],
+    "Concept Level": ["DKT", "DKVMN", "DKTForget", "ATKT"],
+    "Question Level": ["qDKT", "AKT", "SimpleKT", "SparseKT", "DIMKT", "LPKT", "LBKT", "MIKT", "QIKT", "QDCKT", "DyGKT", "GRKT", "CKT", "HDLPKT", "DTransformer", "ABQR", "ATDKT", "GIKT"],
     // 添加更多类型...
   },
   CD: {
