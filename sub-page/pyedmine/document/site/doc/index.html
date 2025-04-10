@@ -546,7 +546,7 @@
 </ol>
 </li>
 <li>
-<p>Example 3: Run some models that can only process single-concept datasets (such as CLKT, DTransformer, ABQR and HDLPKT).</p>
+<p>Example 3: Run some models that can only process single-concept datasets (such as CLKT, DTransformer, HawkesKT and HDLPKT).</p>
 <ol>
 <li>Running script <code>examples/knowledge_tracing/mc2sc.py</code> will treat the combination of multiple concepts as a new concept and regenerate the <code>Q_table.npy</code>. For example, for the <code>assist2009</code> dataset, the <code>assist2009-single-concept</code> dataset will be generated.</li>
 <li>When training model, set the parameter <code>dataset_name</code> to <code>assist2009-single-concept</code></li>
