@@ -281,15 +281,20 @@
             "implemented_in_pyedmine": false
         },
         {
-            "model_name": "",
+            "model_name": "HawkesKT",
             "paper_title": "Temporal Cross-Effects in Knowledge Tracing",
             "source": "WSDM[C]",
             "year": "2021",
-            "tags": [],
+            "tags": [
+                "Sequential KTM",
+                "Factor KTM",
+                "Forget Modeling",
+                "Common Setting"
+            ],
             "perper_link": "https://dl.acm.org/doi/10.1145/3437963.3441802",
-            "official_code_link": "",
-            "ref_code_link": "",
-            "implemented_in_pyedmine": false
+            "official_code_link": "https://github.com/pykt-team/pykt-toolkit/blob/main/pykt/models/hawkes.py",
+            "ref_code_link": "https://github.com/pykt-team/pykt-toolkit/blob/main/pykt/models/hawkes.py",
+            "implemented_in_pyedmine": true
         },
         {
             "model_name": "LPKT",
