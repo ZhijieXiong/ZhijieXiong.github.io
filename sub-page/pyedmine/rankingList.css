@@ -123,3 +123,41 @@ h1 {
 .md-source__repository {
   font-size: 0.9rem;
 }
+
+.note-box {
+  background-color: #f8f9fa;
+  border-left: 4px solid #4285f4;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 0 4px 4px 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.note-title {
+  font-weight: bold;
+  color: #4285f4;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.note-title::before {
+  content: "🛈";
+  margin-right: 8px;
+  font-size: 1.2em;
+}
+
+.note-list {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.note-list li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.note-list li:last-child {
+  margin-bottom: 0;
+}

@@ -44,6 +44,7 @@ const MODEL_TYPE = {
   KT: {
     "Concept Level": ["DKT", "DKVMN", "DKTForget", "ATKT"],
     "Question Level": ["qDKT", "AKT", "SimpleKT", "SparseKT", "DIMKT", "LPKT", "LBKT", "MIKT", "QIKT", "QDCKT", "CKT", "HDLPKT", "DTransformer", "ABQR", "ATDKT", "HawkesKT"],
+    "No Side Info (Question Level)": ["qDKT", "AKT", "SimpleKT", "SparseKT", "DIMKT", "MIKT", "QIKT", "QDCKT", "CKT", "DTransformer", "ABQR", "ATDKT", "HawkesKT"],
     // 添加更多类型...
   },
   CD: {

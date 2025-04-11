@@ -42,7 +42,19 @@
 
       <!-- 动态表格 -->
       <div id="table-container"></div>
+
+      <div class="note-box">
+        <div class="note-title">NOTE</div>
+        <ul class="note-list">
+            <li>CKT has memory OOM (RAM) issues on assist2012 and xes3g5m.</li>
+            <li>DKTForget, LBKT, HDLPKT and LPKT have additional requirements for the side information of the dataset. All datasets that were not run were due to the lack of some side information.</li>
+            <li>QDCKT has memory OOM (RAM) issues on assist2009 and assist2012.</li>
+            <li>QIKT has memory OOM (vRAM) issues on assist2012.</li>
+            <li>Since the training time of RCD on some datasets is too long, some folds did not run the entire experiment on this part of the dataset, and only one fold was run on sleepmapy-anatomy.</li>
+        </ul>
+      </div>
     </div>
+    
     <script src="rankingList.js"></script>
   </body>
 </html>
