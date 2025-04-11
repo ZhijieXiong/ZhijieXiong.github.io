@@ -51,7 +51,9 @@
             <li>QDCKT has memory OOM (RAM) issues on assist2009 and assist2012.</li>
             <li>QIKT has memory OOM (vRAM) issues on assist2012.</li>
             <li>Since the training time of RCD on some datasets is too long, some folds did not run the entire experiment on this part of the dataset, and only one fold was run on sleepmapy-anatomy.</li>
-        </ul>
+            <li>Since the sparsity of question on datasets assist2017, statics2011, edi2020-task34, moocradar-C746997 and xes3g5m is low, the cold start evaluation of questions for the KTM on these datasets is empty, that is, there are no cold start questions. Similarly, some data in the cold start evaluation of the CDM is also empty.</li>
+            <li>Since multi-step prediction is too time-consuming (this part of the evaluation code can be optimized, but it requires a lot of effort, so the simpler but low-performance method is currently used), we only tested some models and datasets.</li>
+          </ul>
       </div>
     </div>
     
