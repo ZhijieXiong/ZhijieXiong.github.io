@@ -44,7 +44,7 @@ const MODEL_TYPE = {
   KT: {
     "Concept Level": ["DKT", "DKVMN", "DKTForget", "ATKT"],
     "Question Level": ["qDKT", "AKT", "SimpleKT", "SparseKT", "DIMKT", "LPKT", "LBKT", "MIKT", "QIKT", "QDCKT", "CKT", "HDLPKT", "DTransformer", "ABQR", "ATDKT", "HawkesKT"],
-    "No Side Info (Question Level)": ["qDKT", "AKT", "SimpleKT", "SparseKT", "DIMKT", "MIKT", "QIKT", "QDCKT", "CKT", "DTransformer", "ABQR", "ATDKT", "HawkesKT"],
+    "No Side Info (Question Level)": ["qDKT", "AKT", "SimpleKT", "SparseKT", "DIMKT", "MIKT", "QIKT", "QDCKT", "CKT", "DTransformer", "ABQR", "ATDKT"],
     // 添加更多类型...
   },
   CD: {
@@ -311,9 +311,26 @@ function renderTable() {
   });
   thead += `<th class="sota-column">win</th></tr>`;
 
-  // 构建数据行
-  const tbody = Array.from(filteredModels)
-    .map((model) => {
+  // 首先计算每个模型的SOTA数量并存储
+  const modelsWithSOTA = Array.from(filteredModels).map(model => {
+    const sota = calculateSOTA(model, datasets, metric, task);
+    return {
+      model,
+      win: sota.win
+    };
+  });
+
+  // 排序：先按win降序，再按模型名称升序
+  modelsWithSOTA.sort((a, b) => {
+    if (b.win !== a.win) {
+      return b.win - a.win; // win降序
+    }
+    return a.model.localeCompare(b.model); // 模型名称升序
+  });
+
+  // 构建数据行（按排序后的顺序）
+  const tbody = modelsWithSOTA
+    .map(({model, win}) => {
       let row = `<td>${model}</td>`;
       datasetNames.forEach((dataset) => {
         const value = datasets[dataset].metrics[metric][model];
@@ -360,9 +377,8 @@ function renderTable() {
         row += `<td>${displayValue}</td>`;
       });
 
-      // 计算 SOTA
-      const sota = calculateSOTA(model, datasets, metric, task);
-      row += `<td class="sota-column">${sota.win}</td>`;
+      // 使用预先计算好的win值
+      row += `<td class="sota-column">${win}</td>`;
       return `<tr>${row}</tr>`;
     })
     .join("");
