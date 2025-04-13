@@ -164,8 +164,8 @@
             ],
             "perper_link": "https://dl.acm.org/doi/abs/10.1145/3350546.3352513",
             "official_code_link": "https://github.com/jhljx/GKT",
-            "ref_code_link": "https://github.com/pykt-team/pykt-toolkit/blob/main/pykt/models/gkt.py",
-            "implemented_in_pyedmine": true
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
         },
         {
             "model_name": "",
@@ -487,7 +487,7 @@
             "implemented_in_pyedmine": true
         },
         {
-            "model_name": "CL4KT",
+            "model_name": "CLKT",
             "paper_title": "Contrastive Learning for Knowledge Tracing",
             "source": "WWW[C]",
             "year": "2022",
@@ -766,6 +766,28 @@
             "official_code_link": "https://github.com/xbh0720/LBKT",
             "ref_code_link": "official_code",
             "implemented_in_pyedmine": true
+        },
+        {
+            "model_name": "ReKT",
+            "paper_title": "Revisiting Knowledge Tracing: A Simple and Powerful Model",
+            "source": "MM[C]",
+            "year": "2024",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3664647.3681205",
+            "official_code_link": "https://github.com/lilstrawberry/ReKT",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "PSKT",
+            "paper_title": "Remembering is Not Applying: Interpretable Knowledge Tracing for Problem-solving Processes",
+            "source": "MM[C]",
+            "year": "2024",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3664647.3681049",
+            "official_code_link": "https://github.com/Oia-10/PSKT",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
         },
         {
             "model_name": "",

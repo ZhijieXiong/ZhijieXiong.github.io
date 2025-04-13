@@ -490,196 +490,192 @@
 <li>Assist2017</li>
 <li>Edi2020-task1</li>
 <li>Edi2020-task34</li>
-<li>SLP-mat</li>
-<li>SLP-phy</li>
-<li>SLP-eng</li>
-<li>SLP-chi</li>
-<li>SLP-geo</li>
-<li>SLP-bio</li>
-<li>Moocradar-C[courseId] (For example, <code>moocradar-C746997</code>)</li>
-<li>Statics2011</li>
-<li>Junyi2015</li>
 <li>Ednet-kt1</li>
-<li>Slepemapy-anatomy</li>
+<li>Junyi2015</li>
+<li>Moocradar-C[courseId] (For example, <code>moocradar-C746997</code>)</li>
 <li>Poj</li>
+<li>Slepemapy-anatomy</li>
+<li>SLP-[subject] (For example, <code>SLP-mat</code>)</li>
+<li>Statics2011</li>
 <li>Xes3g5m</li>
 </ul>
 <h3 id="built-in-models">Built-in Models</h3>
 <p>Dataset used in the example is <code>assist2009</code></p>
-<p>First, run <code>examples/knowledge_tracing/mc2sc.py</code> to obtain the Q table based on single-concept format (i.e., the combination of multiple knowledge points is regarded as a new knowledge point) on the assist2009 dataset.</p>
+<p>First, Run <code>examples/knowledge_tracing/mc2sc.py</code> to obtain the Q table based on single-concept format (i.e., the combination of multiple knowledge points is regarded as a new knowledge point) on the assist2009 dataset.</p>
 <h4 id="knowledge-tracing">Knowledge Tracing</h4>
-<p>root dir: <code>examplse/knowledge_tracing</code></p>
+<p>root dir: <code>examples/knowledge_tracing</code></p>
 <ul>
 <li>ABQR (<a href="https://www.alipan.com/s/K991vN7xXR2">Download</a>)<ul>
-<li>run <code>abqr/get_graph.py --dataset_name "assist2009-single-concept"</code></li>
-<li>run <code>train/abqr.py --dataset_name "assist2009-single-concept"</code></li>
+<li>Run <code>abqr/get_graph.py --dataset_name "assist2009-single-concept"</code></li>
+<li>Run <code>train/abqr.py --dataset_name "assist2009-single-concept"</code></li>
 </ul>
 </li>
 <li>AKT (<a href="https://www.alipan.com/s/SsdGaim6Gi8">Download</a>)<ul>
-<li>run <code>train/akt.py</code></li>
+<li>Run <code>train/akt.py</code></li>
 </ul>
 </li>
 <li>ATDKT (<a href="https://www.alipan.com/s/eR9Sc45gqhe">Download</a>)<ul>
-<li>run <code>train/atdkt.py</code></li>
+<li>Run <code>train/atdkt.py</code></li>
 </ul>
 </li>
 <li>ATKT (<a href="https://www.alipan.com/s/dYqfBULM6ii">Download</a>)<ul>
-<li>run <code>train/atkt.py</code></li>
+<li>Run <code>train/atkt.py</code></li>
 </ul>
 </li>
 <li>CKT (<a href="https://www.alipan.com/s/ihKAcfPdTBF">Download</a>)<ul>
-<li>run <code>train/ckt.py</code></li>
+<li>Run <code>train/ckt.py</code></li>
 </ul>
 </li>
 <li>CLKT<ul>
-<li>run <code>train/clkt.py --dataset_name "assist2009-single-concept"</code></li>
+<li>Run <code>train/clkt.py --dataset_name "assist2009-single-concept"</code></li>
 </ul>
 </li>
 <li>DIMKT (<a href="https://www.alipan.com/s/5hsFWpmVD5X">Download</a>)<ul>
-<li>run <code>dimkt/get_difficulty.py</code></li>
-<li>run <code>train/dimkt.py</code></li>
+<li>Run <code>dimkt/get_difficulty.py</code></li>
+<li>Run <code>train/dimkt.py</code></li>
 </ul>
 </li>
 <li>DKT (<a href="https://www.alipan.com/s/6hJbStbPQRc">Download</a>)<ul>
-<li>run <code>train/dkt.py</code></li>
+<li>Run <code>train/dkt.py</code></li>
 </ul>
 </li>
 <li>DKTForget (<a href="https://www.alipan.com/s/WWR9nZBpr26">Download</a>)<ul>
-<li>run <code>train/dkt_forget.py</code></li>
+<li>Run <code>train/dkt_forget.py</code></li>
 </ul>
 </li>
 <li>DKVMN (<a href="https://www.alipan.com/s/mDEUwbu6ZsM">Download</a>)<ul>
-<li>run <code>train/dkvmn.py</code></li>
+<li>Run <code>train/dkvmn.py</code></li>
 </ul>
 </li>
 <li>DTransformer (<a href="https://www.alipan.com/s/diWNzuDTHsW">Download</a>)<ul>
-<li>run <code>train/d_transformer.py --dataset_name "assist2009-single-concept"</code></li>
+<li>Run <code>train/d_transformer.py --dataset_name "assist2009-single-concept"</code></li>
 </ul>
 </li>
 <li>GIKT<ul>
-<li>run <code>gikt/get_graph.py</code></li>
-<li>run <code>train/gikt.py</code></li>
+<li>Run <code>gikt/get_graph.py</code></li>
+<li>Run <code>train/gikt.py</code></li>
 </ul>
 </li>
 <li>HawkesKT (<a href="https://www.alipan.com/s/wzJqouNn11s">Download</a>)<ul>
-<li>run <code>train/hawkes_kt.py --dataset_name "assist2009-single-concept"</code></li>
+<li>Run <code>train/hawkes_kt.py --dataset_name "assist2009-single-concept"</code></li>
 </ul>
 </li>
 <li>HDLPKT (<a href="https://www.alipan.com/s/smrXDmHjL2b">Download</a>)<ul>
-<li>run <code>train/hdlpkt.py --dataset_name "assist2009-single-concept"</code></li>
+<li>Run <code>train/hdlpkt.py --dataset_name "assist2009-single-concept"</code></li>
 </ul>
 </li>
 <li>LBKT (<a href="https://www.alipan.com/s/kdrHDuWVNvX">Download</a>)<ul>
-<li>run <code>lbkt/get_statics.py</code></li>
-<li>run <code>lbkt/get_factor.py</code></li>
+<li>Run <code>lbkt/get_statics.py</code></li>
+<li>Run <code>lbkt/get_factor.py</code></li>
 </ul>
 </li>
 <li>LPKT (<a href="https://www.alipan.com/s/YgmZvGUCXy1">Download</a>)<ul>
-<li>run <code>train/lpkt.py</code></li>
+<li>Run <code>train/lpkt.py</code></li>
 </ul>
 </li>
 <li>MIKT (<a href="https://www.alipan.com/s/WdNuMPduViE">Download</a>)<ul>
-<li>run <code>train/mikt.py</code></li>
+<li>Run <code>train/mikt.py</code></li>
 </ul>
 </li>
 <li>QDCKT (<a href="https://www.alipan.com/s/VQhsfW51MEy">Download</a>)<ul>
-<li>run <code>qdckt/get_difficulty.py</code></li>
-<li>run <code>train/qdckt.py</code></li>
+<li>Run <code>qdckt/get_difficulty.py</code></li>
+<li>Run <code>train/qdckt.py</code></li>
 </ul>
 </li>
 <li>QIKT (<a href="https://www.alipan.com/s/2aVQ3jMSyXj">Download</a>)<ul>
-<li>run <code>train/qikt.py</code></li>
+<li>Run <code>train/qikt.py</code></li>
 </ul>
 </li>
 <li>qDKT (<a href="https://www.alipan.com/s/H8se2rs3KBv">Download</a>)<ul>
-<li>run <code>train/qdkt.py</code></li>
+<li>Run <code>train/qdkt.py</code></li>
 </ul>
 </li>
 <li>SimpleKT (<a href="https://www.alipan.com/s/UNr7DA2PGxv">Download</a>)<ul>
-<li>run <code>train/simple_kt.py</code></li>
+<li>Run <code>train/simple_kt.py</code></li>
 </ul>
 </li>
 <li>SKVMN<ul>
-<li>run <code>train/skvmn.py</code></li>
+<li>Run <code>train/skvmn.py</code></li>
 </ul>
 </li>
 <li>SparseKT (<a href="https://www.alipan.com/s/ihKAcfPdTBF">Download</a>)<ul>
-<li>run <code>train/sparse_kt.py</code></li>
+<li>Run <code>train/sparse_kt.py</code></li>
 </ul>
 </li>
 <li>UKT<ul>
-<li>run <code>train/ukt.py</code></li>
+<li>Run <code>train/ukt.py</code></li>
 </ul>
 </li>
 <li>GRKT</li>
 <li>DyGKT</li>
 </ul>
 <h4 id="cognitive-diagnosis">Cognitive Diagnosis</h4>
-<p>root dir: <code>examplse/cognitive_diagnosis</code></p>
+<p>root dir: <code>examples/cognitive_diagnosis</code></p>
 <ul>
 <li>DINA (<a href="https://www.alipan.com/s/JPGuSPY3sbp">Download</a>)<ul>
-<li>run <code>train/dina.py</code></li>
+<li>Run <code>train/dina.py</code></li>
 </ul>
 </li>
 <li>HierCDF <ul>
-<li>run <code>hier_cdf/construct_graph_from_rcd.py</code></li>
-<li>run <code>train/hier_cdf.py</code></li>
+<li>Run <code>hier_cdf/construct_graph_from_rcd.py</code></li>
+<li>Run <code>train/hier_cdf.py</code></li>
 </ul>
 </li>
 <li>HyperCD (<a href="https://www.alipan.com/s/oYhvquFhQmL">Download</a>)<ul>
-<li>run <code>hyper_cd/construct_hyper_graph.py</code></li>
-<li>run <code>train/hyper_cd.py</code></li>
+<li>Run <code>hyper_cd/construct_hyper_graph.py</code></li>
+<li>Run <code>train/hyper_cd.py</code></li>
 </ul>
 </li>
 <li>IRT (<a href="https://www.alipan.com/s/DgDL4qzb58r">Download</a>)<ul>
-<li>run <code>train/irt.py</code></li>
+<li>Run <code>train/irt.py</code></li>
 </ul>
 </li>
 <li>MIRT (<a href="https://www.alipan.com/s/4dxaensE86k">Download</a>)<ul>
-<li>run <code>train/mirt.py</code></li>
+<li>Run <code>train/mirt.py</code></li>
 </ul>
 </li>
 <li>NCD (<a href="https://www.alipan.com/s/7Xya8itd2tc">Download</a>)<ul>
-<li>run <code>train/ncd.py</code></li>
+<li>Run <code>train/ncd.py</code></li>
 </ul>
 </li>
 <li>RCD (<a href="https://www.alipan.com/s/aFFN5LCfoQ8">Download</a>)<ul>
-<li>run <code>/root/code/pyedmine/rcd/build_k_e_graph.py</code></li>
-<li>run <code>/root/code/pyedmine/rcd/build_u_e_graph.py</code></li>
-<li>run <code>/root/code/pyedmine/rcd/process_edge.py</code></li>
-<li>run <code>train/rcd.py</code></li>
+<li>Run <code>/root/code/pyedmine/rcd/build_k_e_graph.py</code></li>
+<li>Run <code>/root/code/pyedmine/rcd/build_u_e_graph.py</code></li>
+<li>Run <code>/root/code/pyedmine/rcd/process_edge.py</code></li>
+<li>Run <code>train/rcd.py</code></li>
 </ul>
 </li>
 </ul>
 <h4 id="exercise-recommendation">Exercise Recommendation</h4>
-<p>root dir: <code>examplse/exercise_recommendation</code></p>
+<p>root dir: <code>examples/exercise_recommendation</code></p>
 <ul>
 <li>EB-CF <ul>
 <li>Get Question Similarity Matrix<ul>
-<li>run <code>user_exercise_based_CF/que_sim_matrix.py</code></li>
-<li>run <code>user_exercise_based_CF/que_sim_matrix_KT.py</code></li>
-<li>run <code>user_exercise_based_CF/que_sim_matrix_CD.py</code></li>
+<li>Run <code>user_exercise_based_CF/que_sim_matrix.py</code></li>
+<li>Run <code>user_exercise_based_CF/que_sim_matrix_KT.py</code></li>
+<li>Run <code>user_exercise_based_CF/que_sim_matrix_CD.py</code></li>
 </ul>
 </li>
-<li>run <code>user_exercise_based_CF/evaluate_ub_cf.py</code></li>
+<li>Run <code>user_exercise_based_CF/evaluate_ub_cf.py</code></li>
 </ul>
 </li>
 <li>UB-CF <ul>
 <li>Get User Similarity Matrix<ul>
-<li>run <code>user_exercise_based_CF/user_sim_matrix.py</code></li>
-<li>run <code>user_exercise_based_CF/user_sim_matrix_KT.py</code></li>
-<li>run <code>user_exercise_based_CF/user_sim_matrix_CD.py</code></li>
+<li>Run <code>user_exercise_based_CF/user_sim_matrix.py</code></li>
+<li>Run <code>user_exercise_based_CF/user_sim_matrix_KT.py</code></li>
+<li>Run <code>user_exercise_based_CF/user_sim_matrix_CD.py</code></li>
 </ul>
 </li>
-<li>run <code>user_exercise_based_CF/evaluate_eb_cf.py</code></li>
+<li>Run <code>user_exercise_based_CF/evaluate_eb_cf.py</code></li>
 </ul>
 </li>
 <li>KG4EX (<a href="https://www.alipan.com/s/ikQisbpdxXS">Download</a>)<ul>
-<li>run <code>kg4ex/get_mlkc.py</code></li>
-<li>run <code>kg4ex/get_pkc.py</code></li>
-<li>run <code>kg4ex/get_efr.py</code></li>
-<li>run <code>kg4ex/get_triples.py</code></li>
-<li>run <code>train/kg4ex.py</code></li>
+<li>Get DKT_KG4EX model: Run <code>examples/knowledge_tracing/train/dkt_kg4ex.py</code></li>
+<li>Run <code>kg4ex/get_mlkc.py</code></li>
+<li>Run <code>kg4ex/get_pkc.py</code></li>
+<li>Run <code>kg4ex/get_efr.py</code></li>
+<li>Run <code>kg4ex/get_triples.py</code></li>
+<li>Run <code>train/kg4ex.py</code></li>
 </ul>
 </li>
 </ul>

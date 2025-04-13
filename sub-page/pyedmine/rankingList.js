@@ -44,7 +44,9 @@ const MODEL_TYPE = {
   KT: {
     "Concept Level": ["DKT", "DKVMN", "DKTForget", "ATKT"],
     "Question Level": ["qDKT", "AKT", "SimpleKT", "SparseKT", "DIMKT", "LPKT", "LBKT", "MIKT", "QIKT", "QDCKT", "CKT", "HDLPKT", "DTransformer", "ABQR", "ATDKT", "HawkesKT"],
+    "No Side Info (Concept Level)": ["DKT", "DKVMN", "ATKT"],
     "No Side Info (Question Level)": ["qDKT", "AKT", "SimpleKT", "SparseKT", "DIMKT", "MIKT", "QIKT", "QDCKT", "CKT", "DTransformer", "ABQR", "ATDKT"],
+
     // 添加更多类型...
   },
   CD: {
@@ -299,6 +301,14 @@ function renderTable() {
     filteredModels = modelTypes[modelType] || [];
   }
 
+  // 新增：过滤掉在所有数据集上都没有有效数据的模型
+  filteredModels = filteredModels.filter(model => {
+    return datasetNames.some(dataset => {
+      const value = datasets[dataset].metrics[metric][model];
+      return typeof value === "number"; // 只保留有数值数据的模型
+    });
+  });
+
   // 获取当前要比较的模型列表
   const modelsToCompare = modelType === "All" 
     ? Array.from(models) 
@@ -306,7 +316,21 @@ function renderTable() {
 
   // 构建表头
   let thead = `<tr><th>Model</th>`;
-  datasetNames.forEach((dataset) => {
+  
+  filteredDatasets = datasetNames.filter(dataset => {
+    let flag = false;
+    for (let model of filteredModels) {
+      const value = datasets[dataset].metrics[metric][model];
+      if (typeof value === "number") {
+        flag = true;
+        break;
+      }
+    }
+    return flag;
+  });
+  
+  
+  filteredDatasets.forEach((dataset) => {
     thead += `<th colspan="1">${dataset}</th>`;
   });
   thead += `<th class="sota-column">win</th></tr>`;
@@ -332,7 +356,7 @@ function renderTable() {
   const tbody = modelsWithSOTA
     .map(({model, win}) => {
       let row = `<td>${model}</td>`;
-      datasetNames.forEach((dataset) => {
+      filteredDatasets.forEach((dataset) => {
         const value = datasets[dataset].metrics[metric][model];
         let displayValue;
         if (typeof value === "number") {
