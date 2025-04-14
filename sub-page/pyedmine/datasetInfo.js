@@ -61,7 +61,7 @@ const DATA = {
       "concept_text, school_id, timestamp, use_time, num_hint, num_attempt",
     link: "https://sites.google.com/view/assistmentsdatamining/dataset?authuser=0",
   },
-  "Ednet-kt1": {
+  "Ednet-kt1-5000": {
     num_user: 4821,
     num_interaction: 567127,
     num_concept: 188,
