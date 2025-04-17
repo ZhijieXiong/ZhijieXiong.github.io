@@ -31,7 +31,9 @@ const CD_TARGET_DATASETS = [
   "edi2020-task34",
   "slepemapy-anatomy",
   "SLP-mat",
-  "SLP-phy"
+  "SLP-phy",
+  "moocradar-C746997",
+  "ednet-kt1",
 ];
 const ER_TARGET_DATASETS = [
   "assist2009",

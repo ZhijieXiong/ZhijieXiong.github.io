@@ -7,34 +7,34 @@
           "metrics": {
             "AUC": {
               "DINA": 0.6665,
+              "HyperCD": 0.7457,
               "IRT": 0.6961,
               "MIRT": 0.6887,
               "NCD": 0.706,
-              "HyperCD": 0.7457,
               "RCD": 0.7402
             },
             "ACC": {
               "DINA": 0.5997,
+              "HyperCD": 0.7157,
               "IRT": 0.6652,
               "MIRT": 0.682,
               "NCD": 0.6851,
-              "HyperCD": 0.7157,
               "RCD": 0.7038
             },
             "RMSE": {
               "DINA": 0.4827,
+              "HyperCD": 0.4325,
               "IRT": 0.4579,
               "MIRT": 0.4531,
               "NCD": 0.4608,
-              "HyperCD": 0.4325,
               "RCD": 0.4397
             },
             "MAE": {
               "DINA": 0.4206,
+              "HyperCD": 0.3686,
               "IRT": 0.4051,
               "MIRT": 0.392,
               "NCD": 0.3602,
-              "HyperCD": 0.3686,
               "RCD": 0.3648
             }
           }
@@ -43,107 +43,35 @@
           "metrics": {
             "AUC": {
               "DINA": 0.6454,
+              "HyperCD": 0.7173,
               "IRT": 0.6901,
               "MIRT": 0.6984,
               "NCD": 0.7022,
-              "HyperCD": 0.7173,
               "RCD": 0.6978
             },
             "ACC": {
               "DINA": 0.6186,
+              "HyperCD": 0.6999,
               "IRT": 0.6469,
               "MIRT": 0.6891,
               "NCD": 0.6869,
-              "HyperCD": 0.6999,
               "RCD": 0.6844
             },
             "RMSE": {
               "DINA": 0.5218,
+              "HyperCD": 0.4453,
               "IRT": 0.4703,
               "MIRT": 0.4522,
               "NCD": 0.4515,
-              "HyperCD": 0.4453,
               "RCD": 0.4526
             },
             "MAE": {
               "DINA": 0.4562,
+              "HyperCD": 0.3981,
               "IRT": 0.4536,
               "MIRT": 0.4061,
               "NCD": 0.4097,
-              "HyperCD": 0.3981,
               "RCD": 0.4078
-            }
-          }
-        },
-        "SLP-mat": {
-          "metrics": {
-            "AUC": {
-              "DINA": 0.69,
-              "IRT": 0.7951,
-              "MIRT": 0.8578,
-              "NCD": 0.8136,
-              "HyperCD": 0.8606,
-              "RCD": 0.8495
-            },
-            "ACC": {
-              "DINA": 0.7325,
-              "IRT": 0.7815,
-              "MIRT": 0.814,
-              "NCD": 0.7882,
-              "HyperCD": 0.8151,
-              "RCD": 0.805
-            },
-            "RMSE": {
-              "DINA": 0.4306,
-              "IRT": 0.3952,
-              "MIRT": 0.3634,
-              "NCD": 0.3829,
-              "HyperCD": 0.3606,
-              "RCD": 0.3679
-            },
-            "MAE": {
-              "DINA": 0.3599,
-              "IRT": 0.3234,
-              "MIRT": 0.2794,
-              "NCD": 0.283,
-              "HyperCD": 0.2526,
-              "RCD": 0.2867
-            }
-          }
-        },
-        "SLP-phy": {
-          "metrics": {
-            "AUC": {
-              "DINA": 0.665,
-              "IRT": 0.801,
-              "MIRT": 0.8334,
-              "NCD": 0.7964,
-              "HyperCD": 0.816,
-              "RCD": 0.8341
-            },
-            "ACC": {
-              "DINA": 0.6283,
-              "IRT": 0.7132,
-              "MIRT": 0.7622,
-              "NCD": 0.7333,
-              "HyperCD": 0.7473,
-              "RCD": 0.7597
-            },
-            "RMSE": {
-              "DINA": 0.476,
-              "IRT": 0.432,
-              "MIRT": 0.4019,
-              "NCD": 0.4262,
-              "HyperCD": 0.4115,
-              "RCD": 0.4017
-            },
-            "MAE": {
-              "DINA": 0.4193,
-              "IRT": 0.3843,
-              "MIRT": 0.3329,
-              "NCD": 0.3245,
-              "HyperCD": 0.3406,
-              "RCD": 0.3372
             }
           }
         },
@@ -151,34 +79,34 @@
           "metrics": {
             "AUC": {
               "DINA": 0.6717,
+              "HyperCD": 0.7576,
               "IRT": 0.7272,
               "MIRT": 0.7289,
               "NCD": 0.6815,
-              "HyperCD": 0.7576,
               "RCD": 0.7584
             },
             "ACC": {
               "DINA": 0.591,
+              "HyperCD": 0.6894,
               "IRT": 0.6686,
               "MIRT": 0.6669,
               "NCD": 0.6318,
-              "HyperCD": 0.6894,
               "RCD": 0.69
             },
             "RMSE": {
               "DINA": 0.4843,
+              "HyperCD": 0.4461,
               "IRT": 0.4605,
               "MIRT": 0.4596,
               "NCD": 0.4737,
-              "HyperCD": 0.4461,
               "RCD": 0.4465
             },
             "MAE": {
               "DINA": 0.4428,
+              "HyperCD": 0.3961,
               "IRT": 0.4349,
               "MIRT": 0.4039,
               "NCD": 0.4418,
-              "HyperCD": 0.3961,
               "RCD": 0.3967
             }
           }
@@ -187,35 +115,107 @@
           "metrics": {
             "AUC": {
               "DINA": 0.615,
+              "HyperCD": 0.689,
               "IRT": 0.6642,
               "MIRT": 0.5264,
               "NCD": 0.6668,
-              "HyperCD": 0.689,
               "RCD": 0.6782
             },
             "ACC": {
               "DINA": 0.6384,
+              "HyperCD": 0.7537,
               "IRT": 0.7573,
               "MIRT": 0.5948,
               "NCD": 0.7561,
-              "HyperCD": 0.7537,
               "RCD": 0.7281
             },
             "RMSE": {
               "DINA": 0.4962,
+              "HyperCD": 0.4146,
               "IRT": 0.4164,
               "MIRT": 0.5821,
               "NCD": 0.4166,
-              "HyperCD": 0.4146,
               "RCD": 0.4261
             },
             "MAE": {
               "DINA": 0.3982,
+              "HyperCD": 0.3455,
               "IRT": 0.3468,
               "MIRT": 0.4133,
               "NCD": 0.3402,
-              "HyperCD": 0.3455,
               "RCD": 0.3548
+            }
+          }
+        },
+        "SLP-mat": {
+          "metrics": {
+            "AUC": {
+              "DINA": 0.69,
+              "HyperCD": 0.8606,
+              "IRT": 0.7951,
+              "MIRT": 0.8578,
+              "NCD": 0.8136,
+              "RCD": 0.8495
+            },
+            "ACC": {
+              "DINA": 0.7325,
+              "HyperCD": 0.8151,
+              "IRT": 0.7815,
+              "MIRT": 0.814,
+              "NCD": 0.7882,
+              "RCD": 0.805
+            },
+            "RMSE": {
+              "DINA": 0.4306,
+              "HyperCD": 0.3606,
+              "IRT": 0.3952,
+              "MIRT": 0.3634,
+              "NCD": 0.3829,
+              "RCD": 0.3679
+            },
+            "MAE": {
+              "DINA": 0.3599,
+              "HyperCD": 0.2526,
+              "IRT": 0.3234,
+              "MIRT": 0.2794,
+              "NCD": 0.283,
+              "RCD": 0.2867
+            }
+          }
+        },
+        "SLP-phy": {
+          "metrics": {
+            "AUC": {
+              "DINA": 0.665,
+              "HyperCD": 0.816,
+              "IRT": 0.801,
+              "MIRT": 0.8334,
+              "NCD": 0.7964,
+              "RCD": 0.8341
+            },
+            "ACC": {
+              "DINA": 0.6283,
+              "HyperCD": 0.7473,
+              "IRT": 0.7132,
+              "MIRT": 0.7622,
+              "NCD": 0.7333,
+              "RCD": 0.7597
+            },
+            "RMSE": {
+              "DINA": 0.476,
+              "HyperCD": 0.4115,
+              "IRT": 0.432,
+              "MIRT": 0.4019,
+              "NCD": 0.4262,
+              "RCD": 0.4017
+            },
+            "MAE": {
+              "DINA": 0.4193,
+              "HyperCD": 0.3406,
+              "IRT": 0.3843,
+              "MIRT": 0.3329,
+              "NCD": 0.3245,
+              "RCD": 0.3372
             }
           }
         },
@@ -223,35 +223,107 @@
           "metrics": {
             "AUC": {
               "DINA": 0.7054,
+              "HyperCD": 0.8035,
               "IRT": 0.7911,
               "MIRT": 0.7376,
               "NCD": 0.8134,
-              "HyperCD": 0.8035,
               "RCD": 0.7918
             },
             "ACC": {
               "DINA": 0.7251,
+              "HyperCD": 0.7956,
               "IRT": 0.7859,
               "MIRT": 0.7661,
               "NCD": 0.8005,
-              "HyperCD": 0.7956,
               "RCD": 0.7881
             },
             "RMSE": {
               "DINA": 0.4189,
+              "HyperCD": 0.3761,
               "IRT": 0.3817,
               "MIRT": 0.4006,
               "NCD": 0.3714,
-              "HyperCD": 0.3761,
               "RCD": 0.3821
             },
             "MAE": {
               "DINA": 0.3425,
+              "HyperCD": 0.2807,
               "IRT": 0.2951,
               "MIRT": 0.3361,
               "NCD": 0.268,
-              "HyperCD": 0.2807,
               "RCD": 0.2911
+            }
+          }
+        },
+        "moocradar-C746997": {
+          "metrics": {
+            "AUC": {
+              "DINA": 0.6489,
+              "HyperCD": 0.8202,
+              "IRT": 0.7983,
+              "MIRT": 0.6141,
+              "NCD": 0.8052,
+              "RCD": 0.8164
+            },
+            "ACC": {
+              "DINA": 0.5584,
+              "HyperCD": 0.7821,
+              "IRT": 0.7658,
+              "MIRT": 0.6638,
+              "NCD": 0.7764,
+              "RCD": 0.7785
+            },
+            "RMSE": {
+              "DINA": 0.4851,
+              "HyperCD": 0.3885,
+              "IRT": 0.4042,
+              "MIRT": 0.4955,
+              "NCD": 0.3952,
+              "RCD": 0.3909
+            },
+            "MAE": {
+              "DINA": 0.423,
+              "HyperCD": 0.3,
+              "IRT": 0.3366,
+              "MIRT": 0.3948,
+              "NCD": 0.3105,
+              "RCD": 0.3086
+            }
+          }
+        },
+        "ednet-kt1": {
+          "metrics": {
+            "AUC": {
+              "DINA": 0.6296,
+              "HyperCD": 0.7315,
+              "IRT": 0.7183,
+              "MIRT": 0.6934,
+              "NCD": 0.7199,
+              "RCD": 0.7248
+            },
+            "ACC": {
+              "DINA": 0.6166,
+              "HyperCD": 0.7069,
+              "IRT": 0.7033,
+              "MIRT": 0.6864,
+              "NCD": 0.7005,
+              "RCD": 0.6951
+            },
+            "RMSE": {
+              "DINA": 0.4782,
+              "HyperCD": 0.4383,
+              "IRT": 0.4418,
+              "MIRT": 0.4516,
+              "NCD": 0.4422,
+              "RCD": 0.4444
+            },
+            "MAE": {
+              "DINA": 0.4215,
+              "HyperCD": 0.3802,
+              "IRT": 0.3845,
+              "MIRT": 0.3987,
+              "NCD": 0.3809,
+              "RCD": 0.3843
             }
           }
         }
@@ -263,34 +335,34 @@
           "metrics": {
             "AUC": {
               "DINA": 0.5556,
+              "HyperCD": 0.8889,
               "IRT": 0.8889,
               "MIRT": 0.6667,
               "NCD": 0.7778,
-              "HyperCD": 0.8889,
               "RCD": 0.7778
             },
             "ACC": {
               "DINA": 0.6667,
+              "HyperCD": 0.6667,
               "IRT": 0.6667,
               "MIRT": 0.6667,
               "NCD": 0.6667,
-              "HyperCD": 0.6667,
               "RCD": 0.6667
             },
             "RMSE": {
               "DINA": 0.4559,
+              "HyperCD": 0.4377,
               "IRT": 0.4718,
               "MIRT": 0.4899,
               "NCD": 0.4141,
-              "HyperCD": 0.4377,
               "RCD": 0.4347
             },
             "MAE": {
               "DINA": 0.4219,
+              "HyperCD": 0.3992,
               "IRT": 0.4341,
               "MIRT": 0.4672,
               "NCD": 0.3346,
-              "HyperCD": 0.3992,
               "RCD": 0.3697
             }
           }
@@ -299,106 +371,34 @@
           "metrics": {
             "AUC": {
               "DINA": "",
+              "HyperCD": "",
               "IRT": "",
               "MIRT": "",
               "NCD": "",
-              "HyperCD": "",
               "RCD": ""
             },
             "ACC": {
               "DINA": "",
+              "HyperCD": "",
               "IRT": "",
               "MIRT": "",
               "NCD": "",
-              "HyperCD": "",
               "RCD": ""
             },
             "RMSE": {
               "DINA": "",
+              "HyperCD": "",
               "IRT": "",
               "MIRT": "",
               "NCD": "",
-              "HyperCD": "",
               "RCD": ""
             },
             "MAE": {
               "DINA": "",
+              "HyperCD": "",
               "IRT": "",
               "MIRT": "",
               "NCD": "",
-              "HyperCD": "",
-              "RCD": ""
-            }
-          }
-        },
-        "SLP-mat": {
-          "metrics": {
-            "AUC": {
-              "DINA": "",
-              "IRT": "",
-              "MIRT": "",
-              "NCD": "",
-              "HyperCD": "",
-              "RCD": ""
-            },
-            "ACC": {
-              "DINA": "",
-              "IRT": "",
-              "MIRT": "",
-              "NCD": "",
-              "HyperCD": "",
-              "RCD": ""
-            },
-            "RMSE": {
-              "DINA": "",
-              "IRT": "",
-              "MIRT": "",
-              "NCD": "",
-              "HyperCD": "",
-              "RCD": ""
-            },
-            "MAE": {
-              "DINA": "",
-              "IRT": "",
-              "MIRT": "",
-              "NCD": "",
-              "HyperCD": "",
-              "RCD": ""
-            }
-          }
-        },
-        "SLP-phy": {
-          "metrics": {
-            "AUC": {
-              "DINA": "",
-              "IRT": "",
-              "MIRT": "",
-              "NCD": "",
-              "HyperCD": "",
-              "RCD": ""
-            },
-            "ACC": {
-              "DINA": "",
-              "IRT": "",
-              "MIRT": "",
-              "NCD": "",
-              "HyperCD": "",
-              "RCD": ""
-            },
-            "RMSE": {
-              "DINA": "",
-              "IRT": "",
-              "MIRT": "",
-              "NCD": "",
-              "HyperCD": "",
-              "RCD": ""
-            },
-            "MAE": {
-              "DINA": "",
-              "IRT": "",
-              "MIRT": "",
-              "NCD": "",
-              "HyperCD": "",
               "RCD": ""
             }
           }
@@ -407,34 +407,34 @@
           "metrics": {
             "AUC": {
               "DINA": "",
+              "HyperCD": "",
               "IRT": "",
               "MIRT": "",
               "NCD": "",
-              "HyperCD": "",
               "RCD": ""
             },
             "ACC": {
               "DINA": "",
+              "HyperCD": "",
               "IRT": "",
               "MIRT": "",
               "NCD": "",
-              "HyperCD": "",
               "RCD": ""
             },
             "RMSE": {
               "DINA": "",
+              "HyperCD": "",
               "IRT": "",
               "MIRT": "",
               "NCD": "",
-              "HyperCD": "",
               "RCD": ""
             },
             "MAE": {
               "DINA": "",
+              "HyperCD": "",
               "IRT": "",
               "MIRT": "",
               "NCD": "",
-              "HyperCD": "",
               "RCD": ""
             }
           }
@@ -443,34 +443,106 @@
           "metrics": {
             "AUC": {
               "DINA": 0.6615,
+              "HyperCD": 0.8438,
               "IRT": 0.8906,
               "MIRT": 0.5417,
               "NCD": 0.9167,
-              "HyperCD": 0.8438,
               "RCD": ""
             },
             "ACC": {
               "DINA": 0.5938,
+              "HyperCD": 0.75,
               "IRT": 0.75,
               "MIRT": 0.6875,
               "NCD": 0.75,
-              "HyperCD": 0.75,
               "RCD": ""
             },
             "RMSE": {
               "DINA": 0.5115,
+              "HyperCD": 0.3882,
               "IRT": 0.4123,
               "MIRT": 0.5241,
               "NCD": 0.4052,
-              "HyperCD": 0.3882,
               "RCD": ""
             },
             "MAE": {
               "DINA": 0.406,
+              "HyperCD": 0.3168,
               "IRT": 0.3006,
               "MIRT": 0.355,
               "NCD": 0.297,
-              "HyperCD": 0.3168,
+              "RCD": ""
+            }
+          }
+        },
+        "SLP-mat": {
+          "metrics": {
+            "AUC": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
+              "RCD": ""
+            },
+            "ACC": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
+              "RCD": ""
+            },
+            "RMSE": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
+              "RCD": ""
+            },
+            "MAE": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
+              "RCD": ""
+            }
+          }
+        },
+        "SLP-phy": {
+          "metrics": {
+            "AUC": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
+              "RCD": ""
+            },
+            "ACC": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
+              "RCD": ""
+            },
+            "RMSE": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
+              "RCD": ""
+            },
+            "MAE": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
               "RCD": ""
             }
           }
@@ -479,34 +551,106 @@
           "metrics": {
             "AUC": {
               "DINA": "",
+              "HyperCD": "",
               "IRT": "",
               "MIRT": "",
               "NCD": "",
-              "HyperCD": "",
               "RCD": ""
             },
             "ACC": {
               "DINA": "",
+              "HyperCD": "",
               "IRT": "",
               "MIRT": "",
               "NCD": "",
-              "HyperCD": "",
               "RCD": ""
             },
             "RMSE": {
               "DINA": "",
+              "HyperCD": "",
               "IRT": "",
               "MIRT": "",
               "NCD": "",
-              "HyperCD": "",
               "RCD": ""
             },
             "MAE": {
               "DINA": "",
+              "HyperCD": "",
               "IRT": "",
               "MIRT": "",
               "NCD": "",
+              "RCD": ""
+            }
+          }
+        },
+        "moocradar-C746997": {
+          "metrics": {
+            "AUC": {
+              "DINA": "",
               "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
+              "RCD": ""
+            },
+            "ACC": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
+              "RCD": ""
+            },
+            "RMSE": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
+              "RCD": ""
+            },
+            "MAE": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
+              "RCD": ""
+            }
+          }
+        },
+        "ednet-kt1": {
+          "metrics": {
+            "AUC": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
+              "RCD": ""
+            },
+            "ACC": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
+              "RCD": ""
+            },
+            "RMSE": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
+              "RCD": ""
+            },
+            "MAE": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
               "RCD": ""
             }
           }
@@ -519,34 +663,34 @@
           "metrics": {
             "AUC": {
               "DINA": 0.7319,
+              "HyperCD": 0.7874,
               "IRT": 0.6354,
               "MIRT": 0.7688,
               "NCD": 0.7327,
-              "HyperCD": 0.7874,
               "RCD": 0.7871
             },
             "ACC": {
               "DINA": 0.6869,
+              "HyperCD": 0.7665,
               "IRT": 0.6716,
               "MIRT": 0.7464,
               "NCD": 0.7137,
-              "HyperCD": 0.7665,
               "RCD": 0.7652
             },
             "RMSE": {
               "DINA": 0.4425,
+              "HyperCD": 0.4068,
               "IRT": 0.4612,
               "MIRT": 0.4197,
               "NCD": 0.4407,
-              "HyperCD": 0.4068,
               "RCD": 0.4082
             },
             "MAE": {
               "DINA": 0.3799,
+              "HyperCD": 0.335,
               "IRT": 0.4076,
               "MIRT": 0.3177,
               "NCD": 0.3344,
-              "HyperCD": 0.335,
               "RCD": 0.3199
             }
           }
@@ -555,107 +699,35 @@
           "metrics": {
             "AUC": {
               "DINA": 0.4847,
+              "HyperCD": 0.7083,
               "IRT": 0.4347,
               "MIRT": 0.7639,
               "NCD": 0.6125,
-              "HyperCD": 0.7083,
               "RCD": 0.6667
             },
             "ACC": {
               "DINA": 0.55,
+              "HyperCD": 0.5133,
               "IRT": 0.451,
               "MIRT": 0.6205,
               "NCD": 0.5076,
-              "HyperCD": 0.5133,
               "RCD": 0.6152
             },
             "RMSE": {
               "DINA": 0.528,
+              "HyperCD": 0.5024,
               "IRT": 0.5168,
               "MIRT": 0.4698,
               "NCD": 0.5053,
-              "HyperCD": 0.5024,
               "RCD": 0.496
             },
             "MAE": {
               "DINA": 0.4606,
+              "HyperCD": 0.465,
               "IRT": 0.5077,
               "MIRT": 0.4189,
               "NCD": 0.482,
-              "HyperCD": 0.465,
               "RCD": 0.4506
-            }
-          }
-        },
-        "SLP-mat": {
-          "metrics": {
-            "AUC": {
-              "DINA": "",
-              "IRT": "",
-              "MIRT": "",
-              "NCD": "",
-              "HyperCD": "",
-              "RCD": ""
-            },
-            "ACC": {
-              "DINA": "",
-              "IRT": "",
-              "MIRT": "",
-              "NCD": "",
-              "HyperCD": "",
-              "RCD": ""
-            },
-            "RMSE": {
-              "DINA": "",
-              "IRT": "",
-              "MIRT": "",
-              "NCD": "",
-              "HyperCD": "",
-              "RCD": ""
-            },
-            "MAE": {
-              "DINA": "",
-              "IRT": "",
-              "MIRT": "",
-              "NCD": "",
-              "HyperCD": "",
-              "RCD": ""
-            }
-          }
-        },
-        "SLP-phy": {
-          "metrics": {
-            "AUC": {
-              "DINA": 0.7708,
-              "IRT": 0.7708,
-              "MIRT": 0.75,
-              "NCD": 0.8021,
-              "HyperCD": 0.7812,
-              "RCD": 0.7708
-            },
-            "ACC": {
-              "DINA": 0.7727,
-              "IRT": 0.6818,
-              "MIRT": 0.7273,
-              "NCD": 0.7727,
-              "HyperCD": 0.7273,
-              "RCD": 0.7273
-            },
-            "RMSE": {
-              "DINA": 0.4193,
-              "IRT": 0.4044,
-              "MIRT": 0.412,
-              "NCD": 0.3958,
-              "HyperCD": 0.4067,
-              "RCD": 0.4108
-            },
-            "MAE": {
-              "DINA": 0.3579,
-              "IRT": 0.3529,
-              "MIRT": 0.3234,
-              "NCD": 0.3046,
-              "HyperCD": 0.3269,
-              "RCD": 0.3256
             }
           }
         },
@@ -663,34 +735,34 @@
           "metrics": {
             "AUC": {
               "DINA": "",
+              "HyperCD": "",
               "IRT": "",
               "MIRT": "",
               "NCD": "",
-              "HyperCD": "",
               "RCD": ""
             },
             "ACC": {
               "DINA": "",
+              "HyperCD": "",
               "IRT": "",
               "MIRT": "",
               "NCD": "",
-              "HyperCD": "",
               "RCD": ""
             },
             "RMSE": {
               "DINA": "",
+              "HyperCD": "",
               "IRT": "",
               "MIRT": "",
               "NCD": "",
-              "HyperCD": "",
               "RCD": ""
             },
             "MAE": {
               "DINA": "",
+              "HyperCD": "",
               "IRT": "",
               "MIRT": "",
               "NCD": "",
-              "HyperCD": "",
               "RCD": ""
             }
           }
@@ -699,35 +771,107 @@
           "metrics": {
             "AUC": {
               "DINA": 0.5785,
+              "HyperCD": 0.6747,
               "IRT": 0.5963,
               "MIRT": 0.5254,
               "NCD": 0.6069,
-              "HyperCD": 0.6747,
               "RCD": 0.7147
             },
             "ACC": {
               "DINA": 0.575,
+              "HyperCD": 0.703,
               "IRT": 0.6757,
               "MIRT": 0.5347,
               "NCD": 0.6764,
-              "HyperCD": 0.703,
               "RCD": 0.7174
             },
             "RMSE": {
               "DINA": 0.5362,
+              "HyperCD": 0.4486,
               "IRT": 0.4732,
               "MIRT": 0.6343,
               "NCD": 0.4709,
-              "HyperCD": 0.4486,
               "RCD": 0.4366
             },
             "MAE": {
               "DINA": 0.4385,
+              "HyperCD": 0.3873,
               "IRT": 0.391,
               "MIRT": 0.4693,
               "NCD": 0.39,
-              "HyperCD": 0.3873,
               "RCD": 0.3696
+            }
+          }
+        },
+        "SLP-mat": {
+          "metrics": {
+            "AUC": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
+              "RCD": ""
+            },
+            "ACC": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
+              "RCD": ""
+            },
+            "RMSE": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
+              "RCD": ""
+            },
+            "MAE": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
+              "RCD": ""
+            }
+          }
+        },
+        "SLP-phy": {
+          "metrics": {
+            "AUC": {
+              "DINA": 0.7708,
+              "HyperCD": 0.7812,
+              "IRT": 0.7708,
+              "MIRT": 0.75,
+              "NCD": 0.8021,
+              "RCD": 0.7708
+            },
+            "ACC": {
+              "DINA": 0.7727,
+              "HyperCD": 0.7273,
+              "IRT": 0.6818,
+              "MIRT": 0.7273,
+              "NCD": 0.7727,
+              "RCD": 0.7273
+            },
+            "RMSE": {
+              "DINA": 0.4193,
+              "HyperCD": 0.4067,
+              "IRT": 0.4044,
+              "MIRT": 0.412,
+              "NCD": 0.3958,
+              "RCD": 0.4108
+            },
+            "MAE": {
+              "DINA": 0.3579,
+              "HyperCD": 0.3269,
+              "IRT": 0.3529,
+              "MIRT": 0.3234,
+              "NCD": 0.3046,
+              "RCD": 0.3256
             }
           }
         },
@@ -735,35 +879,107 @@
           "metrics": {
             "AUC": {
               "DINA": 0.8767,
+              "HyperCD": 0.8767,
               "IRT": 0.5542,
               "MIRT": 0.8767,
               "NCD": 0.8767,
-              "HyperCD": 0.8767,
               "RCD": 0.575
             },
             "ACC": {
               "DINA": 0.705,
+              "HyperCD": 0.7983,
               "IRT": 0.9017,
               "MIRT": 0.9017,
               "NCD": 0.9017,
-              "HyperCD": 0.7983,
               "RCD": 0.8283
             },
             "RMSE": {
               "DINA": 0.344,
+              "HyperCD": 0.3582,
               "IRT": 0.3721,
               "MIRT": 0.3649,
               "NCD": 0.34,
-              "HyperCD": 0.3582,
               "RCD": 0.3706
             },
             "MAE": {
               "DINA": 0.2749,
+              "HyperCD": 0.2759,
               "IRT": 0.293,
               "MIRT": 0.3252,
               "NCD": 0.2374,
-              "HyperCD": 0.2759,
               "RCD": 0.2803
+            }
+          }
+        },
+        "moocradar-C746997": {
+          "metrics": {
+            "AUC": {
+              "DINA": 0.5913,
+              "HyperCD": 0.7667,
+              "IRT": 0.7985,
+              "MIRT": 0.5727,
+              "NCD": 0.7948,
+              "RCD": 0.7766
+            },
+            "ACC": {
+              "DINA": 0.5497,
+              "HyperCD": 0.7267,
+              "IRT": 0.7543,
+              "MIRT": 0.5888,
+              "NCD": 0.752,
+              "RCD": 0.738
+            },
+            "RMSE": {
+              "DINA": 0.5037,
+              "HyperCD": 0.4225,
+              "IRT": 0.4217,
+              "MIRT": 0.5283,
+              "NCD": 0.4109,
+              "RCD": 0.4157
+            },
+            "MAE": {
+              "DINA": 0.4389,
+              "HyperCD": 0.3272,
+              "IRT": 0.349,
+              "MIRT": 0.4306,
+              "NCD": 0.3163,
+              "RCD": 0.3297
+            }
+          }
+        },
+        "ednet-kt1": {
+          "metrics": {
+            "AUC": {
+              "DINA": 0.5513,
+              "HyperCD": 0.6673,
+              "IRT": 0.6371,
+              "MIRT": 0.6575,
+              "NCD": 0.6381,
+              "RCD": 0.7019
+            },
+            "ACC": {
+              "DINA": 0.521,
+              "HyperCD": 0.6256,
+              "IRT": 0.5983,
+              "MIRT": 0.6174,
+              "NCD": 0.6064,
+              "RCD": 0.6407
+            },
+            "RMSE": {
+              "DINA": 0.5236,
+              "HyperCD": 0.4819,
+              "IRT": 0.4968,
+              "MIRT": 0.4953,
+              "NCD": 0.4931,
+              "RCD": 0.47
+            },
+            "MAE": {
+              "DINA": 0.4789,
+              "HyperCD": 0.4414,
+              "IRT": 0.4568,
+              "MIRT": 0.4309,
+              "NCD": 0.4539,
+              "RCD": 0.4194
             }
           }
         }
@@ -775,34 +991,34 @@
           "metrics": {
             "AUC": {
               "DINA": 0.6517,
+              "HyperCD": 0.7344,
               "IRT": 0.6959,
               "MIRT": 0.6706,
               "NCD": 0.67,
-              "HyperCD": 0.7344,
               "RCD": 0.7309
             },
             "ACC": {
               "DINA": 0.5847,
+              "HyperCD": 0.7288,
               "IRT": 0.6931,
               "MIRT": 0.6935,
               "NCD": 0.6791,
-              "HyperCD": 0.7288,
               "RCD": 0.7145
             },
             "RMSE": {
               "DINA": 0.4906,
+              "HyperCD": 0.4272,
               "IRT": 0.4524,
               "MIRT": 0.4469,
               "NCD": 0.4721,
-              "HyperCD": 0.4272,
               "RCD": 0.4358
             },
             "MAE": {
               "DINA": 0.4287,
+              "HyperCD": 0.365,
               "IRT": 0.393,
               "MIRT": 0.3951,
               "NCD": 0.3549,
-              "HyperCD": 0.365,
               "RCD": 0.3546
             }
           }
@@ -811,107 +1027,35 @@
           "metrics": {
             "AUC": {
               "DINA": 0.6016,
+              "HyperCD": 0.6899,
               "IRT": 0.6731,
               "MIRT": 0.6466,
               "NCD": 0.6271,
-              "HyperCD": 0.6899,
               "RCD": 0.6499
             },
             "ACC": {
               "DINA": 0.515,
+              "HyperCD": 0.6397,
               "IRT": 0.5349,
               "MIRT": 0.609,
               "NCD": 0.5341,
-              "HyperCD": 0.6397,
               "RCD": 0.6047
             },
             "RMSE": {
               "DINA": 0.5545,
+              "HyperCD": 0.4732,
               "IRT": 0.5279,
               "MIRT": 0.4843,
               "NCD": 0.4938,
-              "HyperCD": 0.4732,
               "RCD": 0.4872
             },
             "MAE": {
               "DINA": 0.4777,
+              "HyperCD": 0.445,
               "IRT": 0.4758,
               "MIRT": 0.4581,
               "NCD": 0.485,
-              "HyperCD": 0.445,
               "RCD": 0.4517
-            }
-          }
-        },
-        "SLP-mat": {
-          "metrics": {
-            "AUC": {
-              "DINA": "",
-              "IRT": "",
-              "MIRT": "",
-              "NCD": "",
-              "HyperCD": "",
-              "RCD": ""
-            },
-            "ACC": {
-              "DINA": "",
-              "IRT": "",
-              "MIRT": "",
-              "NCD": "",
-              "HyperCD": "",
-              "RCD": ""
-            },
-            "RMSE": {
-              "DINA": "",
-              "IRT": "",
-              "MIRT": "",
-              "NCD": "",
-              "HyperCD": "",
-              "RCD": ""
-            },
-            "MAE": {
-              "DINA": "",
-              "IRT": "",
-              "MIRT": "",
-              "NCD": "",
-              "HyperCD": "",
-              "RCD": ""
-            }
-          }
-        },
-        "SLP-phy": {
-          "metrics": {
-            "AUC": {
-              "DINA": "",
-              "IRT": "",
-              "MIRT": "",
-              "NCD": "",
-              "HyperCD": "",
-              "RCD": ""
-            },
-            "ACC": {
-              "DINA": "",
-              "IRT": "",
-              "MIRT": "",
-              "NCD": "",
-              "HyperCD": "",
-              "RCD": ""
-            },
-            "RMSE": {
-              "DINA": "",
-              "IRT": "",
-              "MIRT": "",
-              "NCD": "",
-              "HyperCD": "",
-              "RCD": ""
-            },
-            "MAE": {
-              "DINA": "",
-              "IRT": "",
-              "MIRT": "",
-              "NCD": "",
-              "HyperCD": "",
-              "RCD": ""
             }
           }
         },
@@ -919,34 +1063,34 @@
           "metrics": {
             "AUC": {
               "DINA": 0.6514,
+              "HyperCD": 0.7267,
               "IRT": 0.5336,
               "MIRT": 0.7582,
               "NCD": 0.533,
-              "HyperCD": 0.7267,
               "RCD": 0.7045
             },
             "ACC": {
               "DINA": 0.661,
+              "HyperCD": 0.6701,
               "IRT": 0.55,
               "MIRT": 0.7045,
               "NCD": 0.585,
-              "HyperCD": 0.6701,
               "RCD": 0.6258
             },
             "RMSE": {
               "DINA": 0.4788,
+              "HyperCD": 0.4659,
               "IRT": 0.5428,
               "MIRT": 0.4414,
               "NCD": 0.5077,
-              "HyperCD": 0.4659,
               "RCD": 0.4625
             },
             "MAE": {
               "DINA": 0.4202,
+              "HyperCD": 0.4475,
               "IRT": 0.4704,
               "MIRT": 0.4132,
               "NCD": 0.5018,
-              "HyperCD": 0.4475,
               "RCD": 0.4381
             }
           }
@@ -955,35 +1099,107 @@
           "metrics": {
             "AUC": {
               "DINA": 0.5585,
+              "HyperCD": 0.704,
               "IRT": 0.5786,
               "MIRT": 0.5355,
               "NCD": 0.6387,
-              "HyperCD": 0.704,
               "RCD": 0.5849
             },
             "ACC": {
               "DINA": 0.5555,
+              "HyperCD": 0.6666,
               "IRT": 0.6524,
               "MIRT": 0.5889,
               "NCD": 0.6515,
-              "HyperCD": 0.6666,
               "RCD": 0.5444
             },
             "RMSE": {
               "DINA": 0.553,
+              "HyperCD": 0.4541,
               "IRT": 0.4851,
               "MIRT": 0.5826,
               "NCD": 0.4714,
-              "HyperCD": 0.4541,
               "RCD": 0.5264
             },
             "MAE": {
               "DINA": 0.4663,
+              "HyperCD": 0.4105,
               "IRT": 0.4084,
               "MIRT": 0.4239,
               "NCD": 0.4272,
-              "HyperCD": 0.4105,
               "RCD": 0.4705
+            }
+          }
+        },
+        "SLP-mat": {
+          "metrics": {
+            "AUC": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
+              "RCD": ""
+            },
+            "ACC": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
+              "RCD": ""
+            },
+            "RMSE": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
+              "RCD": ""
+            },
+            "MAE": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
+              "RCD": ""
+            }
+          }
+        },
+        "SLP-phy": {
+          "metrics": {
+            "AUC": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
+              "RCD": ""
+            },
+            "ACC": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
+              "RCD": ""
+            },
+            "RMSE": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
+              "RCD": ""
+            },
+            "MAE": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
+              "RCD": ""
             }
           }
         },
@@ -991,35 +1207,107 @@
           "metrics": {
             "AUC": {
               "DINA": 0.6342,
+              "HyperCD": 0.4768,
               "IRT": 0.4423,
               "MIRT": 0.6122,
               "NCD": 0.6502,
-              "HyperCD": 0.4768,
               "RCD": 0.4647
             },
             "ACC": {
               "DINA": 0.6826,
+              "HyperCD": 0.4744,
               "IRT": 0.4483,
               "MIRT": 0.5154,
               "NCD": 0.5133,
-              "HyperCD": 0.4744,
               "RCD": 0.5028
             },
             "RMSE": {
               "DINA": 0.4821,
+              "HyperCD": 0.5483,
               "IRT": 0.5447,
               "MIRT": 0.526,
               "NCD": 0.5378,
-              "HyperCD": 0.5483,
               "RCD": 0.5381
             },
             "MAE": {
               "DINA": 0.4361,
+              "HyperCD": 0.5028,
               "IRT": 0.5117,
               "MIRT": 0.4849,
               "NCD": 0.4823,
-              "HyperCD": 0.5028,
               "RCD": 0.4974
+            }
+          }
+        },
+        "moocradar-C746997": {
+          "metrics": {
+            "AUC": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
+              "RCD": ""
+            },
+            "ACC": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
+              "RCD": ""
+            },
+            "RMSE": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
+              "RCD": ""
+            },
+            "MAE": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
+              "RCD": ""
+            }
+          }
+        },
+        "ednet-kt1": {
+          "metrics": {
+            "AUC": {
+              "DINA": 0.611,
+              "HyperCD": 0.6544,
+              "IRT": 0.5943,
+              "MIRT": 0.6454,
+              "NCD": 0.6321,
+              "RCD": 0.6572
+            },
+            "ACC": {
+              "DINA": 0.6262,
+              "HyperCD": 0.7529,
+              "IRT": 0.7647,
+              "MIRT": 0.7429,
+              "NCD": 0.7653,
+              "RCD": 0.7371
+            },
+            "RMSE": {
+              "DINA": 0.4743,
+              "HyperCD": 0.4182,
+              "IRT": 0.426,
+              "MIRT": 0.4264,
+              "NCD": 0.4174,
+              "RCD": 0.4244
+            },
+            "MAE": {
+              "DINA": 0.393,
+              "HyperCD": 0.3532,
+              "IRT": 0.3232,
+              "MIRT": 0.3801,
+              "NCD": 0.3474,
+              "RCD": 0.3508
             }
           }
         }
@@ -1031,34 +1319,34 @@
           "metrics": {
             "AUC": {
               "DINA": 0.6649,
+              "HyperCD": 0.7471,
               "IRT": 0.7046,
               "MIRT": 0.6835,
               "NCD": 0.6968,
-              "HyperCD": 0.7471,
               "RCD": 0.7436
             },
             "ACC": {
               "DINA": 0.595,
+              "HyperCD": 0.7301,
               "IRT": 0.6881,
               "MIRT": 0.6957,
               "NCD": 0.6937,
-              "HyperCD": 0.7301,
               "RCD": 0.7186
             },
             "RMSE": {
               "DINA": 0.485,
+              "HyperCD": 0.4246,
               "IRT": 0.4512,
               "MIRT": 0.4453,
               "NCD": 0.4607,
-              "HyperCD": 0.4246,
               "RCD": 0.4322
             },
             "MAE": {
               "DINA": 0.4221,
+              "HyperCD": 0.3586,
               "IRT": 0.392,
               "MIRT": 0.3909,
               "NCD": 0.3453,
-              "HyperCD": 0.3586,
               "RCD": 0.3498
             }
           }
@@ -1067,107 +1355,35 @@
           "metrics": {
             "AUC": {
               "DINA": 0.5957,
+              "HyperCD": 0.6763,
               "IRT": 0.6565,
               "MIRT": 0.6306,
               "NCD": 0.6251,
-              "HyperCD": 0.6763,
               "RCD": 0.6447
             },
             "ACC": {
               "DINA": 0.5212,
+              "HyperCD": 0.6392,
               "IRT": 0.496,
               "MIRT": 0.5995,
               "NCD": 0.5649,
-              "HyperCD": 0.6392,
               "RCD": 0.5996
             },
             "RMSE": {
               "DINA": 0.5528,
+              "HyperCD": 0.4755,
               "IRT": 0.5399,
               "MIRT": 0.4892,
               "NCD": 0.4907,
-              "HyperCD": 0.4755,
               "RCD": 0.4882
             },
             "MAE": {
               "DINA": 0.4888,
+              "HyperCD": 0.4445,
               "IRT": 0.4925,
               "MIRT": 0.4629,
               "NCD": 0.4796,
-              "HyperCD": 0.4445,
               "RCD": 0.4528
-            }
-          }
-        },
-        "SLP-mat": {
-          "metrics": {
-            "AUC": {
-              "DINA": "",
-              "IRT": "",
-              "MIRT": "",
-              "NCD": "",
-              "HyperCD": "",
-              "RCD": ""
-            },
-            "ACC": {
-              "DINA": "",
-              "IRT": "",
-              "MIRT": "",
-              "NCD": "",
-              "HyperCD": "",
-              "RCD": ""
-            },
-            "RMSE": {
-              "DINA": "",
-              "IRT": "",
-              "MIRT": "",
-              "NCD": "",
-              "HyperCD": "",
-              "RCD": ""
-            },
-            "MAE": {
-              "DINA": "",
-              "IRT": "",
-              "MIRT": "",
-              "NCD": "",
-              "HyperCD": "",
-              "RCD": ""
-            }
-          }
-        },
-        "SLP-phy": {
-          "metrics": {
-            "AUC": {
-              "DINA": "",
-              "IRT": "",
-              "MIRT": "",
-              "NCD": "",
-              "HyperCD": "",
-              "RCD": ""
-            },
-            "ACC": {
-              "DINA": "",
-              "IRT": "",
-              "MIRT": "",
-              "NCD": "",
-              "HyperCD": "",
-              "RCD": ""
-            },
-            "RMSE": {
-              "DINA": "",
-              "IRT": "",
-              "MIRT": "",
-              "NCD": "",
-              "HyperCD": "",
-              "RCD": ""
-            },
-            "MAE": {
-              "DINA": "",
-              "IRT": "",
-              "MIRT": "",
-              "NCD": "",
-              "HyperCD": "",
-              "RCD": ""
             }
           }
         },
@@ -1175,34 +1391,34 @@
           "metrics": {
             "AUC": {
               "DINA": 0.5967,
+              "HyperCD": 0.7098,
               "IRT": 0.5606,
               "MIRT": 0.7415,
               "NCD": 0.5512,
-              "HyperCD": 0.7098,
               "RCD": 0.7102
             },
             "ACC": {
               "DINA": 0.6105,
+              "HyperCD": 0.6772,
               "IRT": 0.4588,
               "MIRT": 0.7023,
               "NCD": 0.6014,
-              "HyperCD": 0.6772,
               "RCD": 0.6578
             },
             "RMSE": {
               "DINA": 0.5121,
+              "HyperCD": 0.4699,
               "IRT": 0.5644,
               "MIRT": 0.4567,
               "NCD": 0.5025,
-              "HyperCD": 0.4699,
               "RCD": 0.4693
             },
             "MAE": {
               "DINA": 0.4558,
+              "HyperCD": 0.4419,
               "IRT": 0.5081,
               "MIRT": 0.4205,
               "NCD": 0.491,
-              "HyperCD": 0.4419,
               "RCD": 0.441
             }
           }
@@ -1211,35 +1427,107 @@
           "metrics": {
             "AUC": {
               "DINA": 0.5829,
+              "HyperCD": 0.672,
               "IRT": 0.5799,
               "MIRT": 0.5152,
               "NCD": 0.6224,
-              "HyperCD": 0.672,
               "RCD": 0.5662
             },
             "ACC": {
               "DINA": 0.5887,
+              "HyperCD": 0.6792,
               "IRT": 0.6646,
               "MIRT": 0.5837,
               "NCD": 0.661,
-              "HyperCD": 0.6792,
               "RCD": 0.54
             },
             "RMSE": {
               "DINA": 0.5345,
+              "HyperCD": 0.4565,
               "IRT": 0.4788,
               "MIRT": 0.5856,
               "NCD": 0.468,
-              "HyperCD": 0.4565,
               "RCD": 0.5237
             },
             "MAE": {
               "DINA": 0.4462,
+              "HyperCD": 0.4071,
               "IRT": 0.4068,
               "MIRT": 0.4226,
               "NCD": 0.4245,
-              "HyperCD": 0.4071,
               "RCD": 0.4686
+            }
+          }
+        },
+        "SLP-mat": {
+          "metrics": {
+            "AUC": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
+              "RCD": ""
+            },
+            "ACC": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
+              "RCD": ""
+            },
+            "RMSE": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
+              "RCD": ""
+            },
+            "MAE": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
+              "RCD": ""
+            }
+          }
+        },
+        "SLP-phy": {
+          "metrics": {
+            "AUC": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
+              "RCD": ""
+            },
+            "ACC": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
+              "RCD": ""
+            },
+            "RMSE": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
+              "RCD": ""
+            },
+            "MAE": {
+              "DINA": "",
+              "HyperCD": "",
+              "IRT": "",
+              "MIRT": "",
+              "NCD": "",
+              "RCD": ""
             }
           }
         },
@@ -1247,35 +1535,107 @@
           "metrics": {
             "AUC": {
               "DINA": 0.5574,
+              "HyperCD": 0.5792,
               "IRT": 0.4823,
               "MIRT": 0.6068,
               "NCD": 0.6733,
-              "HyperCD": 0.5792,
               "RCD": 0.5697
             },
             "ACC": {
               "DINA": 0.5634,
+              "HyperCD": 0.5733,
               "IRT": 0.3535,
               "MIRT": 0.4261,
               "NCD": 0.4355,
-              "HyperCD": 0.5733,
               "RCD": 0.6184
             },
             "RMSE": {
               "DINA": 0.5392,
+              "HyperCD": 0.5074,
               "IRT": 0.573,
               "MIRT": 0.5554,
               "NCD": 0.5585,
-              "HyperCD": 0.5074,
               "RCD": 0.4896
             },
             "MAE": {
               "DINA": 0.4969,
+              "HyperCD": 0.4616,
               "IRT": 0.5423,
               "MIRT": 0.5201,
               "NCD": 0.5165,
-              "HyperCD": 0.4616,
               "RCD": 0.4511
+            }
+          }
+        },
+        "moocradar-C746997": {
+          "metrics": {
+            "AUC": {
+              "DINA": 0.6809,
+              "HyperCD": 0.6143,
+              "IRT": 0.5256,
+              "MIRT": 0.6667,
+              "NCD": 0.597,
+              "RCD": 0.5589
+            },
+            "ACC": {
+              "DINA": 0.6432,
+              "HyperCD": 0.3305,
+              "IRT": 0.1801,
+              "MIRT": 0.4401,
+              "NCD": 0.2701,
+              "RCD": 0.6413
+            },
+            "RMSE": {
+              "DINA": 0.4898,
+              "HyperCD": 0.5954,
+              "IRT": 0.6756,
+              "MIRT": 0.5586,
+              "NCD": 0.609,
+              "RCD": 0.4675
+            },
+            "MAE": {
+              "DINA": 0.451,
+              "HyperCD": 0.5593,
+              "IRT": 0.6644,
+              "MIRT": 0.4823,
+              "NCD": 0.5906,
+              "RCD": 0.4211
+            }
+          }
+        },
+        "ednet-kt1": {
+          "metrics": {
+            "AUC": {
+              "DINA": 0.6174,
+              "HyperCD": 0.6989,
+              "IRT": 0.6541,
+              "MIRT": 0.6573,
+              "NCD": 0.685,
+              "RCD": 0.7004
+            },
+            "ACC": {
+              "DINA": 0.6358,
+              "HyperCD": 0.7464,
+              "IRT": 0.7472,
+              "MIRT": 0.7274,
+              "NCD": 0.7515,
+              "RCD": 0.7344
+            },
+            "RMSE": {
+              "DINA": 0.4709,
+              "HyperCD": 0.4181,
+              "IRT": 0.4268,
+              "MIRT": 0.4324,
+              "NCD": 0.4188,
+              "RCD": 0.4229
+            },
+            "MAE": {
+              "DINA": 0.3964,
+              "HyperCD": 0.352,
+              "IRT": 0.3362,
+              "MIRT": 0.3847,
+              "NCD": 0.3502,
+              "RCD": 0.3544
             }
           }
         }
