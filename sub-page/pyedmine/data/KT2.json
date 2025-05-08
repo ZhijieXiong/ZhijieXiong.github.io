@@ -1,0 +1,3685 @@
+{
+  "task": "KT2",
+  "scenes": {
+    "overall-default": {
+      "datasets": {
+        "assist2009": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7653,
+              "SimpleKT": 0.7737
+            },
+            "ACC": {
+              "qDKT": 0.7361,
+              "SimpleKT": 0.74
+            },
+            "RMSE": {
+              "qDKT": 0.4215,
+              "SimpleKT": 0.4201
+            },
+            "MAE": {
+              "qDKT": 0.3453,
+              "SimpleKT": 0.33
+            }
+          }
+        },
+        "assist2012": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7861,
+              "SimpleKT": 0.7776
+            },
+            "ACC": {
+              "qDKT": 0.7612,
+              "SimpleKT": 0.7559
+            },
+            "RMSE": {
+              "qDKT": 0.4045,
+              "SimpleKT": 0.4098
+            },
+            "MAE": {
+              "qDKT": 0.3284,
+              "SimpleKT": 0.3189
+            }
+          }
+        },
+        "assist2017": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.8006,
+              "SimpleKT": 0.7571
+            },
+            "ACC": {
+              "qDKT": 0.7395,
+              "SimpleKT": 0.7113
+            },
+            "RMSE": {
+              "qDKT": 0.4151,
+              "SimpleKT": 0.4338
+            },
+            "MAE": {
+              "qDKT": 0.3423,
+              "SimpleKT": 0.3649
+            }
+          }
+        },
+        "edi2020-task34": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7972,
+              "SimpleKT": 0.7979
+            },
+            "ACC": {
+              "qDKT": 0.7275,
+              "SimpleKT": 0.7278
+            },
+            "RMSE": {
+              "qDKT": 0.4261,
+              "SimpleKT": 0.4256
+            },
+            "MAE": {
+              "qDKT": 0.3669,
+              "SimpleKT": 0.3605
+            }
+          }
+        },
+        "ednet-kt1": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7367,
+              "SimpleKT": 0.7273
+            },
+            "ACC": {
+              "qDKT": 0.7076,
+              "SimpleKT": 0.7009
+            },
+            "RMSE": {
+              "qDKT": 0.4384,
+              "SimpleKT": 0.4432
+            },
+            "MAE": {
+              "qDKT": 0.3758,
+              "SimpleKT": 0.3771
+            }
+          }
+        },
+        "moocradar-C746997": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.8141,
+              "SimpleKT": 0.8056
+            },
+            "ACC": {
+              "qDKT": 0.7763,
+              "SimpleKT": 0.7695
+            },
+            "RMSE": {
+              "qDKT": 0.3946,
+              "SimpleKT": 0.3999
+            },
+            "MAE": {
+              "qDKT": 0.3062,
+              "SimpleKT": 0.3018
+            }
+          }
+        },
+        "slepemapy-anatomy": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7191,
+              "SimpleKT": 0.7191
+            },
+            "ACC": {
+              "qDKT": 0.7536,
+              "SimpleKT": 0.7544
+            },
+            "RMSE": {
+              "qDKT": 0.4116,
+              "SimpleKT": 0.4114
+            },
+            "MAE": {
+              "qDKT": 0.3372,
+              "SimpleKT": 0.3336
+            }
+          }
+        },
+        "statics2011": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.8236,
+              "SimpleKT": 0.8244
+            },
+            "ACC": {
+              "qDKT": 0.8026,
+              "SimpleKT": 0.8009
+            },
+            "RMSE": {
+              "qDKT": 0.3685,
+              "SimpleKT": 0.3689
+            },
+            "MAE": {
+              "qDKT": 0.2674,
+              "SimpleKT": 0.2701
+            }
+          }
+        },
+        "xes3g5m": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.8265,
+              "SimpleKT": 0.8212
+            },
+            "ACC": {
+              "qDKT": 0.8318,
+              "SimpleKT": 0.8295
+            },
+            "RMSE": {
+              "qDKT": 0.3471,
+              "SimpleKT": 0.3496
+            },
+            "MAE": {
+              "qDKT": 0.2422,
+              "SimpleKT": 0.2402
+            }
+          }
+        }
+      }
+    },
+    "core (repeated)-default": {
+      "datasets": {
+        "assist2009": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.6678,
+              "SimpleKT": 0.6715
+            },
+            "ACC": {
+              "qDKT": 0.6082,
+              "SimpleKT": 0.6199
+            },
+            "RMSE": {
+              "qDKT": 0.5011,
+              "SimpleKT": 0.5014
+            },
+            "MAE": {
+              "qDKT": 0.43,
+              "SimpleKT": 0.4198
+            }
+          }
+        },
+        "assist2012": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.665,
+              "SimpleKT": 0.6575
+            },
+            "ACC": {
+              "qDKT": 0.5969,
+              "SimpleKT": 0.5937
+            },
+            "RMSE": {
+              "qDKT": 0.5094,
+              "SimpleKT": 0.5201
+            },
+            "MAE": {
+              "qDKT": 0.4343,
+              "SimpleKT": 0.4335
+            }
+          }
+        },
+        "assist2017": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7094,
+              "SimpleKT": 0.6491
+            },
+            "ACC": {
+              "qDKT": 0.6246,
+              "SimpleKT": 0.5893
+            },
+            "RMSE": {
+              "qDKT": 0.4848,
+              "SimpleKT": 0.5062
+            },
+            "MAE": {
+              "qDKT": 0.4134,
+              "SimpleKT": 0.4397
+            }
+          }
+        },
+        "edi2020-task34": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7181,
+              "SimpleKT": 0.718
+            },
+            "ACC": {
+              "qDKT": 0.6686,
+              "SimpleKT": 0.6685
+            },
+            "RMSE": {
+              "qDKT": 0.4623,
+              "SimpleKT": 0.4636
+            },
+            "MAE": {
+              "qDKT": 0.4039,
+              "SimpleKT": 0.3993
+            }
+          }
+        },
+        "ednet-kt1": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.5779,
+              "SimpleKT": 0.5763
+            },
+            "ACC": {
+              "qDKT": 0.5423,
+              "SimpleKT": 0.5457
+            },
+            "RMSE": {
+              "qDKT": 0.5308,
+              "SimpleKT": 0.531
+            },
+            "MAE": {
+              "qDKT": 0.474,
+              "SimpleKT": 0.4718
+            }
+          }
+        },
+        "moocradar-C746997": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.5848,
+              "SimpleKT": 0.5816
+            },
+            "ACC": {
+              "qDKT": 0.538,
+              "SimpleKT": 0.5373
+            },
+            "RMSE": {
+              "qDKT": 0.5535,
+              "SimpleKT": 0.5626
+            },
+            "MAE": {
+              "qDKT": 0.4675,
+              "SimpleKT": 0.4686
+            }
+          }
+        },
+        "slepemapy-anatomy": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.6569,
+              "SimpleKT": 0.6567
+            },
+            "ACC": {
+              "qDKT": 0.54,
+              "SimpleKT": 0.5426
+            },
+            "RMSE": {
+              "qDKT": 0.5312,
+              "SimpleKT": 0.5318
+            },
+            "MAE": {
+              "qDKT": 0.4591,
+              "SimpleKT": 0.4567
+            }
+          }
+        },
+        "statics2011": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.6324,
+              "SimpleKT": 0.635
+            },
+            "ACC": {
+              "qDKT": 0.5467,
+              "SimpleKT": 0.5547
+            },
+            "RMSE": {
+              "qDKT": 0.5519,
+              "SimpleKT": 0.5431
+            },
+            "MAE": {
+              "qDKT": 0.4561,
+              "SimpleKT": 0.4512
+            }
+          }
+        },
+        "xes3g5m": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7104,
+              "SimpleKT": 0.703
+            },
+            "ACC": {
+              "qDKT": 0.5914,
+              "SimpleKT": 0.5855
+            },
+            "RMSE": {
+              "qDKT": 0.5306,
+              "SimpleKT": 0.537
+            },
+            "MAE": {
+              "qDKT": 0.4211,
+              "SimpleKT": 0.4239
+            }
+          }
+        }
+      }
+    },
+    "core (non repeated)-default": {
+      "datasets": {
+        "assist2009": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.672,
+              "SimpleKT": 0.6739
+            },
+            "ACC": {
+              "qDKT": 0.612,
+              "SimpleKT": 0.6215
+            },
+            "RMSE": {
+              "qDKT": 0.4969,
+              "SimpleKT": 0.4973
+            },
+            "MAE": {
+              "qDKT": 0.4291,
+              "SimpleKT": 0.4195
+            }
+          }
+        },
+        "assist2012": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.6736,
+              "SimpleKT": 0.664
+            },
+            "ACC": {
+              "qDKT": 0.6097,
+              "SimpleKT": 0.6053
+            },
+            "RMSE": {
+              "qDKT": 0.4962,
+              "SimpleKT": 0.5067
+            },
+            "MAE": {
+              "qDKT": 0.431,
+              "SimpleKT": 0.4307
+            }
+          }
+        },
+        "assist2017": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7169,
+              "SimpleKT": 0.6574
+            },
+            "ACC": {
+              "qDKT": 0.637,
+              "SimpleKT": 0.6002
+            },
+            "RMSE": {
+              "qDKT": 0.4744,
+              "SimpleKT": 0.4954
+            },
+            "MAE": {
+              "qDKT": 0.4109,
+              "SimpleKT": 0.437
+            }
+          }
+        },
+        "edi2020-task34": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7201,
+              "SimpleKT": 0.7206
+            },
+            "ACC": {
+              "qDKT": 0.6694,
+              "SimpleKT": 0.6697
+            },
+            "RMSE": {
+              "qDKT": 0.4601,
+              "SimpleKT": 0.4609
+            },
+            "MAE": {
+              "qDKT": 0.4063,
+              "SimpleKT": 0.4015
+            }
+          }
+        },
+        "ednet-kt1": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.5792,
+              "SimpleKT": 0.577
+            },
+            "ACC": {
+              "qDKT": 0.5479,
+              "SimpleKT": 0.5497
+            },
+            "RMSE": {
+              "qDKT": 0.5225,
+              "SimpleKT": 0.5235
+            },
+            "MAE": {
+              "qDKT": 0.4741,
+              "SimpleKT": 0.4723
+            }
+          }
+        },
+        "moocradar-C746997": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.5901,
+              "SimpleKT": 0.5835
+            },
+            "ACC": {
+              "qDKT": 0.552,
+              "SimpleKT": 0.5521
+            },
+            "RMSE": {
+              "qDKT": 0.5284,
+              "SimpleKT": 0.5382
+            },
+            "MAE": {
+              "qDKT": 0.4663,
+              "SimpleKT": 0.4674
+            }
+          }
+        },
+        "slepemapy-anatomy": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.6478,
+              "SimpleKT": 0.6474
+            },
+            "ACC": {
+              "qDKT": 0.5467,
+              "SimpleKT": 0.5503
+            },
+            "RMSE": {
+              "qDKT": 0.5236,
+              "SimpleKT": 0.5238
+            },
+            "MAE": {
+              "qDKT": 0.4602,
+              "SimpleKT": 0.4575
+            }
+          }
+        },
+        "statics2011": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.6152,
+              "SimpleKT": 0.6146
+            },
+            "ACC": {
+              "qDKT": 0.5587,
+              "SimpleKT": 0.5668
+            },
+            "RMSE": {
+              "qDKT": 0.5279,
+              "SimpleKT": 0.5213
+            },
+            "MAE": {
+              "qDKT": 0.4589,
+              "SimpleKT": 0.4563
+            }
+          }
+        },
+        "xes3g5m": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7009,
+              "SimpleKT": 0.6953
+            },
+            "ACC": {
+              "qDKT": 0.6071,
+              "SimpleKT": 0.6027
+            },
+            "RMSE": {
+              "qDKT": 0.5062,
+              "SimpleKT": 0.5113
+            },
+            "MAE": {
+              "qDKT": 0.4213,
+              "SimpleKT": 0.4228
+            }
+          }
+        }
+      }
+    },
+    "user warm start-seqStart50": {
+      "datasets": {
+        "assist2009": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7582,
+              "SimpleKT": 0.7682
+            },
+            "ACC": {
+              "qDKT": 0.7397,
+              "SimpleKT": 0.744
+            },
+            "RMSE": {
+              "qDKT": 0.4195,
+              "SimpleKT": 0.4172
+            },
+            "MAE": {
+              "qDKT": 0.343,
+              "SimpleKT": 0.327
+            }
+          }
+        },
+        "assist2012": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7892,
+              "SimpleKT": 0.7798
+            },
+            "ACC": {
+              "qDKT": 0.7615,
+              "SimpleKT": 0.7555
+            },
+            "RMSE": {
+              "qDKT": 0.4038,
+              "SimpleKT": 0.4096
+            },
+            "MAE": {
+              "qDKT": 0.3281,
+              "SimpleKT": 0.3184
+            }
+          }
+        },
+        "assist2017": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.8056,
+              "SimpleKT": 0.7605
+            },
+            "ACC": {
+              "qDKT": 0.7425,
+              "SimpleKT": 0.7129
+            },
+            "RMSE": {
+              "qDKT": 0.4128,
+              "SimpleKT": 0.4326
+            },
+            "MAE": {
+              "qDKT": 0.3389,
+              "SimpleKT": 0.3627
+            }
+          }
+        },
+        "edi2020-task34": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.795,
+              "SimpleKT": 0.7957
+            },
+            "ACC": {
+              "qDKT": 0.7275,
+              "SimpleKT": 0.728
+            },
+            "RMSE": {
+              "qDKT": 0.4267,
+              "SimpleKT": 0.4262
+            },
+            "MAE": {
+              "qDKT": 0.3682,
+              "SimpleKT": 0.3613
+            }
+          }
+        },
+        "ednet-kt1": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7209,
+              "SimpleKT": 0.7136
+            },
+            "ACC": {
+              "qDKT": 0.7159,
+              "SimpleKT": 0.7112
+            },
+            "RMSE": {
+              "qDKT": 0.4344,
+              "SimpleKT": 0.4375
+            },
+            "MAE": {
+              "qDKT": 0.3668,
+              "SimpleKT": 0.3706
+            }
+          }
+        },
+        "moocradar-C746997": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.8188,
+              "SimpleKT": 0.81
+            },
+            "ACC": {
+              "qDKT": 0.7793,
+              "SimpleKT": 0.7719
+            },
+            "RMSE": {
+              "qDKT": 0.3919,
+              "SimpleKT": 0.398
+            },
+            "MAE": {
+              "qDKT": 0.3011,
+              "SimpleKT": 0.2965
+            }
+          }
+        },
+        "slepemapy-anatomy": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7253,
+              "SimpleKT": 0.7231
+            },
+            "ACC": {
+              "qDKT": 0.7618,
+              "SimpleKT": 0.7621
+            },
+            "RMSE": {
+              "qDKT": 0.4053,
+              "SimpleKT": 0.4057
+            },
+            "MAE": {
+              "qDKT": 0.327,
+              "SimpleKT": 0.3243
+            }
+          }
+        },
+        "statics2011": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.8208,
+              "SimpleKT": 0.8219
+            },
+            "ACC": {
+              "qDKT": 0.7967,
+              "SimpleKT": 0.7954
+            },
+            "RMSE": {
+              "qDKT": 0.3733,
+              "SimpleKT": 0.3735
+            },
+            "MAE": {
+              "qDKT": 0.2747,
+              "SimpleKT": 0.2768
+            }
+          }
+        },
+        "xes3g5m": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.8307,
+              "SimpleKT": 0.8252
+            },
+            "ACC": {
+              "qDKT": 0.8389,
+              "SimpleKT": 0.8364
+            },
+            "RMSE": {
+              "qDKT": 0.3406,
+              "SimpleKT": 0.3432
+            },
+            "MAE": {
+              "qDKT": 0.2332,
+              "SimpleKT": 0.2314
+            }
+          }
+        }
+      }
+    },
+    "user warm start-seqStart100": {
+      "datasets": {
+        "assist2009": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7584,
+              "SimpleKT": 0.7676
+            },
+            "ACC": {
+              "qDKT": 0.7442,
+              "SimpleKT": 0.7488
+            },
+            "RMSE": {
+              "qDKT": 0.4168,
+              "SimpleKT": 0.4143
+            },
+            "MAE": {
+              "qDKT": 0.3389,
+              "SimpleKT": 0.3242
+            }
+          }
+        },
+        "assist2012": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7905,
+              "SimpleKT": 0.7801
+            },
+            "ACC": {
+              "qDKT": 0.7621,
+              "SimpleKT": 0.7554
+            },
+            "RMSE": {
+              "qDKT": 0.4029,
+              "SimpleKT": 0.4092
+            },
+            "MAE": {
+              "qDKT": 0.3276,
+              "SimpleKT": 0.3194
+            }
+          }
+        },
+        "assist2017": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.8091,
+              "SimpleKT": 0.762
+            },
+            "ACC": {
+              "qDKT": 0.7457,
+              "SimpleKT": 0.714
+            },
+            "RMSE": {
+              "qDKT": 0.4106,
+              "SimpleKT": 0.4315
+            },
+            "MAE": {
+              "qDKT": 0.3356,
+              "SimpleKT": 0.361
+            }
+          }
+        },
+        "edi2020-task34": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7947,
+              "SimpleKT": 0.7957
+            },
+            "ACC": {
+              "qDKT": 0.7292,
+              "SimpleKT": 0.7296
+            },
+            "RMSE": {
+              "qDKT": 0.4263,
+              "SimpleKT": 0.4256
+            },
+            "MAE": {
+              "qDKT": 0.3676,
+              "SimpleKT": 0.3604
+            }
+          }
+        },
+        "ednet-kt1": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7193,
+              "SimpleKT": 0.7132
+            },
+            "ACC": {
+              "qDKT": 0.7161,
+              "SimpleKT": 0.7126
+            },
+            "RMSE": {
+              "qDKT": 0.4341,
+              "SimpleKT": 0.4365
+            },
+            "MAE": {
+              "qDKT": 0.3655,
+              "SimpleKT": 0.3698
+            }
+          }
+        },
+        "moocradar-C746997": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.8225,
+              "SimpleKT": 0.8134
+            },
+            "ACC": {
+              "qDKT": 0.783,
+              "SimpleKT": 0.776
+            },
+            "RMSE": {
+              "qDKT": 0.3901,
+              "SimpleKT": 0.3964
+            },
+            "MAE": {
+              "qDKT": 0.2976,
+              "SimpleKT": 0.2933
+            }
+          }
+        },
+        "slepemapy-anatomy": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7269,
+              "SimpleKT": 0.7232
+            },
+            "ACC": {
+              "qDKT": 0.7625,
+              "SimpleKT": 0.7626
+            },
+            "RMSE": {
+              "qDKT": 0.4042,
+              "SimpleKT": 0.405
+            },
+            "MAE": {
+              "qDKT": 0.325,
+              "SimpleKT": 0.323
+            }
+          }
+        },
+        "statics2011": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.8165,
+              "SimpleKT": 0.8178
+            },
+            "ACC": {
+              "qDKT": 0.7919,
+              "SimpleKT": 0.7908
+            },
+            "RMSE": {
+              "qDKT": 0.3774,
+              "SimpleKT": 0.3775
+            },
+            "MAE": {
+              "qDKT": 0.2805,
+              "SimpleKT": 0.2825
+            }
+          }
+        },
+        "xes3g5m": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.8341,
+              "SimpleKT": 0.8284
+            },
+            "ACC": {
+              "qDKT": 0.8436,
+              "SimpleKT": 0.8412
+            },
+            "RMSE": {
+              "qDKT": 0.3361,
+              "SimpleKT": 0.3387
+            },
+            "MAE": {
+              "qDKT": 0.2271,
+              "SimpleKT": 0.2254
+            }
+          }
+        }
+      }
+    },
+    "user warm start-seqStart150": {
+      "datasets": {
+        "assist2009": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7507,
+              "SimpleKT": 0.7584
+            },
+            "ACC": {
+              "qDKT": 0.7454,
+              "SimpleKT": 0.7488
+            },
+            "RMSE": {
+              "qDKT": 0.4161,
+              "SimpleKT": 0.4142
+            },
+            "MAE": {
+              "qDKT": 0.3366,
+              "SimpleKT": 0.3248
+            }
+          }
+        },
+        "assist2012": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7906,
+              "SimpleKT": 0.7794
+            },
+            "ACC": {
+              "qDKT": 0.761,
+              "SimpleKT": 0.7533
+            },
+            "RMSE": {
+              "qDKT": 0.4036,
+              "SimpleKT": 0.4103
+            },
+            "MAE": {
+              "qDKT": 0.3287,
+              "SimpleKT": 0.3218
+            }
+          }
+        },
+        "assist2017": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.8119,
+              "SimpleKT": 0.7626
+            },
+            "ACC": {
+              "qDKT": 0.7482,
+              "SimpleKT": 0.7152
+            },
+            "RMSE": {
+              "qDKT": 0.4087,
+              "SimpleKT": 0.4307
+            },
+            "MAE": {
+              "qDKT": 0.3328,
+              "SimpleKT": 0.3599
+            }
+          }
+        },
+        "edi2020-task34": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7934,
+              "SimpleKT": 0.7944
+            },
+            "ACC": {
+              "qDKT": 0.7295,
+              "SimpleKT": 0.7304
+            },
+            "RMSE": {
+              "qDKT": 0.4262,
+              "SimpleKT": 0.4256
+            },
+            "MAE": {
+              "qDKT": 0.3676,
+              "SimpleKT": 0.3603
+            }
+          }
+        },
+        "ednet-kt1": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7192,
+              "SimpleKT": 0.7143
+            },
+            "ACC": {
+              "qDKT": 0.7185,
+              "SimpleKT": 0.716
+            },
+            "RMSE": {
+              "qDKT": 0.4327,
+              "SimpleKT": 0.4345
+            },
+            "MAE": {
+              "qDKT": 0.3631,
+              "SimpleKT": 0.3673
+            }
+          }
+        },
+        "moocradar-C746997": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.8216,
+              "SimpleKT": 0.812
+            },
+            "ACC": {
+              "qDKT": 0.7796,
+              "SimpleKT": 0.773
+            },
+            "RMSE": {
+              "qDKT": 0.3926,
+              "SimpleKT": 0.3991
+            },
+            "MAE": {
+              "qDKT": 0.301,
+              "SimpleKT": 0.2979
+            }
+          }
+        },
+        "slepemapy-anatomy": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7282,
+              "SimpleKT": 0.7224
+            },
+            "ACC": {
+              "qDKT": 0.7629,
+              "SimpleKT": 0.7624
+            },
+            "RMSE": {
+              "qDKT": 0.4036,
+              "SimpleKT": 0.4049
+            },
+            "MAE": {
+              "qDKT": 0.3237,
+              "SimpleKT": 0.3225
+            }
+          }
+        },
+        "statics2011": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.8161,
+              "SimpleKT": 0.8176
+            },
+            "ACC": {
+              "qDKT": 0.7916,
+              "SimpleKT": 0.7906
+            },
+            "RMSE": {
+              "qDKT": 0.3777,
+              "SimpleKT": 0.3778
+            },
+            "MAE": {
+              "qDKT": 0.2812,
+              "SimpleKT": 0.283
+            }
+          }
+        },
+        "xes3g5m": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.8363,
+              "SimpleKT": 0.8304
+            },
+            "ACC": {
+              "qDKT": 0.8471,
+              "SimpleKT": 0.8447
+            },
+            "RMSE": {
+              "qDKT": 0.3328,
+              "SimpleKT": 0.3354
+            },
+            "MAE": {
+              "qDKT": 0.2227,
+              "SimpleKT": 0.2212
+            }
+          }
+        }
+      }
+    },
+    "user warm start-seqStart200": {
+      "datasets": {
+        "assist2009": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7483,
+              "SimpleKT": 0.7549
+            },
+            "ACC": {
+              "qDKT": 0.7454,
+              "SimpleKT": 0.7473
+            },
+            "RMSE": {
+              "qDKT": 0.4169,
+              "SimpleKT": 0.4153
+            },
+            "MAE": {
+              "qDKT": 0.3362,
+              "SimpleKT": 0.3256
+            }
+          }
+        },
+        "assist2012": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7921,
+              "SimpleKT": 0.7792
+            },
+            "ACC": {
+              "qDKT": 0.7608,
+              "SimpleKT": 0.752
+            },
+            "RMSE": {
+              "qDKT": 0.4036,
+              "SimpleKT": 0.4111
+            },
+            "MAE": {
+              "qDKT": 0.3288,
+              "SimpleKT": 0.3234
+            }
+          }
+        },
+        "assist2017": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.8127,
+              "SimpleKT": 0.7615
+            },
+            "ACC": {
+              "qDKT": 0.7494,
+              "SimpleKT": 0.7154
+            },
+            "RMSE": {
+              "qDKT": 0.4077,
+              "SimpleKT": 0.4305
+            },
+            "MAE": {
+              "qDKT": 0.3311,
+              "SimpleKT": 0.3596
+            }
+          }
+        },
+        "edi2020-task34": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7933,
+              "SimpleKT": 0.7943
+            },
+            "ACC": {
+              "qDKT": 0.7308,
+              "SimpleKT": 0.732
+            },
+            "RMSE": {
+              "qDKT": 0.4256,
+              "SimpleKT": 0.425
+            },
+            "MAE": {
+              "qDKT": 0.3668,
+              "SimpleKT": 0.3595
+            }
+          }
+        },
+        "ednet-kt1": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7181,
+              "SimpleKT": 0.714
+            },
+            "ACC": {
+              "qDKT": 0.7188,
+              "SimpleKT": 0.7173
+            },
+            "RMSE": {
+              "qDKT": 0.4325,
+              "SimpleKT": 0.4339
+            },
+            "MAE": {
+              "qDKT": 0.3622,
+              "SimpleKT": 0.3663
+            }
+          }
+        },
+        "moocradar-C746997": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.8234,
+              "SimpleKT": 0.8161
+            },
+            "ACC": {
+              "qDKT": 0.7885,
+              "SimpleKT": 0.7822
+            },
+            "RMSE": {
+              "qDKT": 0.3882,
+              "SimpleKT": 0.3935
+            },
+            "MAE": {
+              "qDKT": 0.2943,
+              "SimpleKT": 0.2912
+            }
+          }
+        },
+        "slepemapy-anatomy": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7297,
+              "SimpleKT": 0.722
+            },
+            "ACC": {
+              "qDKT": 0.7652,
+              "SimpleKT": 0.7645
+            },
+            "RMSE": {
+              "qDKT": 0.4021,
+              "SimpleKT": 0.4038
+            },
+            "MAE": {
+              "qDKT": 0.3215,
+              "SimpleKT": 0.3209
+            }
+          }
+        },
+        "statics2011": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.8189,
+              "SimpleKT": 0.8198
+            },
+            "ACC": {
+              "qDKT": 0.7933,
+              "SimpleKT": 0.7922
+            },
+            "RMSE": {
+              "qDKT": 0.3763,
+              "SimpleKT": 0.3765
+            },
+            "MAE": {
+              "qDKT": 0.2795,
+              "SimpleKT": 0.2809
+            }
+          }
+        },
+        "xes3g5m": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.8375,
+              "SimpleKT": 0.8314
+            },
+            "ACC": {
+              "qDKT": 0.8509,
+              "SimpleKT": 0.8484
+            },
+            "RMSE": {
+              "qDKT": 0.3291,
+              "SimpleKT": 0.3319
+            },
+            "MAE": {
+              "qDKT": 0.2178,
+              "SimpleKT": 0.2162
+            }
+          }
+        }
+      }
+    },
+    "user cold start-seqEnd5": {
+      "datasets": {
+        "assist2009": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7793,
+              "SimpleKT": 0.7833
+            },
+            "ACC": {
+              "qDKT": 0.7428,
+              "SimpleKT": 0.7462
+            },
+            "RMSE": {
+              "qDKT": 0.418,
+              "SimpleKT": 0.4177
+            },
+            "MAE": {
+              "qDKT": 0.3375,
+              "SimpleKT": 0.3329
+            }
+          }
+        },
+        "assist2012": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7602,
+              "SimpleKT": 0.7543
+            },
+            "ACC": {
+              "qDKT": 0.7509,
+              "SimpleKT": 0.7456
+            },
+            "RMSE": {
+              "qDKT": 0.4132,
+              "SimpleKT": 0.4178
+            },
+            "MAE": {
+              "qDKT": 0.3382,
+              "SimpleKT": 0.3356
+            }
+          }
+        },
+        "assist2017": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7317,
+              "SimpleKT": 0.7161
+            },
+            "ACC": {
+              "qDKT": 0.6983,
+              "SimpleKT": 0.6813
+            },
+            "RMSE": {
+              "qDKT": 0.4426,
+              "SimpleKT": 0.4485
+            },
+            "MAE": {
+              "qDKT": 0.3842,
+              "SimpleKT": 0.392
+            }
+          }
+        },
+        "edi2020-task34": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7674,
+              "SimpleKT": 0.7653
+            },
+            "ACC": {
+              "qDKT": 0.7334,
+              "SimpleKT": 0.735
+            },
+            "RMSE": {
+              "qDKT": 0.4209,
+              "SimpleKT": 0.4218
+            },
+            "MAE": {
+              "qDKT": 0.3537,
+              "SimpleKT": 0.3524
+            }
+          }
+        },
+        "ednet-kt1": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7071,
+              "SimpleKT": 0.6755
+            },
+            "ACC": {
+              "qDKT": 0.644,
+              "SimpleKT": 0.6227
+            },
+            "RMSE": {
+              "qDKT": 0.4661,
+              "SimpleKT": 0.4822
+            },
+            "MAE": {
+              "qDKT": 0.4305,
+              "SimpleKT": 0.4255
+            }
+          }
+        },
+        "moocradar-C746997": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.8006,
+              "SimpleKT": 0.7962
+            },
+            "ACC": {
+              "qDKT": 0.7732,
+              "SimpleKT": 0.7686
+            },
+            "RMSE": {
+              "qDKT": 0.4054,
+              "SimpleKT": 0.4099
+            },
+            "MAE": {
+              "qDKT": 0.3157,
+              "SimpleKT": 0.3132
+            }
+          }
+        },
+        "slepemapy-anatomy": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.6751,
+              "SimpleKT": 0.6733
+            },
+            "ACC": {
+              "qDKT": 0.684,
+              "SimpleKT": 0.681
+            },
+            "RMSE": {
+              "qDKT": 0.4523,
+              "SimpleKT": 0.4542
+            },
+            "MAE": {
+              "qDKT": 0.4031,
+              "SimpleKT": 0.4021
+            }
+          }
+        },
+        "statics2011": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.8808,
+              "SimpleKT": 0.8861
+            },
+            "ACC": {
+              "qDKT": 0.9266,
+              "SimpleKT": 0.9289
+            },
+            "RMSE": {
+              "qDKT": 0.2364,
+              "SimpleKT": 0.2353
+            },
+            "MAE": {
+              "qDKT": 0.1145,
+              "SimpleKT": 0.1062
+            }
+          }
+        },
+        "xes3g5m": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.785,
+              "SimpleKT": 0.784
+            },
+            "ACC": {
+              "qDKT": 0.782,
+              "SimpleKT": 0.7839
+            },
+            "RMSE": {
+              "qDKT": 0.3895,
+              "SimpleKT": 0.3901
+            },
+            "MAE": {
+              "qDKT": 0.3048,
+              "SimpleKT": 0.2998
+            }
+          }
+        }
+      }
+    },
+    "user cold start-seqEnd10": {
+      "datasets": {
+        "assist2009": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7833,
+              "SimpleKT": 0.7869
+            },
+            "ACC": {
+              "qDKT": 0.7407,
+              "SimpleKT": 0.7444
+            },
+            "RMSE": {
+              "qDKT": 0.4185,
+              "SimpleKT": 0.4187
+            },
+            "MAE": {
+              "qDKT": 0.3383,
+              "SimpleKT": 0.3305
+            }
+          }
+        },
+        "assist2012": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7698,
+              "SimpleKT": 0.7637
+            },
+            "ACC": {
+              "qDKT": 0.7556,
+              "SimpleKT": 0.7511
+            },
+            "RMSE": {
+              "qDKT": 0.4097,
+              "SimpleKT": 0.414
+            },
+            "MAE": {
+              "qDKT": 0.3342,
+              "SimpleKT": 0.3298
+            }
+          }
+        },
+        "assist2017": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7345,
+              "SimpleKT": 0.7174
+            },
+            "ACC": {
+              "qDKT": 0.7094,
+              "SimpleKT": 0.6926
+            },
+            "RMSE": {
+              "qDKT": 0.4399,
+              "SimpleKT": 0.4462
+            },
+            "MAE": {
+              "qDKT": 0.381,
+              "SimpleKT": 0.3896
+            }
+          }
+        },
+        "edi2020-task34": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7782,
+              "SimpleKT": 0.7753
+            },
+            "ACC": {
+              "qDKT": 0.726,
+              "SimpleKT": 0.7246
+            },
+            "RMSE": {
+              "qDKT": 0.4239,
+              "SimpleKT": 0.4253
+            },
+            "MAE": {
+              "qDKT": 0.3584,
+              "SimpleKT": 0.3576
+            }
+          }
+        },
+        "ednet-kt1": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7147,
+              "SimpleKT": 0.687
+            },
+            "ACC": {
+              "qDKT": 0.6535,
+              "SimpleKT": 0.6357
+            },
+            "RMSE": {
+              "qDKT": 0.4637,
+              "SimpleKT": 0.4775
+            },
+            "MAE": {
+              "qDKT": 0.4258,
+              "SimpleKT": 0.4199
+            }
+          }
+        },
+        "moocradar-C746997": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.8064,
+              "SimpleKT": 0.802
+            },
+            "ACC": {
+              "qDKT": 0.7772,
+              "SimpleKT": 0.7727
+            },
+            "RMSE": {
+              "qDKT": 0.4011,
+              "SimpleKT": 0.4046
+            },
+            "MAE": {
+              "qDKT": 0.3144,
+              "SimpleKT": 0.3093
+            }
+          }
+        },
+        "slepemapy-anatomy": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.6866,
+              "SimpleKT": 0.6889
+            },
+            "ACC": {
+              "qDKT": 0.7065,
+              "SimpleKT": 0.7066
+            },
+            "RMSE": {
+              "qDKT": 0.4417,
+              "SimpleKT": 0.4417
+            },
+            "MAE": {
+              "qDKT": 0.3846,
+              "SimpleKT": 0.3814
+            }
+          }
+        },
+        "statics2011": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.9007,
+              "SimpleKT": 0.9047
+            },
+            "ACC": {
+              "qDKT": 0.9104,
+              "SimpleKT": 0.9023
+            },
+            "RMSE": {
+              "qDKT": 0.2574,
+              "SimpleKT": 0.2574
+            },
+            "MAE": {
+              "qDKT": 0.1304,
+              "SimpleKT": 0.1279
+            }
+          }
+        },
+        "xes3g5m": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.782,
+              "SimpleKT": 0.7812
+            },
+            "ACC": {
+              "qDKT": 0.781,
+              "SimpleKT": 0.7827
+            },
+            "RMSE": {
+              "qDKT": 0.39,
+              "SimpleKT": 0.3905
+            },
+            "MAE": {
+              "qDKT": 0.3057,
+              "SimpleKT": 0.2999
+            }
+          }
+        }
+      }
+    },
+    "question cold start-queNum5": {
+      "datasets": {
+        "assist2009": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7114,
+              "SimpleKT": 0.6867
+            },
+            "ACC": {
+              "qDKT": 0.7442,
+              "SimpleKT": 0.766
+            },
+            "RMSE": {
+              "qDKT": 0.4182,
+              "SimpleKT": 0.4057
+            },
+            "MAE": {
+              "qDKT": 0.3418,
+              "SimpleKT": 0.3043
+            }
+          }
+        },
+        "assist2012": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7935,
+              "SimpleKT": 0.7867
+            },
+            "ACC": {
+              "qDKT": 0.7708,
+              "SimpleKT": 0.7472
+            },
+            "RMSE": {
+              "qDKT": 0.3975,
+              "SimpleKT": 0.4141
+            },
+            "MAE": {
+              "qDKT": 0.3207,
+              "SimpleKT": 0.3289
+            }
+          }
+        },
+        "assist2017": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.8153,
+              "SimpleKT": 0.7413
+            },
+            "ACC": {
+              "qDKT": 0.7585,
+              "SimpleKT": 0.7255
+            },
+            "RMSE": {
+              "qDKT": 0.4018,
+              "SimpleKT": 0.4254
+            },
+            "MAE": {
+              "qDKT": 0.3234,
+              "SimpleKT": 0.3511
+            }
+          }
+        },
+        "edi2020-task34": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.8176,
+              "SimpleKT": 0.8753
+            },
+            "ACC": {
+              "qDKT": 0.7463,
+              "SimpleKT": 0.8793
+            },
+            "RMSE": {
+              "qDKT": 0.4135,
+              "SimpleKT": 0.292
+            },
+            "MAE": {
+              "qDKT": 0.3461,
+              "SimpleKT": 0.1721
+            }
+          }
+        },
+        "ednet-kt1": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.719,
+              "SimpleKT": 0.721
+            },
+            "ACC": {
+              "qDKT": 0.7169,
+              "SimpleKT": 0.746
+            },
+            "RMSE": {
+              "qDKT": 0.4331,
+              "SimpleKT": 0.4164
+            },
+            "MAE": {
+              "qDKT": 0.3648,
+              "SimpleKT": 0.3317
+            }
+          }
+        },
+        "moocradar-C746997": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.8325,
+              "SimpleKT": 0.8357
+            },
+            "ACC": {
+              "qDKT": 0.7864,
+              "SimpleKT": 0.7861
+            },
+            "RMSE": {
+              "qDKT": 0.3916,
+              "SimpleKT": 0.3902
+            },
+            "MAE": {
+              "qDKT": 0.2954,
+              "SimpleKT": 0.2917
+            }
+          }
+        },
+        "slepemapy-anatomy": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7284,
+              "SimpleKT": 0.7277
+            },
+            "ACC": {
+              "qDKT": 0.7742,
+              "SimpleKT": 0.7842
+            },
+            "RMSE": {
+              "qDKT": 0.3969,
+              "SimpleKT": 0.3909
+            },
+            "MAE": {
+              "qDKT": 0.3141,
+              "SimpleKT": 0.3041
+            }
+          }
+        },
+        "statics2011": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.8286,
+              "SimpleKT": 0.8289
+            },
+            "ACC": {
+              "qDKT": 0.8068,
+              "SimpleKT": 0.8325
+            },
+            "RMSE": {
+              "qDKT": 0.3661,
+              "SimpleKT": 0.3447
+            },
+            "MAE": {
+              "qDKT": 0.2644,
+              "SimpleKT": 0.2356
+            }
+          }
+        },
+        "xes3g5m": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.8232,
+              "SimpleKT": 0.7908
+            },
+            "ACC": {
+              "qDKT": 0.889,
+              "SimpleKT": 0.812
+            },
+            "RMSE": {
+              "qDKT": 0.2928,
+              "SimpleKT": 0.3665
+            },
+            "MAE": {
+              "qDKT": 0.1765,
+              "SimpleKT": 0.262
+            }
+          }
+        }
+      }
+    },
+    "question cold start-queNum10": {
+      "datasets": {
+        "assist2009": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7387,
+              "SimpleKT": 0.7302
+            },
+            "ACC": {
+              "qDKT": 0.7523,
+              "SimpleKT": 0.7749
+            },
+            "RMSE": {
+              "qDKT": 0.4118,
+              "SimpleKT": 0.397
+            },
+            "MAE": {
+              "qDKT": 0.3326,
+              "SimpleKT": 0.2959
+            }
+          }
+        },
+        "assist2012": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7937,
+              "SimpleKT": 0.7849
+            },
+            "ACC": {
+              "qDKT": 0.7702,
+              "SimpleKT": 0.7497
+            },
+            "RMSE": {
+              "qDKT": 0.3973,
+              "SimpleKT": 0.4132
+            },
+            "MAE": {
+              "qDKT": 0.3203,
+              "SimpleKT": 0.3276
+            }
+          }
+        },
+        "assist2017": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.8161,
+              "SimpleKT": 0.7449
+            },
+            "ACC": {
+              "qDKT": 0.7567,
+              "SimpleKT": 0.7252
+            },
+            "RMSE": {
+              "qDKT": 0.4026,
+              "SimpleKT": 0.4249
+            },
+            "MAE": {
+              "qDKT": 0.3242,
+              "SimpleKT": 0.3509
+            }
+          }
+        },
+        "edi2020-task34": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.8149,
+              "SimpleKT": 0.8789
+            },
+            "ACC": {
+              "qDKT": 0.7433,
+              "SimpleKT": 0.8782
+            },
+            "RMSE": {
+              "qDKT": 0.4153,
+              "SimpleKT": 0.294
+            },
+            "MAE": {
+              "qDKT": 0.3487,
+              "SimpleKT": 0.1753
+            }
+          }
+        },
+        "ednet-kt1": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7168,
+              "SimpleKT": 0.7229
+            },
+            "ACC": {
+              "qDKT": 0.7152,
+              "SimpleKT": 0.7452
+            },
+            "RMSE": {
+              "qDKT": 0.4342,
+              "SimpleKT": 0.4157
+            },
+            "MAE": {
+              "qDKT": 0.367,
+              "SimpleKT": 0.3334
+            }
+          }
+        },
+        "moocradar-C746997": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.8337,
+              "SimpleKT": 0.8291
+            },
+            "ACC": {
+              "qDKT": 0.8107,
+              "SimpleKT": 0.7988
+            },
+            "RMSE": {
+              "qDKT": 0.3734,
+              "SimpleKT": 0.379
+            },
+            "MAE": {
+              "qDKT": 0.2771,
+              "SimpleKT": 0.2772
+            }
+          }
+        },
+        "slepemapy-anatomy": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7264,
+              "SimpleKT": 0.7218
+            },
+            "ACC": {
+              "qDKT": 0.7748,
+              "SimpleKT": 0.783
+            },
+            "RMSE": {
+              "qDKT": 0.3969,
+              "SimpleKT": 0.3927
+            },
+            "MAE": {
+              "qDKT": 0.3145,
+              "SimpleKT": 0.3057
+            }
+          }
+        },
+        "statics2011": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.8204,
+              "SimpleKT": 0.8288
+            },
+            "ACC": {
+              "qDKT": 0.8011,
+              "SimpleKT": 0.8347
+            },
+            "RMSE": {
+              "qDKT": 0.3707,
+              "SimpleKT": 0.3432
+            },
+            "MAE": {
+              "qDKT": 0.2704,
+              "SimpleKT": 0.2368
+            }
+          }
+        },
+        "xes3g5m": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.8293,
+              "SimpleKT": 0.7998
+            },
+            "ACC": {
+              "qDKT": 0.8927,
+              "SimpleKT": 0.8303
+            },
+            "RMSE": {
+              "qDKT": 0.2876,
+              "SimpleKT": 0.3537
+            },
+            "MAE": {
+              "qDKT": 0.171,
+              "SimpleKT": 0.2485
+            }
+          }
+        }
+      }
+    },
+    "multi step (acc)-overallStep5": {
+      "datasets": {
+        "assist2009": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "assist2012": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "assist2017": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "edi2020-task34": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "ednet-kt1": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "moocradar-C746997": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "slepemapy-anatomy": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "statics2011": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "xes3g5m": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        }
+      }
+    },
+    "multi step (acc)-overallStep10": {
+      "datasets": {
+        "assist2009": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "assist2012": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "assist2017": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "edi2020-task34": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "ednet-kt1": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "moocradar-C746997": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "slepemapy-anatomy": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "statics2011": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "xes3g5m": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        }
+      }
+    },
+    "multi step (non acc)-overallStep5": {
+      "datasets": {
+        "assist2009": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "assist2012": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "assist2017": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "edi2020-task34": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "ednet-kt1": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "moocradar-C746997": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "slepemapy-anatomy": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "statics2011": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "xes3g5m": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        }
+      }
+    },
+    "multi step (non acc)-overallStep10": {
+      "datasets": {
+        "assist2009": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "assist2012": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "assist2017": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "edi2020-task34": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "ednet-kt1": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "moocradar-C746997": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "slepemapy-anatomy": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "statics2011": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "xes3g5m": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        }
+      }
+    },
+    "multi step (acc)-lastStep5": {
+      "datasets": {
+        "assist2009": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "assist2012": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "assist2017": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "edi2020-task34": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "ednet-kt1": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "moocradar-C746997": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "slepemapy-anatomy": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "statics2011": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "xes3g5m": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        }
+      }
+    },
+    "multi step (acc)-lastStep10": {
+      "datasets": {
+        "assist2009": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "assist2012": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "assist2017": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "edi2020-task34": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "ednet-kt1": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "moocradar-C746997": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "slepemapy-anatomy": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "statics2011": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "xes3g5m": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        }
+      }
+    },
+    "multi step (non acc)-lastStep5": {
+      "datasets": {
+        "assist2009": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "assist2012": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "assist2017": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "edi2020-task34": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "ednet-kt1": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "moocradar-C746997": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "slepemapy-anatomy": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "statics2011": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "xes3g5m": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        }
+      }
+    },
+    "multi step (non acc)-lastStep10": {
+      "datasets": {
+        "assist2009": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "assist2012": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "assist2017": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "edi2020-task34": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "ednet-kt1": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "moocradar-C746997": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "slepemapy-anatomy": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "statics2011": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        },
+        "xes3g5m": {
+          "metrics": {
+            "AUC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "ACC": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "RMSE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            },
+            "MAE": {
+              "qDKT": "",
+              "SimpleKT": ""
+            }
+          }
+        }
+      }
+    },
+    "first trans-default": {
+      "datasets": {
+        "assist2009": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7403,
+              "SimpleKT": 0.7569
+            },
+            "ACC": {
+              "qDKT": 0.6923,
+              "SimpleKT": 0.7024
+            },
+            "RMSE": {
+              "qDKT": 0.4497,
+              "SimpleKT": 0.4437
+            },
+            "MAE": {
+              "qDKT": 0.3768,
+              "SimpleKT": 0.3632
+            }
+          }
+        },
+        "assist2012": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7642,
+              "SimpleKT": 0.7654
+            },
+            "ACC": {
+              "qDKT": 0.7207,
+              "SimpleKT": 0.7197
+            },
+            "RMSE": {
+              "qDKT": 0.4308,
+              "SimpleKT": 0.4319
+            },
+            "MAE": {
+              "qDKT": 0.3623,
+              "SimpleKT": 0.3539
+            }
+          }
+        },
+        "assist2017": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7789,
+              "SimpleKT": 0.7745
+            },
+            "ACC": {
+              "qDKT": 0.723,
+              "SimpleKT": 0.7198
+            },
+            "RMSE": {
+              "qDKT": 0.4285,
+              "SimpleKT": 0.4305
+            },
+            "MAE": {
+              "qDKT": 0.3661,
+              "SimpleKT": 0.3577
+            }
+          }
+        },
+        "edi2020-task34": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.8046,
+              "SimpleKT": 0.8061
+            },
+            "ACC": {
+              "qDKT": 0.7349,
+              "SimpleKT": 0.7361
+            },
+            "RMSE": {
+              "qDKT": 0.4204,
+              "SimpleKT": 0.4196
+            },
+            "MAE": {
+              "qDKT": 0.3534,
+              "SimpleKT": 0.3484
+            }
+          }
+        },
+        "ednet-kt1": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.7362,
+              "SimpleKT": 0.7188
+            },
+            "ACC": {
+              "qDKT": 0.674,
+              "SimpleKT": 0.6612
+            },
+            "RMSE": {
+              "qDKT": 0.4543,
+              "SimpleKT": 0.4631
+            },
+            "MAE": {
+              "qDKT": 0.4051,
+              "SimpleKT": 0.4031
+            }
+          }
+        },
+        "moocradar-C746997": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.8028,
+              "SimpleKT": 0.7959
+            },
+            "ACC": {
+              "qDKT": 0.7893,
+              "SimpleKT": 0.7855
+            },
+            "RMSE": {
+              "qDKT": 0.3869,
+              "SimpleKT": 0.3907
+            },
+            "MAE": {
+              "qDKT": 0.2945,
+              "SimpleKT": 0.287
+            }
+          }
+        },
+        "slepemapy-anatomy": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.694,
+              "SimpleKT": 0.6921
+            },
+            "ACC": {
+              "qDKT": 0.6833,
+              "SimpleKT": 0.6846
+            },
+            "RMSE": {
+              "qDKT": 0.4539,
+              "SimpleKT": 0.4523
+            },
+            "MAE": {
+              "qDKT": 0.3937,
+              "SimpleKT": 0.3975
+            }
+          }
+        },
+        "statics2011": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.786,
+              "SimpleKT": 0.7909
+            },
+            "ACC": {
+              "qDKT": 0.7368,
+              "SimpleKT": 0.739
+            },
+            "RMSE": {
+              "qDKT": 0.4163,
+              "SimpleKT": 0.414
+            },
+            "MAE": {
+              "qDKT": 0.3322,
+              "SimpleKT": 0.336
+            }
+          }
+        },
+        "xes3g5m": {
+          "metrics": {
+            "AUC": {
+              "qDKT": 0.8157,
+              "SimpleKT": 0.8108
+            },
+            "ACC": {
+              "qDKT": 0.8162,
+              "SimpleKT": 0.8143
+            },
+            "RMSE": {
+              "qDKT": 0.3608,
+              "SimpleKT": 0.3629
+            },
+            "MAE": {
+              "qDKT": 0.2582,
+              "SimpleKT": 0.2583
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -8,7 +8,7 @@ let currentState = {
 };
 
 // 任务列表（固定）
-const TASKS = ["KT", "CD", "ER"];
+const TASKS = ["KT1", "KT2", "CD", "ER"];
 const KT_TARGET_DATASETS = [
   "assist2009",
   "assist2012",
@@ -43,13 +43,15 @@ const ER_TARGET_DATASETS = [
   "slepemapy-anatomy",
 ];
 const MODEL_TYPE = {
-  KT: {
+  KT1: {
     "Concept Level": ["DKT", "DKVMN", "DKTForget", "ATKT"],
-    "Question Level": ["qDKT", "AKT", "SimpleKT", "SparseKT", "DIMKT", "LPKT", "LBKT", "MIKT", "QIKT", "QDCKT", "CKT", "HDLPKT", "DTransformer", "ABQR", "ATDKT", "HawkesKT"],
+    "Question Level": ["qDKT", "AKT", "SimpleKT", "SparseKT", "DIMKT", "LPKT", "LBKT", "MIKT", "QIKT", "QDCKT", "CKT", "HDLPKT", "DTransformer", "ABQR", "ATDKT", "HawkesKT", "RouterKT"],
     "No Side Info (Concept Level)": ["DKT", "DKVMN", "ATKT"],
-    "No Side Info (Question Level)": ["qDKT", "AKT", "SimpleKT", "SparseKT", "DIMKT", "MIKT", "QIKT", "QDCKT", "CKT", "DTransformer", "ABQR", "ATDKT"],
-
+    "No Side Info (Question Level)": ["qDKT", "AKT", "SimpleKT", "SparseKT", "DIMKT", "MIKT", "QIKT", "QDCKT", "CKT", "DTransformer", "ABQR", "ATDKT", "RouterKT"],
     // 添加更多类型...
+  },
+  KT2: {
+
   },
   CD: {
 
@@ -62,7 +64,7 @@ const MODEL_TYPE = {
 // 初始化页面
 $(document).ready(function () {
   // 默认加载 KT > overall > AUC
-  const defaultTask = "KT";
+  const defaultTask = "KT1";
   const defaultScene = "overall";
   const defaultSetting = "default";
   const defaultMetric = "AUC";
