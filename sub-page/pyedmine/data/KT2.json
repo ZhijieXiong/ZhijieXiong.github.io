@@ -83,26 +83,6 @@
             }
           }
         },
-        "ednet-kt1": {
-          "metrics": {
-            "AUC": {
-              "qDKT": 0.7367,
-              "SimpleKT": 0.7273
-            },
-            "ACC": {
-              "qDKT": 0.7076,
-              "SimpleKT": 0.7009
-            },
-            "RMSE": {
-              "qDKT": 0.4384,
-              "SimpleKT": 0.4432
-            },
-            "MAE": {
-              "qDKT": 0.3758,
-              "SimpleKT": 0.3771
-            }
-          }
-        },
         "moocradar-C746997": {
           "metrics": {
             "AUC": {
@@ -264,26 +244,6 @@
             "MAE": {
               "qDKT": 0.4039,
               "SimpleKT": 0.3993
-            }
-          }
-        },
-        "ednet-kt1": {
-          "metrics": {
-            "AUC": {
-              "qDKT": 0.5779,
-              "SimpleKT": 0.5763
-            },
-            "ACC": {
-              "qDKT": 0.5423,
-              "SimpleKT": 0.5457
-            },
-            "RMSE": {
-              "qDKT": 0.5308,
-              "SimpleKT": 0.531
-            },
-            "MAE": {
-              "qDKT": 0.474,
-              "SimpleKT": 0.4718
             }
           }
         },
@@ -451,26 +411,6 @@
             }
           }
         },
-        "ednet-kt1": {
-          "metrics": {
-            "AUC": {
-              "qDKT": 0.5792,
-              "SimpleKT": 0.577
-            },
-            "ACC": {
-              "qDKT": 0.5479,
-              "SimpleKT": 0.5497
-            },
-            "RMSE": {
-              "qDKT": 0.5225,
-              "SimpleKT": 0.5235
-            },
-            "MAE": {
-              "qDKT": 0.4741,
-              "SimpleKT": 0.4723
-            }
-          }
-        },
         "moocradar-C746997": {
           "metrics": {
             "AUC": {
@@ -632,26 +572,6 @@
             "MAE": {
               "qDKT": 0.3682,
               "SimpleKT": 0.3613
-            }
-          }
-        },
-        "ednet-kt1": {
-          "metrics": {
-            "AUC": {
-              "qDKT": 0.7209,
-              "SimpleKT": 0.7136
-            },
-            "ACC": {
-              "qDKT": 0.7159,
-              "SimpleKT": 0.7112
-            },
-            "RMSE": {
-              "qDKT": 0.4344,
-              "SimpleKT": 0.4375
-            },
-            "MAE": {
-              "qDKT": 0.3668,
-              "SimpleKT": 0.3706
             }
           }
         },
@@ -819,26 +739,6 @@
             }
           }
         },
-        "ednet-kt1": {
-          "metrics": {
-            "AUC": {
-              "qDKT": 0.7193,
-              "SimpleKT": 0.7132
-            },
-            "ACC": {
-              "qDKT": 0.7161,
-              "SimpleKT": 0.7126
-            },
-            "RMSE": {
-              "qDKT": 0.4341,
-              "SimpleKT": 0.4365
-            },
-            "MAE": {
-              "qDKT": 0.3655,
-              "SimpleKT": 0.3698
-            }
-          }
-        },
         "moocradar-C746997": {
           "metrics": {
             "AUC": {
@@ -1000,26 +900,6 @@
             "MAE": {
               "qDKT": 0.3676,
               "SimpleKT": 0.3603
-            }
-          }
-        },
-        "ednet-kt1": {
-          "metrics": {
-            "AUC": {
-              "qDKT": 0.7192,
-              "SimpleKT": 0.7143
-            },
-            "ACC": {
-              "qDKT": 0.7185,
-              "SimpleKT": 0.716
-            },
-            "RMSE": {
-              "qDKT": 0.4327,
-              "SimpleKT": 0.4345
-            },
-            "MAE": {
-              "qDKT": 0.3631,
-              "SimpleKT": 0.3673
             }
           }
         },
@@ -1187,26 +1067,6 @@
             }
           }
         },
-        "ednet-kt1": {
-          "metrics": {
-            "AUC": {
-              "qDKT": 0.7181,
-              "SimpleKT": 0.714
-            },
-            "ACC": {
-              "qDKT": 0.7188,
-              "SimpleKT": 0.7173
-            },
-            "RMSE": {
-              "qDKT": 0.4325,
-              "SimpleKT": 0.4339
-            },
-            "MAE": {
-              "qDKT": 0.3622,
-              "SimpleKT": 0.3663
-            }
-          }
-        },
         "moocradar-C746997": {
           "metrics": {
             "AUC": {
@@ -1368,26 +1228,6 @@
             "MAE": {
               "qDKT": 0.3537,
               "SimpleKT": 0.3524
-            }
-          }
-        },
-        "ednet-kt1": {
-          "metrics": {
-            "AUC": {
-              "qDKT": 0.7071,
-              "SimpleKT": 0.6755
-            },
-            "ACC": {
-              "qDKT": 0.644,
-              "SimpleKT": 0.6227
-            },
-            "RMSE": {
-              "qDKT": 0.4661,
-              "SimpleKT": 0.4822
-            },
-            "MAE": {
-              "qDKT": 0.4305,
-              "SimpleKT": 0.4255
             }
           }
         },
@@ -1555,26 +1395,6 @@
             }
           }
         },
-        "ednet-kt1": {
-          "metrics": {
-            "AUC": {
-              "qDKT": 0.7147,
-              "SimpleKT": 0.687
-            },
-            "ACC": {
-              "qDKT": 0.6535,
-              "SimpleKT": 0.6357
-            },
-            "RMSE": {
-              "qDKT": 0.4637,
-              "SimpleKT": 0.4775
-            },
-            "MAE": {
-              "qDKT": 0.4258,
-              "SimpleKT": 0.4199
-            }
-          }
-        },
         "moocradar-C746997": {
           "metrics": {
             "AUC": {
@@ -1736,26 +1556,6 @@
             "MAE": {
               "qDKT": 0.3461,
               "SimpleKT": 0.1721
-            }
-          }
-        },
-        "ednet-kt1": {
-          "metrics": {
-            "AUC": {
-              "qDKT": 0.719,
-              "SimpleKT": 0.721
-            },
-            "ACC": {
-              "qDKT": 0.7169,
-              "SimpleKT": 0.746
-            },
-            "RMSE": {
-              "qDKT": 0.4331,
-              "SimpleKT": 0.4164
-            },
-            "MAE": {
-              "qDKT": 0.3648,
-              "SimpleKT": 0.3317
             }
           }
         },
@@ -1923,26 +1723,6 @@
             }
           }
         },
-        "ednet-kt1": {
-          "metrics": {
-            "AUC": {
-              "qDKT": 0.7168,
-              "SimpleKT": 0.7229
-            },
-            "ACC": {
-              "qDKT": 0.7152,
-              "SimpleKT": 0.7452
-            },
-            "RMSE": {
-              "qDKT": 0.4342,
-              "SimpleKT": 0.4157
-            },
-            "MAE": {
-              "qDKT": 0.367,
-              "SimpleKT": 0.3334
-            }
-          }
-        },
         "moocradar-C746997": {
           "metrics": {
             "AUC": {
@@ -2088,26 +1868,6 @@
           }
         },
         "edi2020-task34": {
-          "metrics": {
-            "AUC": {
-              "qDKT": "",
-              "SimpleKT": ""
-            },
-            "ACC": {
-              "qDKT": "",
-              "SimpleKT": ""
-            },
-            "RMSE": {
-              "qDKT": "",
-              "SimpleKT": ""
-            },
-            "MAE": {
-              "qDKT": "",
-              "SimpleKT": ""
-            }
-          }
-        },
-        "ednet-kt1": {
           "metrics": {
             "AUC": {
               "qDKT": "",
@@ -2291,26 +2051,6 @@
             }
           }
         },
-        "ednet-kt1": {
-          "metrics": {
-            "AUC": {
-              "qDKT": "",
-              "SimpleKT": ""
-            },
-            "ACC": {
-              "qDKT": "",
-              "SimpleKT": ""
-            },
-            "RMSE": {
-              "qDKT": "",
-              "SimpleKT": ""
-            },
-            "MAE": {
-              "qDKT": "",
-              "SimpleKT": ""
-            }
-          }
-        },
         "moocradar-C746997": {
           "metrics": {
             "AUC": {
@@ -2456,26 +2196,6 @@
           }
         },
         "edi2020-task34": {
-          "metrics": {
-            "AUC": {
-              "qDKT": "",
-              "SimpleKT": ""
-            },
-            "ACC": {
-              "qDKT": "",
-              "SimpleKT": ""
-            },
-            "RMSE": {
-              "qDKT": "",
-              "SimpleKT": ""
-            },
-            "MAE": {
-              "qDKT": "",
-              "SimpleKT": ""
-            }
-          }
-        },
-        "ednet-kt1": {
           "metrics": {
             "AUC": {
               "qDKT": "",
@@ -2659,26 +2379,6 @@
             }
           }
         },
-        "ednet-kt1": {
-          "metrics": {
-            "AUC": {
-              "qDKT": "",
-              "SimpleKT": ""
-            },
-            "ACC": {
-              "qDKT": "",
-              "SimpleKT": ""
-            },
-            "RMSE": {
-              "qDKT": "",
-              "SimpleKT": ""
-            },
-            "MAE": {
-              "qDKT": "",
-              "SimpleKT": ""
-            }
-          }
-        },
         "moocradar-C746997": {
           "metrics": {
             "AUC": {
@@ -2824,26 +2524,6 @@
           }
         },
         "edi2020-task34": {
-          "metrics": {
-            "AUC": {
-              "qDKT": "",
-              "SimpleKT": ""
-            },
-            "ACC": {
-              "qDKT": "",
-              "SimpleKT": ""
-            },
-            "RMSE": {
-              "qDKT": "",
-              "SimpleKT": ""
-            },
-            "MAE": {
-              "qDKT": "",
-              "SimpleKT": ""
-            }
-          }
-        },
-        "ednet-kt1": {
           "metrics": {
             "AUC": {
               "qDKT": "",
@@ -3027,26 +2707,6 @@
             }
           }
         },
-        "ednet-kt1": {
-          "metrics": {
-            "AUC": {
-              "qDKT": "",
-              "SimpleKT": ""
-            },
-            "ACC": {
-              "qDKT": "",
-              "SimpleKT": ""
-            },
-            "RMSE": {
-              "qDKT": "",
-              "SimpleKT": ""
-            },
-            "MAE": {
-              "qDKT": "",
-              "SimpleKT": ""
-            }
-          }
-        },
         "moocradar-C746997": {
           "metrics": {
             "AUC": {
@@ -3192,26 +2852,6 @@
           }
         },
         "edi2020-task34": {
-          "metrics": {
-            "AUC": {
-              "qDKT": "",
-              "SimpleKT": ""
-            },
-            "ACC": {
-              "qDKT": "",
-              "SimpleKT": ""
-            },
-            "RMSE": {
-              "qDKT": "",
-              "SimpleKT": ""
-            },
-            "MAE": {
-              "qDKT": "",
-              "SimpleKT": ""
-            }
-          }
-        },
-        "ednet-kt1": {
           "metrics": {
             "AUC": {
               "qDKT": "",
@@ -3395,26 +3035,6 @@
             }
           }
         },
-        "ednet-kt1": {
-          "metrics": {
-            "AUC": {
-              "qDKT": "",
-              "SimpleKT": ""
-            },
-            "ACC": {
-              "qDKT": "",
-              "SimpleKT": ""
-            },
-            "RMSE": {
-              "qDKT": "",
-              "SimpleKT": ""
-            },
-            "MAE": {
-              "qDKT": "",
-              "SimpleKT": ""
-            }
-          }
-        },
         "moocradar-C746997": {
           "metrics": {
             "AUC": {
@@ -3576,26 +3196,6 @@
             "MAE": {
               "qDKT": 0.3534,
               "SimpleKT": 0.3484
-            }
-          }
-        },
-        "ednet-kt1": {
-          "metrics": {
-            "AUC": {
-              "qDKT": 0.7362,
-              "SimpleKT": 0.7188
-            },
-            "ACC": {
-              "qDKT": 0.674,
-              "SimpleKT": 0.6612
-            },
-            "RMSE": {
-              "qDKT": 0.4543,
-              "SimpleKT": 0.4631
-            },
-            "MAE": {
-              "qDKT": 0.4051,
-              "SimpleKT": 0.4031
             }
           }
         },
