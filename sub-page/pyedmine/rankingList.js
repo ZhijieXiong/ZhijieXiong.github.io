@@ -20,7 +20,7 @@ const KT_TARGET_DATASETS = [
   // "moocradar-C746997-subtest-27",
   "xes3g5m",
   // "xes3g5m-subtest-100",
-  "ednet-kt1",
+  // "ednet-kt1",
   // "junyi2015",
   // "edi2020-task1"
 ];
@@ -32,8 +32,7 @@ const CD_TARGET_DATASETS = [
   "slepemapy-anatomy",
   "SLP-mat",
   "SLP-phy",
-  "moocradar-C746997",
-  "ednet-kt1",
+  "moocradar-C746997"
 ];
 const ER_TARGET_DATASETS = [
   "assist2009",
