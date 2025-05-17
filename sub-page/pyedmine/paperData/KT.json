@@ -584,7 +584,7 @@
             "implemented_in_pyedmine": false
         },
         {
-            "model_name": "",
+            "model_name": "SFKT",
             "paper_title": "No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths",
             "source": "CIKM[C]",
             "year": "2023",
