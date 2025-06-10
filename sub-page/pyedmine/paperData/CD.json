@@ -383,6 +383,39 @@
             "official_code_link": "https://github.com/ShenbaoYu/AE-NMCF",
             "ref_code_link": "",
             "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Revisiting Cognition in Neural Cognitive Diagnosis",
+            "source": "SIGKDD[C]",
+            "year": "2025",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3690624.3709319",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Language Representation Favored Zero-Shot Cross-Domain Cognitive Diagnosis",
+            "source": "SIGKDD[C]",
+            "year": "2025",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3690624.3709281",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "https://dl.acm.org/doi/10.1145/3690624.3709264",
+            "source": "SIGKDD[C]",
+            "year": "2025",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3690624.3709264",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
         }
     ]
 }

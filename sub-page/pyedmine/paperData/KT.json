@@ -984,6 +984,39 @@
             "official_code_link": "",
             "ref_code_link": "",
             "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Denoising Programming Knowledge Tracing with a Code Graph-based Tuning Adaptor",
+            "source": "SIGKDD[C]",
+            "year": "2025",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3690624.3709172",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Interpretable Knowledge Tracing with Difficulty-Aware Attention and Selective State Space Model",
+            "source": "SIGIR[C]",
+            "year": "2025",
+            "tags": [],
+            "perper_link": "",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Interactive Code Information Integrated Programming Knowledge Tracing",
+            "source": "SIGIR[C]",
+            "year": "2025",
+            "tags": [],
+            "perper_link": "",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
         }
     ]
 }

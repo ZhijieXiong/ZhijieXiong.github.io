@@ -60,6 +60,16 @@
             "perper_link": "https://dl.acm.org/doi/10.1145/3627673.3679597",
             "official_code_link": "",
             "ref_code_link": ""
+        },
+        {
+            "model_name": "",
+            "paper_title": "Reconciling Efficiency and Effectiveness of Exercise Retreival: An Uncertainty Reduction Hashing Approach for Computerized Adaptive Testing",
+            "source": "SIGIR[C]",
+            "year": "2025",
+            "tags": [],
+            "perper_link": "",
+            "official_code_link": "",
+            "ref_code_link": ""
         }
     ]
 }
