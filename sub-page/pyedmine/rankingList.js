@@ -24,6 +24,21 @@ const KT_TARGET_DATASETS = [
   "junyi2015",
   "edi2020-task1"
 ];
+const KT2_TARGET_DATASETS = [
+  "assist2009",
+  // "assist2012",
+  "assist2017",
+  "statics2011",
+  "edi2020-task34",
+  "slepemapy-anatomy",
+  "moocradar-C746997",
+  // "moocradar-C746997-subtest-27",
+  // "xes3g5m",
+  // "xes3g5m-subtest-100",
+  // "ednet-kt1",
+  // "junyi2015",
+  // "edi2020-task1"
+];
 const CD_TARGET_DATASETS = [
   "assist2009",
   "assist2017",
@@ -284,8 +299,10 @@ function renderTable() {
     datasetNames = CD_TARGET_DATASETS;
   } else if (task == "ER") {
     datasetNames = ER_TARGET_DATASETS;
-  } else {
+  } else if (task == "KT1") {
     datasetNames = KT_TARGET_DATASETS;
+  } else {
+    datasetNames = KT2_TARGET_DATASETS;
   }
 
   // 遍历数据集收集模型
@@ -438,8 +455,10 @@ function calculateSOTA(model, datasets, metric, task) {
     targetDataset = CD_TARGET_DATASETS;
   } else if (task == "ER") {
     targetDataset = ER_TARGET_DATASETS;
-  } else {
+  } else if (task == "KT1") {
     targetDataset = KT_TARGET_DATASETS;
+  } else {
+    targetDataset = KT2_TARGET_DATASETS;
   }
 
   Object.entries(datasets).forEach(([datasetName, dataset]) => {
