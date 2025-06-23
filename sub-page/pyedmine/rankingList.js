@@ -26,18 +26,18 @@ const KT_TARGET_DATASETS = [
 ];
 const KT2_TARGET_DATASETS = [
   "assist2009",
-  // "assist2012",
+  "assist2012",
   "assist2017",
   "statics2011",
   "edi2020-task34",
   "slepemapy-anatomy",
   "moocradar-C746997",
   // "moocradar-C746997-subtest-27",
-  // "xes3g5m",
+  "xes3g5m",
   // "xes3g5m-subtest-100",
   // "ednet-kt1",
-  // "junyi2015",
-  // "edi2020-task1"
+  "junyi2015",
+  "edi2020-task1"
 ];
 const CD_TARGET_DATASETS = [
   "assist2009",

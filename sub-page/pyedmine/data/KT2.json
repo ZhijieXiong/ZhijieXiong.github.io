@@ -39,42 +39,6 @@
             }
           }
         },
-        "assist2012": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": 0.7776,
-              "qDKT": 0.7861,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": 0.7559,
-              "qDKT": 0.7612,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": 0.4098,
-              "qDKT": 0.4045,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": 0.3189,
-              "qDKT": 0.3284,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            }
-          }
-        },
         "assist2017": {
           "metrics": {
             "AUC": {
@@ -144,42 +108,6 @@
               "AKT": 0.3582,
               "MIKT": 0.3665,
               "DIMKT": 0.3611
-            }
-          }
-        },
-        "ednet-kt1": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": 0.7273,
-              "qDKT": 0.7367,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": 0.7009,
-              "qDKT": 0.7076,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": 0.4432,
-              "qDKT": 0.4384,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": 0.3771,
-              "qDKT": 0.3758,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
             }
           }
         },
@@ -296,7 +224,7 @@
             "AUC": {
               "SimpleKT": 0.8212,
               "qDKT": 0.8265,
-              "ABQR": "",
+              "ABQR": 0.8296,
               "AKT": "",
               "MIKT": "",
               "DIMKT": ""
@@ -304,7 +232,7 @@
             "ACC": {
               "SimpleKT": 0.8295,
               "qDKT": 0.8318,
-              "ABQR": "",
+              "ABQR": 0.8331,
               "AKT": "",
               "MIKT": "",
               "DIMKT": ""
@@ -312,7 +240,7 @@
             "RMSE": {
               "SimpleKT": 0.3496,
               "qDKT": 0.3471,
-              "ABQR": "",
+              "ABQR": 0.3456,
               "AKT": "",
               "MIKT": "",
               "DIMKT": ""
@@ -320,6 +248,114 @@
             "MAE": {
               "SimpleKT": 0.2402,
               "qDKT": 0.2422,
+              "ABQR": 0.2379,
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            }
+          }
+        },
+        "junyi2015": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": 0.7911,
+              "qDKT": 0.7917,
+              "ABQR": 0.7945,
+              "AKT": 0.7918,
+              "MIKT": "",
+              "DIMKT": 0.7947
+            },
+            "ACC": {
+              "SimpleKT": 0.8539,
+              "qDKT": 0.8525,
+              "ABQR": 0.8536,
+              "AKT": 0.8536,
+              "MIKT": "",
+              "DIMKT": 0.8537
+            },
+            "RMSE": {
+              "SimpleKT": 0.3327,
+              "qDKT": 0.3333,
+              "ABQR": 0.332,
+              "AKT": 0.3326,
+              "MIKT": "",
+              "DIMKT": 0.3319
+            },
+            "MAE": {
+              "SimpleKT": 0.2149,
+              "qDKT": 0.2205,
+              "ABQR": 0.22,
+              "AKT": 0.2164,
+              "MIKT": "",
+              "DIMKT": 0.2204
+            }
+          }
+        },
+        "edi2020-task1": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": 0.8169,
+              "qDKT": 0.8153,
+              "ABQR": 0.8184,
+              "AKT": "",
+              "MIKT": 0.8205,
+              "DIMKT": 0.8153
+            },
+            "ACC": {
+              "SimpleKT": 0.7519,
+              "qDKT": 0.751,
+              "ABQR": 0.7532,
+              "AKT": "",
+              "MIKT": 0.7561,
+              "DIMKT": 0.7513
+            },
+            "RMSE": {
+              "SimpleKT": 0.409,
+              "qDKT": 0.4099,
+              "ABQR": 0.4082,
+              "AKT": "",
+              "MIKT": 0.4068,
+              "DIMKT": 0.41
+            },
+            "MAE": {
+              "SimpleKT": 0.3289,
+              "qDKT": 0.3353,
+              "ABQR": 0.3329,
+              "AKT": "",
+              "MIKT": 0.3326,
+              "DIMKT": 0.33
+            }
+          }
+        },
+        "assist2012": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": 0.7776,
+              "qDKT": 0.7861,
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "ACC": {
+              "SimpleKT": 0.7559,
+              "qDKT": 0.7612,
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "RMSE": {
+              "SimpleKT": 0.4098,
+              "qDKT": 0.4045,
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "MAE": {
+              "SimpleKT": 0.3189,
+              "qDKT": 0.3284,
               "ABQR": "",
               "AKT": "",
               "MIKT": "",
@@ -364,42 +400,6 @@
               "AKT": 0.4248,
               "MIKT": 0.425,
               "DIMKT": 0.4403
-            }
-          }
-        },
-        "assist2012": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": 0.6575,
-              "qDKT": 0.665,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": 0.5937,
-              "qDKT": 0.5969,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": 0.5201,
-              "qDKT": 0.5094,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": 0.4335,
-              "qDKT": 0.4343,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
             }
           }
         },
@@ -472,42 +472,6 @@
               "AKT": 0.396,
               "MIKT": 0.4052,
               "DIMKT": 0.3997
-            }
-          }
-        },
-        "ednet-kt1": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": 0.5763,
-              "qDKT": 0.5779,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": 0.5457,
-              "qDKT": 0.5423,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": 0.531,
-              "qDKT": 0.5308,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": 0.4718,
-              "qDKT": 0.474,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
             }
           }
         },
@@ -622,32 +586,140 @@
         "xes3g5m": {
           "metrics": {
             "AUC": {
-              "SimpleKT": 0.703,
-              "qDKT": 0.7104,
+              "SimpleKT": 0.7026,
+              "qDKT": 0.7103,
+              "ABQR": 0.7155,
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "ACC": {
+              "SimpleKT": 0.585,
+              "qDKT": 0.5913,
+              "ABQR": 0.5935,
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "RMSE": {
+              "SimpleKT": 0.5371,
+              "qDKT": 0.5306,
+              "ABQR": 0.5297,
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "MAE": {
+              "SimpleKT": 0.4241,
+              "qDKT": 0.4211,
+              "ABQR": 0.4174,
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            }
+          }
+        },
+        "junyi2015": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": 0.6481,
+              "qDKT": 0.645,
+              "ABQR": 0.6497,
+              "AKT": 0.6535,
+              "MIKT": "",
+              "DIMKT": 0.6546
+            },
+            "ACC": {
+              "SimpleKT": 0.5568,
+              "qDKT": 0.5496,
+              "ABQR": 0.5544,
+              "AKT": 0.5581,
+              "MIKT": "",
+              "DIMKT": 0.5562
+            },
+            "RMSE": {
+              "SimpleKT": 0.574,
+              "qDKT": 0.5743,
+              "ABQR": 0.5705,
+              "AKT": 0.5713,
+              "MIKT": "",
+              "DIMKT": 0.5686
+            },
+            "MAE": {
+              "SimpleKT": 0.4449,
+              "qDKT": 0.4505,
+              "ABQR": 0.4466,
+              "AKT": 0.444,
+              "MIKT": "",
+              "DIMKT": 0.4455
+            }
+          }
+        },
+        "edi2020-task1": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": 0.7486,
+              "qDKT": 0.7532,
+              "ABQR": 0.752,
+              "AKT": "",
+              "MIKT": 0.7524,
+              "DIMKT": 0.7497
+            },
+            "ACC": {
+              "SimpleKT": 0.6863,
+              "qDKT": 0.6865,
+              "ABQR": 0.6821,
+              "AKT": "",
+              "MIKT": 0.6885,
+              "DIMKT": 0.6785
+            },
+            "RMSE": {
+              "SimpleKT": 0.4606,
+              "qDKT": 0.4586,
+              "ABQR": 0.4603,
+              "AKT": "",
+              "MIKT": 0.4584,
+              "DIMKT": 0.4629
+            },
+            "MAE": {
+              "SimpleKT": 0.3855,
+              "qDKT": 0.3879,
+              "ABQR": 0.3891,
+              "AKT": "",
+              "MIKT": 0.3869,
+              "DIMKT": 0.3866
+            }
+          }
+        },
+        "assist2012": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": 0.6576,
+              "qDKT": 0.6653,
               "ABQR": "",
               "AKT": "",
               "MIKT": "",
               "DIMKT": ""
             },
             "ACC": {
-              "SimpleKT": 0.5855,
-              "qDKT": 0.5914,
+              "SimpleKT": 0.5936,
+              "qDKT": 0.597,
               "ABQR": "",
               "AKT": "",
               "MIKT": "",
               "DIMKT": ""
             },
             "RMSE": {
-              "SimpleKT": 0.537,
-              "qDKT": 0.5306,
+              "SimpleKT": 0.5201,
+              "qDKT": 0.5093,
               "ABQR": "",
               "AKT": "",
               "MIKT": "",
               "DIMKT": ""
             },
             "MAE": {
-              "SimpleKT": 0.4239,
-              "qDKT": 0.4211,
+              "SimpleKT": 0.4335,
+              "qDKT": 0.4342,
               "ABQR": "",
               "AKT": "",
               "MIKT": "",
@@ -692,42 +764,6 @@
               "AKT": 0.4243,
               "MIKT": 0.4241,
               "DIMKT": 0.4395
-            }
-          }
-        },
-        "assist2012": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": 0.664,
-              "qDKT": 0.6736,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": 0.6053,
-              "qDKT": 0.6097,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": 0.5067,
-              "qDKT": 0.4962,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": 0.4307,
-              "qDKT": 0.431,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
             }
           }
         },
@@ -800,42 +836,6 @@
               "AKT": 0.3986,
               "MIKT": 0.4075,
               "DIMKT": 0.4021
-            }
-          }
-        },
-        "ednet-kt1": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": 0.577,
-              "qDKT": 0.5792,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": 0.5497,
-              "qDKT": 0.5479,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": 0.5235,
-              "qDKT": 0.5225,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": 0.4723,
-              "qDKT": 0.4741,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
             }
           }
         },
@@ -952,7 +952,7 @@
             "AUC": {
               "SimpleKT": 0.6953,
               "qDKT": 0.7009,
-              "ABQR": "",
+              "ABQR": 0.7068,
               "AKT": "",
               "MIKT": "",
               "DIMKT": ""
@@ -960,7 +960,7 @@
             "ACC": {
               "SimpleKT": 0.6027,
               "qDKT": 0.6071,
-              "ABQR": "",
+              "ABQR": 0.6107,
               "AKT": "",
               "MIKT": "",
               "DIMKT": ""
@@ -968,7 +968,7 @@
             "RMSE": {
               "SimpleKT": 0.5113,
               "qDKT": 0.5062,
-              "ABQR": "",
+              "ABQR": 0.5047,
               "AKT": "",
               "MIKT": "",
               "DIMKT": ""
@@ -976,6 +976,114 @@
             "MAE": {
               "SimpleKT": 0.4228,
               "qDKT": 0.4213,
+              "ABQR": 0.4168,
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            }
+          }
+        },
+        "junyi2015": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": 0.6783,
+              "qDKT": 0.6749,
+              "ABQR": 0.6811,
+              "AKT": 0.683,
+              "MIKT": "",
+              "DIMKT": 0.6841
+            },
+            "ACC": {
+              "SimpleKT": 0.5831,
+              "qDKT": 0.5752,
+              "ABQR": 0.5811,
+              "AKT": 0.5852,
+              "MIKT": "",
+              "DIMKT": 0.584
+            },
+            "RMSE": {
+              "SimpleKT": 0.5361,
+              "qDKT": 0.536,
+              "ABQR": 0.5319,
+              "AKT": 0.5336,
+              "MIKT": "",
+              "DIMKT": 0.5303
+            },
+            "MAE": {
+              "SimpleKT": 0.4302,
+              "qDKT": 0.4372,
+              "ABQR": 0.4323,
+              "AKT": 0.4291,
+              "MIKT": "",
+              "DIMKT": 0.4313
+            }
+          }
+        },
+        "edi2020-task1": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": 0.7459,
+              "qDKT": 0.7493,
+              "ABQR": 0.7489,
+              "AKT": "",
+              "MIKT": 0.7507,
+              "DIMKT": 0.7466
+            },
+            "ACC": {
+              "SimpleKT": 0.6881,
+              "qDKT": 0.6881,
+              "ABQR": 0.6854,
+              "AKT": "",
+              "MIKT": 0.6914,
+              "DIMKT": 0.6822
+            },
+            "RMSE": {
+              "SimpleKT": 0.4562,
+              "qDKT": 0.4552,
+              "ABQR": 0.456,
+              "AKT": "",
+              "MIKT": 0.4539,
+              "DIMKT": 0.4584
+            },
+            "MAE": {
+              "SimpleKT": 0.3883,
+              "qDKT": 0.3907,
+              "ABQR": 0.3915,
+              "AKT": "",
+              "MIKT": 0.3888,
+              "DIMKT": 0.3889
+            }
+          }
+        },
+        "assist2012": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": 0.6637,
+              "qDKT": 0.6738,
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "ACC": {
+              "SimpleKT": 0.605,
+              "qDKT": 0.6098,
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "RMSE": {
+              "SimpleKT": 0.5068,
+              "qDKT": 0.4961,
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "MAE": {
+              "SimpleKT": 0.4308,
+              "qDKT": 0.4309,
               "ABQR": "",
               "AKT": "",
               "MIKT": "",
@@ -1020,42 +1128,6 @@
               "AKT": 0.3366,
               "MIKT": 0.3347,
               "DIMKT": 0.347
-            }
-          }
-        },
-        "assist2012": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": 0.7798,
-              "qDKT": 0.7892,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": 0.7555,
-              "qDKT": 0.7615,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": 0.4096,
-              "qDKT": 0.4038,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": 0.3184,
-              "qDKT": 0.3281,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
             }
           }
         },
@@ -1128,42 +1200,6 @@
               "AKT": 0.3589,
               "MIKT": 0.3669,
               "DIMKT": 0.3618
-            }
-          }
-        },
-        "ednet-kt1": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": 0.7136,
-              "qDKT": 0.7209,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": 0.7112,
-              "qDKT": 0.7159,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": 0.4375,
-              "qDKT": 0.4344,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": 0.3706,
-              "qDKT": 0.3668,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
             }
           }
         },
@@ -1280,7 +1316,7 @@
             "AUC": {
               "SimpleKT": 0.8252,
               "qDKT": 0.8307,
-              "ABQR": "",
+              "ABQR": 0.834,
               "AKT": "",
               "MIKT": "",
               "DIMKT": ""
@@ -1288,7 +1324,7 @@
             "ACC": {
               "SimpleKT": 0.8364,
               "qDKT": 0.8389,
-              "ABQR": "",
+              "ABQR": 0.8404,
               "AKT": "",
               "MIKT": "",
               "DIMKT": ""
@@ -1296,7 +1332,7 @@
             "RMSE": {
               "SimpleKT": 0.3432,
               "qDKT": 0.3406,
-              "ABQR": "",
+              "ABQR": 0.339,
               "AKT": "",
               "MIKT": "",
               "DIMKT": ""
@@ -1304,6 +1340,114 @@
             "MAE": {
               "SimpleKT": 0.2314,
               "qDKT": 0.2332,
+              "ABQR": 0.2288,
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            }
+          }
+        },
+        "junyi2015": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": 0.7902,
+              "qDKT": 0.7907,
+              "ABQR": 0.7935,
+              "AKT": 0.7911,
+              "MIKT": "",
+              "DIMKT": 0.7939
+            },
+            "ACC": {
+              "SimpleKT": 0.853,
+              "qDKT": 0.8515,
+              "ABQR": 0.8527,
+              "AKT": 0.8527,
+              "MIKT": "",
+              "DIMKT": 0.8529
+            },
+            "RMSE": {
+              "SimpleKT": 0.3337,
+              "qDKT": 0.3343,
+              "ABQR": 0.333,
+              "AKT": 0.3335,
+              "MIKT": "",
+              "DIMKT": 0.3328
+            },
+            "MAE": {
+              "SimpleKT": 0.2162,
+              "qDKT": 0.2218,
+              "ABQR": 0.2214,
+              "AKT": 0.2178,
+              "MIKT": "",
+              "DIMKT": 0.2215
+            }
+          }
+        },
+        "edi2020-task1": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": 0.8173,
+              "qDKT": 0.8158,
+              "ABQR": 0.8188,
+              "AKT": "",
+              "MIKT": 0.821,
+              "DIMKT": 0.8159
+            },
+            "ACC": {
+              "SimpleKT": 0.7516,
+              "qDKT": 0.7505,
+              "ABQR": 0.7527,
+              "AKT": "",
+              "MIKT": 0.7559,
+              "DIMKT": 0.751
+            },
+            "RMSE": {
+              "SimpleKT": 0.4094,
+              "qDKT": 0.4103,
+              "ABQR": 0.4087,
+              "AKT": "",
+              "MIKT": 0.4071,
+              "DIMKT": 0.4104
+            },
+            "MAE": {
+              "SimpleKT": 0.3296,
+              "qDKT": 0.336,
+              "ABQR": 0.3336,
+              "AKT": "",
+              "MIKT": 0.3331,
+              "DIMKT": 0.3302
+            }
+          }
+        },
+        "assist2012": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": 0.7798,
+              "qDKT": 0.7892,
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "ACC": {
+              "SimpleKT": 0.7555,
+              "qDKT": 0.7615,
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "RMSE": {
+              "SimpleKT": 0.4096,
+              "qDKT": 0.4038,
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "MAE": {
+              "SimpleKT": 0.3184,
+              "qDKT": 0.3281,
               "ABQR": "",
               "AKT": "",
               "MIKT": "",
@@ -1348,42 +1492,6 @@
               "AKT": 0.335,
               "MIKT": 0.3309,
               "DIMKT": 0.3437
-            }
-          }
-        },
-        "assist2012": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": 0.7801,
-              "qDKT": 0.7905,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": 0.7554,
-              "qDKT": 0.7621,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": 0.4092,
-              "qDKT": 0.4029,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": 0.3194,
-              "qDKT": 0.3276,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
             }
           }
         },
@@ -1456,42 +1564,6 @@
               "AKT": 0.3581,
               "MIKT": 0.3658,
               "DIMKT": 0.361
-            }
-          }
-        },
-        "ednet-kt1": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": 0.7132,
-              "qDKT": 0.7193,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": 0.7126,
-              "qDKT": 0.7161,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": 0.4365,
-              "qDKT": 0.4341,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": 0.3698,
-              "qDKT": 0.3655,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
             }
           }
         },
@@ -1608,7 +1680,7 @@
             "AUC": {
               "SimpleKT": 0.8284,
               "qDKT": 0.8341,
-              "ABQR": "",
+              "ABQR": 0.8374,
               "AKT": "",
               "MIKT": "",
               "DIMKT": ""
@@ -1616,7 +1688,7 @@
             "ACC": {
               "SimpleKT": 0.8412,
               "qDKT": 0.8436,
-              "ABQR": "",
+              "ABQR": 0.8451,
               "AKT": "",
               "MIKT": "",
               "DIMKT": ""
@@ -1624,7 +1696,7 @@
             "RMSE": {
               "SimpleKT": 0.3387,
               "qDKT": 0.3361,
-              "ABQR": "",
+              "ABQR": 0.3344,
               "AKT": "",
               "MIKT": "",
               "DIMKT": ""
@@ -1632,6 +1704,114 @@
             "MAE": {
               "SimpleKT": 0.2254,
               "qDKT": 0.2271,
+              "ABQR": 0.2227,
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            }
+          }
+        },
+        "junyi2015": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": 0.7894,
+              "qDKT": 0.7899,
+              "ABQR": 0.7928,
+              "AKT": 0.7904,
+              "MIKT": "",
+              "DIMKT": 0.7932
+            },
+            "ACC": {
+              "SimpleKT": 0.8523,
+              "qDKT": 0.8509,
+              "ABQR": 0.852,
+              "AKT": 0.8521,
+              "MIKT": "",
+              "DIMKT": 0.8522
+            },
+            "RMSE": {
+              "SimpleKT": 0.3343,
+              "qDKT": 0.3349,
+              "ABQR": 0.3336,
+              "AKT": 0.3341,
+              "MIKT": "",
+              "DIMKT": 0.3334
+            },
+            "MAE": {
+              "SimpleKT": 0.217,
+              "qDKT": 0.2227,
+              "ABQR": 0.2223,
+              "AKT": 0.2186,
+              "MIKT": "",
+              "DIMKT": 0.2223
+            }
+          }
+        },
+        "edi2020-task1": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": 0.8174,
+              "qDKT": 0.8161,
+              "ABQR": 0.819,
+              "AKT": "",
+              "MIKT": 0.8212,
+              "DIMKT": 0.8162
+            },
+            "ACC": {
+              "SimpleKT": 0.7512,
+              "qDKT": 0.7503,
+              "ABQR": 0.7523,
+              "AKT": "",
+              "MIKT": 0.7556,
+              "DIMKT": 0.7507
+            },
+            "RMSE": {
+              "SimpleKT": 0.4098,
+              "qDKT": 0.4106,
+              "ABQR": 0.409,
+              "AKT": "",
+              "MIKT": 0.4074,
+              "DIMKT": 0.4107
+            },
+            "MAE": {
+              "SimpleKT": 0.3302,
+              "qDKT": 0.3365,
+              "ABQR": 0.3343,
+              "AKT": "",
+              "MIKT": 0.3335,
+              "DIMKT": 0.3307
+            }
+          }
+        },
+        "assist2012": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": 0.7801,
+              "qDKT": 0.7905,
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "ACC": {
+              "SimpleKT": 0.7554,
+              "qDKT": 0.7621,
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "RMSE": {
+              "SimpleKT": 0.4092,
+              "qDKT": 0.4029,
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "MAE": {
+              "SimpleKT": 0.3194,
+              "qDKT": 0.3276,
               "ABQR": "",
               "AKT": "",
               "MIKT": "",
@@ -1676,42 +1856,6 @@
               "AKT": 0.3352,
               "MIKT": 0.3297,
               "DIMKT": 0.3423
-            }
-          }
-        },
-        "assist2012": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": 0.7794,
-              "qDKT": 0.7906,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": 0.7533,
-              "qDKT": 0.761,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": 0.4103,
-              "qDKT": 0.4036,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": 0.3218,
-              "qDKT": 0.3287,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
             }
           }
         },
@@ -1784,42 +1928,6 @@
               "AKT": 0.358,
               "MIKT": 0.3656,
               "DIMKT": 0.3608
-            }
-          }
-        },
-        "ednet-kt1": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": 0.7143,
-              "qDKT": 0.7192,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": 0.716,
-              "qDKT": 0.7185,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": 0.4345,
-              "qDKT": 0.4327,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": 0.3673,
-              "qDKT": 0.3631,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
             }
           }
         },
@@ -1936,7 +2044,7 @@
             "AUC": {
               "SimpleKT": 0.8304,
               "qDKT": 0.8363,
-              "ABQR": "",
+              "ABQR": 0.8396,
               "AKT": "",
               "MIKT": "",
               "DIMKT": ""
@@ -1944,7 +2052,7 @@
             "ACC": {
               "SimpleKT": 0.8447,
               "qDKT": 0.8471,
-              "ABQR": "",
+              "ABQR": 0.8486,
               "AKT": "",
               "MIKT": "",
               "DIMKT": ""
@@ -1952,7 +2060,7 @@
             "RMSE": {
               "SimpleKT": 0.3354,
               "qDKT": 0.3328,
-              "ABQR": "",
+              "ABQR": 0.3311,
               "AKT": "",
               "MIKT": "",
               "DIMKT": ""
@@ -1960,6 +2068,114 @@
             "MAE": {
               "SimpleKT": 0.2212,
               "qDKT": 0.2227,
+              "ABQR": 0.2183,
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            }
+          }
+        },
+        "junyi2015": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": 0.7893,
+              "qDKT": 0.7898,
+              "ABQR": 0.7926,
+              "AKT": 0.7903,
+              "MIKT": "",
+              "DIMKT": 0.7931
+            },
+            "ACC": {
+              "SimpleKT": 0.8518,
+              "qDKT": 0.8503,
+              "ABQR": 0.8515,
+              "AKT": 0.8516,
+              "MIKT": "",
+              "DIMKT": 0.8518
+            },
+            "RMSE": {
+              "SimpleKT": 0.3348,
+              "qDKT": 0.3354,
+              "ABQR": 0.3341,
+              "AKT": 0.3346,
+              "MIKT": "",
+              "DIMKT": 0.3338
+            },
+            "MAE": {
+              "SimpleKT": 0.2176,
+              "qDKT": 0.2234,
+              "ABQR": 0.223,
+              "AKT": 0.2193,
+              "MIKT": "",
+              "DIMKT": 0.223
+            }
+          }
+        },
+        "edi2020-task1": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": 0.8172,
+              "qDKT": 0.816,
+              "ABQR": 0.8187,
+              "AKT": "",
+              "MIKT": 0.8211,
+              "DIMKT": 0.816
+            },
+            "ACC": {
+              "SimpleKT": 0.7506,
+              "qDKT": 0.7498,
+              "ABQR": 0.7518,
+              "AKT": "",
+              "MIKT": 0.7552,
+              "DIMKT": 0.7503
+            },
+            "RMSE": {
+              "SimpleKT": 0.4103,
+              "qDKT": 0.411,
+              "ABQR": 0.4095,
+              "AKT": "",
+              "MIKT": 0.4078,
+              "DIMKT": 0.4111
+            },
+            "MAE": {
+              "SimpleKT": 0.3309,
+              "qDKT": 0.3371,
+              "ABQR": 0.335,
+              "AKT": "",
+              "MIKT": 0.334,
+              "DIMKT": 0.3313
+            }
+          }
+        },
+        "assist2012": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": 0.7794,
+              "qDKT": 0.7906,
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "ACC": {
+              "SimpleKT": 0.7533,
+              "qDKT": 0.761,
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "RMSE": {
+              "SimpleKT": 0.4103,
+              "qDKT": 0.4036,
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "MAE": {
+              "SimpleKT": 0.3218,
+              "qDKT": 0.3287,
               "ABQR": "",
               "AKT": "",
               "MIKT": "",
@@ -2004,42 +2220,6 @@
               "AKT": 0.3359,
               "MIKT": 0.3294,
               "DIMKT": 0.342
-            }
-          }
-        },
-        "assist2012": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": 0.7792,
-              "qDKT": 0.7921,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": 0.752,
-              "qDKT": 0.7608,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": 0.4111,
-              "qDKT": 0.4036,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": 0.3234,
-              "qDKT": 0.3288,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
             }
           }
         },
@@ -2112,42 +2292,6 @@
               "AKT": 0.3574,
               "MIKT": 0.3647,
               "DIMKT": 0.3599
-            }
-          }
-        },
-        "ednet-kt1": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": 0.714,
-              "qDKT": 0.7181,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": 0.7173,
-              "qDKT": 0.7188,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": 0.4339,
-              "qDKT": 0.4325,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": 0.3663,
-              "qDKT": 0.3622,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
             }
           }
         },
@@ -2264,7 +2408,7 @@
             "AUC": {
               "SimpleKT": 0.8314,
               "qDKT": 0.8375,
-              "ABQR": "",
+              "ABQR": 0.8408,
               "AKT": "",
               "MIKT": "",
               "DIMKT": ""
@@ -2272,7 +2416,7 @@
             "ACC": {
               "SimpleKT": 0.8484,
               "qDKT": 0.8509,
-              "ABQR": "",
+              "ABQR": 0.8522,
               "AKT": "",
               "MIKT": "",
               "DIMKT": ""
@@ -2280,7 +2424,7 @@
             "RMSE": {
               "SimpleKT": 0.3319,
               "qDKT": 0.3291,
-              "ABQR": "",
+              "ABQR": 0.3275,
               "AKT": "",
               "MIKT": "",
               "DIMKT": ""
@@ -2288,6 +2432,114 @@
             "MAE": {
               "SimpleKT": 0.2162,
               "qDKT": 0.2178,
+              "ABQR": 0.2136,
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            }
+          }
+        },
+        "junyi2015": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": 0.7889,
+              "qDKT": 0.7894,
+              "ABQR": 0.7922,
+              "AKT": 0.7899,
+              "MIKT": "",
+              "DIMKT": 0.7927
+            },
+            "ACC": {
+              "SimpleKT": 0.8514,
+              "qDKT": 0.8499,
+              "ABQR": 0.8511,
+              "AKT": 0.8512,
+              "MIKT": "",
+              "DIMKT": 0.8513
+            },
+            "RMSE": {
+              "SimpleKT": 0.3351,
+              "qDKT": 0.3357,
+              "ABQR": 0.3344,
+              "AKT": 0.3349,
+              "MIKT": "",
+              "DIMKT": 0.3342
+            },
+            "MAE": {
+              "SimpleKT": 0.2181,
+              "qDKT": 0.2239,
+              "ABQR": 0.2235,
+              "AKT": 0.2198,
+              "MIKT": "",
+              "DIMKT": 0.2235
+            }
+          }
+        },
+        "edi2020-task1": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": 0.8174,
+              "qDKT": 0.8162,
+              "ABQR": 0.8189,
+              "AKT": "",
+              "MIKT": 0.8214,
+              "DIMKT": 0.8162
+            },
+            "ACC": {
+              "SimpleKT": 0.7504,
+              "qDKT": 0.7496,
+              "ABQR": 0.7515,
+              "AKT": "",
+              "MIKT": 0.755,
+              "DIMKT": 0.7501
+            },
+            "RMSE": {
+              "SimpleKT": 0.4104,
+              "qDKT": 0.4112,
+              "ABQR": 0.4097,
+              "AKT": "",
+              "MIKT": 0.4079,
+              "DIMKT": 0.4113
+            },
+            "MAE": {
+              "SimpleKT": 0.3313,
+              "qDKT": 0.3374,
+              "ABQR": 0.3354,
+              "AKT": "",
+              "MIKT": 0.3343,
+              "DIMKT": 0.3316
+            }
+          }
+        },
+        "assist2012": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": 0.7792,
+              "qDKT": 0.7921,
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "ACC": {
+              "SimpleKT": 0.752,
+              "qDKT": 0.7608,
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "RMSE": {
+              "SimpleKT": 0.4111,
+              "qDKT": 0.4036,
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "MAE": {
+              "SimpleKT": 0.3234,
+              "qDKT": 0.3288,
               "ABQR": "",
               "AKT": "",
               "MIKT": "",
@@ -2332,42 +2584,6 @@
               "AKT": 0.3236,
               "MIKT": 0.3447,
               "DIMKT": 0.3674
-            }
-          }
-        },
-        "assist2012": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": 0.7543,
-              "qDKT": 0.7602,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": 0.7456,
-              "qDKT": 0.7509,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": 0.4178,
-              "qDKT": 0.4132,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": 0.3356,
-              "qDKT": 0.3382,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
             }
           }
         },
@@ -2440,42 +2656,6 @@
               "AKT": 0.3481,
               "MIKT": 0.3644,
               "DIMKT": 0.3588
-            }
-          }
-        },
-        "ednet-kt1": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": 0.6755,
-              "qDKT": 0.7071,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": 0.6227,
-              "qDKT": 0.644,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": 0.4822,
-              "qDKT": 0.466,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": 0.4255,
-              "qDKT": 0.4305,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
             }
           }
         },
@@ -2592,7 +2772,7 @@
             "AUC": {
               "SimpleKT": 0.784,
               "qDKT": 0.785,
-              "ABQR": "",
+              "ABQR": 0.7854,
               "AKT": "",
               "MIKT": "",
               "DIMKT": ""
@@ -2600,7 +2780,7 @@
             "ACC": {
               "SimpleKT": 0.7839,
               "qDKT": 0.782,
-              "ABQR": "",
+              "ABQR": 0.7831,
               "AKT": "",
               "MIKT": "",
               "DIMKT": ""
@@ -2608,7 +2788,7 @@
             "RMSE": {
               "SimpleKT": 0.3901,
               "qDKT": 0.3895,
-              "ABQR": "",
+              "ABQR": 0.3892,
               "AKT": "",
               "MIKT": "",
               "DIMKT": ""
@@ -2616,6 +2796,114 @@
             "MAE": {
               "SimpleKT": 0.2998,
               "qDKT": 0.3048,
+              "ABQR": 0.3008,
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            }
+          }
+        },
+        "junyi2015": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": 0.7814,
+              "qDKT": 0.7912,
+              "ABQR": 0.7912,
+              "AKT": 0.7703,
+              "MIKT": "",
+              "DIMKT": 0.7818
+            },
+            "ACC": {
+              "SimpleKT": 0.8817,
+              "qDKT": 0.8815,
+              "ABQR": 0.8834,
+              "AKT": 0.8766,
+              "MIKT": "",
+              "DIMKT": 0.8749
+            },
+            "RMSE": {
+              "SimpleKT": 0.3068,
+              "qDKT": 0.3056,
+              "ABQR": 0.3046,
+              "AKT": 0.3125,
+              "MIKT": "",
+              "DIMKT": 0.3115
+            },
+            "MAE": {
+              "SimpleKT": 0.1825,
+              "qDKT": 0.1814,
+              "ABQR": 0.1812,
+              "AKT": 0.172,
+              "MIKT": "",
+              "DIMKT": 0.2042
+            }
+          }
+        },
+        "edi2020-task1": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": 0.7714,
+              "qDKT": 0.7723,
+              "ABQR": 0.7794,
+              "AKT": "",
+              "MIKT": 0.7697,
+              "DIMKT": 0.7512
+            },
+            "ACC": {
+              "SimpleKT": 0.7579,
+              "qDKT": 0.7633,
+              "ABQR": 0.7673,
+              "AKT": "",
+              "MIKT": 0.7617,
+              "DIMKT": 0.7527
+            },
+            "RMSE": {
+              "SimpleKT": 0.4021,
+              "qDKT": 0.4004,
+              "ABQR": 0.3972,
+              "AKT": "",
+              "MIKT": 0.4005,
+              "DIMKT": 0.4089
+            },
+            "MAE": {
+              "SimpleKT": 0.3109,
+              "qDKT": 0.3203,
+              "ABQR": 0.314,
+              "AKT": "",
+              "MIKT": 0.3219,
+              "DIMKT": 0.342
+            }
+          }
+        },
+        "assist2012": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": 0.7543,
+              "qDKT": 0.7602,
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "ACC": {
+              "SimpleKT": 0.7456,
+              "qDKT": 0.7509,
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "RMSE": {
+              "SimpleKT": 0.4178,
+              "qDKT": 0.4132,
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "MAE": {
+              "SimpleKT": 0.3356,
+              "qDKT": 0.3382,
               "ABQR": "",
               "AKT": "",
               "MIKT": "",
@@ -2660,42 +2948,6 @@
               "AKT": 0.3243,
               "MIKT": 0.3415,
               "DIMKT": 0.3601
-            }
-          }
-        },
-        "assist2012": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": 0.7637,
-              "qDKT": 0.7698,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": 0.7511,
-              "qDKT": 0.7556,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": 0.414,
-              "qDKT": 0.4097,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": 0.3298,
-              "qDKT": 0.3342,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
             }
           }
         },
@@ -2768,42 +3020,6 @@
               "AKT": 0.3555,
               "MIKT": 0.3669,
               "DIMKT": 0.3606
-            }
-          }
-        },
-        "ednet-kt1": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": 0.687,
-              "qDKT": 0.7147,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": 0.6357,
-              "qDKT": 0.6535,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": 0.4775,
-              "qDKT": 0.4637,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": 0.4199,
-              "qDKT": 0.4258,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
             }
           }
         },
@@ -2920,7 +3136,7 @@
             "AUC": {
               "SimpleKT": 0.7812,
               "qDKT": 0.782,
-              "ABQR": "",
+              "ABQR": 0.7835,
               "AKT": "",
               "MIKT": "",
               "DIMKT": ""
@@ -2928,7 +3144,7 @@
             "ACC": {
               "SimpleKT": 0.7827,
               "qDKT": 0.781,
-              "ABQR": "",
+              "ABQR": 0.7825,
               "AKT": "",
               "MIKT": "",
               "DIMKT": ""
@@ -2936,7 +3152,7 @@
             "RMSE": {
               "SimpleKT": 0.3905,
               "qDKT": 0.39,
-              "ABQR": "",
+              "ABQR": 0.3892,
               "AKT": "",
               "MIKT": "",
               "DIMKT": ""
@@ -2944,6 +3160,114 @@
             "MAE": {
               "SimpleKT": 0.2999,
               "qDKT": 0.3057,
+              "ABQR": 0.3017,
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            }
+          }
+        },
+        "junyi2015": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": 0.7916,
+              "qDKT": 0.8005,
+              "ABQR": 0.8016,
+              "AKT": 0.7846,
+              "MIKT": "",
+              "DIMKT": 0.7917
+            },
+            "ACC": {
+              "SimpleKT": 0.8787,
+              "qDKT": 0.8787,
+              "ABQR": 0.8804,
+              "AKT": 0.8768,
+              "MIKT": "",
+              "DIMKT": 0.8741
+            },
+            "RMSE": {
+              "SimpleKT": 0.3079,
+              "qDKT": 0.3071,
+              "ABQR": 0.306,
+              "AKT": 0.3111,
+              "MIKT": "",
+              "DIMKT": 0.3114
+            },
+            "MAE": {
+              "SimpleKT": 0.1832,
+              "qDKT": 0.1816,
+              "ABQR": 0.1819,
+              "AKT": 0.1748,
+              "MIKT": "",
+              "DIMKT": 0.1973
+            }
+          }
+        },
+        "edi2020-task1": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": 0.7897,
+              "qDKT": 0.7879,
+              "ABQR": 0.7922,
+              "AKT": "",
+              "MIKT": 0.7883,
+              "DIMKT": 0.772
+            },
+            "ACC": {
+              "SimpleKT": 0.761,
+              "qDKT": 0.7627,
+              "ABQR": 0.7638,
+              "AKT": "",
+              "MIKT": 0.7629,
+              "DIMKT": 0.7539
+            },
+            "RMSE": {
+              "SimpleKT": 0.3997,
+              "qDKT": 0.3996,
+              "ABQR": 0.3976,
+              "AKT": "",
+              "MIKT": 0.3991,
+              "DIMKT": 0.4061
+            },
+            "MAE": {
+              "SimpleKT": 0.3145,
+              "qDKT": 0.3209,
+              "ABQR": 0.317,
+              "AKT": "",
+              "MIKT": 0.3231,
+              "DIMKT": 0.3357
+            }
+          }
+        },
+        "assist2012": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": 0.7637,
+              "qDKT": 0.7698,
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "ACC": {
+              "SimpleKT": 0.7511,
+              "qDKT": 0.7556,
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "RMSE": {
+              "SimpleKT": 0.414,
+              "qDKT": 0.4097,
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "MAE": {
+              "SimpleKT": 0.3298,
+              "qDKT": 0.3342,
               "ABQR": "",
               "AKT": "",
               "MIKT": "",
@@ -2988,42 +3312,6 @@
               "AKT": "",
               "MIKT": 0.3875,
               "DIMKT": 0.3702
-            }
-          }
-        },
-        "assist2012": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": 0.7867,
-              "qDKT": 0.7935,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": 0.7472,
-              "qDKT": 0.7708,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": 0.4141,
-              "qDKT": 0.3975,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": 0.3289,
-              "qDKT": 0.3207,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
             }
           }
         },
@@ -3092,42 +3380,6 @@
             "MAE": {
               "SimpleKT": 0.1721,
               "qDKT": 0.3461,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            }
-          }
-        },
-        "ednet-kt1": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": 0.721,
-              "qDKT": 0.719,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": 0.746,
-              "qDKT": 0.7169,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": 0.4164,
-              "qDKT": 0.4331,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": 0.3317,
-              "qDKT": 0.3648,
               "ABQR": "",
               "AKT": "",
               "MIKT": "",
@@ -3246,32 +3498,140 @@
         "xes3g5m": {
           "metrics": {
             "AUC": {
-              "SimpleKT": 0.7908,
-              "qDKT": 0.8232,
+              "SimpleKT": "",
+              "qDKT": "",
               "ABQR": "",
               "AKT": "",
               "MIKT": "",
               "DIMKT": ""
             },
             "ACC": {
-              "SimpleKT": 0.812,
-              "qDKT": 0.889,
+              "SimpleKT": "",
+              "qDKT": "",
               "ABQR": "",
               "AKT": "",
               "MIKT": "",
               "DIMKT": ""
             },
             "RMSE": {
-              "SimpleKT": 0.3665,
-              "qDKT": 0.2928,
+              "SimpleKT": "",
+              "qDKT": "",
               "ABQR": "",
               "AKT": "",
               "MIKT": "",
               "DIMKT": ""
             },
             "MAE": {
-              "SimpleKT": 0.262,
-              "qDKT": 0.1765,
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            }
+          }
+        },
+        "junyi2015": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "ACC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "RMSE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "MAE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            }
+          }
+        },
+        "edi2020-task1": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "ACC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "RMSE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "MAE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            }
+          }
+        },
+        "assist2012": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": 0.3875,
+              "qDKT": 0.35,
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "ACC": {
+              "SimpleKT": 0.5,
+              "qDKT": 0.5,
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "RMSE": {
+              "SimpleKT": 0.597,
+              "qDKT": 0.599,
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "MAE": {
+              "SimpleKT": 0.5051,
+              "qDKT": 0.5187,
               "ABQR": "",
               "AKT": "",
               "MIKT": "",
@@ -3316,42 +3676,6 @@
               "AKT": "",
               "MIKT": 0.4082,
               "DIMKT": 0.3839
-            }
-          }
-        },
-        "assist2012": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": 0.7849,
-              "qDKT": 0.7937,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": 0.7497,
-              "qDKT": 0.7702,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": 0.4132,
-              "qDKT": 0.3973,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": 0.3276,
-              "qDKT": 0.3203,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
             }
           }
         },
@@ -3420,42 +3744,6 @@
             "MAE": {
               "SimpleKT": 0.1753,
               "qDKT": 0.3487,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            }
-          }
-        },
-        "ednet-kt1": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": 0.7229,
-              "qDKT": 0.7168,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": 0.7452,
-              "qDKT": 0.7152,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": 0.4157,
-              "qDKT": 0.4342,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": 0.3334,
-              "qDKT": 0.367,
               "ABQR": "",
               "AKT": "",
               "MIKT": "",
@@ -3574,44 +3862,40 @@
         "xes3g5m": {
           "metrics": {
             "AUC": {
-              "SimpleKT": 0.7998,
-              "qDKT": 0.8293,
+              "SimpleKT": "",
+              "qDKT": "",
               "ABQR": "",
               "AKT": "",
               "MIKT": "",
               "DIMKT": ""
             },
             "ACC": {
-              "SimpleKT": 0.8303,
-              "qDKT": 0.8927,
+              "SimpleKT": "",
+              "qDKT": "",
               "ABQR": "",
               "AKT": "",
               "MIKT": "",
               "DIMKT": ""
             },
             "RMSE": {
-              "SimpleKT": 0.3537,
-              "qDKT": 0.2876,
+              "SimpleKT": "",
+              "qDKT": "",
               "ABQR": "",
               "AKT": "",
               "MIKT": "",
               "DIMKT": ""
             },
             "MAE": {
-              "SimpleKT": 0.2485,
-              "qDKT": 0.171,
+              "SimpleKT": "",
+              "qDKT": "",
               "ABQR": "",
               "AKT": "",
               "MIKT": "",
               "DIMKT": ""
             }
           }
-        }
-      }
-    },
-    "multi step (acc)-overallStep5": {
-      "datasets": {
-        "assist2009": {
+        },
+        "junyi2015": {
           "metrics": {
             "AUC": {
               "SimpleKT": "",
@@ -3647,7 +3931,83 @@
             }
           }
         },
+        "edi2020-task1": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": 0.8252,
+              "qDKT": 0.8322,
+              "ABQR": 0.8412,
+              "AKT": "",
+              "MIKT": 0.837,
+              "DIMKT": 0.8324
+            },
+            "ACC": {
+              "SimpleKT": 0.7673,
+              "qDKT": 0.766,
+              "ABQR": 0.7734,
+              "AKT": "",
+              "MIKT": 0.7806,
+              "DIMKT": 0.7698
+            },
+            "RMSE": {
+              "SimpleKT": 0.4066,
+              "qDKT": 0.4024,
+              "ABQR": 0.3982,
+              "AKT": "",
+              "MIKT": 0.3979,
+              "DIMKT": 0.4021
+            },
+            "MAE": {
+              "SimpleKT": 0.3322,
+              "qDKT": 0.3309,
+              "ABQR": 0.3264,
+              "AKT": "",
+              "MIKT": 0.3215,
+              "DIMKT": 0.3242
+            }
+          }
+        },
         "assist2012": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": 0.8117,
+              "qDKT": 0.8185,
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "ACC": {
+              "SimpleKT": 0.7709,
+              "qDKT": 0.7779,
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "RMSE": {
+              "SimpleKT": 0.4,
+              "qDKT": 0.3948,
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "MAE": {
+              "SimpleKT": 0.3174,
+              "qDKT": 0.3259,
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            }
+          }
+        }
+      }
+    },
+    "multi step (acc)-overallStep5": {
+      "datasets": {
+        "assist2009": {
           "metrics": {
             "AUC": {
               "SimpleKT": "",
@@ -3720,42 +4080,6 @@
           }
         },
         "edi2020-task34": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            }
-          }
-        },
-        "ednet-kt1": {
           "metrics": {
             "AUC": {
               "SimpleKT": "",
@@ -3900,6 +4224,114 @@
           }
         },
         "xes3g5m": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "ACC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "RMSE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "MAE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            }
+          }
+        },
+        "junyi2015": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "ACC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "RMSE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "MAE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            }
+          }
+        },
+        "edi2020-task1": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "ACC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "RMSE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "MAE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            }
+          }
+        },
+        "assist2012": {
           "metrics": {
             "AUC": {
               "SimpleKT": "",
@@ -3975,42 +4407,6 @@
             }
           }
         },
-        "assist2012": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            }
-          }
-        },
         "assist2017": {
           "metrics": {
             "AUC": {
@@ -4048,42 +4444,6 @@
           }
         },
         "edi2020-task34": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            }
-          }
-        },
-        "ednet-kt1": {
           "metrics": {
             "AUC": {
               "SimpleKT": "",
@@ -4228,6 +4588,114 @@
           }
         },
         "xes3g5m": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "ACC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "RMSE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "MAE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            }
+          }
+        },
+        "junyi2015": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "ACC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "RMSE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "MAE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            }
+          }
+        },
+        "edi2020-task1": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "ACC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "RMSE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "MAE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            }
+          }
+        },
+        "assist2012": {
           "metrics": {
             "AUC": {
               "SimpleKT": "",
@@ -4303,42 +4771,6 @@
             }
           }
         },
-        "assist2012": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            }
-          }
-        },
         "assist2017": {
           "metrics": {
             "AUC": {
@@ -4376,42 +4808,6 @@
           }
         },
         "edi2020-task34": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            }
-          }
-        },
-        "ednet-kt1": {
           "metrics": {
             "AUC": {
               "SimpleKT": "",
@@ -4556,6 +4952,114 @@
           }
         },
         "xes3g5m": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "ACC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "RMSE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "MAE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            }
+          }
+        },
+        "junyi2015": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "ACC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "RMSE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "MAE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            }
+          }
+        },
+        "edi2020-task1": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "ACC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "RMSE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "MAE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            }
+          }
+        },
+        "assist2012": {
           "metrics": {
             "AUC": {
               "SimpleKT": "",
@@ -4631,42 +5135,6 @@
             }
           }
         },
-        "assist2012": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            }
-          }
-        },
         "assist2017": {
           "metrics": {
             "AUC": {
@@ -4704,42 +5172,6 @@
           }
         },
         "edi2020-task34": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            }
-          }
-        },
-        "ednet-kt1": {
           "metrics": {
             "AUC": {
               "SimpleKT": "",
@@ -4884,6 +5316,114 @@
           }
         },
         "xes3g5m": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "ACC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "RMSE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "MAE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            }
+          }
+        },
+        "junyi2015": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "ACC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "RMSE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "MAE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            }
+          }
+        },
+        "edi2020-task1": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "ACC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "RMSE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "MAE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            }
+          }
+        },
+        "assist2012": {
           "metrics": {
             "AUC": {
               "SimpleKT": "",
@@ -4959,42 +5499,6 @@
             }
           }
         },
-        "assist2012": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            }
-          }
-        },
         "assist2017": {
           "metrics": {
             "AUC": {
@@ -5032,42 +5536,6 @@
           }
         },
         "edi2020-task34": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            }
-          }
-        },
-        "ednet-kt1": {
           "metrics": {
             "AUC": {
               "SimpleKT": "",
@@ -5212,6 +5680,114 @@
           }
         },
         "xes3g5m": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "ACC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "RMSE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "MAE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            }
+          }
+        },
+        "junyi2015": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "ACC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "RMSE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "MAE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            }
+          }
+        },
+        "edi2020-task1": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "ACC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "RMSE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "MAE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            }
+          }
+        },
+        "assist2012": {
           "metrics": {
             "AUC": {
               "SimpleKT": "",
@@ -5287,42 +5863,6 @@
             }
           }
         },
-        "assist2012": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            }
-          }
-        },
         "assist2017": {
           "metrics": {
             "AUC": {
@@ -5360,42 +5900,6 @@
           }
         },
         "edi2020-task34": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            }
-          }
-        },
-        "ednet-kt1": {
           "metrics": {
             "AUC": {
               "SimpleKT": "",
@@ -5540,6 +6044,114 @@
           }
         },
         "xes3g5m": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "ACC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "RMSE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "MAE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            }
+          }
+        },
+        "junyi2015": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "ACC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "RMSE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "MAE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            }
+          }
+        },
+        "edi2020-task1": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "ACC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "RMSE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "MAE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            }
+          }
+        },
+        "assist2012": {
           "metrics": {
             "AUC": {
               "SimpleKT": "",
@@ -5615,42 +6227,6 @@
             }
           }
         },
-        "assist2012": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            }
-          }
-        },
         "assist2017": {
           "metrics": {
             "AUC": {
@@ -5688,42 +6264,6 @@
           }
         },
         "edi2020-task34": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            }
-          }
-        },
-        "ednet-kt1": {
           "metrics": {
             "AUC": {
               "SimpleKT": "",
@@ -5868,6 +6408,114 @@
           }
         },
         "xes3g5m": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "ACC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "RMSE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "MAE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            }
+          }
+        },
+        "junyi2015": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "ACC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "RMSE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "MAE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            }
+          }
+        },
+        "edi2020-task1": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "ACC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "RMSE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "MAE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            }
+          }
+        },
+        "assist2012": {
           "metrics": {
             "AUC": {
               "SimpleKT": "",
@@ -5943,42 +6591,6 @@
             }
           }
         },
-        "assist2012": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            }
-          }
-        },
         "assist2017": {
           "metrics": {
             "AUC": {
@@ -6016,42 +6628,6 @@
           }
         },
         "edi2020-task34": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": "",
-              "qDKT": "",
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            }
-          }
-        },
-        "ednet-kt1": {
           "metrics": {
             "AUC": {
               "SimpleKT": "",
@@ -6230,6 +6806,114 @@
               "DIMKT": ""
             }
           }
+        },
+        "junyi2015": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "ACC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "RMSE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "MAE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            }
+          }
+        },
+        "edi2020-task1": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "ACC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "RMSE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "MAE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            }
+          }
+        },
+        "assist2012": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "ACC": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "RMSE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "MAE": {
+              "SimpleKT": "",
+              "qDKT": "",
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            }
+          }
         }
       }
     },
@@ -6268,42 +6952,6 @@
               "AKT": 0.3648,
               "MIKT": 0.377,
               "DIMKT": 0.3851
-            }
-          }
-        },
-        "assist2012": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": 0.7654,
-              "qDKT": 0.7642,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": 0.7197,
-              "qDKT": 0.7207,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": 0.4319,
-              "qDKT": 0.4308,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": 0.3539,
-              "qDKT": 0.3623,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
             }
           }
         },
@@ -6376,42 +7024,6 @@
               "AKT": 0.3439,
               "MIKT": 0.3576,
               "DIMKT": 0.3513
-            }
-          }
-        },
-        "ednet-kt1": {
-          "metrics": {
-            "AUC": {
-              "SimpleKT": 0.7188,
-              "qDKT": 0.7362,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "ACC": {
-              "SimpleKT": 0.6612,
-              "qDKT": 0.674,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "RMSE": {
-              "SimpleKT": 0.4631,
-              "qDKT": 0.4543,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
-            },
-            "MAE": {
-              "SimpleKT": 0.4031,
-              "qDKT": 0.4051,
-              "ABQR": "",
-              "AKT": "",
-              "MIKT": "",
-              "DIMKT": ""
             }
           }
         },
@@ -6528,7 +7140,7 @@
             "AUC": {
               "SimpleKT": 0.8108,
               "qDKT": 0.8157,
-              "ABQR": "",
+              "ABQR": 0.8215,
               "AKT": "",
               "MIKT": "",
               "DIMKT": ""
@@ -6536,7 +7148,7 @@
             "ACC": {
               "SimpleKT": 0.8143,
               "qDKT": 0.8162,
-              "ABQR": "",
+              "ABQR": 0.8198,
               "AKT": "",
               "MIKT": "",
               "DIMKT": ""
@@ -6544,7 +7156,7 @@
             "RMSE": {
               "SimpleKT": 0.3629,
               "qDKT": 0.3608,
-              "ABQR": "",
+              "ABQR": 0.3574,
               "AKT": "",
               "MIKT": "",
               "DIMKT": ""
@@ -6552,6 +7164,114 @@
             "MAE": {
               "SimpleKT": 0.2583,
               "qDKT": 0.2582,
+              "ABQR": 0.2514,
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            }
+          }
+        },
+        "junyi2015": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": 0.8034,
+              "qDKT": 0.7947,
+              "ABQR": 0.7976,
+              "AKT": 0.8033,
+              "MIKT": "",
+              "DIMKT": 0.7961
+            },
+            "ACC": {
+              "SimpleKT": 0.7434,
+              "qDKT": 0.7185,
+              "ABQR": 0.7218,
+              "AKT": 0.7421,
+              "MIKT": "",
+              "DIMKT": 0.7267
+            },
+            "RMSE": {
+              "SimpleKT": 0.4176,
+              "qDKT": 0.4326,
+              "ABQR": 0.4302,
+              "AKT": 0.4178,
+              "MIKT": "",
+              "DIMKT": 0.4256
+            },
+            "MAE": {
+              "SimpleKT": 0.3322,
+              "qDKT": 0.3397,
+              "ABQR": 0.3336,
+              "AKT": 0.3317,
+              "MIKT": "",
+              "DIMKT": 0.3441
+            }
+          }
+        },
+        "edi2020-task1": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": 0.8033,
+              "qDKT": 0.8026,
+              "ABQR": 0.8064,
+              "AKT": "",
+              "MIKT": 0.8065,
+              "DIMKT": 0.8004
+            },
+            "ACC": {
+              "SimpleKT": 0.7443,
+              "qDKT": 0.7454,
+              "ABQR": 0.7476,
+              "AKT": "",
+              "MIKT": 0.7476,
+              "DIMKT": 0.7445
+            },
+            "RMSE": {
+              "SimpleKT": 0.4134,
+              "qDKT": 0.4135,
+              "ABQR": 0.4116,
+              "AKT": "",
+              "MIKT": 0.4114,
+              "DIMKT": 0.4147
+            },
+            "MAE": {
+              "SimpleKT": 0.3336,
+              "qDKT": 0.3379,
+              "ABQR": 0.3347,
+              "AKT": "",
+              "MIKT": 0.3391,
+              "DIMKT": 0.3355
+            }
+          }
+        },
+        "assist2012": {
+          "metrics": {
+            "AUC": {
+              "SimpleKT": 0.7654,
+              "qDKT": 0.7642,
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "ACC": {
+              "SimpleKT": 0.7197,
+              "qDKT": 0.7207,
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "RMSE": {
+              "SimpleKT": 0.4319,
+              "qDKT": 0.4308,
+              "ABQR": "",
+              "AKT": "",
+              "MIKT": "",
+              "DIMKT": ""
+            },
+            "MAE": {
+              "SimpleKT": 0.3539,
+              "qDKT": 0.3623,
               "ABQR": "",
               "AKT": "",
               "MIKT": "",
