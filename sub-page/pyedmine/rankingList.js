@@ -5,6 +5,8 @@ let currentState = {
   setting: null,
   metric: null,
   data: null,
+  modelType: "All",
+  selectedModels: [], // ⬅️ 添加模型过滤状态
 };
 
 // 任务列表（固定）
@@ -107,6 +109,53 @@ $(document).ready(function () {
     // $(`.model-type-btn[data-type="${defaultModelType}"]`).click();
   });
 });
+
+function renderModelFilterButtons(models) {
+  const container = $("#model-filter-container");
+  const html = models.map(model => {
+    const isActive = currentState.selectedModels.includes(model);
+    return `<button class="model-filter-btn ${isActive ? 'active' : ''}" data-model="${model}">${model}</button>`;
+  }).join("");
+  container.html(html);
+
+  $(".model-filter-btn").off("click").on("click", function () {
+    const model = $(this).data("model");
+    const idx = currentState.selectedModels.indexOf(model);
+    if (idx >= 0) {
+      currentState.selectedModels.splice(idx, 1);
+    } else {
+      currentState.selectedModels.push(model);
+    }
+
+    // 至少保留一个
+    if (currentState.selectedModels.length === 0) {
+      currentState.selectedModels.push(model);
+    }
+
+    renderModelFilterButtons(models); // 重新渲染按钮状态
+    renderTable(); // 重新渲染表格
+  });
+}
+
+$(".model-type-btn").click(function (e) {
+  $(".model-type-btn").removeClass("active");
+  $(this).addClass("active");
+
+  currentState.modelType = $(this).data("type");
+
+  // ✅ 初始化 selectedModels 为当前模型类型下的全部可用模型
+  const modelType = currentState.modelType;
+  const modelTypes = MODEL_TYPE[currentState.task];
+  const modelsForType = modelType === "All"
+    ? Object.keys(currentState.data.scenes[`${currentState.scene}-${currentState.setting}`].datasets)
+      .flatMap(d => Object.keys(currentState.data.scenes[`${currentState.scene}-${currentState.setting}`].datasets[d].metrics[currentState.metric] || {}))
+    : (modelTypes[modelType] || []);
+  currentState.selectedModels = [...new Set(modelsForType)];
+
+  renderTable(); // 表格刷新
+});
+
+
 
 // ----------------------------------------------------------------
 function initTaskSelector() {
@@ -292,150 +341,138 @@ function renderTable() {
   const sceneData = data.scenes[sceneKey];
   const datasets = sceneData.datasets;
 
-  // 提取所有模型和数据集
-  const models = new Set();
+  // 获取当前任务的目标数据集
   let datasetNames;
-  if (task == "CD") {
+  if (task === "CD") {
     datasetNames = CD_TARGET_DATASETS;
-  } else if (task == "ER") {
+  } else if (task === "ER") {
     datasetNames = ER_TARGET_DATASETS;
-  } else if (task == "KT1") {
+  } else if (task === "KT1") {
     datasetNames = KT_TARGET_DATASETS;
   } else {
     datasetNames = KT2_TARGET_DATASETS;
   }
 
-  // 遍历数据集收集模型
-  datasetNames.forEach((dataset) => {
-    Object.keys(datasets[dataset].metrics[metric]).forEach((model) => {
-      models.add(model);
+  // 提取所有模型名
+  const models = new Set();
+  datasetNames.forEach(dataset => {
+    const metricData = datasets[dataset]?.metrics?.[metric];
+    if (metricData) {
+      Object.keys(metricData).forEach(model => models.add(model));
+    }
+  });
+
+  const modelTypes = MODEL_TYPE[task] || {};
+  const allModelsOfType = modelType === "All"
+    ? Array.from(models)
+    : (modelTypes[modelType] || []);
+
+  // 过滤掉在所有数据集上都没有有效数据的模型
+  const validModels = allModelsOfType.filter(model => {
+    return datasetNames.some(dataset => {
+      const value = datasets[dataset]?.metrics?.[metric]?.[model];
+      return typeof value === "number";
     });
   });
 
-  // 根据模型类型过滤模型
-  const modelTypes = MODEL_TYPE[task];
-  let filteredModels;
-  if (modelType === "All") {
-    filteredModels = Array.from(models);
-  } else {
-    filteredModels = modelTypes[modelType] || [];
+  // 初始化 selectedModels 如果尚未设置
+  if (!Array.isArray(currentState.selectedModels) || currentState.selectedModels.length === 0) {
+    currentState.selectedModels = [...validModels];
   }
 
-  // 新增：过滤掉在所有数据集上都没有有效数据的模型
-  filteredModels = filteredModels.filter(model => {
-    return datasetNames.some(dataset => {
-      const value = datasets[dataset].metrics[metric][model];
-      return typeof value === "number"; // 只保留有数值数据的模型
+  // 应用筛选器得到最终展示的模型
+  const filteredModels = validModels.filter(model =>
+    currentState.selectedModels.includes(model)
+  );
+
+  const modelsToCompare = filteredModels;
+
+  // 筛选需要显示的数据集（至少一个模型有值）
+  const filteredDatasets = datasetNames.filter(dataset => {
+    return filteredModels.some(model => {
+      const value = datasets[dataset]?.metrics?.[metric]?.[model];
+      return typeof value === "number";
     });
   });
 
-  // 获取当前要比较的模型列表
-  const modelsToCompare = modelType === "All" 
-    ? Array.from(models) 
-    : modelTypes[modelType] || [];
-
-  // 构建表头
+  // 表头
   let thead = `<tr><th>Model</th>`;
-  
-  filteredDatasets = datasetNames.filter(dataset => {
-    let flag = false;
-    for (let model of filteredModels) {
-      const value = datasets[dataset].metrics[metric][model];
-      if (typeof value === "number") {
-        flag = true;
-        break;
-      }
-    }
-    return flag;
-  });
-  
-  
-  filteredDatasets.forEach((dataset) => {
-    thead += `<th colspan="1">${dataset}</th>`;
+  filteredDatasets.forEach(dataset => {
+    thead += `<th>${dataset}</th>`;
   });
   thead += `<th class="sota-column">win</th></tr>`;
 
-  // 首先计算每个模型的SOTA数量并存储
-  const modelsWithSOTA = Array.from(filteredModels).map(model => {
-    const sota = calculateSOTA(model, datasets, metric, task);
-    return {
-      model,
-      win: sota.win
-    };
+  // SOTA 统计
+  const modelsWithSOTA = filteredModels.map(model => {
+    const sota = calculateSOTA(model, datasets, metric, task, filteredModels);
+    return { model, win: sota.win };
   });
 
-  // 排序：先按win降序，再按模型名称升序
+  // 排序
   modelsWithSOTA.sort((a, b) => {
-    if (b.win !== a.win) {
-      return b.win - a.win; // win降序
-    }
-    return a.model.localeCompare(b.model); // 模型名称升序
+    if (b.win !== a.win) return b.win - a.win;
+    return a.model.localeCompare(b.model);
   });
 
-  // 构建数据行（按排序后的顺序）
-  const tbody = modelsWithSOTA
-    .map(({model, win}) => {
-      let row = `<td>${model}</td>`;
-      filteredDatasets.forEach((dataset) => {
-        const value = datasets[dataset].metrics[metric][model];
-        let displayValue;
-        if (typeof value === "number") {
-          displayValue = value;
-        } else if (value === "OOM") {
-          displayValue = '<span class="oom">OOM</span>';
-        } else if (value === "todo") {
-          displayValue = '<span class="todo">todo</span>';
-        } else if (value === "-") {
-          displayValue = '<span class="na">-</span>';
-        } else if (value === "" || value === undefined) {
-          displayValue = '<span class="na">-</span>';
-        } else {
-          displayValue = value;
+  // 表体
+  const tbody = modelsWithSOTA.map(({ model, win }) => {
+    let row = `<td>${model}</td>`;
+
+    filteredDatasets.forEach(dataset => {
+      const value = datasets[dataset]?.metrics?.[metric]?.[model];
+      let displayValue;
+
+      if (typeof value === "number") {
+        displayValue = value;
+      } else if (value === "OOM") {
+        displayValue = `<span class="oom">OOM</span>`;
+      } else if (value === "todo") {
+        displayValue = `<span class="todo">todo</span>`;
+      } else {
+        displayValue = `<span class="na">-</span>`;
+      }
+
+      // 比较高亮（粗体、下划线）
+      const isMinBetter = ["RMSE", "MAE"].includes(metric);
+      const values = modelsToCompare
+        .map(m => ({
+          model: m,
+          value: datasets[dataset]?.metrics?.[metric]?.[m],
+        }))
+        .filter(entry => typeof entry.value === "number");
+
+      if (typeof value === "number" && values.length > 0) {
+        const sorted = values.sort((a, b) =>
+          isMinBetter ? a.value - b.value : b.value - a.value
+        );
+        const rank = sorted.findIndex(entry => entry.model === model);
+        if (rank === 0) {
+          displayValue = `<strong>${displayValue}</strong>`;
+        } else if (rank === 1) {
+          displayValue = `<u>${displayValue}</u>`;
         }
+      }
 
-        // 性能值比较 - 只比较当前模型类型中的模型
-        const isMinBetter = ["RMSE", "MAE"].includes(metric);
-        const values = modelsToCompare
-          .map(m => ({ model: m, value: datasets[dataset].metrics[metric][m] }))
-          .filter(entry => typeof entry.value === "number");
+      row += `<td>${displayValue}</td>`;
+    });
 
-        if (values.length > 0) {
-          const sorted = values.sort((a, b) =>
-            isMinBetter ? a.value - b.value : b.value - a.value
-          );
+    row += `<td class="sota-column">${win}</td>`;
+    return `<tr>${row}</tr>`;
+  }).join("");
 
-          // 找到当前模型的值
-          const currentModelValue = datasets[dataset].metrics[metric][model];
-          if (typeof currentModelValue === "number") {
-            const rank = sorted.findIndex((item) => item.model === model);
-            if (rank === 0) {
-              // 最好的值，加粗
-              displayValue = `<strong>${displayValue}</strong>`;
-            } else if (rank === 1) {
-              // 第二好的值，加下划线
-              displayValue = `<u>${displayValue}</u>`;
-            }
-          }
-        }
-
-        row += `<td>${displayValue}</td>`;
-      });
-
-      // 使用预先计算好的win值
-      row += `<td class="sota-column">${win}</td>`;
-      return `<tr>${row}</tr>`;
-    })
-    .join("");
-
-  // 插入表格
+  // 渲染表格
   const table = `
-      <table>
-          <thead>${thead}</thead>
-          <tbody>${tbody}</tbody>
-      </table>
+    <table>
+      <thead>${thead}</thead>
+      <tbody>${tbody}</tbody>
+    </table>
   `;
   $("#table-container").html(table);
+
+  // 渲染模型筛选按钮
+  renderModelFilterButtons(validModels);
 }
+
 
 function parseScene(sceneName) {
   if (sceneName.includes("-")) {
@@ -447,65 +484,35 @@ function parseScene(sceneName) {
 }
 
 // 工具函数：计算 SOTA
-function calculateSOTA(model, datasets, metric, task) {
-  let win = 0;
+function calculateSOTA(model, datasets, metric, task, comparedModels) {
   const isMinBetter = ["RMSE", "MAE"].includes(metric);
-  let targetDataset;
-  if (task == "CD") {
-    targetDataset = CD_TARGET_DATASETS;
-  } else if (task == "ER") {
-    targetDataset = ER_TARGET_DATASETS;
-  } else if (task == "KT1") {
-    targetDataset = KT_TARGET_DATASETS;
-  } else {
-    targetDataset = KT2_TARGET_DATASETS;
-  }
+  let win = 0;
 
-  Object.entries(datasets).forEach(([datasetName, dataset]) => {
-    // 跳过非目标数据集
-    if (!targetDataset.includes(datasetName)) return;
+  Object.values(datasets).forEach(dataset => {
+    const metricData = dataset.metrics?.[metric];
+    if (!metricData || typeof metricData[model] !== "number") return;
 
-    const values = dataset.metrics[metric];
-    if (!values) return;
-
-    // 获取当前任务的所有模型
-    const allModels = Object.keys(values);
-    
-    // 获取当前选择的模型类型对应的模型列表
-    const modelTypes = MODEL_TYPE[task] || {};
-    let modelsToCompare = allModels; // 默认比较所有模型
-    
-    if (currentState.modelType && currentState.modelType !== "All") {
-      modelsToCompare = modelTypes[currentState.modelType] || [];
-    }
-
-    // 过滤有效数值，并且只比较当前模型类型中的模型
-    const validEntries = allModels
-      .filter(m => modelsToCompare.includes(m)) // 只比较当前类型的模型
-      .map(m => ({ model: m, value: values[m] }))
+    // 筛选出所有有效比较模型的值
+    const entries = comparedModels
+      .map(m => ({ model: m, value: metricData[m] }))
       .filter(entry => typeof entry.value === "number");
 
-    if (validEntries.length === 0) return;
+    if (entries.length === 0) return;
 
-    // 找出最优值
-    const sorted = validEntries.sort((a, b) =>
+    // 按照大小排序（min better or max better）
+    entries.sort((a, b) =>
       isMinBetter ? a.value - b.value : b.value - a.value
     );
-    const bestValue = sorted[0].value;
 
-    // 统计当前模型的胜负
-    const modelValue = values[model];
-    if (typeof modelValue !== "number") return;
-
-    if (modelValue === bestValue) {
-      // 检查是否有并列第一
-      const isTie = sorted.filter(item => item.value === bestValue).length > 1;
-      if (!isTie) win++;
+    const bestModel = entries[0].model;
+    if (bestModel === model) {
+      win += 1;
     }
   });
 
   return { win };
 }
+
 
 // 工具函数：加载 JSON 数据
 function loadData(task, callback) {
