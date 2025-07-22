@@ -3,11 +3,31 @@
     "papers": [
         {
             "model_name": "",
+            "paper_title": "",
+            "source": "",
+            "year": "",
+            "tags": [],
+            "perper_link": "",
+            "official_code_link": "",
+            "ref_code_link": ""
+        },
+        {
+            "model_name": "",
             "paper_title": "PeerLens: Peer-inspired Interactive Learning Path Planning in Online Qestion Pool",
             "source": "CHI[C]",
             "year": "2019",
             "tags": [],
             "perper_link": "https://dl.acm.org/doi/fullHtml/10.1145/3290605.3300864",
+            "official_code_link": "",
+            "ref_code_link": ""
+        },
+        {
+            "model_name": "",
+            "paper_title": "Exploiting Cognitive Structure for Adaptive Learning",
+            "source": "SIGKDD[C]",
+            "year": "2019",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3292500.3330922",
             "official_code_link": "",
             "ref_code_link": ""
         },
@@ -38,6 +58,16 @@
             "year": "2022",
             "tags": [],
             "perper_link": "https://dl.acm.org/doi/10.1145/3534678.3539107",
+            "official_code_link": "",
+            "ref_code_link": ""
+        },
+        {
+            "model_name": "",
+            "paper_title": "Set-to-Sequence Ranking-Based Concept-Aware Learning Path Recommendation",
+            "source": "AAAI[C]",
+            "year": "2023",
+            "tags": [],
+            "perper_link": "https://ojs.aaai.org/index.php/AAAI/article/view/25630/25402",
             "official_code_link": "",
             "ref_code_link": ""
         },

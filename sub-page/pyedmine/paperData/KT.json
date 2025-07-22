@@ -775,8 +775,8 @@
             "tags": [],
             "perper_link": "https://dl.acm.org/doi/10.1145/3664647.3681205",
             "official_code_link": "https://github.com/lilstrawberry/ReKT",
-            "ref_code_link": "",
-            "implemented_in_pyedmine": false
+            "ref_code_link": "https://github.com/lilstrawberry/ReKT",
+            "implemented_in_pyedmine": true
         },
         {
             "model_name": "PSKT",
@@ -1014,6 +1014,28 @@
             "year": "2025",
             "tags": [],
             "perper_link": "",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Simulating Question-answering Correctness with a Conditional Diffusion",
+            "source": "WWW[C]",
+            "year": "2025",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/abs/10.1145/3696410.3714508",
+            "official_code_link": "",
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
+        },
+        {
+            "model_name": "",
+            "paper_title": "Enhancing Knowledge Tracing through Decoupling Cognitive Pattern from Error-Prone Data",
+            "source": "WWW[C]",
+            "year": "2025",
+            "tags": [],
+            "perper_link": "https://dl.acm.org/doi/10.1145/3696410.3714486",
             "official_code_link": "",
             "ref_code_link": "",
             "implemented_in_pyedmine": false

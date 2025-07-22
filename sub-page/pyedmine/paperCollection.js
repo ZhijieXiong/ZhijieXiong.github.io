@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  const TASKS = ["KT", "CD", "ER", "LP", "OTHER"]; // 在此处添加所有任务名称
+  const TASKS = ["KT", "CD", "ER", "LPR", "OTHER"]; // 在此处添加所有任务名称
   let currentData = null;
   let currentSort = { field: "year", order: "asc" };
   let selectedTags = new Set();

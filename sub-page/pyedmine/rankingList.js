@@ -61,7 +61,7 @@ const MODEL_TYPE = {
     "Concept Level": ["DKT", "DKVMN", "DKTForget", "ATKT"],
     "Question Level": ["qDKT", "AKT", "SimpleKT", "SparseKT", "DIMKT", "LPKT", "LBKT", "MIKT", "QIKT", "QDCKT", "CKT", "HDLPKT", "DTransformer", "ABQR", "ATDKT", "HawkesKT", "RouterKT"],
     "No Side Info (Concept Level)": ["DKT", "DKVMN", "ATKT"],
-    "No Side Info (Question Level)": ["qDKT", "AKT", "SimpleKT", "SparseKT", "DIMKT", "MIKT", "QIKT", "QDCKT", "CKT", "DTransformer", "ABQR", "ATDKT", "RouterKT"],
+    "No Side Info (Question Level)": ["qDKT", "AKT", "SimpleKT", "SparseKT", "DIMKT", "MIKT", "QIKT", "QDCKT", "CKT", "DTransformer", "ABQR", "ATDKT", "RouterKT", "ReKT"],
     // 添加更多类型...
   },
   KT2: {
