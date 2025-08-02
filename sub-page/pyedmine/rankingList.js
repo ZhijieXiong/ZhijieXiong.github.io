@@ -24,7 +24,7 @@ const KT_TARGET_DATASETS = [
   // "xes3g5m-subtest-100",
   "ednet-kt1",
   "junyi2015",
-  "edi2020-task1"
+  "edi2020-task1",
 ];
 const KT2_TARGET_DATASETS = [
   "assist2009",
@@ -39,7 +39,7 @@ const KT2_TARGET_DATASETS = [
   // "xes3g5m-subtest-100",
   // "ednet-kt1",
   "junyi2015",
-  "edi2020-task1"
+  "edi2020-task1",
 ];
 const CD_TARGET_DATASETS = [
   "assist2009",
@@ -49,7 +49,7 @@ const CD_TARGET_DATASETS = [
   "slepemapy-anatomy",
   "SLP-mat",
   "SLP-phy",
-  "moocradar-C746997"
+  "moocradar-C746997",
 ];
 const ER_TARGET_DATASETS = [
   "assist2009",
@@ -61,20 +61,47 @@ const ER_TARGET_DATASETS = [
 const MODEL_TYPE = {
   KT1: {
     "Concept Level": ["DKT", "DKVMN", "DKTForget", "ATKT"],
-    "Question Level": ["qDKT", "AKT", "SimpleKT", "SparseKT", "DIMKT", "LPKT", "LBKT", "MIKT", "QIKT", "QDCKT", "CKT", "HDLPKT", "DTransformer", "ABQR", "ATDKT", "HawkesKT", "RouterKT"],
+    "Question Level": [
+      "qDKT",
+      "AKT",
+      "SimpleKT",
+      "SparseKT",
+      "DIMKT",
+      "LPKT",
+      "LBKT",
+      "MIKT",
+      "QIKT",
+      "QDCKT",
+      "CKT",
+      "HDLPKT",
+      "DTransformer",
+      "ABQR",
+      "ATDKT",
+      "HawkesKT",
+      "RouterKT",
+    ],
     "No Side Info (Concept Level)": ["DKT", "DKVMN", "ATKT"],
-    "No Side Info (Question Level)": ["qDKT", "AKT", "SimpleKT", "SparseKT", "DIMKT", "MIKT", "QIKT", "QDCKT", "CKT", "DTransformer", "ABQR", "ATDKT", "RouterKT", "ReKT"],
+    "No Side Info (Question Level)": [
+      "qDKT",
+      "AKT",
+      "SimpleKT",
+      "SparseKT",
+      "DIMKT",
+      "MIKT",
+      "QIKT",
+      "QDCKT",
+      "CKT",
+      "DTransformer",
+      "ABQR",
+      "ATDKT",
+      "RouterKT",
+      "ReKT",
+    ],
     // 添加更多类型...
   },
-  KT2: {
-
-  },
-  CD: {
-
-  },
-  ER: {
-
-  },
+  KT2: {},
+  CD: {},
+  ER: {},
 };
 
 // 初始化页面
@@ -106,35 +133,43 @@ $(document).ready(function () {
     $(`.metric-btn[data-metric="${defaultMetric}"]`).click();
 
     // 模拟点击默认全部按钮
-    // $(`.model-type-btn[data-type="${defaultModelType}"]`).click();
+    $(`.model-type-btn[data-type="${defaultModelType}"]`).click();
+
+    switchNoteBox(); // ⬅️ 添加在初始化后
   });
 });
 
 function renderModelFilterButtons(models) {
   const container = $("#model-filter-container");
-  const html = models.map(model => {
-    const isActive = currentState.selectedModels.includes(model);
-    return `<button class="model-filter-btn ${isActive ? 'active' : ''}" data-model="${model}">${model}</button>`;
-  }).join("");
+  const html = models
+    .map((model) => {
+      const isActive = currentState.selectedModels.includes(model);
+      return `<button class="model-filter-btn ${
+        isActive ? "active" : ""
+      }" data-model="${model}">${model}</button>`;
+    })
+    .join("");
   container.html(html);
 
-  $(".model-filter-btn").off("click").on("click", function () {
-    const model = $(this).data("model");
-    const idx = currentState.selectedModels.indexOf(model);
-    if (idx >= 0) {
-      currentState.selectedModels.splice(idx, 1);
-    } else {
-      currentState.selectedModels.push(model);
-    }
+  $(".model-filter-btn")
+    .off("click")
+    .on("click", function () {
+      const model = $(this).data("model");
+      const idx = currentState.selectedModels.indexOf(model);
+      if (idx >= 0) {
+        currentState.selectedModels.splice(idx, 1);
+      } else {
+        currentState.selectedModels.push(model);
+      }
 
-    // 至少保留一个
-    if (currentState.selectedModels.length === 0) {
-      currentState.selectedModels.push(model);
-    }
+      // 至少保留一个
+      if (currentState.selectedModels.length === 0) {
+        currentState.selectedModels.push(model);
+      }
 
-    renderModelFilterButtons(models); // 重新渲染按钮状态
-    renderTable(); // 重新渲染表格
-  });
+      renderModelFilterButtons(models); // 重新渲染按钮状态
+      renderTable(); // 重新渲染表格
+    });
 }
 
 $(".model-type-btn").click(function (e) {
@@ -146,16 +181,24 @@ $(".model-type-btn").click(function (e) {
   // ✅ 初始化 selectedModels 为当前模型类型下的全部可用模型
   const modelType = currentState.modelType;
   const modelTypes = MODEL_TYPE[currentState.task];
-  const modelsForType = modelType === "All"
-    ? Object.keys(currentState.data.scenes[`${currentState.scene}-${currentState.setting}`].datasets)
-      .flatMap(d => Object.keys(currentState.data.scenes[`${currentState.scene}-${currentState.setting}`].datasets[d].metrics[currentState.metric] || {}))
-    : (modelTypes[modelType] || []);
+  const modelsForType =
+    modelType === "All"
+      ? Object.keys(
+          currentState.data.scenes[
+            `${currentState.scene}-${currentState.setting}`
+          ].datasets
+        ).flatMap((d) =>
+          Object.keys(
+            currentState.data.scenes[
+              `${currentState.scene}-${currentState.setting}`
+            ].datasets[d].metrics[currentState.metric] || {}
+          )
+        )
+      : modelTypes[modelType] || [];
   currentState.selectedModels = [...new Set(modelsForType)];
 
   renderTable(); // 表格刷新
 });
-
-
 
 // ----------------------------------------------------------------
 function initTaskSelector() {
@@ -182,11 +225,13 @@ function initTaskSelector() {
 
     onTaskSelect(e);
   });
+  $(`.model-type-btn[data-type="All"]`).click();
 }
 
 function onTaskSelect(e) {
   const task = $(e.target).data("task");
   currentState.task = task;
+  switchNoteBox(); // ⬅️ 添加这个，确保点击任务就切换说明框
   loadData(task, (data) => {
     currentState.data = data;
     initSceneSelector(data);
@@ -331,9 +376,34 @@ function onMetricSelect(e) {
   currentState.metric = $(e.target).data("metric");
   currentState.modelType = "All";
   $(`.model-type-btn[data-type="All"]`).click();
+
+  // ✅ 初始化 selectedModels 为当前模型类型下的全部可用模型
+  const modelType = currentState.modelType;
+  const modelTypes = MODEL_TYPE[currentState.task];
+  const modelsForType =
+    modelType === "All"
+      ? Object.keys(
+          currentState.data.scenes[
+            `${currentState.scene}-${currentState.setting}`
+          ].datasets
+        ).flatMap((d) =>
+          Object.keys(
+            currentState.data.scenes[
+              `${currentState.scene}-${currentState.setting}`
+            ].datasets[d].metrics[currentState.metric] || {}
+          )
+        )
+      : modelTypes[modelType] || [];
+  currentState.selectedModels = [...new Set(modelsForType)];
+  
   renderTable();
 }
 // ----------------------------------------------------------------
+function switchNoteBox() {
+  const key = currentState.task;
+  $(".note-box").hide();
+  $(`.note-box[data-key="${key}"]`).show();
+}
 
 function renderTable() {
   const { task, scene, setting, metric, data, modelType } = currentState;
@@ -355,41 +425,43 @@ function renderTable() {
 
   // 提取所有模型名
   const models = new Set();
-  datasetNames.forEach(dataset => {
+  datasetNames.forEach((dataset) => {
     const metricData = datasets[dataset]?.metrics?.[metric];
     if (metricData) {
-      Object.keys(metricData).forEach(model => models.add(model));
+      Object.keys(metricData).forEach((model) => models.add(model));
     }
   });
 
   const modelTypes = MODEL_TYPE[task] || {};
-  const allModelsOfType = modelType === "All"
-    ? Array.from(models)
-    : (modelTypes[modelType] || []);
+  const allModelsOfType =
+    modelType === "All" ? Array.from(models) : modelTypes[modelType] || [];
 
   // 过滤掉在所有数据集上都没有有效数据的模型
-  const validModels = allModelsOfType.filter(model => {
-    return datasetNames.some(dataset => {
+  const validModels = allModelsOfType.filter((model) => {
+    return datasetNames.some((dataset) => {
       const value = datasets[dataset]?.metrics?.[metric]?.[model];
       return typeof value === "number";
     });
   });
 
   // 初始化 selectedModels 如果尚未设置
-  if (!Array.isArray(currentState.selectedModels) || currentState.selectedModels.length === 0) {
+  if (
+    !Array.isArray(currentState.selectedModels) ||
+    currentState.selectedModels.length === 0
+  ) {
     currentState.selectedModels = [...validModels];
   }
 
   // 应用筛选器得到最终展示的模型
-  const filteredModels = validModels.filter(model =>
+  const filteredModels = validModels.filter((model) =>
     currentState.selectedModels.includes(model)
   );
 
   const modelsToCompare = filteredModels;
 
   // 筛选需要显示的数据集（至少一个模型有值）
-  const filteredDatasets = datasetNames.filter(dataset => {
-    return filteredModels.some(model => {
+  const filteredDatasets = datasetNames.filter((dataset) => {
+    return filteredModels.some((model) => {
       const value = datasets[dataset]?.metrics?.[metric]?.[model];
       return typeof value === "number";
     });
@@ -397,13 +469,13 @@ function renderTable() {
 
   // 表头
   let thead = `<tr><th>Model</th>`;
-  filteredDatasets.forEach(dataset => {
+  filteredDatasets.forEach((dataset) => {
     thead += `<th>${dataset}</th>`;
   });
   thead += `<th class="sota-column">win</th></tr>`;
 
   // SOTA 统计
-  const modelsWithSOTA = filteredModels.map(model => {
+  const modelsWithSOTA = filteredModels.map((model) => {
     const sota = calculateSOTA(model, datasets, metric, task, filteredModels);
     return { model, win: sota.win };
   });
@@ -415,50 +487,52 @@ function renderTable() {
   });
 
   // 表体
-  const tbody = modelsWithSOTA.map(({ model, win }) => {
-    let row = `<td>${model}</td>`;
+  const tbody = modelsWithSOTA
+    .map(({ model, win }) => {
+      let row = `<td>${model}</td>`;
 
-    filteredDatasets.forEach(dataset => {
-      const value = datasets[dataset]?.metrics?.[metric]?.[model];
-      let displayValue;
+      filteredDatasets.forEach((dataset) => {
+        const value = datasets[dataset]?.metrics?.[metric]?.[model];
+        let displayValue;
 
-      if (typeof value === "number") {
-        displayValue = value;
-      } else if (value === "OOM") {
-        displayValue = `<span class="oom">OOM</span>`;
-      } else if (value === "todo") {
-        displayValue = `<span class="todo">todo</span>`;
-      } else {
-        displayValue = `<span class="na">-</span>`;
-      }
-
-      // 比较高亮（粗体、下划线）
-      const isMinBetter = ["RMSE", "MAE"].includes(metric);
-      const values = modelsToCompare
-        .map(m => ({
-          model: m,
-          value: datasets[dataset]?.metrics?.[metric]?.[m],
-        }))
-        .filter(entry => typeof entry.value === "number");
-
-      if (typeof value === "number" && values.length > 0) {
-        const sorted = values.sort((a, b) =>
-          isMinBetter ? a.value - b.value : b.value - a.value
-        );
-        const rank = sorted.findIndex(entry => entry.model === model);
-        if (rank === 0) {
-          displayValue = `<strong>${displayValue}</strong>`;
-        } else if (rank === 1) {
-          displayValue = `<u>${displayValue}</u>`;
+        if (typeof value === "number") {
+          displayValue = value;
+        } else if (value === "OOM") {
+          displayValue = `<span class="oom">OOM</span>`;
+        } else if (value === "todo") {
+          displayValue = `<span class="todo">todo</span>`;
+        } else {
+          displayValue = `<span class="na">-</span>`;
         }
-      }
 
-      row += `<td>${displayValue}</td>`;
-    });
+        // 比较高亮（粗体、下划线）
+        const isMinBetter = ["RMSE", "MAE"].includes(metric);
+        const values = modelsToCompare
+          .map((m) => ({
+            model: m,
+            value: datasets[dataset]?.metrics?.[metric]?.[m],
+          }))
+          .filter((entry) => typeof entry.value === "number");
 
-    row += `<td class="sota-column">${win}</td>`;
-    return `<tr>${row}</tr>`;
-  }).join("");
+        if (typeof value === "number" && values.length > 0) {
+          const sorted = values.sort((a, b) =>
+            isMinBetter ? a.value - b.value : b.value - a.value
+          );
+          const rank = sorted.findIndex((entry) => entry.model === model);
+          if (rank === 0) {
+            displayValue = `<strong>${displayValue}</strong>`;
+          } else if (rank === 1) {
+            displayValue = `<u>${displayValue}</u>`;
+          }
+        }
+
+        row += `<td>${displayValue}</td>`;
+      });
+
+      row += `<td class="sota-column">${win}</td>`;
+      return `<tr>${row}</tr>`;
+    })
+    .join("");
 
   // 渲染表格
   const table = `
@@ -472,7 +546,6 @@ function renderTable() {
   // 渲染模型筛选按钮
   renderModelFilterButtons(validModels);
 }
-
 
 function parseScene(sceneName) {
   if (sceneName.includes("-")) {
@@ -488,14 +561,14 @@ function calculateSOTA(model, datasets, metric, task, comparedModels) {
   const isMinBetter = ["RMSE", "MAE"].includes(metric);
   let win = 0;
 
-  Object.values(datasets).forEach(dataset => {
+  Object.values(datasets).forEach((dataset) => {
     const metricData = dataset.metrics?.[metric];
     if (!metricData || typeof metricData[model] !== "number") return;
 
     // 筛选出所有有效比较模型的值
     const entries = comparedModels
-      .map(m => ({ model: m, value: metricData[m] }))
-      .filter(entry => typeof entry.value === "number");
+      .map((m) => ({ model: m, value: metricData[m] }))
+      .filter((entry) => typeof entry.value === "number");
 
     if (entries.length === 0) return;
 
@@ -512,7 +585,6 @@ function calculateSOTA(model, datasets, metric, task, comparedModels) {
 
   return { win };
 }
-
 
 // 工具函数：加载 JSON 数据
 function loadData(task, callback) {
