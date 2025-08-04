@@ -321,6 +321,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#learning-path-recommendation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Learning Path Recommendation
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -444,6 +453,15 @@
   <a href="#exercise-recommendation" class="md-nav__link">
     <span class="md-ellipsis">
       Exercise Recommendation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#learning-path-recommendation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Learning Path Recommendation
     </span>
   </a>
   
@@ -678,6 +696,21 @@
 <li>Run <code>train/kg4ex.py</code></li>
 </ul>
 </li>
+</ul>
+<h4 id="learning-path-recommendation">Learning Path Recommendation</h4>
+<p>root dir: <code>examples/learning_path_recommendation</code></p>
+<p>First, you need to train a KT model (PyEdmine currently supports simulators for qDKT and LPKT4LPR), and then set parameter <code>model_dir_name</code> in LPR train code to use the KT simulation environment.</p>
+<ul>
+<li>RandomRecQC</li>
+<li>Run <code>evaluate/offline_single_goal_evaluate.py --agent_dir_name "RandomRecQC-20"</code></li>
+<li>AStarRecConcept</li>
+<li>Run <code>evaluate/offline_single_goal_evaluate.py --agent_dir_name "AStarRecConcept-4-5"</code></li>
+<li>D3QN (Double Dueling DQN)</li>
+<li>Run <code>train/d3qn.py</code></li>
+<li>Reinforce</li>
+<li>Run <code>train/reinforce.py</code></li>
+<li>A2C</li>
+<li>Run <code>train/a2c.py</code></li>
 </ul>
 
 

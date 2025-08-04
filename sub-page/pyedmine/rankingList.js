@@ -10,7 +10,7 @@ let currentState = {
 };
 
 // 任务列表（固定）
-const TASKS = ["KT1", "KT2", "CD", "ER"];
+const TASKS = ["KT1", "KT2", "CD", "ER", "LPR1"];
 const KT_TARGET_DATASETS = [
   "assist2009",
   "assist2012",
@@ -58,6 +58,11 @@ const ER_TARGET_DATASETS = [
   "edi2020-task34",
   "slepemapy-anatomy",
 ];
+const LPR1_TARGET_DATASETS = [
+  "assist2009",
+  "assist2017",
+  "junyi2015"
+];
 const MODEL_TYPE = {
   KT1: {
     "Concept Level": ["DKT", "DKVMN", "DKTForget", "ATKT"],
@@ -102,6 +107,7 @@ const MODEL_TYPE = {
   KT2: {},
   CD: {},
   ER: {},
+  LPR1: {}
 };
 
 // 初始化页面

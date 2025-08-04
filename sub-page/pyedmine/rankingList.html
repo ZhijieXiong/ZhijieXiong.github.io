@@ -53,7 +53,7 @@
           <li>划分数据集：使用分层随机（感觉序列长度和序列做题正确率）的方法随机选择20%的数据作为测试集，剩余数据使用5折交叉验证划分为训练集和验证集</li>
           <li>调参数据集：在划分好的5折验证集基础上，每一折验证集随机选择20%数据，组成调参验证集，剩余数据作为调参训练集</li>
           <li>模型训练：训练时从序列的第2个记录开始计算损失</li>
-          <li>模型挑选：使用early stop挑选模型</li>
+          <li>模型挑选：使用early stop挑选模型，挑选的指标是AUC</li>
           <li>结果汇报：5折模型在测试集上的平均性能</li>
         </ul>
         <div class="note-title">特殊说明</div>
@@ -70,7 +70,7 @@
           <li>数据预处理：序列长度固定为2000。对于长度小于2000的序列，使用0进行补齐；对于长度大于2000的序列，截取前2000个记录，丢弃后面的数据</li>
           <li>划分数据集：随机选择20%数据作为测试集，剩余数据中按照7:3的比例划分训练集和验证集</li>
           <li>模型训练：训练时从序列的第2个记录开始计算损失</li>
-          <li>模型挑选：使用early stop挑选模型</li>
+          <li>模型挑选：使用early stop挑选模型，挑选的指标是AUC</li>
           <li>结果汇报：用5个不同随机种子（0～4）所训练模型在测试集上的平均性能</li>
         </ul>
         <div class="note-title">特殊说明</div>
@@ -86,8 +86,12 @@
           <li>数据预处理：过滤掉长度小于10的序列。特殊处理，对于SLP数据集，只使用期末测验数据，不使用平时练习数据（更符合认知诊断的任务设定）</li>
           <li>数据集划分：在每个学生的记录中随机挑选20%数据作为测试集，剩余数据使用5折交叉验证划分为训练集和验证集</li>
           <li>调参数据集：在划分好的5折验证集基础上，每一折验证集随机选择20%数据，组成调参验证集，剩余数据作为调参训练集</li>
-          <li>模型挑选：使用early stop挑选模型</li>
+          <li>模型挑选：使用early stop挑选模型，挑选的指标是AUC</li>
           <li>结果汇报：5折模型在测试集上的平均性能</li>
+          <div class="note-title">特殊说明</div>
+          <ul class="note-list">
+            <li>HierCDF在部分数据集上会出现OOM（22G显存）</li>
+          </ul>
         </ul>
       </div>
 
@@ -98,16 +102,27 @@
           <li>使用KT1的测试集——记为KT1 test——实现离线习题推荐实验</li>
           <li>为了能使用CD模型进行习题推荐，使用KT1的训练集和验证集，加上ER的训练集和验证集，作为CD模型的训练集和验证集</li>
           <li>数据集划分：KT1 test中每条序列的前70%数据作为训练集，后30%数据作为测试集</li>
-          <li>模型挑选：使用early stop挑选模型</li>
+          <li>模型挑选：使用early stop挑选模型，挑选的指标是top n OFFLINE_NDCG的平均值</li>
           <li>结果汇报：用5个不同随机种子（0～4）所训练模型在测试集上的平均性能</li>
+        </ul>
+        <div class="note-title">特殊说明</div>
+        <ul class="note-list">
+          <li>KG4EX中的PKC在assist2017和slepemapy-anatomy上效果非常差，因此未在这两个数据集上进行复现</li>
         </ul>
       </div>
 
       <!-- LPR 的说明 -->
-      <div class="note-box" data-key="LPR" style="display: none">
-        <div class="note-title">ER实验设置说明</div>
+      <div class="note-box" data-key="LPR1" style="display: none">
+        <div class="note-title">LPR1实验设置说明</div>
         <ul class="note-list">
-          <li></li>
+          <li>使用KT1的调参训练集、调参验证集和测试集作为LPR1的训练集、验证集和测试集</li>
+          <li>数据集划分：KT1中每条序列的前70%数据用于初始化学生知识状态，后30%数据所设计到的知识点作为目标知识点集合S，LPR1的设置是单目标场景</li>
+          <li>模型挑选：使用early stop挑选模型，挑选的指标是step n NRPR的平均值</li>
+          <li>结果汇报：用5个不同随机种子（0～4）所训练模型在测试集上的平均性能</li>
+        </ul>
+        <div class="note-title">特殊说明</div>
+        <ul class="note-list">
+          <li>由于算力有限，LPR任务未进行调参，本表格汇报的是使用一套默认参数跑出来的结果</li>
         </ul>
       </div>
     </div>

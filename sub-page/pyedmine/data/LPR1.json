@@ -1,0 +1,431 @@
+{
+  "task": "LPR1",
+  "scenes": {
+    "qDKTEnv-step5": {
+      "datasets": {
+        "assist2009": {
+          "metrics": {
+            "NRPR": {
+              "A2C": 0.1412,
+              "Reinforce": 0.0544,
+              "RandomRecQC-20": 0.0193,
+              "AStarRecConcept-4-5": 0.0011,
+              "D3QN": 0.2125
+            },
+            "NRP": {
+              "A2C": 0.2618,
+              "Reinforce": 0.1613,
+              "RandomRecQC-20": -0.0032,
+              "AStarRecConcept-4-5": -0.0755,
+              "D3QN": 0.3395
+            },
+            "RP": {
+              "A2C": 0.1629,
+              "Reinforce": 0.1092,
+              "RandomRecQC-20": -0.0037,
+              "AStarRecConcept-4-5": -0.0425,
+              "D3QN": 0.2068
+            },
+            "RPR": {
+              "A2C": 0.0768,
+              "Reinforce": 0.0325,
+              "RandomRecQC-20": 0.0087,
+              "AStarRecConcept-4-5": -0.0008,
+              "D3QN": 0.1151
+            },
+            "AP": {
+              "A2C": 0.1629,
+              "Reinforce": 0.1092,
+              "RandomRecQC-20": -0.0037,
+              "AStarRecConcept-4-5": -0.0425,
+              "D3QN": 0.2068
+            },
+            "APR": {
+              "A2C": 0.0768,
+              "Reinforce": 0.0325,
+              "RandomRecQC-20": 0.0087,
+              "AStarRecConcept-4-5": -0.0008,
+              "D3QN": 0.1151
+            }
+          }
+        },
+        "junyi2015": {
+          "metrics": {
+            "NRPR": {
+              "A2C": -0.0098,
+              "Reinforce": 0.005,
+              "RandomRecQC-20": -0.0188,
+              "AStarRecConcept-4-5": -0.0215,
+              "D3QN": 0.0109
+            },
+            "NRP": {
+              "A2C": -0.0613,
+              "Reinforce": 0.0173,
+              "RandomRecQC-20": -0.0999,
+              "AStarRecConcept-4-5": -0.1081,
+              "D3QN": 0.0379
+            },
+            "RP": {
+              "A2C": -0.0347,
+              "Reinforce": 0.0084,
+              "RandomRecQC-20": -0.0532,
+              "AStarRecConcept-4-5": -0.0527,
+              "D3QN": 0.0193
+            },
+            "RPR": {
+              "A2C": -0.0058,
+              "Reinforce": 0.0024,
+              "RandomRecQC-20": -0.0101,
+              "AStarRecConcept-4-5": -0.0105,
+              "D3QN": 0.0053
+            },
+            "AP": {
+              "A2C": -0.0347,
+              "Reinforce": 0.0084,
+              "RandomRecQC-20": -0.0532,
+              "AStarRecConcept-4-5": -0.0527,
+              "D3QN": 0.0193
+            },
+            "APR": {
+              "A2C": -0.0058,
+              "Reinforce": 0.0024,
+              "RandomRecQC-20": -0.0101,
+              "AStarRecConcept-4-5": -0.0105,
+              "D3QN": 0.0053
+            }
+          }
+        },
+        "assist2017": {
+          "metrics": {
+            "NRPR": {
+              "A2C": 0.1138,
+              "Reinforce": 0.1072,
+              "RandomRecQC-20": 0.0603,
+              "AStarRecConcept-4-5": "",
+              "D3QN": 0.1397
+            },
+            "NRP": {
+              "A2C": 0.2149,
+              "Reinforce": 0.2164,
+              "RandomRecQC-20": 0.1156,
+              "AStarRecConcept-4-5": "",
+              "D3QN": 0.2618
+            },
+            "RP": {
+              "A2C": 0.1626,
+              "Reinforce": 0.1637,
+              "RandomRecQC-20": 0.0968,
+              "AStarRecConcept-4-5": "",
+              "D3QN": 0.1938
+            },
+            "RPR": {
+              "A2C": 0.0813,
+              "Reinforce": 0.0764,
+              "RandomRecQC-20": 0.0461,
+              "AStarRecConcept-4-5": "",
+              "D3QN": 0.0987
+            },
+            "AP": {
+              "A2C": 0.1626,
+              "Reinforce": 0.1637,
+              "RandomRecQC-20": 0.0968,
+              "AStarRecConcept-4-5": "",
+              "D3QN": 0.1938
+            },
+            "APR": {
+              "A2C": 0.0813,
+              "Reinforce": 0.0764,
+              "RandomRecQC-20": 0.0461,
+              "AStarRecConcept-4-5": "",
+              "D3QN": 0.0987
+            }
+          }
+        }
+      }
+    },
+    "qDKTEnv-step10": {
+      "datasets": {
+        "assist2009": {
+          "metrics": {
+            "NRPR": {
+              "A2C": 0.0417,
+              "Reinforce": 0.0268,
+              "RandomRecQC-20": 0.0003,
+              "AStarRecConcept-4-5": -0.0111,
+              "D3QN": 0.0504
+            },
+            "NRP": {
+              "A2C": 0.2823,
+              "Reinforce": 0.2176,
+              "RandomRecQC-20": -0.047,
+              "AStarRecConcept-4-5": -0.1343,
+              "D3QN": 0.3407
+            },
+            "RP": {
+              "A2C": 0.2144,
+              "Reinforce": 0.1629,
+              "RandomRecQC-20": -0.0281,
+              "AStarRecConcept-4-5": -0.0747,
+              "D3QN": 0.2676
+            },
+            "RPR": {
+              "A2C": 0.0312,
+              "Reinforce": 0.0197,
+              "RandomRecQC-20": -0.0002,
+              "AStarRecConcept-4-5": -0.0063,
+              "D3QN": 0.0389
+            },
+            "AP": {
+              "A2C": 0.2144,
+              "Reinforce": 0.1629,
+              "RandomRecQC-20": -0.0281,
+              "AStarRecConcept-4-5": -0.0747,
+              "D3QN": 0.2676
+            },
+            "APR": {
+              "A2C": 0.0312,
+              "Reinforce": 0.0197,
+              "RandomRecQC-20": -0.0002,
+              "AStarRecConcept-4-5": -0.0063,
+              "D3QN": 0.0389
+            }
+          }
+        },
+        "junyi2015": {
+          "metrics": {
+            "NRPR": {
+              "A2C": -0.0065,
+              "Reinforce": 0.0056,
+              "RandomRecQC-20": -0.0113,
+              "AStarRecConcept-4-5": -0.0118,
+              "D3QN": 0.0119
+            },
+            "NRP": {
+              "A2C": -0.0878,
+              "Reinforce": 0.0319,
+              "RandomRecQC-20": -0.1246,
+              "AStarRecConcept-4-5": -0.1189,
+              "D3QN": 0.0774
+            },
+            "RP": {
+              "A2C": -0.0487,
+              "Reinforce": 0.0167,
+              "RandomRecQC-20": -0.0676,
+              "AStarRecConcept-4-5": -0.0579,
+              "D3QN": 0.0433
+            },
+            "RPR": {
+              "A2C": -0.0038,
+              "Reinforce": 0.0029,
+              "RandomRecQC-20": -0.0062,
+              "AStarRecConcept-4-5": -0.0057,
+              "D3QN": 0.0064
+            },
+            "AP": {
+              "A2C": -0.0487,
+              "Reinforce": 0.0167,
+              "RandomRecQC-20": -0.0676,
+              "AStarRecConcept-4-5": -0.0579,
+              "D3QN": 0.0433
+            },
+            "APR": {
+              "A2C": -0.0038,
+              "Reinforce": 0.0029,
+              "RandomRecQC-20": -0.0062,
+              "AStarRecConcept-4-5": -0.0057,
+              "D3QN": 0.0064
+            }
+          }
+        },
+        "assist2017": {
+          "metrics": {
+            "NRPR": {
+              "A2C": 0.0219,
+              "Reinforce": 0.021,
+              "RandomRecQC-20": 0.0174,
+              "AStarRecConcept-4-5": "",
+              "D3QN": 0.029
+            },
+            "NRP": {
+              "A2C": 0.1501,
+              "Reinforce": 0.1396,
+              "RandomRecQC-20": 0.101,
+              "AStarRecConcept-4-5": "",
+              "D3QN": 0.1911
+            },
+            "RP": {
+              "A2C": 0.1179,
+              "Reinforce": 0.1121,
+              "RandomRecQC-20": 0.0826,
+              "AStarRecConcept-4-5": "",
+              "D3QN": 0.1479
+            },
+            "RPR": {
+              "A2C": 0.0165,
+              "Reinforce": 0.016,
+              "RandomRecQC-20": 0.0131,
+              "AStarRecConcept-4-5": "",
+              "D3QN": 0.0217
+            },
+            "AP": {
+              "A2C": 0.1179,
+              "Reinforce": 0.1121,
+              "RandomRecQC-20": 0.0826,
+              "AStarRecConcept-4-5": "",
+              "D3QN": 0.1479
+            },
+            "APR": {
+              "A2C": 0.0165,
+              "Reinforce": 0.016,
+              "RandomRecQC-20": 0.0131,
+              "AStarRecConcept-4-5": "",
+              "D3QN": 0.0217
+            }
+          }
+        }
+      }
+    },
+    "qDKTEnv-step20": {
+      "datasets": {
+        "assist2009": {
+          "metrics": {
+            "NRPR": {
+              "A2C": 0.0198,
+              "Reinforce": 0.0181,
+              "RandomRecQC-20": -0.0041,
+              "AStarRecConcept-4-5": -0.0072,
+              "D3QN": 0.0214
+            },
+            "NRP": {
+              "A2C": 0.2782,
+              "Reinforce": 0.2672,
+              "RandomRecQC-20": -0.1196,
+              "AStarRecConcept-4-5": -0.166,
+              "D3QN": 0.3067
+            },
+            "RP": {
+              "A2C": 0.219,
+              "Reinforce": 0.2033,
+              "RandomRecQC-20": -0.0711,
+              "AStarRecConcept-4-5": -0.0937,
+              "D3QN": 0.2459
+            },
+            "RPR": {
+              "A2C": 0.0153,
+              "Reinforce": 0.0135,
+              "RandomRecQC-20": -0.0025,
+              "AStarRecConcept-4-5": -0.0041,
+              "D3QN": 0.0169
+            },
+            "AP": {
+              "A2C": 0.219,
+              "Reinforce": 0.2033,
+              "RandomRecQC-20": -0.0711,
+              "AStarRecConcept-4-5": -0.0937,
+              "D3QN": 0.2459
+            },
+            "APR": {
+              "A2C": 0.0153,
+              "Reinforce": 0.0135,
+              "RandomRecQC-20": -0.0025,
+              "AStarRecConcept-4-5": -0.0041,
+              "D3QN": 0.0169
+            }
+          }
+        },
+        "junyi2015": {
+          "metrics": {
+            "NRPR": {
+              "A2C": -0.0066,
+              "Reinforce": 0.0014,
+              "RandomRecQC-20": -0.0087,
+              "AStarRecConcept-4-5": -0.0062,
+              "D3QN": 0.006
+            },
+            "NRP": {
+              "A2C": -0.1419,
+              "Reinforce": 0.0141,
+              "RandomRecQC-20": -0.183,
+              "AStarRecConcept-4-5": -0.124,
+              "D3QN": 0.0752
+            },
+            "RP": {
+              "A2C": -0.0775,
+              "Reinforce": 0.008,
+              "RandomRecQC-20": -0.0999,
+              "AStarRecConcept-4-5": -0.0605,
+              "D3QN": 0.047
+            },
+            "RPR": {
+              "A2C": -0.0036,
+              "Reinforce": 0.0008,
+              "RandomRecQC-20": -0.0048,
+              "AStarRecConcept-4-5": -0.003,
+              "D3QN": 0.0037
+            },
+            "AP": {
+              "A2C": -0.0775,
+              "Reinforce": 0.008,
+              "RandomRecQC-20": -0.0999,
+              "AStarRecConcept-4-5": -0.0605,
+              "D3QN": 0.047
+            },
+            "APR": {
+              "A2C": -0.0036,
+              "Reinforce": 0.0008,
+              "RandomRecQC-20": -0.0048,
+              "AStarRecConcept-4-5": -0.003,
+              "D3QN": 0.0037
+            }
+          }
+        },
+        "assist2017": {
+          "metrics": {
+            "NRPR": {
+              "A2C": 0.0093,
+              "Reinforce": 0.0089,
+              "RandomRecQC-20": 0.0091,
+              "AStarRecConcept-4-5": "",
+              "D3QN": 0.0111
+            },
+            "NRP": {
+              "A2C": 0.1478,
+              "Reinforce": 0.1337,
+              "RandomRecQC-20": 0.1191,
+              "AStarRecConcept-4-5": "",
+              "D3QN": 0.1656
+            },
+            "RP": {
+              "A2C": 0.1191,
+              "Reinforce": 0.1111,
+              "RandomRecQC-20": 0.0966,
+              "AStarRecConcept-4-5": "",
+              "D3QN": 0.132
+            },
+            "RPR": {
+              "A2C": 0.0073,
+              "Reinforce": 0.0071,
+              "RandomRecQC-20": 0.007,
+              "AStarRecConcept-4-5": "",
+              "D3QN": 0.0087
+            },
+            "AP": {
+              "A2C": 0.1191,
+              "Reinforce": 0.1111,
+              "RandomRecQC-20": 0.0966,
+              "AStarRecConcept-4-5": "",
+              "D3QN": 0.132
+            },
+            "APR": {
+              "A2C": 0.0073,
+              "Reinforce": 0.0071,
+              "RandomRecQC-20": 0.007,
+              "AStarRecConcept-4-5": "",
+              "D3QN": 0.0087
+            }
+          }
+        }
+      }
+    }
+  }
+}
