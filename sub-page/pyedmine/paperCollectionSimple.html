@@ -12,7 +12,7 @@
   <body>
     <div class="container mt-4">
       <div class="top">
-        <h1>论文收集列表——详细版    <a href="paperCollectionSimple.html">简要版</a></h1>
+        <h1>论文收集列表——简要版    <a href="paperCollection.html">详细版</a></h1>
         <div class="md-header__source">
           <a
             href="https://github.com/ZhijieXiong/pyedmine"
@@ -39,11 +39,6 @@
       <!-- Source Filter -->
       <div class="btn-group flex-wrap mb-3" id="sourceFilter"></div>
       <hr />
-      <!-- Tag Filter -->
-      <div class="btn-group flex-wrap mb-4" id="tagFilter1"></div>
-      <div class="btn-group flex-wrap mb-4" id="tagFilter2"></div>
-      <div class="btn-group flex-wrap mb-4" id="tagFilter3"></div>
-      <div class="btn-group flex-wrap mb-4" id="tagFilter4"></div>
 
       <!-- Papers Table -->
       <table class="table table-hover" id="papersTable">
@@ -51,11 +46,9 @@
           <tr>
             <th>Model</th>
             <th>Paper Title</th>
+            <th>Abstract</th>
             <th>Source</th>
             <th id="btn-year" class="callable">Year<span>▲</span></th>
-            <th colspan="2" style="text-align: center">Link</th>
-            <th id="btn-in-pyedmine" class="callable"><span>Implemented</span></th>
-            <th>Reference</th>
           </tr>
         </thead>
         <tbody id="tableBody"></tbody>
@@ -63,6 +56,6 @@
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="paperCollection.js"></script>
+    <script src="paperCollectionSimple.js"></script>
   </body>
 </html>

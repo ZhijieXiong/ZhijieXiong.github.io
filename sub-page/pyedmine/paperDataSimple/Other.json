@@ -1,0 +1,29 @@
+{
+    "task": "Other",
+    "papers": [
+        {
+            "model_name": "",
+            "paper_title": "Understanding Dropouts in MOOCs",
+            "abstract": "Massive open online courses (MOOCs) have developed rapidly in recent years, and have attracted millions of online users. However, a central challenge is the extremely high dropout rate — recent reports show that the completion rate in MOOCs is below 5% (Onah, Sinclair, and Boyatt 2014; Kizilcec, Piech, and Schneider 2013; Seaton et al. 2014). What are the major factors that cause the users to drop out? What are the major motivations for the users to study in MOOCs? In this paper, employing a dataset from XuetangX1, one of the largest MOOCs in China, we conduct a systematical study for the dropout problem in MOOCs. We found that the users' learning behavior can be clustered into several distinct categories. Our statistics also reveal high correlation between dropouts of different courses and strong influence between friends' dropout behaviors. Based on the gained insights, we propose a Context-aware Feature Interaction Network (CFIN) to model and to predict users' dropout behavior. CFIN utilizes context-smoothing technique to smooth feature values with different context, and use attention mechanism to combine user and course information into the modeling framework. Experiments on two large datasets show that the proposed method achieves better performance than several state-of-the-art methods. The proposed method model has been deployed on a real system to help improve user retention.",
+            "source": "AAAI[C]",
+            "year": "2019",
+            "paper_file_name": "2019-AAAI-Understanding Dropouts in MOOCs.pdf"
+        },
+        {
+            "model_name": "",
+            "paper_title": "GMOCAT: A Graph-Enhanced Multi-Objective Method for Computerized Adaptive Testing",
+            "abstract": "Computerized Adaptive Testing (CAT) refers to an online system that adaptively selects the best-suited question for students with various abilities based on their historical response records. Compared with traditional CAT methods based on heuristic rules, recent data-driven CAT methods obtain higher performance by learning from large-scale datasets. However, most CAT methods only focus on the quality objective of predicting the student ability accurately, but neglect concept diversity or question exposure control, which are important considerations in ensuring the performance and validity of CAT. Besides, the students' response records contain valuable relational information between questions and knowledge concepts. The previous methods ignore this relational information, resulting in the selection of sub-optimal test questions. To address these challenges, we propose a Graph-Enhanced Multi-Objective method for CAT (GMOCAT). Firstly, three objectives, namely quality, diversity and novelty, are introduced into the Scalarized Multi-Objective Reinforcement Learning framework of CAT, which respectively correspond to improving the prediction accuracy, increasing the concept diversity and reducing the question exposure. We use an Actor-Critic Recommender to select questions and optimize three objectives simultaneously by the scalarization function. Secondly, we utilize the graph neural network to learn relation-aware embeddings of questions and concepts. These embeddings are able to aggregate neighborhood information in the relation graphs between questions and concepts. We conduct experiments on three real-world educational datasets. The experimental results show that GMOCAT not only outperforms the state-of-the-art methods in the ability prediction, but also achieve superior performance in improving the concept diversity and alleviating the question exposure.",
+            "source": "KDD[C]",
+            "year": "2023",
+            "paper_file_name": "2023-KDD-GMOCAT- A Graph-Enhanced Multi-Objective Method for Computerized Adaptive Testing.pdf"
+        },
+        {
+            "model_name": "",
+            "paper_title": "Agent4Edu: Generating Learner Response Data by Generative Agents for Intelligent Education Systems",
+            "abstract": "Personalized learning represents a promising educational strategy within intelligent educational systems, aiming to enhance learners' practice efficiency. However, the discrepancy between offline metrics and online performance significantly impedes their progress. To address this challenge, we introduce Agent4Edu, a novel personalized learning simulator leveraging recent advancements in human intelligence through large language models (LLMs). Agent4Edu features LLM-powered generative agents equipped with learner profile, memory, and action modules tailored to personalized learning algorithms. The learner profiles are initialized using real-world response data, capturing practice styles and cognitive factors. Inspired by human psychology theory, the memory module records practice facts and high-level summaries, integrating reflection mechanisms. The action module supports various behaviors, including exercise understanding, analysis, and response generation. Each agent can interact with personalized learning algorithms, such as computerized adaptive testing, enabling a multifaceted evaluation and enhancement of customized services. Through a comprehensive assessment, we explore the strengths and weaknesses of Agent4Edu, emphasizing the consistency and discrepancies in responses between agents and human learners. The code, data, and appendix are publicly available at https://github.com/bigdata-ustc/Agent4Edu.",
+            "source": "AAAI[C]",
+            "year": "2025",
+            "paper_file_name": "2025-AAAI-Agent4Edu.pdf"
+        }
+    ]
+}

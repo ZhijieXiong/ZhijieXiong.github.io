@@ -3,4 +3,7 @@
 /sub-page/pyedmine/excel_data
 /sub-page/pyedmine/excel2json.py
 /sub-page/pyedmine/sort_paper_data.py
+/sub-page/pyedmine/extract_paper.py
+/sub-page/pyedmine/extract_utils.py
 /sub-page/pyedmine/document/docs
+/sub-page/pyedmine/trash

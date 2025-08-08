@@ -1,0 +1,45 @@
+{
+    "task": "ResourceRecommendation",
+    "papers": [
+        {
+            "model_name": "",
+            "paper_title": "Research Overview of Educational Recommender Systems",
+            "abstract": "Recently1, with the thriving development of various educational resources and platforms, the research hotspot of modernization of education is now changing towards providing personalized educational recommendation services to corresponding learners. Firstly, starting from basic definitions and contents of educational recommender systems, we put forward an analysis of the fundamental structure of educational recommender systems while emphatically expounding different research approaches including user modeling, recommended object modeling, recommendation algorithm design and recommendation effect evaluation, etc. Secondly, with deep going analysis, we further introduced frequently used recommendation approaches including content-based recommendation, collaborative filtering-based recommendation, association rule-based recommendation and hybrid recommendation. Finally, in the last part of the article, by combining problems existing in contemporary educational recommender systems as well as comparing both advantages and disadvantages of the four recommendation approaches, we discussed the directions of research and development of educational recommender systems in the future.",
+            "source": "CSAE[C]",
+            "year": "2018",
+            "paper_file_name": "2018-CSAE-Research Overview of Educational Recommender Systems.pdf"
+        },
+        {
+            "model_name": "",
+            "paper_title": "Motivating Students in Collaborative Activities With Game-Theoretic Group Recommendations",
+            "abstract": "Abstract—Recommending educational resources to groups of\nstudents is a common task in collaborative learning contexts.\nHowever, differences in within-group motivational factors might\nlead to conﬂicts in students’ intention to use the resources.\nPrevious methods fail to achieve high goodness of recommendation\nfor the majority of students in heterogeneous groups. This\nstudy demonstrates a game-theoretic solution for recommending\neducational resources to homogeneous and heterogeneous groups.\nThe group members are the players, the resources comprise the set\nof possible actions, and selecting those items that will maximize all\nstudents’ motivation in the collaborative activity is a problem of\nﬁnding the Nash Equilibrium (NE). In case the NE is Pareto\nefﬁcient, none of the players can get more payoff (motivation)\nwithout decreasing the payoff of any other player, indicating an\noptimal beneﬁt for the group as a whole. The suggested approach\nwas empirically evaluated in a controlled experiment with a real\ndataset. The relevance of each delivered item to its corresponding\nstudents was explored both from the perspective of the group and\nits the individual students. The accuracy of the predicted group/\nindividual motivation, the\ngoodness of the ranked list\nof\nrecommendations, and the problem-solving performance for the\ntreatment group were signiﬁcantly higher compared to the control\ngroups. Limitations of the approach, as well as future work plans\nconclude the paper.",
+            "source": "TOLT[T]",
+            "year": "2020",
+            "paper_file_name": "2020-TOLT-Motivating Students in Collaborative Activities With Game-Theoretic Group Recommendations.pdf"
+        },
+        {
+            "model_name": "",
+            "paper_title": "Workshop on Recommender Systems for Technology Enhanced Learning",
+            "abstract": "This workshop presents the current status related to the design, development and evaluation of recommender systems in educational settings. It emphasizes the importance of recommender systems for Technology Enhanced Learning (TEL) to support learners with personalized learning resources and suitable peer learners to improve their learning process. Moreover, it proposes a dataTEL challenge to obtain data sets from TEL applications that can be used to benchmark algorithms specifically for the TEL context.",
+            "source": "RecSys[C]",
+            "year": "2010",
+            "paper_file_name": "2010-RecSys-Workshop on Recommender Systems for Technology Enhanced Learning.pdf"
+        },
+        {
+            "model_name": "",
+            "paper_title": "Privileged Knowledge State Distillation for Reinforcement Learning-based Educational Path Recommendation",
+            "abstract": "Educational recommendation seeks to suggest knowledge concepts\nthat match a learner's ability, thus facilitating a personalized learn-\ning experience. In recent years, reinforcement learning (RL) meth-\nods have achieved considerable results by taking the encoding of the\nlearner's exercise log as the state and employing an RL-based agent\nto make suitable recommendations. However, these approaches\nsuffer from handling the diverse and dynamic learner's knowledge\nstates. In this paper, we introduce the privileged feature distillation\ntechnique and propose the Privileged Knowledge State Distillation\n(PKSD) framework, allowing the RL agent to leverage the \"actual\"\nknowledge state as privileged information in the state encoding to\nhelp tailor recommendations to meet individual needs. Concretely,\nour PKSD takes the privileged knowledge states together with the\nrepresentations of the exercise log for the state representations\nduring training. And through distillation, we transfer the ability\nto adapt to learners to a knowledge state adapter. During inference,\nthe knowledge state adapter would serve as the estimated privileged\nknowledge states instead of the real one since it is not accessible.\nConsidering that there are strong connections among the knowl-\nedge concepts in education, we further propose to collaborate the\ngraph structure learning for concepts into our PKSD framework.\nThis new approach is termed GEPKSD (Graph-Enhanced PKSD).\nAs our method is model-agnostic, we evaluate PKSD and GEPKSD\nby integrating them with five different RL bases on four public\nsimulators, respectively. Our results verify that PKSD can consis-\ntently improve the recommendation performance with various RL\nmethods, and our GEPKSD could further enhance the effectiveness\nof PKSD in all the simulations.",
+            "source": "KDD[C]",
+            "year": "2024",
+            "paper_file_name": "2024-KDD-Privileged Knowledge State Distillation for Reinforceme.pdf"
+        },
+        {
+            "model_name": "",
+            "paper_title": "Can't Get More Satisfaction? Game-Theoretic Group-Recommendation of Educational Resources",
+            "abstract": "Students' satisfaction from educational resources is a subjective perception of how well these resources meet students' expectations for learning. Recommending educational resources to groups of students, targeting at optimizing all students' satisfaction, is a complicated task due to the lack of joint group profiles. Instead of merging individual profiles or fusing individual recommendations, this paper follows a game-theoretic perspective for solving conflict of interest among students and recommending resources to groups in online collaborative learning contexts: the group members are the players, the resources comprise the set of possible actions, and maximizing each individual member's satisfaction from the selected resources is a problem of finding the Nash Equilibrium. In case the Nash Equilibrium is Pareto efficient, none of the players can get more payoff (satisfaction) without decreasing the payoff of any other player, indicating an optimal benefit for the group as a whole. The comparative evaluation of the suggested approach to other state-of-the-art methods provided statistically significant results regarding the error in predicted group satisfaction from the recommendation and the goodness of the ranked list of recommendations.",
+            "source": "LAK[C]",
+            "year": "2018",
+            "paper_file_name": "2018-LAK-Can’t Get More Satisfaction? Game-Theoretic GroupRecommendation of Educational Resources.pdf"
+        }
+    ]
+}

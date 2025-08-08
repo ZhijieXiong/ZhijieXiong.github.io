@@ -1,0 +1,53 @@
+{
+    "task": "ExerciseRecommendation",
+    "papers": [
+        {
+            "model_name": "",
+            "paper_title": "Exploring Multi-Objective Exercise Recommendations in Online Education Systems",
+            "abstract": "Recommending suitable exercises to students in an online education system is highly useful. Existing approaches usually rely on machine learning techniques to mine large amounts of student interaction log data accumulated in the systems to select the most suitable exercises for each student. Generally, they mainly aim to optimize a single objective, i.e., recommending non-mastered exercises to address the immediate weakness of students. While this is a reasonable objective, there exist more beneficial multiple objectives in the long-term learning process that need to be addressed including Review & Explore, Smoothness of difficulty level and Engagement. In this paper, we propose a novel Deep Reinforcement learning framework, namely DRE, for adaptively recommending Exercises to students with optimization of above three objectives. In the framework, we propose two different Exercise Q-Networks for the agent, i.e., EQNM and EQNR, to generate recommendations following Markov property and Recurrent manner, respectively. We also propose novel reward functions to formally quantify those three objectives so that DRE could update and optimize its recommendation strategy by interactively receiving students' performance feedbacks (e.g., score). We conduct extensive experiments on two real-world datasets. Experimental results clearly show that the proposed DRE can effectively learn from the student interaction data to optimize multiple objectives in a single unified framework and adaptively recommend suitable exercises to students.",
+            "source": "CIKM[C]",
+            "year": "2019",
+            "paper_file_name": "2019-CIKM-Exploring Multi-Objective Exercise Recommendations in Online Education Systems.pdf"
+        },
+        {
+            "model_name": "",
+            "paper_title": "Personalization Exercise Recommendation Based on Cognitive Diagnosis",
+            "abstract": "Online education has become an important part of education ser-\nvices. Faced with the vast online learning resources, how to pro-\nvide students with personalized learning resources and achieve\nthe goal of precise teaching is an important part of the intelligent\nteaching system. The premise of personalized recommendation is\naccurate personalized cognitive diagnosis and accurate analysis of\neach student's mastery of knowledge. Since cognitive diagnosis\ncan diagnose and evaluate individual knowledge structure or cog-\nnitive process, combined with knowledge space theory, this paper\ndesigns a personalized exercise recommendation method based on\ncognitive diagnosis. The sequential dependency between course\nknowledge points has an impact on personalized exercise recom-\nmendation. Therefore, firstly, according to the knowledge space\ntheory, the relationship graph between the knowledge concepts\nof the course is constructed, that is, the course knowledge topol-\nogy map; Students conduct cognitive diagnosis and analyze the\nknowledge mastery status of each student; finally, the knowledge\nstructure of each student is visualized on the knowledge map, and\npersonalized test questions are recommended based on students'\nknowledge structure, question difficulty and course knowledge\nmap. While improving the accuracy and reliability of the recom-\nmended test items, the interpretability of test item recommendation\nis guaranteed. The experimental comparison proves the accuracy\nand interpretability of the method in test item recommendation.",
+            "source": "CSAE[C]",
+            "year": "2022",
+            "paper_file_name": "2022-CSAE-Personalization Exercise Recommendation Based on Cognitive Diagnosis.pdf"
+        },
+        {
+            "model_name": "KG4EX",
+            "paper_title": "KG4Ex: An Explainable Knowledge Graph-Based Approach for Exercise Recommendation",
+            "abstract": "Effective exercise recommendation is crucial for guiding students' learning trajectories and fostering their interest in the subject matter. However, the vast exercise resource and the varying learning abilities of individual students pose a significant challenge in selecting appropriate exercise questions. Collaborative filtering-based methods often struggle with recommending suitable exercises, while deep learning-based methods lack explanation, limiting their practical adoption. To address these limitations, this paper proposes KG4Ex, a knowledge graph-based exercise recommendation method. KG4Ex facilitates the matching of diverse students with suitable exercises while providing recommendation reasons. Specifically, we introduce a feature extraction module to represent students' learning states and construct a knowledge graph for exercise recommendation. This knowledge graph comprises three key entities (knowledge concepts, students, and exercises) and their interrelationships, and can be used to recommend suitable exercises. Extensive experiments on three real-world datasets and expert interviews demonstrate the superiority of KG4Ex over existing baseline methods and highlight its strong explainability.",
+            "source": "CIKM[C]",
+            "year": "2023",
+            "paper_file_name": "2023-CIKM-KG4EX@@.pdf"
+        },
+        {
+            "model_name": "NR4DER",
+            "paper_title": "NR4DER: Neural Re-ranking for Diversified Exercise Recommendation",
+            "abstract": "With the widespread adoption of online education platforms, an\nincreasing number of students are gaining new knowledge through\nMassive Open Online Courses (MOOCs). Exercise recommendation\nhave made strides toward improving student learning outcomes.\nHowever, existing methods not only struggle with high dropout\nrates but also fail to match the diverse learning pace of students.\nThey frequently face difficulties in adjusting to inactive students'\nlearning patterns and in accommodating individualized learning\npaces, resulting in limited accuracy and diversity in recommenda-\ntions. To tackle these challenges, we propose Neural Re-ranking for\nDiversified Exercise Recommendation (in short, NR4DER). NR4DER\nfirst leverages the mLSTM model to improve the effectiveness of\nthe exercise filter module. It then employs a sequence enhance-\nment method to enhance the representation of inactive students,\naccurately matches students with exercises of appropriate difficulty.\nFinally, it utilizes neural re-ranking to generate diverse recom-\nmendation lists based on individual students' learning histories.\nExtensive experimental results indicate that NR4DER significantly\noutperforms existing methods across multiple real-world datasets\nand effectively caters to the diverse learning pace of students.",
+            "source": "SIGIR[C]",
+            "year": "2025",
+            "paper_file_name": "2025-SIGIR-NR4DER@@Neural Re-ranking for Diversified Exercise Recommendation.pdf"
+        },
+        {
+            "model_name": "",
+            "paper_title": "Personalized Exercise Recommendation via Implicit Skills",
+            "abstract": "Cognitive diagnosis methods need to assess the students' skills to provide personalized exercise recommendation. To perform this assessment, an initially hand built Q-matrix are presented to students, which would affect the recommendation results in intelligence education. However, very few previous studies have examined this exercise recommendation task on utilizing the implicit skills among exercises, in which the opinions of implicit skill might carry extra specific knowledge. We propose a data-driven frame to reconstruct Q-matrix automatically from implicit skills perspective and explore the utility of Dynamic Key-Value Memory Networks to solve this task. Experimental results demonstrate that our method has a guiding significance in pedagogical theory.",
+            "source": "TURC[C]",
+            "year": "2019",
+            "paper_file_name": "2019-TURC-Personalized Exercise Recommendation via Implicit Skills .pdf"
+        },
+        {
+            "model_name": "",
+            "paper_title": "Advanced Mathematics Exercise Recommendation Based on Automatic Knowledge Extraction and Multilayer Knowledge Graph",
+            "abstract": "Abstract—Higher education is rapidly growing in the online learning landscape. However, current personalized recommendation techniques struggle with the precise extraction of complex mathematical semantics, hindering accurate perception of learners' cognitive states and relevance of recommendations. This article proposes a framework for extracting complex mathematical semantics and providing personalized exercise recommendations. We design a tree-based position encoding method to enhance the accuracy of positional representation for mathematical expressions in the pretrained model, aiming to improve the performance of downstream tasks. We propose an automatic method for extracting knowledge attributes based on expert annotations, enabling interpretable cognitive diagnosis. Furthermore, we employ sequential pattern mining to discover the knowledge usage patterns in exercises, generate learning paths using a multilayer knowledge graph, and leverage cognitive diagnostic results to enhance the relevance of recommendations. Experimental results show a 2.0% improvement in mathematical symbol embedding on mathematical formula retrieval tasks and knowledge attribute extraction accuracy ranging from 66.5% to 81.7%. Learners' posttest scores significantly improve during group testing with good consistency between online cognitive diagnosis and self-diagnosis.",
+            "source": "TOLT[T]",
+            "year": "2024",
+            "paper_file_name": "2024-TOLT-Advanced Mathematics Exercise Recommendation Based on Automatic Knowledge Extraction and Multilayer Knowledge Graph.pdf"
+        }
+    ]
+}

@@ -860,8 +860,8 @@
             ],
             "perper_link": "https://dl.acm.org/doi/10.1145/3637528.3671773",
             "official_code_link": "https://github.com/PengLinzhi/DyGKT",
-            "ref_code_link": "official_code",
-            "implemented_in_pyedmine": true
+            "ref_code_link": "",
+            "implemented_in_pyedmine": false
         },
         {
             "model_name": "GRKT",

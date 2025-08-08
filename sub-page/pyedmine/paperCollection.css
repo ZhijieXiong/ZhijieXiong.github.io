@@ -78,3 +78,7 @@ h1 {
 .md-source__repository {
   font-size: 0.9rem;
 }
+
+details[open] > summary {
+  display: none;
+}

@@ -1,0 +1,21 @@
+{
+    "task": "ConceptRelation",
+    "papers": [
+        {
+            "model_name": "",
+            "paper_title": "Mining learning-dependency between knowledge units from text",
+            "abstract": "Identifying\nlearning-dependency\namong\nthe\nknowledge units (KU) is a preliminary requirement of nav-\nigation learning. Methods based on link mining lack the\nability of discovering such dependencies among knowl-\nedge units that are arranged in a linear way in the text. In\nthis paper, we propose a method of mining the learning-\ndependencies among the KU from text document. This\nmethod is based on two features that we found and stud-\nied from the KU and the learning-dependencies among\nthem. They are the distributional asymmetry of the domain\nterms and the local nature of the learning-dependency,\nrespectively. Our method consists of three stages, (1) Build\ndocument association relationship by calculating the distri-\nbutional asymmetry of the domain terms. (2) Generate the\ncandidate KU-pairs by measuring the locality of the depen-\ndencies. (3) Use classiﬁcation algorithm to identify the learn-\ning-dependency between KU-pairs. Our experimental results\nshow that our method extracts the learning-dependency efﬁ-\nciently and reduces the computational complexity.",
+            "source": "VLDB[J]",
+            "year": "2011",
+            "paper_file_name": "2011-VLDB-Mining learning-dependency between knowledge units from text.pdf"
+        },
+        {
+            "model_name": "",
+            "paper_title": "A Learning-path based Supervised Method for Concept Prerequisite Relations Extraction in Educational Data",
+            "abstract": "In educational data mining, concept prerequisite relations extraction determines which concepts need to be learned before learning another concept. It plays a crucial role in pedagogical practices, such as learning path planning and curriculum design. Deep neural networks, especially graph neural networks, have recently made significant strides in concept prerequisite relations extraction. However, existing methods face two primary limitations. (1) Methods with better performance construct heterogeneous complete graphs, leading to higher model complexity and training cost. Meanwhile, the performance of low-complexity methods is inferior to the former. (2) A disregard for temporal context, essential for learning, limits both the performance and the application of these methods. To address these issues, we propose a novel graph-based approach, called Learning-path based Concept Prerequisite Relations Extraction (LCPRE). LCPRE constructs a lightweight sparse graph in a simple manner, which reduces complexity from quadratic to linear and captures the temporal feature through learning-path, a comprehensible learning approach from one concept to another. Experimental results on three benchmark datasets demonstrate that LCPRE outperforms existing methods, establishing a new state-of-the-art in concept prerequisite relations extraction.",
+            "source": "CIKM[C]",
+            "year": "2024",
+            "paper_file_name": "2024-CIKM-A Learning-path based Supervised Method for Concept Prerequisite Relations Extraction in Educational Data.pdf"
+        }
+    ]
+}
