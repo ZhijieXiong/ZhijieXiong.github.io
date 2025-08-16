@@ -58,6 +58,8 @@
         </ul>
         <div class="note-title">特殊说明</div>
         <ul class="note-list">
+          <li>由于DisKT官方代码使用的数据处理方式和PyEdmine不一样，因此在PyEdmine实现DisKT过程中进行了特殊处理，模型代码有较大改动，无法完全保证PyEdmine中实现的DisKT无错</li>
+          <li>CKT、AT-DKT和QDCKT均是基于论文进行复现，因此具体实现和官方代码（其中CKT和AT-DKT开源，QDCKT未开源）有所不同</li>
           <li>LBKT、DKTForget、LPKT、HDLPKT需要数据集提供不同的额外信息，例如时间信息，因此只有部分数据集上可以进行这几个模型的实验</li>
           <li>CKT、QIKT在部分数据集上会出现OOM（22G显存）</li>
           <li>部分指标（例如question cold start、hard concept），由于是只挑选测试集中部分样本进行评估，所以出现挑选后的样本都为同一类的情况，该情况下AUC无法计算，为空</li>
