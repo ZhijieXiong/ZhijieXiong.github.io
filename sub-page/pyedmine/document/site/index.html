@@ -624,8 +624,18 @@
 <li>Run <code>train/ukt.py</code></li>
 </ul>
 </li>
-<li>GRKT</li>
-<li>DyGKT</li>
+<li>qDKT_CORE<ul>
+<li>Run <code>train/qdkt_core.py</code></li>
+</ul>
+</li>
+<li>AKT_CORE<ul>
+<li>Run <code>train/akt_core.py</code></li>
+</ul>
+</li>
+<li>ReKT<ul>
+<li>Run <code>train/rekt.py</code></li>
+</ul>
+</li>
 </ul>
 <h4 id="cognitive-diagnosis">Cognitive Diagnosis</h4>
 <p>root dir: <code>examples/cognitive_diagnosis</code></p>
@@ -701,16 +711,26 @@
 <p>root dir: <code>examples/learning_path_recommendation</code></p>
 <p>First, you need to train a KT model (PyEdmine currently supports simulators for qDKT and LPKT4LPR), and then set parameter <code>model_dir_name</code> in LPR train code to use the KT simulation environment.</p>
 <ul>
-<li>RandomRecQC</li>
+<li>RandomRecQC<ul>
 <li>Run <code>evaluate/offline_single_goal_evaluate.py --agent_dir_name "RandomRecQC-20"</code></li>
-<li>AStarRecConcept</li>
+</ul>
+</li>
+<li>AStarRecConcept<ul>
 <li>Run <code>evaluate/offline_single_goal_evaluate.py --agent_dir_name "AStarRecConcept-4-5"</code></li>
-<li>D3QN (Double Dueling DQN)</li>
+</ul>
+</li>
+<li>D3QN (Double Dueling DQN)<ul>
 <li>Run <code>train/d3qn.py</code></li>
-<li>Reinforce</li>
+</ul>
+</li>
+<li>Reinforce<ul>
 <li>Run <code>train/reinforce.py</code></li>
-<li>A2C</li>
+</ul>
+</li>
+<li>A2C<ul>
 <li>Run <code>train/a2c.py</code></li>
+</ul>
+</li>
 </ul>
 
 

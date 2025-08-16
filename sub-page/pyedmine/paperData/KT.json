@@ -986,15 +986,15 @@
             "implemented_in_pyedmine": false
         },
         {
-            "model_name": "",
+            "model_name": "DisKT",
             "paper_title": "Denoising Programming Knowledge Tracing with a Code Graph-based Tuning Adaptor",
             "source": "SIGKDD[C]",
             "year": "2025",
             "tags": [],
             "perper_link": "https://dl.acm.org/doi/10.1145/3690624.3709172",
-            "official_code_link": "",
-            "ref_code_link": "",
-            "implemented_in_pyedmine": false
+            "official_code_link": "https://github.com/zyy-2001/DisKT",
+            "ref_code_link": "official_code",
+            "implemented_in_pyedmine": true
         },
         {
             "model_name": "",

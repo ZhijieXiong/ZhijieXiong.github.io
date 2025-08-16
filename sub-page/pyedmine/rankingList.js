@@ -84,6 +84,9 @@ const MODEL_TYPE = {
       "ATDKT",
       "HawkesKT",
       "RouterKT",
+      "qDKT-CORE",
+      "AKT-CORE",
+      "DisKT"
     ],
     "No Side Info (Concept Level)": ["DKT", "DKVMN", "ATKT"],
     "No Side Info (Question Level)": [
@@ -101,6 +104,9 @@ const MODEL_TYPE = {
       "ATDKT",
       "RouterKT",
       "ReKT",
+      "qDKT-CORE",
+      "AKT-CORE",
+      "DisKT"
     ],
     // 添加更多类型...
   },
