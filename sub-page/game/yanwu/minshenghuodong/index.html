@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <title>游戏攻略页面</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- 第一排：选择器 A -->
+      <div class="selector-a">
+        <h2>选择封地数量</h2>
+        <div id="land-selector"></div>
+      </div>
+
+      <!-- 第二排：选择器 B -->
+      <div class="selector-b">
+        <div class="global-actions">
+          <h2>选择建筑</h2>
+          <button id="clear-all-buildings">清空全部建筑</button>
+        </div>
+        <div id="building-selector"></div>
+      </div>
+
+      <!-- 第三排：结果容器 -->
+      <div class="result-container">
+        <div class="export-import">
+          <div>
+            <button id="export-btn">导出数据为</button>
+            <input
+              type="text"
+              id="filename"
+              placeholder="请输入文件名"
+              value="userSelection"
+            /><span>.json</span>
+          </div>
+          <div>
+            <button id="import-btn">导入数据</button>
+            <!-- 隐藏的文件选择框 -->
+            <input type="file" id="file-input" accept=".json" style="display:none;">
+          </div>
+        </div>
+        <div id="land-results">
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

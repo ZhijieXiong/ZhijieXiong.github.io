@@ -1,0 +1,167 @@
+{
+  "田庄": {
+    "width": 4,
+    "height": 4,
+    "radius": 8,
+    "basic": 4,
+    "feature": "",
+    "cover": {
+      "水": 7,
+      "井栏": 1
+    }
+  },
+  "粮仓": {
+    "width": 4,
+    "height": 4,
+    "radius": 8,
+    "basic": 4,
+    "feature": "",
+    "cover": {
+      "田庄": 5
+    }
+  },
+  "井栏": {
+    "width": 3,
+    "height": 3,
+    "radius": 0,
+    "basic": 2,
+    "feature": "",
+    "cover": {
+    }
+  },
+  "伐木场": {
+    "width": 5,
+    "height": 5,
+    "radius": 7.5,
+    "basic": 3,
+    "feature": "",
+    "cover": {
+      "树": 7
+    }
+  },
+  "木仓": {
+    "width": 6,
+    "height": 6,
+    "radius": 9,
+    "basic": 4,
+    "feature": "",
+    "cover": {
+      "伐木场": 5
+    }
+  },
+  "凿石所": {
+    "width": 5,
+    "height": 5,
+    "radius": 7.5,
+    "basic": 3,
+    "feature": "",
+    "cover": {
+      "石": 7
+    }
+  },
+  "石仓": {
+    "width": 5,
+    "height": 5,
+    "radius": 11.5,
+    "basic": 4,
+    "feature": "",
+    "cover": {
+      "伐木场": 5
+    }
+  },
+  "民坊": {
+    "width": 5,
+    "height": 5,
+    "radius": 7.5,
+    "basic": 3,
+    "feature": "",
+    "cover": {
+      "粮仓": 2,
+      "木仓": 2,
+      "石仓": 2,
+      "民坊": 2
+    }
+  },
+  "家具铺": {
+    "width": 5,
+    "height": 5,
+    "radius": 9.5,
+    "basic": 6,
+    "feature": "",
+    "cover": {
+      "粮仓": 3,
+      "木仓": 6
+    }
+  },
+  "米铺": {
+    "width": 5,
+    "height": 5,
+    "radius": 8.5,
+    "basic": 6,
+    "feature": "",
+    "cover": {
+      "粮仓": 6,
+      "石仓": 3
+    }
+  },
+  "石雕铺": {
+    "width": 5,
+    "height": 5,
+    "radius": 10.5,
+    "basic": 6,
+    "feature": "",
+    "cover": {
+      "石仓": 6,
+      "木仓": 3
+    }
+  },
+  "食肆": {
+    "width": 5,
+    "height": 5,
+    "radius": 12.5,
+    "basic": 4,
+    "feature": "",
+    "cover": {
+      "米铺": 8,
+      "会市": 7,
+      "木仓": 4,
+      "食肆": -40
+    }
+  },
+  "漆器坊": {
+    "width": 6,
+    "height": 6,
+    "radius": 12,
+    "basic": 4,
+    "feature": "",
+    "cover": {
+      "家具铺": 8,
+      "会市": 7,
+      "石仓": 4,
+      "漆器坊": -40
+    }
+  },
+  "会市": {
+    "width": 8,
+    "height": 8,
+    "radius": 12,
+    "basic": 4,
+    "feature": "",
+    "cover": {
+      "民坊": 5
+    }
+  },
+  "华表": {
+    "width": 3,
+    "height": 3,
+    "radius": 14.5,
+    "basic": 4,
+    "feature": "",
+    "cover": {
+      "石雕铺": 7,
+      "会市": 6,
+      "粮仓": 4,
+      "华表": -40
+    }
+  }
+}

@@ -1,4 +1,6 @@
 .DS_store
+.idea
+__pycache__
 
 /sub-page/pyedmine/excel_data
 /sub-page/pyedmine/excel2json.py
@@ -7,3 +9,5 @@
 /sub-page/pyedmine/extract_utils.py
 /sub-page/pyedmine/document/docs
 /sub-page/pyedmine/trash
+/sub-page/game/yanwu/minshenghuodong/userSelection.json
+/sub-page/game/yanwu/minshenghuodong/*封地_*.json

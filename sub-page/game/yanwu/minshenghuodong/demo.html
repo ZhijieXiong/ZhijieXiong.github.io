@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>建筑地图可视化</title>
+  <style>
+    #map {
+      display: grid;
+      grid-template-columns: repeat(40, 20px); /* 40列，每格20px */
+      grid-template-rows: repeat(40, 20px);    /* 40行 */
+      position: relative;
+      width: fit-content;
+      background: #fff;
+    }
+
+    /* 小格子 */
+    .cell {
+      border: 1px dashed #ccc;
+      width: 20px;
+      height: 20px;
+    }
+
+    /* 建筑 */
+    .building {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      background-color: rgba(100, 200, 255, 0.7);
+      border: 1px solid #333;
+      text-align: center;
+      z-index: 10; /* 盖在小格子之上 */
+    }
+  </style>
+</head>
+<body>
+  <h2>建筑地图</h2>
+  <div id="map"></div>
+
+  <script>
+    const rows = 40, cols = 40;
+
+    const usedBuildings = [["田庄", 5, 6], ["田庄", 5, 10], ["田庄", 9, 6], ["田庄", 9, 10], ["田庄", 10, 19], ["田庄", 13, 6], ["田庄", 13, 10], ["田庄", 17, 6], ["田庄", 17, 10], ["田庄", 19, 20], ["田庄", 20, 33], ["田庄", 21, 6], ["田庄", 21, 10], ["田庄", 21, 24], ["田庄", 21, 29], ["田庄", 24, 33], ["田庄", 25, 6], ["田庄", 25, 10], ["田庄", 29, 6], ["田庄", 29, 10], ["田庄", 29, 25], ["田庄", 33, 6], ["田庄", 33, 10], ["田庄", 33, 23], ["粮仓", 6, 14], ["粮仓", 6, 23], ["粮仓", 10, 23], ["粮仓", 11, 14], ["粮仓", 14, 23], ["粮仓", 14, 37], ["粮仓", 15, 14], ["粮仓", 16, 31], ["粮仓", 17, 27], ["粮仓", 18, 37], ["粮仓", 19, 14], ["粮仓", 22, 37], ["粮仓", 24, 16], ["粮仓", 24, 20], ["粮仓", 25, 25], ["粮仓", 25, 29], ["粮仓", 29, 29], ["粮仓", 33, 14], ["粮仓", 33, 19], ["粮仓", 33, 27], ["粮仓", 33, 31], ["粮仓", 33, 37], ["米铺", 5, 18], ["米铺", 11, 27], ["米铺", 11, 32], ["米铺", 14, 18], ["米铺", 28, 15], ["米铺", 28, 20], ["米铺", 28, 36], ["华表", 11, 38], ["华表", 18, 24], ["华表", 30, 33]];
+
+    const landSizes = {
+      "田庄": {h: 4, w: 4},
+      "粮仓": {h: 4, w: 4},
+      "米铺": {h: 5, w: 5},
+      "华表": {h: 3, w: 3},
+      "家具铺": {h: 5, w: 5}
+    };
+
+    const map = document.getElementById("map");
+
+    // 先画出所有小格子
+    for (let i = 0; i < rows * cols; i++) {
+      const cell = document.createElement("div");
+      cell.className = "cell";
+      map.appendChild(cell);
+    }
+
+    // 再画建筑
+    usedBuildings.forEach(([name, x, y]) => {
+      const {h, w} = landSizes[name];
+
+      const div = document.createElement("div");
+      div.className = "building";
+      div.textContent = name;
+
+      // 用 x 控制 grid-column，用 y 控制 grid-row
+      div.style.gridColumn = `${y} / ${y + w}`;
+      div.style.gridRow = `${x} / ${x + h}`;
+
+      map.appendChild(div);
+    });
+  </script>
+</body>
+</html>
