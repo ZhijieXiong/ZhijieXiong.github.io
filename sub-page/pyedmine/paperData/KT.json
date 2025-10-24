@@ -714,7 +714,7 @@
                 "Forget Modeling",
                 "Common Setting"
             ],
-            "perper_link": "https://dl.acm.org/doi/abs/10.1145/3543507.3583255",
+            "perper_link": "https://openreview.net/pdf/d9869b82d0c8374bd652a9c12018e7a37a26ff2d.pdf",
             "official_code_link": "https://github.com/pykt-team/pykt-toolkit/blob/main/pykt/models/simplekt.py",
             "ref_code_link": "official_code",
             "implemented_in_pyedmine": true
